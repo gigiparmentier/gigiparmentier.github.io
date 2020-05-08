@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<htmL>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Ps Online</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type='text/javascript' src='https://code.jquery.com/jquery-1.7.1.js'></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+
+<body>
+    <img alt="logo" src="ps.jpg" id="logo">
+    <h1>Onlineee</h1><br/><br/>
+    <div id="lien"><input name="img" type="text" id="img" placeholder="Lien de l'image" />
+        <button name="submit" type="button" id="submit">Charger</button></div><br/><br/><br/>
+    <img id="image" src="" onerror="this.src='imgerror.png'">
+    <div id="effets">
+        <p>Blur</p>
+        <div id="blur"></div><span id="blurvalue">0</span><br/>
+        <p>Grayscale</p>
+        <div id="gray"></div><span id="grayvalue">0</span><br/>
+        <p>Sepia</p>
+        <div id="sepia"></div><span id="sepiavalue">0</span><br/>
+        <p>Brightness</p>
+        <div id="brightness"></div><span id="brightnessvalue">100</span><br/>
+        <p>Contrast</p>
+        <div id="contrast"></div><span id="contrastvalue">100</span><br/>
+        <p>Hue</p>
+        <div id="hue"></div><span id="huevalue">0</span><br/>
+        <p>Invert</p>
+        <div id="invert"></div><span id="invertvalue">0</span><br/>
+        <p>Saturate</p>
+        <div id="saturate"></div><span id="saturatevalue">100</span><br/><br/>
+        <button name="reset" type="button" id="reset">Reset</button><br/><br/>
+        <input name="txt" type="text" id="txt" placeholder="Texte" />
+        <button name="submittxt" type="button" id="submittxt">Ajouter</button><button name="deletetxt" type="button" id="deletetxt" style="margin-left:5px;">X</button><br/><br/>
+    </div>
+
+    <p id="meme"></p>
+</body>
+<script>
+    $(document).ready(function() {
+        $("#submit").click(function() {
+            charger();
+        });
+        $("#submittxt").click(function() {
+            texte();
+        });
+        $("#deletetxt").click(function() {
+            dtexte();
+        });
+        $("#reset").click(function() {
+            reset();
+        });
+    });
+
+    function charger() {
+        var lien = $("#img").val();
+        $("#image").attr('src', lien);
+        console.log(lien);
+    };
+
+    function reset(){
+        $("#blur").slider("value", 0);
+        $("#gray").slider("value", 0);
+        $("#sepia").slider("value", 0);
+        $("#brightness").slider("value", 100);
+        $("#contrast").slider("value", 100);
+        $("#hue").slider("value", 0);
+        $("#invert").slider("value", 0);
+        $("#saturate").slider("value", 100);
+        $("#blurvalue").html("0");
+        $("#grayvalue").html("0");
+        $("#sepiavalue").html("0");
+        $("#brightnessvalue").html("100");
+        $("#contrastvalue").html("100");
+        $("#huevalue").html("0");
+        $("#invertvalue").html("0");
+        $("#saturatevalue").html("100");
+        document.getElementById('image').style.WebkitFilter = "blur(0px)";
+    };
+
+    function effet() {
+        var blurValue = 'blur(' + $("#blur").slider("option", "value") / 10 + 'px)';
+        var grayValue = 'grayscale(' + $("#gray").slider("option", "value") + '%)';
+        var sepiaValue = 'sepia(' + $("#sepia").slider("option", "value") / 100 + ')';
+        var brightnessValue = 'brightness(' + $("#brightness").slider("option", "value") + '%)';
+        var contrastValue = 'contrast(' + $("#contrast").slider("option", "value") + '%)';
+        var hueValue = 'hue-rotate(' + $("#hue").slider("option", "value") + 'deg)';
+        var invertValue = 'invert(' + $("#invert").slider("option", "value") / 100 + ')';
+        var saturateValue = 'saturate(' + $("#saturate").slider("option", "value") + '%)';
+        document.getElementById('image').style.WebkitFilter = grayValue + blurValue + sepiaValue + brightnessValue + contrastValue + hueValue + invertValue + saturateValue;
+    };
+
+var adding = 1;
+
+    function texte() {
+        document.getElementById("image").style.cursor = "crosshair";
+        var texte = $("#txt").val();
+        var adding = 1;
+        document.getElementById("meme").innerHTML = texte;
+        $(document).on('mousemove', function(e) {
+            if (adding == 1){
+            $('#meme').css({
+                left: e.pageX+10,
+                top: e.pageY - 120
+            });
+            };
+            });
+        console.log(texte);
+        $("#image").click(function(e) {
+            var x = e.pageX + 10 + 'px';
+            var y = e.pageY - 120 + 'px';
+            var div = $('#meme').css({
+                "left": x,
+                "top": y
+            });
+            adding = 0;
+            document.getElementById("image").style.cursor = "default";
+        });
+    };
+
+    function dtexte(){
+        document.getElementById("meme").innerHTML = " ";
+        document.getElementById("image").style.cursor = "default";
+        adding = 0;
+    }
+
+    $(function() {
+        $("#blur").slider({
+            value: 0,
+            min: 0,
+            max: 100,
+            step: 1,
+            slide: function(event, ui) {
+                $("#blurvalue").text(ui.value);
+                effet();
+            }
+        });
+    });
+    $(function() {
+        $("#gray").slider({
+            value: 0,
+            min: 0,
+            max: 100,
+            step: 1,
+            slide: function(event, ui) {
+                $("#grayvalue").text(ui.value);
+                effet();
+            }
+        });
+    });
+    $(function() {
+        $("#sepia").slider({
+            value: 0,
+            min: 0,
+            max: 100,
+            step: 1,
+            slide: function(event, ui) {
+                $("#sepiavalue").text(ui.value);
+                effet();
+            }
+        });
+    });
+    $(function() {
+        $("#brightness").slider({
+            value: 100,
+            min: 0,
+            max: 200,
+            step: 1,
+            slide: function(event, ui) {
+                $("#brightnessvalue").text(ui.value);
+                effet();
+            }
+        });
+    });
+    $(function() {
+        $("#contrast").slider({
+            value: 100,
+            min: 0,
+            max: 200,
+            step: 1,
+            slide: function(event, ui) {
+                $("#contrastvalue").text(ui.value);
+                effet();
+            }
+        });
+    });
+    $(function() {
+        $("#hue").slider({
+            value: 0,
+            min: 0,
+            max: 360,
+            step: 1,
+            slide: function(event, ui) {
+                $("#huevalue").text(ui.value);
+                effet();
+            }
+        });
+    });
+    $(function() {
+        $("#invert").slider({
+            value: 0,
+            min: 0,
+            max: 100,
+            step: 1,
+            slide: function(event, ui) {
+                $("#invertvalue").text(ui.value);
+                effet();
+            }
+        });
+    });
+    $(function() {
+        $("#saturate").slider({
+            value: 100,
+            min: 0,
+            max: 200,
+            step: 1,
+            slide: function(event, ui) {
+                $("#saturatevalue").text(ui.value);
+                effet();
+            }
+        });
+    });
+</script>
+
+</htmL>

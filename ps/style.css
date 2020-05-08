@@ -1,0 +1,116 @@
+html{
+    background-color: #343434;
+    color:#dddddd;
+    font-family: Segoe UI;
+}
+
+.ui-slider {
+    width:100%;
+}
+
+.ui-slider-horizontal{
+    background-color: #757575;
+    border:none;
+    height:3px;
+    margin-bottom: 6px;
+}
+
+.ui-slider .ui-slider-handle{
+    height:0.8em;
+    width:0.8em;
+    background-image: url("slider.png");
+    background-repeat:no-repeat;
+    background-color:rgba(255, 255, 255, 0);
+    border:none;
+    padding-left:8px;
+    padding-top:12px;
+}
+
+.ui-widget.ui-widget-content{border:none;}
+
+#effets{
+    position: absolute;
+    top:5%;
+    right:10%;
+    width:30%;
+    height:auto;
+    background-color: #535353;
+    padding:20px;
+    text-align: center;
+    border:1px solid #383838;
+}
+
+#lien{
+    position: absolute;
+    top:13%;
+    left:5%;
+    width:26%;
+    height:auto;
+    padding:10px;
+    background-color: #535353;
+    text-align: center;
+    border:1px solid #383838;
+}
+
+#image{
+    width:800px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+     user-select: none;
+}
+
+#logo{
+    width:80px;
+    height:80px;
+    vertical-align: bottom;
+}
+
+h1{
+    display: inline-block;
+}
+
+#meme{
+    font-family: Impact;
+    color:white;
+    text-shadow: 0 0 5px black;
+    font-size: 60px;
+    position: absolute;
+    cursor: crosshair;
+}
+
+p{font-weight: 600;}
+
+#img, #txt{
+    background-color:#454545;
+    color:white;
+    border:1px solid #666666;
+    padding:5px;
+    width:300px;
+}
+
+#submit, #submittxt, #deletetxt, #reset{
+    text-align: center;
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-right:20px;
+    padding-left:20px;
+    background-color:#535353;
+    border:1px solid #e1e1e1;
+    border-radius:20px;
+    color:#e1e1e1;
+    font-weight:500;
+}
+
+#submit:hover, #submittxt:hover, #deletetxt:hover, #reset:hover{
+    background-color:#e1e1e1;
+    cursor:pointer;
+    color:#535353;
+}
+
+#submit:active, #submittxt:active, #deletetxt:active, #reset:active{
+    background-color:#46a0f5;
+    border:1px solid #46a0f5;
+    cursor:pointer;
+    color: #e1e1e1;
+}

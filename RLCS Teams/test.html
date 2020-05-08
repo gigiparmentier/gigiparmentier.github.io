@@ -1,0 +1,116 @@
+<html>
+
+	<head>
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<meta charset="utf-8">
+		<title>RLCS Standings</title>
+		<link rel="stylesheet" href="style.css" type="text/css" />
+	</head>
+
+	<body>
+		<script>
+			keys = ['name', 'image', 'winPerc', 'wins', 'losses', 'goals', 'saves', 'assists', 'gameWins', 'games', 'gameWinPerc', 'streakCount', 'streakDir', 'totalMatches'];
+			keyNames = ['Team', 'Logo', 'W%', 'W', 'L', 'Goals', 'Saves', 'Assists', 'GW', 'Games', 'GW%', 'SC', 'SD', 'Matches'];
+			teamsNames = ['Renault Vitality', 'Reciprocity','Veloce','AS Monaco'];
+			teamsNumbers = [2, 1, 2, 1]
+			$.ajax({
+				type: "GET",
+				//url: "https://www.rocketleagueesports.com/-/custom/standings-script.html?season=7-e8fcccb7dd-7h0w65&league=7-57d5ab4-qm0qcw&region=0&stage=7-57d5ab4-g1dsq3"
+				url: "https://www.rocketleagueesports.com/-/custom/standings-script.html?season=7-ece28496c9-p3txs8&league=7-57d5ab4-qm0qcw&region=0&stage=7-57d5ab4-g1dsq3"
+
+			}).done(function(o) {
+				o = o.replace('<script>', ' ').replace('<\/script>', ' ');
+				eval(o);
+				RLteams = teams;
+				RLteams.sort((a, b) => (a.gameWinPerc > b.gameWinPerc) ? -1 : ((b.gameWinPerc > a.gameWinPerc) ? 1 : 0));
+				table = document.createElement('table');
+				teamOrder = [];
+				for (var i = 0; i < RLteams.length; i++) {
+					team = RLteams[i];
+					tr = document.createElement('tr');
+					td = document.createElement('td');
+					td.innerHTML = i;
+					tr.appendChild(td);
+					entries = Object.entries(team);
+					if (i == 0) {
+						trh = document.createElement('tr');
+						for (const [key, value] of entries) {
+							if (keys.includes(key)) {
+								th = document.createElement('th');
+								th.innerHTML = keyNames[keys.indexOf(key)];
+								trh.appendChild(th);
+							}
+						}
+						table.appendChild(trh);
+					}
+					for (const [key, value] of entries) {
+						if (keys.includes(key)) {
+							if (key == 'image') {
+								td = document.createElement('img');
+								td.src = value;
+								tr.appendChild(td);
+							} else if (key == 'gameWinPerc' || key == 'winPerc') {
+								td = document.createElement('td');
+								td.innerHTML = value.toFixed(2);
+								tr.appendChild(td);
+							} else {
+								td = document.createElement('td');
+								td.innerHTML = value;
+								tr.appendChild(td);
+							}
+							if (key == 'name') {
+								if (teamsNames.includes(value)) {
+									td.className = 'fr';
+								}
+								teamOrder.push(value);
+							}
+						}
+					}
+					table.appendChild(tr);
+				}
+				document.body.appendChild(table);
+				$(function() {
+					jQuery.each($("table tr"), function() {
+						$(this).children(":eq(1)").after($(this).children(":eq(-1)"));
+					});
+					getRanks();
+				});
+			});
+			function getRanks(){
+				$.ajax({
+					type: 'POST',
+					url: 'ranks.php',
+					data: {
+						json: JSON.stringify(teamOrder)
+					},
+					complete: function(data) {
+						compareRanks(data.responseText);
+					}
+				});
+			}
+
+			function compareRanks(json){
+				json = JSON.parse(json);
+				entries = Object.entries(json);
+				OldIndex = 0;
+				for (const [key, value] of entries) {
+					CurrentIndex = teamOrder.indexOf(value);
+					if (CurrentIndex > OldIndex){
+						el = $('td:contains("'+value+'")');
+						el.html(el.html() + '<span class="down">▼</span>');
+					}
+					else if (CurrentIndex < OldIndex){
+						el = $('td:contains("'+value+'")');
+						el.html(el.html() + '<span class="up">▲</span>');
+					}
+					else{
+						el = $('td:contains("'+value+'")');
+						el.html(el.html() + '<span class="middle">-</span>');
+					}
+					OldIndex++;
+				}
+			}
+		</script>
+	</body>
+
+</html>

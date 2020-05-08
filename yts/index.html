@@ -1,0 +1,258 @@
+<!doctype html>
+<html>
+  <head>
+   <title>Youtube Search</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="//s.ytimg.com/yts/img/favicon_32-vfl8NGn4k.png" sizes="32x32">
+        <style>
+            body{
+                background: #f4f4f4;
+                font-family:"Arial", sans-serif;
+                font-size:14px;
+                color:#666;
+            }
+            #container{
+                width:800px;
+                margin: 0 auto;
+                margin-top:20px;
+                margin-bottom:20px;
+                overflow:auto;
+                background:white;
+                padding:15px;
+                box-shadow: 0 0 0px rgba(0,0,0,.1),0 4px 8px rgba(0,0,0,.07);
+                
+            }
+            a{
+                color:#393939;
+                font-family: 'Arial', sans-serif;
+                font-weight:bold;
+            }
+            a:hover{
+                color:black;
+            }
+            h1{
+                padding-bottom: 20px;
+            }
+            
+            .np{
+                display: none;
+            }
+            .videocontainer{
+                display: none;
+            }
+            #titrecontainer{
+                display: none;
+            }
+      </style>
+
+  </head>
+ <body>
+   <div id="buttons">
+   
+       <a href="http://gigiparmentier.shost.ca"><div id="container">
+       <center><img style="display: inline-block; height:100px;padding-right:15px; vertical-align:-110%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/YouTube_logo_2013.svg/200px-YouTube_logo_2013.svg.png"><h1 style=" display:inline-block;">Search </h1></center></a>
+       
+       <center>
+           <label>
+            <input type="radio" id="rate" name="order" value="date" checked> Date
+            <input type="radio" id="rate" name="order" value="viewcount"> Views<br><br>
+            Number of videos (max. 100)<br><input id="number" value='30' type="text"/><br><br>
+           <input id="query" value='cats' type="text"/><button id="search-button"  onclick="keyWordsearch()">Search</button></label></center></div>
+    <div id="container" class="videocontainer" name="videocontainer">
+     <h2 id="titrecontainer">Videos</h2>
+     <ul id="results"></ul>
+    <label>
+        <button id="previous np" name="np" class="np" onclick="previous()">PREVIOUS</button>
+    </label>
+    <label>
+        <button id="next np" name="np" class="np"  onclick="next()" style="float:right;">NEXT</button>
+    </label>
+   </div>           
+    <div id="compteur" class=" "></div>
+   <script>
+document.getElementById("query")
+    .addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode == 13) {
+        document.getElementById("search-button").click();
+    }
+});
+       
+document.getElementById("number")
+    .addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode == 13) {
+        document.getElementById("search-button").click();
+    }
+});       
+       
+    function keyWordsearch(){
+            gapi.client.setApiKey('AIzaSyCDNfY7UqzxsFXCabZNPTxwcvQnyT__UbU');
+            gapi.client.load('youtube', 'v3', function() {
+                    makeRequest();
+            });
+    }
+    function makeRequest() {
+            var rates = document.getElementsByName('order');
+            var rate_value;
+            for(var i = 0; i < rates.length; i++){
+                if(rates[i].checked){
+                    rate_value = rates[i].value;
+                }
+            }
+
+            var q = $('#query').val();
+            var number = $('#number').val();
+            if (number > 50) {
+
+            document.getElementsByName('np')[0].style.display = 'none';
+            document.getElementsByName('np')[1].style.display = 'inline';
+            var request = gapi.client.youtube.search.list({
+                    q: q,
+                    part: 'snippet', 
+                    type: 'video',
+                    maxResults: 50,
+                    order: rate_value
+            });
+            }
+            else{
+            var request = gapi.client.youtube.search.list({
+                    q: q,
+                    part: 'snippet', 
+                    type: 'video',
+                    maxResults: number,
+                    order: rate_value
+            });
+            }
+            request.execute(function(response) {                                                                                    
+                    $('#results').empty()
+                    var srchItems = response.result.items;
+                    /*if ((response.prevPageToken == null)&&(number>50)){
+                        document.getElementsByName('np')[0].style.display = 'none';
+                    }
+                    else{
+                        document.getElementsByName('np')[0].style.display = 'inline';                    
+                    }
+                    */
+                    $('html, body').animate({ scrollTop: 0 }, 'fast');
+                    $.each(srchItems, function(index, item) {
+                    //vidDate = item.snippet.publishedAt;
+
+                    vidLink = item.id.videoId;
+                    vidTitle = item.snippet.title;  
+                    vidThumburl =  item.snippet.thumbnails.default.url;  
+                    tokenNext = response.nextPageToken;
+                    tokenPrevious = response.prevPageToken;
+                    vidThumbimg = '<pre><img id="thumb" src="'+vidThumburl+'" alt="No Image Available." style="width:204px;height:128px"></pre>';                   
+            document.getElementById('titrecontainer').style.display= 'block';
+            document.getElementsByName('videocontainer')[0].style.display= 'block';
+                    $('#results').append('<pre>'  + '<a target="_blank" href=' + 'http://youtube.com/watch?v=' + vidLink + '> ' + vidTitle + '</a>' + vidThumbimg + '</pre>');
+                    document.title = q + " - Youtube search by " + rate_value;
+                    document.getElementById("compteur").className = $('#number').val();
+
+                    })  
+        })  
+    }
+            var numberr = document.getElementById('number').value();
+ function next(){
+            gapi.client.setApiKey('AIzaSyCDNfY7UqzxsFXCabZNPTxwcvQnyT__UbU');
+            gapi.client.load('youtube', 'v3', function() {
+                    makeRequestNext();
+            });
+    }
+       
+    function makeRequestNext() {
+            var rates = document.getElementsByName('order');
+            var rate_value;
+            for(var i = 0; i < rates.length; i++){
+                if(rates[i].checked){
+                    rate_value = rates[i].value;
+                }
+            }
+            
+            var q = $('#query').val();
+            //window.number=(window.numberr - 50);
+            alert(numberr);
+            var request = gapi.client.youtube.search.list({
+                    q: q,
+                    part: 'snippet', 
+                    type: 'video',
+                    maxResults: numberr,
+                    order: rate_value,
+                    pageToken: tokenNext
+            });
+            request.execute(function(response) {                                                                                    
+                    $('#results').empty()
+                    var srchItems = response.result.items;  
+                    document.getElementsByName('np')[0].style.display = 'inline';
+                    if (q>50){
+                        document.getElementsByName('np')[0].style.display = 'inline';
+                    }
+                    else{
+                        document.getElementsByName('np')[1].style.display = 'none';
+                    }
+                    $('html, body').animate({ scrollTop: 0 }, 'fast');
+                    $.each(srchItems, function(index, item) {
+                    //vidDate = item.snippet.publishedAt;
+                    vidLink = item.id.videoId;
+                    vidTitle = item.snippet.title;  
+                    vidThumburl =  item.snippet.thumbnails.default.url;
+                    tokenNext = response.nextPageToken;
+                    vidThumbimg = '<pre><img id="thumb" src="'+vidThumburl+'" alt="No Image Available." style="width:204px;height:128px"></pre>';                   
+
+                    $('#results').append('<pre>' + '<a target="_blank" href=' + 'http://youtube.com/watch?v=' + vidLink + '> ' + vidTitle + '</a>' + vidThumbimg + '</pre>');
+                    document.title = q + " - Youtube search by " + rate_value;
+            })  
+        })  
+    }
+    function previous(){
+            gapi.client.setApiKey('AIzaSyCDNfY7UqzxsFXCabZNPTxwcvQnyT__UbU');
+            gapi.client.load('youtube', 'v3', function() {
+                    makeRequestPrevious();
+            });
+    }
+    function makeRequestPrevious() {
+            var rates = document.getElementsByName('order');
+            var rate_value;
+            for(var i = 0; i < rates.length; i++){
+                if(rates[i].checked){
+                    rate_value = rates[i].value;
+                }
+            }
+
+            var q = $('#query').val();
+            var number = $('#number').val();
+            var numberrest = (number-50);
+            var request = gapi.client.youtube.search.list({
+                    q: q,
+                    part: 'snippet', 
+                    type: 'video',
+                    maxResults: 50,
+                    order: rate_value,
+                    pageToken: tokenPrevious
+            });
+            request.execute(function(response) {                                                                                    
+                    $('#results').empty()
+                    var srchItems = response.result.items;    
+                    document.getElementsByName('np')[0].style.display = 'none';
+                    document.getElementsByName('np')[1].style.display = 'inline';
+                    $('html,body').animate({ scrollTop: 0 }, 'fast');
+                    $.each(srchItems, function(index, item) {
+                    //vidDate = item.snippet.publishedAt;
+                    vidLink = item.id.videoId;
+                    vidTitle = item.snippet.title;  
+                    vidThumburl =  item.snippet.thumbnails.default.url;                 
+                    vidThumbimg = '<pre><img id="thumb" src="'+vidThumburl+'" alt="No Image Available." style="width:204px;height:128px"></pre>';                   
+
+                    $('#results').append('<pre>' + '<a target="_blank" href=' + 'http://youtube.com/watch?v=' + vidLink + '> ' + vidTitle + '</a>' + vidThumbimg + '</pre>');
+                    document.title = q + " - Youtube search by " + rate_value;
+            })  
+        })  
+    }
+    
+  </script> 
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <script src="https://apis.google.com/js/client.js?onload=googleApiClientReady"> </script>
+</body>
+</html>

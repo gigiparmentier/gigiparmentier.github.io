@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pirates</title>
+        <link rel="icon" type="image/png" href="icon.png" />
+        <meta name="theme-color" content="#adadad">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    </head>
+    <body>
+      <div id="header">
+        <div id="icon"></div>
+        <div id="name"></div>
+        <div id="icon"></div>
+      </div>
+      <div id="quete">
+        <div id="quete_map"></div>
+        <div id="quete_nom">Aucune Quête</div>
+        <div id="quete_des">Rendez-vous sur une île pour obtenir une quête !</div>
+      </div>
+      <table id="game">
+      </table>
+      <form id="type">
+        <input name="type" type="radio" value="mer">
+        <label for="mer">Mer</label>
+        <input name="type" type="radio" value="terre">
+        <label for="terre">Terre</label>
+        <input name="type" type="radio" value="herbe">
+        <label for="Herbe">Herbe</label>
+        <input name="type" type="radio" value="sable">
+        <label for="sable">Sable</label>
+        <input name="type" type="radio" value="pierre">
+        <label for="pierre">Pierre</label>
+        <input name="type" type="radio" value="ponton">
+        <label for="ponton">Ponton</label>
+      </form>
+      <form id="bateau">
+        <input name="bateau" type="radio" value="blanc" checked="checked">
+        <label for="blanc">Blanc</label>
+        <input name="bateau" type="radio" value="noir">
+        <label for="noir">Noir</label>
+        <input name="bateau" type="radio" value="rouge">
+        <label for="rouge">Rouge</label>
+        <input name="bateau" type="radio" value="bleu">
+        <label for="bleu">Bleu</label>
+        <input name="bateau" type="radio" value="jaune">
+        <label for="jaune">Jaune</label>
+        <input name="bateau" type="radio" value="vert">
+        <label for="vert">Vert</label>
+      </form>
+      <div id="panneau"></div>
+      <div id="marque"></div>
+      <div id="map"></div>
+      <div id="gold"></div>
+      <div id="loading"></div>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.1/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="game.js"></script>
+</html>

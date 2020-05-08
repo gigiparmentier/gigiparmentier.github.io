@@ -1,0 +1,18 @@
+-placer les autres users | FAIT
+-mettre une limite pour empecher de spam les mouvements | FAIT
+-changer tout le systeme de stockage de position en faisant 1 fichier par user | FAIT
+-maps 6,7,8 et 9 | FAIT
+-enlever le flickering des autres bateaux | FAIT
+-map totale en appuyant sur une touche | FAIT
+-pontons | FAIT
+-customiser bateau | FAIT
+-quetes | FAIT
+-gold | FAIT
+-aller dans iles | FAIT
+-refaire la map totale | FAIT
+-quand on lance la page, si on est dans une ile a pied, ca devrait marcher | FAIT
+-quetes avec carte avec indices sur 4 cubes a coté
+-xp
+-piou piou canon | En cours mais chiant
+-vies
+-réapparition

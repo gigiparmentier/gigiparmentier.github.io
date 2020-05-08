@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bicloo</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="http://gigiparmentier.com/Bicloo/style.css">
+  </head>
+  <body>
+    <img src="bike.svg" id="bike">
+    <h1 id="title">Nantes Bicloo</h1>
+    <div id="saveddiv"></div>
+    <script>
+      var request = new XMLHttpRequest();
+      request.open('GET', 'https://api.jcdecaux.com/vls/v1/stations?contract=Nantes&apiKey=9cfd194a4f758ac9d8899eb27835b6a0c1bbee53', true);
+      request.onload = function () {
+        var data = JSON.parse(this.response);
+        Object.keys(data).forEach(function(k){
+          progressdiv = document.createElement('div');
+          name = toTitleCase(data[k]['name'].split('-')[1]);
+          total_bikes = data[k]['bike_stands'];
+          number_of_bikes = data[k]['available_bikes'];
+          caption = document.createElement('p');
+          caption.className = "caption";
+          caption.innerHTML = name + " : " + number_of_bikes + " vélos disponibles sur " + total_bikes + ".";
+          if (name == " Machine De L'île" || name == "Ecole D'architecture"){
+            progressdiv.className = "saved";
+            $("#saveddiv").append(progressdiv);
+          }
+          else{
+            progressdiv.className = "progressdiv";
+            document.body.appendChild(progressdiv);
+          }
+          $(progressdiv).progressbar({
+              value: number_of_bikes,
+              max: total_bikes
+          }).append(caption);
+          $('.ui-progressbar-value').css('margin','0px');
+          if (number_of_bikes == 0){
+            caption.style.marginTop = $(progressdiv).height() + "px";
+          }
+          if (number_of_bikes <= 3){
+            progressdiv.className += " low";
+          }
+        });
+      }
+
+      function toTitleCase(str) {
+        return str.replace(/\w\S*/g, function(txt){
+          return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+        });
+      }
+
+      request.send();
+    </script>
+  </body>
+</html>

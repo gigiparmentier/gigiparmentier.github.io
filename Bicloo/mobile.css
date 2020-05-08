@@ -1,0 +1,55 @@
+html{
+  background-color: #F6F6F6;
+  text-align: center;
+  font-family:Arial;
+}
+
+.caption{
+  font-size: 2em;
+  color:black;
+  display: block;
+  position: absolute;
+  margin: 0px;
+  word-break: keep-all;
+}
+.progressdiv{
+  width:80%;
+  height:30px;
+  background-color: #555555;
+  border-radius: 0px;
+  border:none;
+  margin: 0 auto;
+  margin-bottom:60px;
+  text-align: center;
+}
+
+.ui-progressbar-value {
+  background-image: linear-gradient(120deg, #8fd3f4 0%, #84fab0 100%);
+  border: none;
+  border-radius: 0px;
+  margin:0px;
+}
+
+#bike{
+  width:250px;
+}
+
+h1{
+  font-weight: lighter;
+  font-size: 40px;
+}
+
+.saved{
+  width:80%;
+  height:30px;
+  background-color: #555555;
+  border-radius: 0px;
+  border:none;
+  margin: 0 auto;
+  margin-bottom:60px;
+  text-align: center;
+}
+
+.saved:last-of-type{
+  margin-bottom:130px;
+}

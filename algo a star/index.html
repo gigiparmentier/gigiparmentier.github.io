@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>G & S Labyrinthe</title>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="style.css"></link>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="algo.js"></script>
+  </head>
+
+  <body>
+    <table id="grid">
+    </table>
+    <div id="controls">
+      <img src="logo.svg" id="logo"/>
+      <h1>Generateur &</h1><h1> Solveur de Labyrinthe</h1>
+      <p id="speedP">Vitesse du chemin</p>
+      <input type='range' min="1" max="50" value="10" id="speed"></input>
+      <button onclick="creerLabyrinthe(document.getElementById('grid'))">Créer Labyrinthe</button>
+      <button onclick="lancerAlgo()">Lancer la résolution</button>
+      <button onclick="viderChemins()">Vider chemin</button>
+      <select id="pixel-select" onchange="editMode = $(this).val();" autocomplete="off">
+        <option class="options" value="">--Type de pixel à éditer--</option>
+        <option class="options" value="obstacles">Obstacles</option>
+        <option class="options" value="départ">Départ</option>
+        <option class="options" value="arrivée">Arrivée</option>
+        <option class="options" value="bonus">Bonus</option>
+      </select>
+    </div>
+  </body>
+
+</html>

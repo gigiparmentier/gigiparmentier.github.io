@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:700" rel="stylesheet">
+    <script src="grid.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="favicon.ico"/>
+    <meta name="theme-color" content="#056fab">
+    <meta charset="utf-8">
+    <title>Slam</title>
+  </head>
+
+  <body>
+    <input type="number" id="number_grid" name="number_grid" placeholder="Grid Number" step="1" min="1" max="877" />
+    <button onclick="load_grid()" id="create_grid_button">Générer la grille</button>
+    <button onclick="place_letter(random_letter())" id="place_letter_button">Lettre aléatoire</button>
+    <table id="grille">
+    </table>
+    <h2 id='theme'></h2>
+    <script>
+      var grille = document.getElementById('grille');
+      $('#grille').hide();
+      $('#number_grid').val(Math.floor(Math.random() * 876) + 1);
+
+      function create_grid(){
+        $(grille).empty();
+        for (var i = 0;i <= 20;i++){
+          colonne = document.createElement('tr');
+          grille.appendChild(colonne);
+          for (var j = 0;j <= 20;j++){
+            ligne = document.createElement('td');
+            ligne.setAttribute('x',j);
+            ligne.setAttribute('y',i);
+            ligne.setAttribute('empty','true');
+            colonne.appendChild(ligne);
+          }
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,115 @@
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <title>Questionnaires Méca</title>
+</head>
+<body>
+  <h2 id="question"></h2>
+  <button id="true" onclick="answer(this)">VRAI</button>
+  <button id="shrug" onclick="answer_shrug()">﻿¯\_(ツ)_/¯</button>
+  <button id="false" onclick="answer(this)">FAUX</button>
+  <h3 id="score_title">Score : (Bonne réponse +1, mauvaise réponse -1)</h3>
+  <h3 id="score">0/0</h3>
+  <h3 id="score_percentage">0%</h3>
+  <h3 id="answer">CORRECT</h3>
+  <div id="answers"></div>
+</body>
+
+<script>
+var done_questions = [];
+var questions = [];
+var current_question_index = 0;
+var current_question, current_answer;
+var number_of_done_questions = 0;
+var number_of_correct_questions = 0;
+
+function getAllQuestions(){
+  $.getJSON( "questions.json", function(data) {
+      data.forEach(function(question){
+        var item = [question[0], question[1]];
+        questions.push(item);
+      });
+      shuffle(questions);
+      getRandomQuestion();
+  });
+}
+
+function getRandomQuestion(){
+  if (questions.length > 0){
+    random_question = questions.shift();
+    current_question = random_question[0];
+    current_answer = random_question[1];
+  }
+  else{
+    current_question = "Plus de questions !";
+    current_answer = false;
+    $('#true').hide();
+    $('#false').hide();
+    $('#shrug').hide();
+  }
+  $('#question').html(current_question);
+}
+
+getAllQuestions();
+
+function answer(el){
+  var id = JSON.parse(el.id);
+  var question_answered = document.createElement('h3');
+  if (id == current_answer){
+    number_of_correct_questions += 1;
+    question_answered.id = "right_answer";
+    correct();
+  }
+  else{
+    number_of_correct_questions -= 1;
+    question_answered.id = "false_answer";
+    wrong();
+  }
+  var answer = (current_answer == false) ? "FAUX":"VRAI";
+  question_answered.innerHTML = current_question + ' : ' + answer;
+  $('#answers').prepend(question_answered);
+  $('#answer').animate({opacity:1}).delay(1000).animate({opacity:0});
+  done_questions.push(current_question_index);
+  number_of_done_questions += 1;
+  $('#score').html(number_of_correct_questions + '/' + number_of_done_questions);
+  $('#score_percentage').html(Math.round(100*number_of_correct_questions/number_of_done_questions) + '%');
+  getRandomQuestion();
+}
+
+function answer_shrug(){
+  var question_answered = document.createElement('h3');
+  number_of_done_questions += 1;
+  var answer = (current_answer == false) ? "FAUX":"VRAI";
+  question_answered.id = "shrug_answer";
+  question_answered.innerHTML = current_question + ' : ' + answer;
+  $('#answers').prepend(question_answered);
+  $('#score').html(number_of_correct_questions + '/' + number_of_done_questions);
+  $('#score_percentage').html(Math.round(100*number_of_correct_questions/number_of_done_questions) + '%');
+  getRandomQuestion();
+}
+
+function correct(){
+  $('#answer').html('CORRECT');
+  $('#answer').css('color','#61bf55');
+}
+
+function wrong(){
+  $('#answer').html('INCORRECT');
+  $('#answer').css('color','#aa2f2f');
+}
+
+function shuffle(a) {
+    var j, x, i;
+    for (i = a.length - 1; i > 0; i--) {
+        j = Math.floor(Math.random() * (i + 1));
+        x = a[i];
+        a[i] = a[j];
+        a[j] = x;
+    }
+    return a;
+}
+
+</script>
+</html>

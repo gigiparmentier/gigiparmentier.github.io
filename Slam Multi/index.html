@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:700" rel="stylesheet">
+    <script src="grid.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="favicon.ico"/>
+    <meta name="theme-color" content="#056fab">
+    <meta charset="utf-8">
+    <title>Slam</title>
+  </head>
+
+  <body>
+    <div id='scoreboard'>
+      <h3 id="scoreboard_title">Scores :</h3>
+    </div>
+    <div id="userdiv">
+      <h2 id="user_h2">Pseudo :</h2>
+      <input type="text" id="user" name="text" autofocus>
+      <button onclick='enter_game()' id="user_button">Entrer le jeu</button>
+    </div>
+    <input type="number" id="number_grid" name="number_grid" placeholder="Grid Number" step="1" min="1" max="877" />
+    <button onclick="load_grid()" id="create_grid_button">Générer la grille</button>
+    <button onclick="place_letter(random_letter())" id="place_letter_button">Lettre aléatoire</button>
+    <table id="grille">
+    </table>
+    <h2 id='theme'></h2>
+    <h2 id="word_def"></h2>
+    <input type='text' id='prompt' autocomplete="off"/>
+    <button id='prompt_button' onclick='ask_word()'>Valider</button>
+    <script>
+      var last_letter = "";
+      var current_word = "";
+      var ready_state = false;
+      var last_word = '';
+      var user = document.getElementById('user').value;
+      var grille = document.getElementById('grille');
+      $('#grille').hide();
+      $('#prompt_button').hide();
+      $('#prompt').hide();
+
+      $('#scoreboard').hide();// A ENLEVER
+
+      $('#number_grid').val(Math.floor(Math.random() * 876) + 1);
+      $("#user").keyup(function(event) {
+      if (event.keyCode === 13) {
+          $("#user_button").click();
+        }
+      });
+      $("#prompt").keyup(function(event) {
+      if (event.keyCode === 13) {
+          $("#prompt_button").click();
+        }
+      });
+      window.onload = function() {
+        $("#user").focus();
+      }
+
+      function create_grid(){
+        $(grille).empty();
+        for (var i = 0;i <= 20;i++){
+          colonne = document.createElement('tr');
+          grille.appendChild(colonne);
+          for (var j = 0;j <= 20;j++){
+            ligne = document.createElement('td');
+            ligne.setAttribute('x',j);
+            ligne.setAttribute('y',i);
+            ligne.setAttribute('empty','true');
+            colonne.appendChild(ligne);
+          }
+        }
+      }
+    </script>
+  </body>
+</html>

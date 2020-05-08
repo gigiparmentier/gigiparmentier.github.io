@@ -1,0 +1,185 @@
+<!DOCTYPE HTML>
+<html>
+
+  <head>
+    <title>BOOTING GIGIPARMENTIER...</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#000000">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  </head>
+
+  <body>
+    <div id="desktop"></div>
+    <div id="cmdIcon">
+      <img src="cmdIcon.png" class="desktopIcon" />
+      <p class="IconTitle">CMD.exe</p>
+    </div>
+
+    <!--EVENTS-->
+    <script>
+      $(function() {
+        $("#cmdIcon").draggable({
+          drag: function() {
+            $(this).addClass('clicked');
+          },
+          grid: [100, 125]
+        });
+      });
+
+      $("body").on("click", ".cmd", function(event) {
+        $(this).children(".commandInput").focus();
+      });
+      $("body").on("click", ".windowHeader", function(event) {
+        $(this).siblings('.cmd').children(".commandInput").focus();
+      });
+
+      $("body").on("focusout", ".commandInput", function(event) {
+        $(this).siblings(".blink").hide();
+      });
+      $("body").on("focus", ".commandInput", function(event) {
+        $(this).siblings(".blink").show();
+      });
+      $("body").on("click", "#cmdIcon", function(event) {
+        $(this).addClass('clicked');
+      });
+      $("body").on("click", "#desktop", function(event) {
+        $("#cmdIcon").removeClass('clicked');
+      });
+      $("body").on("click", ".close", function(event) {
+        $(this).parent().parent().remove();
+      });
+      $("body").on("dblclick", "#cmdIcon", function(event) {
+        openCMD();
+      });
+
+      $("body").on("input", ".commandInput", function(event) {
+        this.style.width = this.value.length + "ch";
+      });
+    </script>
+
+    <!--CMD BEHAVIOUR-->
+    <script>
+      var commands = [];
+      var commandIndex = 0;
+      $('body').on("keyup", ".commandInput", function(event) {
+        var key = event.keyCode;
+        switch (key) {
+          case 13:
+            commandIndex = 0;
+            commands.push($(this).val());
+            var value = $(this).val().split(' ')[0].toLowerCase();
+            switch (value) {
+              case "cd":
+                window.location.href = "https://www.gigiparmentier.com/" + $(this).val().split(/ (.+)/)[1];
+                break;
+
+              case "cls":
+                $(".blink").remove();
+                $(".command").remove();
+                $(this).removeClass('commandInput');
+                $(".commandInput").remove();
+                $(this).siblings("p").remove();
+                $("br").remove();
+                $(this).parent().append('<p>HTML [version 5.0] & CSS [version 3.0]</p><p>(c) 2019 Gigi. Tous droits reservés.</p>');
+                $(this).parent().append('<p>HELP pour la liste des commandes.</p><br />');
+                $(this).parent().append('<p class="command">www.gigiparmentier.com></p><input type="text" class="commandInput" autofocus autocomplete="off" style="width:0ch;" /><p class="blink">▃</p>');
+                $(this).siblings(".commandInput").focus();
+                $(this).remove();
+                break;
+
+              case "help":
+                $(this).siblings(".blink").remove();
+                $(this).parent().append('<p><b>Commandes existantes :</b></p><br />');
+                $(this).parent().append('<p><pre>CD [directory] : redirige vers dossier spécifique du site.</pre></p>');
+                $(this).parent().append('<p><pre>LISTDIR            : liste les dossiers existants.</pre></p>');
+                $(this).parent().append('<p><pre>CLS                : vide la console.</pre></p>');
+                $(this).parent().append('<p><pre>HELP               : liste les commandes existantes.</pre></p>');
+                $(this).parent().append('<p class="command">www.gigiparmentier.com></p><input type="text" class="commandInput" autofocus autocomplete="off" style="width:0ch;" /><p class="blink">▃</p>');
+                $(this).prop('disabled', true);
+                $(this).siblings(".commandInput").focus();
+                break;
+
+              case "listdir":
+                $(this).siblings(".blink").remove();
+                $(this).parent().append('<p><b>Dossiers existants :</b></p><br />');
+                $(this).parent().append('<p><pre>BICLOO         : Affiche les disponibilités Bicloo grâce à l\'API JCDecaux.</pre></p>');
+                $(this).parent().append('<p><pre>EXTENSION DIAL : Onglet Dial personnel.</pre></p>');
+                $(this).parent().append('<p><pre>FACADES        : résultats de l\'algorithme pix2pix entraîné sur des façades.</pre></p>');
+                $(this).parent().append('<p><pre>INTERNET       : Proxy utilisé à l\'ENSA Nantes lors de la sombre époque du nouveau firewall.</pre></p>');
+                $(this).parent().append('<p><pre>JEU BALLE      : Un des premiers jeux, crée sur construct2.</pre></p>');
+                $(this).parent().append('<p><pre>PHOTOSHOP      : Editeur d\'images en ligne.</pre></p>');
+                $(this).parent().append('<p><pre>PIRATES        : Jeu 8-Bit en JS et PHP.</pre></p>');
+                $(this).parent().append('<p><pre>QUESTIONNAIRES : Questionnaires d\'entraînement à la mécanique.</pre></p>');
+                $(this).parent().append('<p><pre>RL VIEWER      : Visualisateur 3D de presets Rocket league.</pre></p>');
+                $(this).parent().append('<p><pre>ROCKET         : Simulateur de lancement de fusée CSS JS.</pre></p>');
+                $(this).parent().append('<p><pre>SKATE GAME     : Jeu de skate construct2.</pre></p>');
+                $(this).parent().append('<p><pre>SLAM           : Jeu télévisé recrée en js.</pre></p>');
+                $(this).parent().append('<p><pre>SLAM APP       : Apk du jeu télévisé.</pre></p>');
+                $(this).parent().append('<p><pre>SLAM MULTI     : Jeu multijoueur.</pre></p>');
+                $(this).parent().append('<p><pre>SOUNDBOX       : Soundbox personnelle de son recueillis.</pre></p>');
+                $(this).parent().append('<p><pre>SOUNDBOX-APP   : Apk de la Soundbox.</pre></p>');
+                $(this).parent().append('<p><pre>SPACE          : Simulateur de système solaire avec positions en temps réel.</pre></p>');
+                $(this).parent().append('<p><pre>YTS            : Recherche Youtube plus précise.</pre></p>');
+                $(this).parent().append('<p class="command">www.gigiparmentier.com></p><input type="text" class="commandInput" autofocus autocomplete="off" style="width:0ch;" /><p class="blink">▃</p>');
+                $(this).prop('disabled', true);
+                $(this).siblings(".commandInput").focus();
+                break;
+
+              default:
+                $(this).siblings(".blink").remove();
+                $(this).parent().append('<p>Cette commande n\'est pas reconnue en tant que commande interne.</p>');
+                $(this).parent().append('<p class="command">www.gigiparmentier.com></p><input type="text" class="commandInput" autofocus autocomplete="off" style="width:0ch;" /><p class="blink">▃</p>');
+                $(this).siblings(".commandInput").focus();
+                $(this).prop('disabled', true);
+            }
+            break;
+          case 38:
+            commandIndex += 1;
+            var value = commands[commands.length - commandIndex];
+            $(this).attr("value", value);
+            $(this).css('width', $(this).attr("value").length + "ch");
+            break;
+          case 40:
+            commandIndex -= 1;
+            var value = commands[commands.length - commandIndex];
+            $(this).attr("value", value);
+            $(this).css('width', $(this).attr("value").length + "ch");
+            break;
+        }
+      });
+    </script>
+
+    <!--CMD OPEN-->
+    <script>
+      function openCMD() {
+        $('body').append(
+          '<div class="cmdWindow"><div class="windowHeader"><img src="cmd.png" class="titleImage" /><p class="title">CMD</p><div class="close">✕</div><div class="resizeBig">☐</div><div class="resizeSmall">─</div></div><div class="cmd"><p>HTML [version 5.0] & CSS [version 3.0]</p><p>(c) 2019 Gigi. Tous droits reservés.</p><p>HELP pour la liste des commandes.</p><br /><p class="command">www.gigiparmentier.com></p><input type="text" class="commandInput" autofocus autocomplete="off" style="width:0ch;" /><p class="blink">▃</p></div></div>'
+        );
+        $(".commandInput").last().focus();
+        $(function() {
+          $(".cmdWindow").draggable({
+            containment: "document",
+            drag: function() {
+              $('.cmdWindow').css('z-index', 1);
+              $(this).css('z-index', 2);
+              $(this).children('.cmd').children(".commandInput").focus();
+            },
+            handle: ".windowHeader"
+          });
+        });
+        $(function() {
+          $(".cmdWindow").resizable({
+            maxHeight: 1080,
+            maxWidth: 1920,
+            minHeight: 200,
+            minWidth: 450
+          });
+        });
+      }
+    </script>
+  </body>
+
+</html>

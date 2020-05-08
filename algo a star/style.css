@@ -1,0 +1,226 @@
+@font-face {
+  font-family: Alterebro;
+  src: url(pix.ttf) format("truetype");
+}
+
+body{
+  background-color: #571845;
+  font-family: Helvetica;
+  color: #ffd6bf;
+  font-family: Alterebro,monospace;
+  /.background-image: url('bg.png');
+  background-size: cover;
+}
+
+table{
+  float: left;
+  margin-top: 100px;
+  margin-left: 50px;
+  background-color: #60244e;
+  box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.25);
+  width:750px;
+  height:750px;
+}
+
+table, th, td {
+   border: 1px solid black;
+   border-collapse: collapse;
+   border: none;
+}
+
+#controls{
+  height:calc(100% - 200px);
+  margin-top: 100px;
+  float: right;
+  margin-right: 150px;
+  width:850px;
+}
+
+td {
+  border: none;
+}
+
+input{
+  margin: 0 auto;
+  display: block;
+}
+
+.obstacle{
+  background-color: #30122d;
+}
+
+.bonus{
+  background-color: purple;
+}
+
+.depart{
+  background-color: #3b5166;
+}
+
+.arrivee{
+  background-color: #a23e48;
+}
+
+.voisins{
+  background-color: #900c3e;
+  transition: all 1s ease-in-out;
+}
+
+.closed{
+  background-color: #c70039;
+  opacity: .25;
+  transition: all 1s ease-in-out;
+}
+
+.chemin{
+  background-color: #ff5733;
+  transition: all 0.25s ease-in-out;
+}
+
+.cheminmarqué{
+  transition:  all 0.1s ease-in-out;
+  background-color: #218e89;
+}
+
+button{
+  width:300px;
+  height:50px;
+  font-size: 24px;
+  margin:0 auto;
+  margin-bottom: 30px;
+  display: block;
+  background-color: rgba(255,255,255,0.05);
+  border: none;
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.25);
+  cursor: pointer;
+  color: #ffd6bf;
+  font-family: Alterebro,monospace;
+}
+
+button:hover{
+  background-color: rgba(255,255,255,0.1);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+}
+
+button:active{
+  background-color: #ffd6bf;
+  color: #571845;
+}
+
+p{
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+h1{
+  text-align: left;
+  line-height: 90px;
+  font-size: 60px;
+  font-family: Alterebro,monospace;
+  text-transform: uppercase;
+  box-shadow: inset 0 -10px 0 #ffd6bf, inset 0 -4px 0 #ffd6bf;
+  width:max-content;
+  display: inline-block;
+  margin:0 auto;
+
+}
+
+#speedP{
+  margin-top: 50px;
+}
+
+#logo{
+  width:169px;
+  height:169px;
+  float: left;
+  margin-top: 17px;
+  margin-right: 20px;
+}
+
+
+input[type=range]{
+  background-color: #ffd6bf;
+  width:300px;
+  height:5px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+select{
+    margin:0 auto;
+    display: block;
+    background-color: rgba(255,255,255,0.25);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+    border:none;
+    color:#ffd6bf;
+    padding:7px;
+    font-size: 20px;
+    font-family: Alterebro,monospace;
+}
+
+select option{
+  background-color: #815274 !important;
+  font-family: Alterebro,monospace;
+}
+
+.options{
+  background-color: rgba(255,255,255,0.25);
+}
+
+#pixel-select:hover{
+  background-color: rgba(255,255,255,0.25);
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  background: #a23e48;
+  cursor: pointer;
+}
+
+input[type=range]::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #a23e48;
+  border-radius: 25px;
+  cursor: pointer;
+  border: none;
+}
+
+.infos{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.obstacleP,.departP,.closedP,.voisinsP,.cheminP, .arriveeP{
+  display: inline-block;
+}
+
+.obstacleP{
+  color:black;
+}
+
+.departP{
+  color:red;
+}
+
+.arriveeP{
+  color:yellow;
+}
+
+.closedP{
+  color:blue;
+}
+
+.voisinsP{
+  color:green;
+}
+
+.cheminP{
+  color:orange;
+}

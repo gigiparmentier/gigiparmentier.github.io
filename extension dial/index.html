@@ -1,0 +1,54 @@
+<html>
+
+  <head>
+    <title>Nouvel onglet</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="theme-color" content="#2e3440">
+    <script src="jquery.min.js"></script>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    <div onclick="opentabs()" id="all">OPEN ALL</div>
+    <div id="tabs">
+      <div class="tab" style="background-color:#3b5998" onclick="location.href='https://www.facebook.com';"><img src="facebook-256.png"></div>
+      <div class="tab" style="background-color:#cd201f" onclick="location.href='https://www.youtube.com/feed/subscriptions';"><img src="youtube-6-256.png"></div>
+      <div class="tab" style="background-color:#92bddf" onclick="location.href='https://reddit.com';"><img src="reddit-256.png"></div>
+      <div class="tab" style="background-color:#03a5c1" onclick="location.href='https://dealabs.com';"><img src="dealabs-256.png"></div>
+      <div class="tab" style="background-color:#00b2ff" onclick="location.href='https://twitter.com';"><img src="twitter-256.png"></div>
+      <div class="tab" style="background-color:#ca4a3e" onclick="location.href='https://gmail.com';"><img src="gmail-256.png"></div>
+    </div>
+    <script>
+
+
+    function opentabs() {
+      window.open('https://www.facebook.com');
+      window.open('https://www.youtube.com/feed/subscriptions');
+      window.open('https://www.reddit.com');
+      window.open('https://www.dealabs.com');
+      window.open("https://twitter.com");
+      window.open('https://gmail.com');
+    }
+
+
+    $(".tab").mouseenter(function() {
+      $(this).css('box-shadow','0px 0px 15px 5px ' + $(this).css('background-color'));
+      $(this).addClass('selected');
+      $(".tab").not('.selected').children().animate({
+        opacity: 0
+      }, 50);
+      $(this).children().animate({
+        opacity: 1
+      }, 300);
+    })
+
+    $(".tab").mouseleave(function() {
+      $(this).css('box-shadow','none');
+      $(this).children().animate({
+        opacity: 0
+      }, 100);
+      $(this).removeClass('selected');
+    })
+    </script>
+  </body>
+</html>

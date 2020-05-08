@@ -1,0 +1,70 @@
+html{
+    background-color: #000;
+}
+
+td, tr{
+    margin:0;
+    padding: 0;
+    color:white;
+}
+
+td{
+    width: 1%;
+    height: 1%;
+    text-align: center;
+    font-size:20px;
+    font-weight: 900;
+    color:yellow;
+    font-family: Helvetica;
+}
+
+table{
+    margin:0 auto;
+    vertical-align: middle;
+    min-width: 500px;
+    min-height:750px;
+    width:30%;
+    height:90%;   
+}
+
+.mur{
+    border:2px solid #0000ff;
+}
+
+.red{
+    background-color: red;
+}
+
+.ghost1{
+    background-image:url('ghost1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pacR, .pac{
+    background-image:url('pac.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    transform:rotate(0deg);
+}
+
+.pacL{
+    background-image:url('pac.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    transform:rotate(180deg);
+}
+
+.pacU{
+    background-image:url('pac.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    transform:rotate(-90deg);
+}
+
+.pacD{
+    background-image:url('pac.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    transform:rotate(90deg);
+}

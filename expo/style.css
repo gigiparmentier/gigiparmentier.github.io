@@ -1,0 +1,317 @@
+#rendercontainer{
+  width:100%;
+  height:100%;
+  background-color: white;
+}
+
+body{
+  margin: 0 auto;
+  overflow-x:hidden;
+
+  font-family: Helvetica;
+}
+
+canvas{
+    cursor: grab;
+}
+
+#test{
+  width:100%;
+  height: 1000px;
+  background-size: contain;
+}
+
+#test p {
+  font-size: 60px;
+}
+
+#content{
+  background-color: white;
+  color:black;
+  height: auto;
+  display: inline-block;
+  width:100%;
+}
+
+#fond{
+  width:100%;
+}
+
+#mouse{
+  position: absolute;
+  width:10px;
+  height:10px;
+  background-color: blue;
+  z-index: 100;
+}
+
+#pin1{
+  background-image: url('tri2.png');
+}
+
+#pin2{
+  opacity: 0;
+  background-image: url('f1.png');
+}
+
+#pin3{
+  opacity: 0;
+  background-image: url('f2.png');
+}
+
+#pin4{
+  opacity: 0;
+  background-image: url('f3.png');
+}
+
+#trait{
+  opacity: 0;
+  background-image: url('trait.png');
+}
+
+#pin1, #pin2, #pin3, #pin4, #trait{
+  background-position-x: right;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width:100%;
+  height:1128px;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.scrollmagic-pin-spacer{
+  width:200px;
+  margin:0 auto !important;
+  height:100px !important;
+  position: absolute !important;
+  z-index: 1;
+}
+
+#trigger1{
+  position: absolute;
+  top:60%;
+}
+
+#par1{
+  margin-top: 100px;
+  width:100%;
+  float: left;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 2.5%;
+  text-align:justify;
+  z-index: 100;
+  background-position-x: right;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+h1{
+  margin-left: 2.5%;
+  margin-bottom: -20px;
+  margin-top: 100px;
+}
+
+#par1 p{
+  width:30%;
+  float:left;
+  margin:0;
+  z-index: 100;
+  display: block;
+  margin-right: 70%;
+  margin-bottom: 100px;
+}
+
+#footer{
+  position: fixed;
+  top:0;
+  left:0;
+  margin:0;
+  height:40px;
+  padding:10px;
+  width:100%;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+  font-size: 22px;
+  background-color: white;
+  color:black;
+  text-decoration: none;
+  z-index: 1000;
+}
+
+#title{
+  margin:0;
+  float: left;
+  margin-left: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+h2{
+  width:100%;
+}
+
+.container {
+  height: 120px;
+  width: 95%;
+  margin:0 auto;
+  overflow: hidden;
+}
+
+.fit{
+  display: block;
+  float: left;
+  transform-origin: left top;
+  white-space: nowrap;
+}
+
+#first img{
+  margin-top: 40px;
+  width:100%;
+}
+
+.bar:before {
+    content: "―――――――――――――――――――――――――";
+    letter-spacing: -5px;
+    padding-right: 10px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.lastcontainer{
+  width:100%;
+  margin-top: 50px;
+}
+
+#contact, #participation{
+  margin:0;
+  margin-right:30px;
+  float:right;
+  margin-top:4px;
+}
+
+#contact{
+  margin-right: 20px;
+}
+
+#contact a, #participation a{
+  color:black;
+  text-decoration: underline;
+}
+
+
+#participation:before {
+    content: "| ";
+    padding: 0 10px;
+}
+
+#box1{
+  background-color: white;
+  margin-top: 100px;
+  float: right;
+  width:40%;
+  margin-left: 20%;
+  margin-right:5%;
+  border:4px solid black;
+  z-index: 2;
+}
+
+#box1 p{
+  padding:10px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+#box1 h3{
+  padding:10px;
+  font-size: 35px;
+  margin:0;
+  border-bottom: 3px solid black;
+}
+
+#box2{
+  z-index: 2;
+  background-color: white;
+  margin-top: 300px;
+  float: left;
+  width:40%;
+  margin-left:5%;
+  border:4px solid black;
+}
+
+#box2 p{
+  padding:10px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+#box2 h3{
+  padding:10px;
+  font-size: 35px;
+  margin:0;
+  border-bottom: 3px solid black;
+}
+
+#explications{
+  background: transparent;
+}
+
+
+.parallax-window {
+  box-sizing: border-box;
+  background: transparent;
+}
+
+#suite{
+  width:100%;
+  height:1000px;
+  margin-top:-175px;
+  z-index: 2;
+  box-sizing: border-box;
+}
+
+.profiles{
+  width:95%;
+  margin:0;
+}
+
+.left{
+  float: left;
+  width:40%;
+  margin:0 auto;
+  text-align: center;
+}
+
+.left img{
+  width:300px;
+  height:300px;
+  margin-top: 50px;
+}
+
+.left h1{
+  font-size: 40px;
+}
+
+.right{
+  float:right;
+  width:40%;
+  margin:0;
+  font-size: 20px;
+  text-align:justify;
+}
+
+.profiles:first-child, .left, .right{
+  margin-top: 175px;
+}
+
+#fin{
+  width:100%;
+  height:500px;
+  background-image: url('fin.png');
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

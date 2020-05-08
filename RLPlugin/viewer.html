@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+
+  <head>
+    <meta charset=utf-8>
+    <title>Viewer</title>
+    <meta name="theme-color" content="#456990">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="js/three.js"></script>
+		<script src="js/OrbitControls.js"></script>
+		<script src="js/OBJLoader.js"></script>
+    <script src="js/engine.js"></script>
+    <div id="menu">
+      <h1 id="title">Rocket League<br/>Live Viewer</h1>
+      <button id="startbutton" onclick="init()">Start</button>
+    </div>
+    <h1 class="stats" id="interpolation">INTERPOLATION : OFF</h1>
+    <h1 class="stats" id="frames">0/0</h1>
+    <div id="timeline"></div>
+  </body>
+
+</html>
