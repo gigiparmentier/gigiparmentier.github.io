@@ -1,13 +1,13 @@
 var ISS, Earth, Atmosphere, pivot, Moon, Clouds, Lights, Sun, sunlight, Circle, lensflare, lensPivot, moonPivot;
-var Pos,IPLon,IPLat;
+var Pos, IPLon, IPLat;
 var controls, camera, scene;
 var renderer;
-var sunlat,sunlon;
-var Earthaxis = new THREE.Vector3(0.4067,0.917,0);
-EarthRotation = 1/86400/10;
-MoonRotation = 1/2332800/10;
+var sunlat, sunlon;
+var Earthaxis = new THREE.Vector3(0.4067, 0.917, 0);
+EarthRotation = 1 / 86400 / 10;
+MoonRotation = 1 / 2332800 / 10;
 CloudsRotation = 0.0001;
-SunRotation = 1/31536000/10;
+SunRotation = 1 / 31536000 / 10;
 
 Multiplier = 1;
 EarthRotation *= Multiplier;
@@ -32,28 +32,28 @@ init();
 animate();
 
 function getSunPos(date) {
-        const now = date || new Date();
+  const now = date || new Date();
 
-        // The boilerplate: fiddling with dates
-        const soy = (new Date(now.getFullYear(), 0, 0)).getTime();
-        const eoy = (new Date(now.getFullYear() + 1, 0, 0)).getTime();
-        const nows = now.getTime();
-        const poy = (nows - soy) / (eoy - soy);
+  // The boilerplate: fiddling with dates
+  const soy = (new Date(now.getFullYear(), 0, 0)).getTime();
+  const eoy = (new Date(now.getFullYear() + 1, 0, 0)).getTime();
+  const nows = now.getTime();
+  const poy = (nows - soy) / (eoy - soy);
 
-        const secs = now.getUTCMilliseconds() / 1e3
-                + now.getUTCSeconds()
-                + 60 * (now.getUTCMinutes() + 60 * now.getUTCHours());
-        const pod = secs / 86400; // leap secs? nah.
+  const secs = now.getUTCMilliseconds() / 1e3 +
+    now.getUTCSeconds() +
+    60 * (now.getUTCMinutes() + 60 * now.getUTCHours());
+  const pod = secs / 86400; // leap secs? nah.
 
-        // The actual magic
-        sunlat = (-pod + 0.5) * Math.PI * 2;
-        sunlon = Math.sin((poy - .22) * Math.PI * 2) * .41;
-              moonPivot = new THREE.Group();
-              scene.add(moonPivot);
-              moonPivot.add(Moon);
-              Moon.position.x = 150;
-              moonPivot.rotation.y = THREE.Math.degToRad(-74) - 90  + sunlon;
-              moonPivot.rotation.z = sunlat;
+  // The actual magic
+  sunlat = (-pod + 0.5) * Math.PI * 2;
+  sunlon = Math.sin((poy - .22) * Math.PI * 2) * .41;
+  moonPivot = new THREE.Group();
+  scene.add(moonPivot);
+  moonPivot.add(Moon);
+  Moon.position.x = 150;
+  moonPivot.rotation.y = THREE.Math.degToRad(-74) - 90 + sunlon;
+  moonPivot.rotation.z = sunlat;
 }
 
 function init() {
@@ -66,42 +66,42 @@ function init() {
         }
       },
       vertexShader: [
-      'varying vec3 vNormal;',
-      'varying vec2 vUv;',
-      'void main() {',
-      'gl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );',
-      'vNormal = normalize( normalMatrix * normal );',
-      'vUv = uv;',
-      '}'
-    ].join('\n'),
+        'varying vec3 vNormal;',
+        'varying vec2 vUv;',
+        'void main() {',
+        'gl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );',
+        'vNormal = normalize( normalMatrix * normal );',
+        'vUv = uv;',
+        '}'
+      ].join('\n'),
       fragmentShader: [
-      'uniform sampler2D texture;',
-      'varying vec3 vNormal;',
-      'varying vec2 vUv;',
-      'void main() {',
-      'vec3 diffuse = texture2D( texture, vUv ).xyz;',
-      'float intensity = 1.05 - dot( vNormal, vec3( 0.0, 0.0, 1.0 ) );',
-      'vec3 atmosphere = vec3( 1.0, 1.0, 1.0 ) * pow( intensity, 3.0 );',
-      'gl_FragColor = vec4( diffuse + atmosphere, 1.0 );',
-      '}'
-    ].join('\n')
+        'uniform sampler2D texture;',
+        'varying vec3 vNormal;',
+        'varying vec2 vUv;',
+        'void main() {',
+        'vec3 diffuse = texture2D( texture, vUv ).xyz;',
+        'float intensity = 1.05 - dot( vNormal, vec3( 0.0, 0.0, 1.0 ) );',
+        'vec3 atmosphere = vec3( 1.0, 1.0, 1.0 ) * pow( intensity, 3.0 );',
+        'gl_FragColor = vec4( diffuse + atmosphere, 1.0 );',
+        '}'
+      ].join('\n')
     },
     'atmosphere': {
       uniforms: {},
       vertexShader: [
-      'varying vec3 vNormal;',
-      'void main() {',
-      'vNormal = normalize( normalMatrix * normal );',
-      'gl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );',
-      '}'
-    ].join('\n'),
+        'varying vec3 vNormal;',
+        'void main() {',
+        'vNormal = normalize( normalMatrix * normal );',
+        'gl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );',
+        '}'
+      ].join('\n'),
       fragmentShader: [
-      'varying vec3 vNormal;',
-      'void main() {',
-      'float intensity = pow( 0.8 - dot( vNormal, vec3( 0, 0, 1.0 ) ), 8.0 );',
-      'gl_FragColor = vec4( 0.5, 0.5, 0.8, 0.2 ) * intensity;',
-      '}'
-    ].join('\n')
+        'varying vec3 vNormal;',
+        'void main() {',
+        'float intensity = pow( 0.8 - dot( vNormal, vec3( 0, 0, 1.0 ) ), 8.0 );',
+        'gl_FragColor = vec4( 0.5, 0.5, 0.8, 0.2 ) * intensity;',
+        '}'
+      ].join('\n')
     }
   };
   //SETUP SCENE
@@ -160,12 +160,12 @@ function init() {
   });
 
   var geometry = new THREE.Geometry();
-    geometry.vertices.push(
-	     new THREE.Vector3( 0, 0, 0 ),
-	     new THREE.Vector3(40.67,91.7,0)
+  geometry.vertices.push(
+    new THREE.Vector3(0, 0, 0),
+    new THREE.Vector3(40.67, 91.7, 0)
   );
 
-  var line = new THREE.Line( geometry, material );
+  var line = new THREE.Line(geometry, material);
   //scene.add(line)
 
   //ADD EARTH
@@ -195,12 +195,12 @@ function init() {
     displacementScale: 3,
     displacementBias: -1.55
   });
-  var geometry = new THREE.SphereGeometry( 31.6926, 32, 32 );
+  var geometry = new THREE.SphereGeometry(31.6926, 32, 32);
   //geometry.rotateZ(THREE.Math.degToRad(-23.4));
-  var sphere = new THREE.Mesh( geometry, earthMat );
+  var sphere = new THREE.Mesh(geometry, earthMat);
   Earth = sphere;
   //Earth.rotation.z = THREE.Math.degToRad(-23.4);
-  Earth.rotateY(THREE.Math.degToRad(-74) - 90  + THREE.Math.degToRad(CorrectRotation));
+  Earth.rotateY(THREE.Math.degToRad(-74) - 90 + THREE.Math.degToRad(CorrectRotation));
   scene.add(Earth);
   //ADD CLOUDS
   var cloudText = new THREE.TextureLoader().load("assets/Clouds2.jpg");
@@ -213,9 +213,9 @@ function init() {
     metalness: 0
   });
   cloudMat.depthWrite = false;
-  var geometry = new THREE.SphereGeometry( 31.8017, 32, 32 );
+  var geometry = new THREE.SphereGeometry(31.8017, 32, 32);
   //geometry.rotateZ(THREE.Math.degToRad(-23.4));
-  var sphere = new THREE.Mesh( geometry, cloudMat );
+  var sphere = new THREE.Mesh(geometry, cloudMat);
   Clouds = sphere;
   //ADD LIGHTS
   var lightText = new THREE.TextureLoader().load("assets/EarthNight2.jpg");
@@ -231,9 +231,9 @@ function init() {
     displacementBias: -1.55
   });
   lightMat.depthWrite = false;
-  var geometry = new THREE.SphereGeometry( 31.6926, 32, 32 );
+  var geometry = new THREE.SphereGeometry(31.6926, 32, 32);
   //geometry.rotateZ(THREE.Math.degToRad(-23.4));
-  var sphere = new THREE.Mesh( geometry, lightMat );
+  var sphere = new THREE.Mesh(geometry, lightMat);
   Lights = sphere;
   //ADD MOON
   var moonText = new THREE.TextureLoader().load("assets/Moon2.jpg");
@@ -252,8 +252,8 @@ function init() {
     displacementBias: -.1,
     //normalMap: moonTextN
   });
-  var geometry = new THREE.SphereGeometry( 8.685, 32, 32 );
-  var sphere = new THREE.Mesh( geometry, moonMat );
+  var geometry = new THREE.SphereGeometry(8.685, 32, 32);
+  var sphere = new THREE.Mesh(geometry, moonMat);
   Moon = sphere;
   //ADD SUN
   var sunText = new THREE.TextureLoader().load("assets/Sun.jpg");
@@ -371,7 +371,6 @@ function animate() {
       PosPivot.add(Pos);
       Pos.rotation.y = IPLon;
       Pos.rotation.z = IPLat;
-      Lights.rotation.y = Earth.rotation.y;
       cloudPivot = new THREE.Group();
       Earth.add(cloudPivot);
       cloudPivot.add(Clouds);
@@ -383,7 +382,7 @@ function animate() {
       Lights.scale.x = 1.0005;
       Lights.scale.y = 1.0005;
       Lights.scale.z = 1.0005;
-      Lights.rotation.y = Earth.rotation.y;
+      Lights.rotateY(THREE.Math.degToRad(-74) - 90 + THREE.Math.degToRad(CorrectRotation));
       scene.add(Sun);
       lensPivot = new THREE.Object3D();
       Sun.add(lensPivot);
@@ -394,8 +393,8 @@ function animate() {
       sunlight.position.x = 4900;
       lightPivot.add(sunlight);
       scene.add(Circle);
-      window.setInterval(function(){
-          rotateAll();
+      window.setInterval(function() {
+        rotateAll();
       }, 100);
       pivot = 1;
     }
@@ -432,26 +431,26 @@ function moveISS() {
   setTimeout(moveISS, 2000);
 }
 
-function rotateAll(){
-    if (moonPivot != null) {
-      moonPivot.rotation.y += MoonRotation;
-    }
-    if (Clouds != null) {
-      Clouds.rotation.y += CloudsRotation;
-    }
-    if (Sun != null) {
-      Sun.rotation.y += SunRotation;
-    }
-    if (Circle != null && Sun != null) {
-      Circle.rotation.y = Sun.rotation.y;
-    }
-    CurrentDate = new Date();
-    Hours = CurrentDate.getUTCHours();
-    Minutes = CurrentDate.getUTCMinutes();
-    CurrentMinutes = Hours * 60 + Minutes;
-    CorrectRotation = CurrentMinutes * 360 / 1440;
-    Earth.rotation.y = THREE.Math.degToRad(-74) - 90  + THREE.Math.degToRad(CorrectRotation);
-    Lights.rotation.y = Earth.rotation.y;
+function rotateAll() {
+  if (moonPivot != null) {
+    moonPivot.rotation.y += MoonRotation;
+  }
+  if (Clouds != null) {
+    Clouds.rotation.y += CloudsRotation;
+  }
+  if (Sun != null) {
+    Sun.rotation.y += SunRotation;
+  }
+  if (Circle != null && Sun != null) {
+    Circle.rotation.y = Sun.rotation.y;
+  }
+  CurrentDate = new Date();
+  Hours = CurrentDate.getUTCHours();
+  Minutes = CurrentDate.getUTCMinutes();
+  CurrentMinutes = Hours * 60 + Minutes;
+  CorrectRotation = CurrentMinutes * 360 / 1440;
+  Earth.rotation.y = THREE.Math.degToRad(-74) + 90 - THREE.Math.degToRad(CorrectRotation);
+  Lights.rotation.y = THREE.Math.degToRad(-74) + 90 - THREE.Math.degToRad(CorrectRotation);
 }
 
 $(document.body.canvas).on("keypress", function(e) {
