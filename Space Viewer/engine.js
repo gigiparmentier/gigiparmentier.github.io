@@ -318,6 +318,7 @@ function init() {
   url: "https://ipapi.co/latlong/",
   type: "GET",
   crossDomain: true,
+  dataType: 'jsonp',
   success: function (resp) {
         var PosMat = new THREE.MeshBasicMaterial({
           color: new THREE.Color(0x992c34)
