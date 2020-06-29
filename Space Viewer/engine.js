@@ -314,8 +314,10 @@ function init() {
     });
   });
   //ADD POSITION
+  /*
+
   $.ajax({
-  url: "https://ipapi.co/latlong/",
+  url: "https://api.ipgeolocation.io/ipgeo?apiKey=API_KEY",
   type: "GET",
   crossDomain: true,
   dataType: 'jsonp',
@@ -339,6 +341,21 @@ function init() {
       console.log("Can't get position from IP.");
   }
 });
+*/
+  var PosMat = new THREE.MeshBasicMaterial({
+    color: new THREE.Color(0x992c34)
+  });
+  var objLoader = new THREE.OBJLoader();
+  objLoader.setPath('assets/');
+  objLoader.load('pos.obj', function(object) {
+    //object.rotateZ(THREE.Math.degToRad(-23.4));
+    Pos = object;
+    IPLat = THREE.Math.degToRad(48.11);
+    IPLon = THREE.Math.degToRad(-1.6744);
+    object.traverse((obj) => {
+      if (obj instanceof THREE.Mesh) obj.material = PosMat;
+    });
+  });
 }
 
 function animate() {
