@@ -88,7 +88,7 @@
 
   pdf = new jsPDF();
 
-  getDataUri('http://gigiparmentier.com/Space%20Viewer/assets/EarthNight.jpg', function(dataUri) {
+  getDataUri('bg.jpg', function(dataUri) {
       pdf.addImage(dataUri,15,40,180,160);
       pdf.save("download.pdf");
   });
