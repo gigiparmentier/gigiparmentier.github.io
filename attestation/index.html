@@ -82,6 +82,7 @@
           pdf.addFont('Helvetica', 'Helvetica', 'normal');
           pdf.setFont('Helvetica');
           pdf.setFontSize(11);
+          console.log(prenom)
           pdf.text(prenom + ' boin', 43, 47);
           pdf.text(date_naissance, 43, 55);
           pdf.text(date, 32, 229);
@@ -94,7 +95,7 @@
             getDataUri(qr, function(dataUri) {
               pdf.addImage(dataUri, 18, 18, 95, 95);
               //pdf.output('dataurlnewwindow');
-              pdf.save("attestation.pdf")
+              pdf.save("attestation-"+moment().format('HH:mm:ss')+".pdf")
             });
           });
         });
@@ -102,7 +103,7 @@
 
       function getDataUri(url, cb) {
         var image = new Image();
-        image.setAttribute('crossOrigin', 'anonymous'); //getting images from external domain
+        image.setAttribute('crossOrigin', 'anonymous');
         image.onload = function() {
           var canvas = document.createElement('canvas');
           canvas.width = this.naturalWidth;
