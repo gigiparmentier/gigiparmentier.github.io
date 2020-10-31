@@ -1,0 +1,10 @@
+  input,select,img,button{
+    display: block;
+    margin:0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  p{
+    text-align: center;
+  }

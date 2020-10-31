@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Cross-Browser QRCode generator for Javascript</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script type="text/javascript" src="moment.min.js"></script>
+    <script src="https://parall.ax/parallax/js/jspdf.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img src="" id="qr_code">
+  <p>Personne :</p>
+  <select id='prenom_select'>
+  </select>
+  <p>Date de sortie :</p>
+  <input type="date" id="date">
+  <p>Heure de sortie :</p>
+  <input type="time" id="heure">
+  <p>Motif de sortie :</p>
+  <select id='motif_select'>
+  </select>
+  <button onclick="generate_qr_code()">Générer Attestation</button>
+  <canvas id="canvas1" width="1529" height="2164"></canvas>
+  <canvas id="canvas2" width="1529" height="2164"></canvas>
+  <script>
+  motifs = ["travail", "achats", "sante", "famille", "sport_animaux"];
+  motifs_desc = ['Travail','Courses','Santé','Famille','Sport/Chien'];
+  prenoms = ['tristan','faustine','younn','dominique','manon','tanguy'];
+  dates_naissances = ['05/12/1997','27/12/1999','17/12/2001','06/10/1967','29/02/1992','14/05/1695'];
+
+  for (prenom in prenoms){
+    prenom = prenoms[prenom];
+    option = document.createElement('option');
+    option.value = prenom;
+    option.innerHTML = prenom.charAt(0).toUpperCase() + prenom.slice(1);
+    document.getElementById('prenom_select').appendChild(option);
+  }
+
+  for (motif in motifs){
+    motif_desc = motifs_desc[motif];
+    motif = motifs[motif];
+    option = document.createElement('option');
+    option.value = motif;
+    option.innerHTML = motif_desc;
+    document.getElementById('motif_select').appendChild(option);
+  }
+
+  document.getElementById('date').value = moment().format('YYYY-MM-DD');
+  document.getElementById('date').min = moment().format('YYYY-MM-DD');
+  document.getElementById('heure').value = moment().format('HH:mm');
+
+  function generate_qr_code(size){
+    prenom = document.getElementById('prenom_select').value;
+    date_naissance = dates_naissances[prenoms.indexOf(prenom)];
+    date = moment().format('DD/MM/YYYY');
+    heure = moment().format('HH') + 'h' + moment().format('mm');
+    date_sortie = document.getElementById('date').value;
+    heure_sortie = document.getElementById('heure').value;
+    motif = document.getElementById('motif_select').value;
+    url = "https://chart.googleapis.com/chart?chs="+size+"x"+size+"&cht=qr&chl=Cree le: "+date+" a "+heure+";%0A Nom: boin;%0A Prenom: "+prenom+";%0A Naissance: "+date_naissance+" a rennes;%0A Adresse: 138 Boulevard de sévigné 35700 Rennes;%0A Sortie: "+date_sortie+" a "+heure_sortie+";%0A Motifs: "+motif;
+    console.log(url);
+    return url;
+  }
+
+  function changeCanvas(){
+    canvas1 = document.getElementById('canvas1');
+    context1 = canvas1.getContext('2d');
+    context1.fillStyle = "blue";
+    context1.fillRect(0, 0, canvas1.width, canvas1.height);
+    canvas2 = document.getElementById('canvas2');
+    context2 = canvas2.getContext('2d');
+    background = new Image();
+    background.src = 'attestation1.png';
+    background.onload = function(){
+      context1.drawImage(background, 0, 0, 1529, 2164);
+      qr_code = new Image();
+      qr_code.src = generate_qr_code(500);
+      qr_code.onload = function(){
+        context1.drawImage(qr_code, 1134, 1678, 229, 229);
+        context2.drawImage(qr_code, 139, 144, 806, 806);
+      }
+    }
+    document.getElementById('qr_code').src = generate_qr_code(500);
+  }
+
+  //changeCanvas();
+  document.getElementById('qr_code').src = generate_qr_code(500);
+
+  pdf = new jsPDF();
+
+  getDataUri('http://gigiparmentier.com/Space%20Viewer/assets/EarthNight.jpg', function(dataUri) {
+      pdf.addImage(dataUri,15,40,180,160);
+      pdf.save("download.pdf");
+  });
+
+  getDataUri(generate_qr_code(500), function(dataUri) {
+      pdf.addImage(dataUri,15,40,180,160);
+      pdf.save("download.pdf");
+  });
+
+  function getDataUri(url, cb)
+   {
+          var image = new Image();
+          image.setAttribute('crossOrigin', 'anonymous'); //getting images from external domain
+
+          image.onload = function () {
+              var canvas = document.createElement('canvas');
+              canvas.width = this.naturalWidth;
+              canvas.height = this.naturalHeight;
+
+              //next three lines for white background in case png has a transparent background
+              var ctx = canvas.getContext('2d');
+              ctx.fillStyle = '#fff';  /// set white fill style
+              ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+              canvas.getContext('2d').drawImage(this, 0, 0);
+
+              cb(canvas.toDataURL('image/jpeg'));
+          };
+
+          image.src = url;
+     }
+
+  changeCanvas();
+  </script>
+</body>
+</html>
