@@ -27,25 +27,15 @@
       motifs = ["travail", "achats", "sante", "famille", "sport_animaux"];
       motifXs = [88, 103, 122, 136, 162];
       motifs_desc = ['Travail', 'Courses', 'Santé', 'Famille', 'Sport/Chien'];
-      prenoms = ['tristan', 'faustine', 'younn', 'dominique', 'manon', 'tanguy'];
-      dates_naissances = ['05/12/1997', '27/12/1999', '17/12/2001', '06/10/1967', '29/02/1992', '14/05/1695'];
-
-      pdf = new jsPDF();
-
-      prenom = document.getElementById('prenom_select').value;
-      date_naissance = dates_naissances[prenoms.indexOf(prenom)];
-      date = moment().format('DD/MM/YYYY');
-      heure = moment().format('HH') + 'h' + moment().format('mm');
-      date_sortie = document.getElementById('date').value;
-      heure_sortie = document.getElementById('heure').value;
-      motif = document.getElementById('motif_select').value;
-      qr = generate_qr_code(500);
+      prenoms = ['tristan boin', 'faustine boin', 'younn boin', 'dominique boin', 'manon boin', 'tanguy boin','mathis coggiola'];
+      dates_naissances = ['05/12/1997', '27/12/1999', '17/12/2001', '06/10/1967', '29/02/1992', '14/05/1695','01/09/1998'];
+      adresses = ['138 Boulevard de Sévigné 35700 Rennes','138 Boulevard de Sévigné 35700 Rennes','138 Boulevard de Sévigné 35700 Rennes','138 Boulevard de Sévigné 35700 Rennes','Guérande','138 Boulevard de Sévigné 35700 Rennes','27 rue cardinale, 13100, Aix-en-Provence'];
 
       for (prenom in prenoms) {
         prenom = prenoms[prenom];
         option = document.createElement('option');
         option.value = prenom;
-        option.innerHTML = prenom.charAt(0).toUpperCase() + prenom.slice(1);
+        option.innerHTML = prenom.charAt(0).toUpperCase() + prenom.slice(1).split(' ')[0];
         document.getElementById('prenom_select').appendChild(option);
       }
 
@@ -65,6 +55,8 @@
       function generate_qr_code(size) {
         prenom = document.getElementById('prenom_select').value;
         date_naissance = dates_naissances[prenoms.indexOf(prenom)];
+        adresse = adresses[prenoms.indexOf(prenom)];
+        ville = adresse.split(' ')[adresse.split(' ').length - 1];
         date = moment().format('DD/MM/YYYY');
         heure = moment().format('HH') + 'h' + moment().format('mm');
         date_sortie = document.getElementById('date').value;
@@ -76,17 +68,20 @@
       }
 
       function generate_pdf() {
+        pdf = new jsPDF();
         qr = generate_qr_code(500);
-        getDataUri('attestation1.png', function(dataUri) {
+        getDataUri('attestation.png', function(dataUri) {
           pdf.addImage(dataUri, 0, 0, 210, 279);
           pdf.addFont('Helvetica', 'Helvetica', 'normal');
           pdf.setFont('Helvetica');
           pdf.setFontSize(11);
-          console.log(prenom)
-          pdf.text(prenom + ' boin', 43, 47);
+          pdf.text(prenom, 43, 48);
           pdf.text(date_naissance, 43, 55);
           pdf.text(date, 32, 229);
-          pdf.text(heure.replace('h', ':'), 93, 229);
+          pdf.text(heure.replace('h', ':'), 92, 229);
+          pdf.text(adresse, 47, 63);
+          pdf.text(ville, 105, 55);
+          pdf.text(ville, 37, 221);
           pdf.setFontSize(15);
           pdf.text('X', 27, motifXs[motifs.indexOf(motif)]);
           getDataUri(qr, function(dataUri) {
@@ -94,8 +89,8 @@
             pdf.addPage();
             getDataUri(qr, function(dataUri) {
               pdf.addImage(dataUri, 18, 18, 95, 95);
-              //pdf.output('dataurlnewwindow');
-              pdf.save("attestation-"+moment().format('HH:mm:ss')+".pdf")
+              pdf.output('dataurlnewwindow');
+              //pdf.save("attestation-"+moment().format('HH:mm:ss')+".pdf")
             });
           });
         });
