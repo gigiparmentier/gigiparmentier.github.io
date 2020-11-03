@@ -50,7 +50,7 @@
 
       document.getElementById('date').value = moment().format('YYYY-MM-DD');
       document.getElementById('date').min = moment().format('YYYY-MM-DD');
-      document.getElementById('heure').value = moment(Date.now()).subtract(30, 'm').format('HH:mm');
+      document.getElementById('heure').value = moment(Date.now()).subtract(5, 'm').format('HH:mm');
 
       if (document.cookie.length > 0){
         generate_pdf();
@@ -71,7 +71,7 @@
           ville = adresse.split(' ')[adresse.split(' ').length - 1];
         }
         date = moment().format('DD/MM/YYYY');
-        heure = moment(Date.now()).subtract(30, 'm').format('HH') + 'h' + moment(Date.now()).subtract(30, 'm').format('mm');
+        heure = moment(Date.now()).subtract(5, 'm').format('HH') + 'h' + moment(Date.now()).subtract(5, 'm').format('mm');
         date_sortie = document.getElementById('date').value;
         heure_sortie = document.getElementById('heure').value;
         queries = new URLSearchParams(window.location.search);
