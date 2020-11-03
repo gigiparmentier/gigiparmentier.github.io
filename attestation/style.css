@@ -1,0 +1,18 @@
+input,select,img,button{
+  display: block;
+  margin:0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 200px;
+  height:40px;
+}
+
+p{
+  text-align: center;
+  font-size: 20px;
+  font-family: Helvetica;
+}
+
+canvas{
+  display: none;
+}
