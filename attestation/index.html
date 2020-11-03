@@ -1,117 +1,122 @@
 <!DOCTYPE HTML>
 <html>
 
-<head>
-  <title>Attestation</title>
-  <meta charset="utf-8">
-  <style>
-    html{
-      font-size: 20px;
-      font-family: Helvetica;
-    }
-    input, button, select{
-      display: inline-block;
-      width:250px;
-      height:40px;
-      margin:10px;
-    }
-    #div{
-      text-align: center;
-      display: block;
-      margin:0 auto;
-    }
-    canvas{
-      display: block;
-      margin:0 auto;
-    }
-  </style>
-</head>
+  <head>
+    <title>Attestation</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script type="text/javascript" src="moment.min.js"></script>
+    <script src="https://parall.ax/parallax/js/jspdf.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-<body>
-  <div id="div">
-    <input id="nom" type="text" placeholder="Nom"><br/>
-    <input id="date" type="text" placeholder="Date de naissance"><br/>
-    <input id="domicile" type="text" placeholder="Domicile"><br/>
-    <input id="ville" type="text" placeholder="Ville"><br/>
-    <label for="raison">Raison :</label><br/>
-    <select id="raison" onchange="remplir()">
-      <option value="professionnelle">Professionnelle</option>
-      <option value="courses">Courses</option>
-      <option value="sante">Santé</option>
-      <option value="famille">Familiale</option>
-      <option value="sport">Activité sportive</option>
-    </select><br/>
-    <button onclick="remplir()">Valider</button><br/>
-    <button onclick="download()">Téléchager</button>
-  </div>
-  <canvas id="canvas" onclick="download()"></canvas>
-  <script>
-    function remplir() {
-      var canvas = document.getElementById("canvas"),
-      ctx = canvas.getContext("2d");
+  <body>
+    <p>Personne :</p>
+    <select id='prenom_select'>
+    </select>
+    <p>Date de sortie :</p>
+    <input type="date" id="date">
+    <p>Heure de sortie :</p>
+    <input type="time" id="heure">
+    <p>Motif de sortie :</p>
+    <select id='motif_select'>
+    </select>
+    <button onclick="generate_pdf()">Générer Attestation</button>
+    <canvas id="canvas1" width="1529" height="2164"></canvas>
+    <canvas id="canvas2" width="1529" height="2164"></canvas>
+    <script>
+      motifs = ["travail", "achats", "sante", "famille", "sport_animaux"];
+      motifXs = [88, 103, 122, 136, 162];
+      motifs_desc = ['Travail', 'Courses', 'Santé', 'Famille', 'Sport/Chien'];
+      prenoms = ['tristan', 'faustine', 'younn', 'dominique', 'manon', 'tanguy'];
+      dates_naissances = ['05/12/1997', '27/12/1999', '17/12/2001', '06/10/1967', '29/02/1992', '14/05/1695'];
 
-      canvas.width = 1241;
-      canvas.height = 1754;
-      ctx.font = "20px Arial";
+      pdf = new jsPDF();
 
-      var background = new Image();
-      background.src = "bg.jpg";
+      prenom = document.getElementById('prenom_select').value;
+      date_naissance = dates_naissances[prenoms.indexOf(prenom)];
+      date = moment().format('DD/MM/YYYY');
+      heure = moment().format('HH') + 'h' + moment().format('mm');
+      date_sortie = document.getElementById('date').value;
+      heure_sortie = document.getElementById('heure').value;
+      motif = document.getElementById('motif_select').value;
+      qr = generate_qr_code(500);
 
-      background.onload = function() {
-        ctx.drawImage(background, 0, 0);
-        var today = new Date();
-        var dd = String(today.getDate()).padStart(2, '0');
-        var mm = String(today.getMonth() + 1).padStart(2, '0');
-
-        today = dd + '    ' + mm;
-
-        ctx.fillText(today, 1000, 1460);
-
-        ville = document.getElementById("ville").value;
-        ctx.fillText(ville, 800, 1460);
-        nom = document.getElementById("nom").value;
-        ctx.fillText(nom, 270, 460);
-        date = document.getElementById("date").value;
-        ctx.fillText(date, 270, 520);
-        domicile = document.getElementById("domicile").value;
-        ctx.fillText(domicile, 270, 585);
-
-        var tick = new Image();
-        tick.src = "tick.png";
-        y = 0
-
-        tick.onload = function() {
-          switch (document.getElementById("raison").value){
-            case 'professionnelle':
-              y = 830
-              break
-            case 'courses':
-              y = 985
-              break
-            case 'sante':
-              y = 1085
-              break
-            case 'famille':
-              y = 1145
-              break
-            case 'sport':
-              y = 1240
-              break
-            default:
-              console.log('Sorry, we are out of .' + document.getElementById("raison").value);
-          }
-          ctx.drawImage(tick, 100, y);
-        }
+      for (prenom in prenoms) {
+        prenom = prenoms[prenom];
+        option = document.createElement('option');
+        option.value = prenom;
+        option.innerHTML = prenom.charAt(0).toUpperCase() + prenom.slice(1);
+        document.getElementById('prenom_select').appendChild(option);
       }
 
+      for (motif in motifs) {
+        motif_desc = motifs_desc[motif];
+        motif = motifs[motif];
+        option = document.createElement('option');
+        option.value = motif;
+        option.innerHTML = motif_desc;
+        document.getElementById('motif_select').appendChild(option);
+      }
 
-    }
-    function download(){
-      var canvas = document.getElementById("canvas");
-      var img = canvas.toDataURL("image/png");
-      document.write('<img src="'+img+'"/>');
-    }
-  </script>
-</body>
+      document.getElementById('date').value = moment().format('YYYY-MM-DD');
+      document.getElementById('date').min = moment().format('YYYY-MM-DD');
+      document.getElementById('heure').value = moment().format('HH:mm');
+
+      function generate_qr_code(size) {
+        prenom = document.getElementById('prenom_select').value;
+        date_naissance = dates_naissances[prenoms.indexOf(prenom)];
+        date = moment().format('DD/MM/YYYY');
+        heure = moment().format('HH') + 'h' + moment().format('mm');
+        date_sortie = document.getElementById('date').value;
+        heure_sortie = document.getElementById('heure').value;
+        motif = document.getElementById('motif_select').value;
+        url = "https://chart.googleapis.com/chart?chs=" + size + "x" + size + "&cht=qr&chl=Cree le: " + date + " a " + heure + ";%0A Nom: boin;%0A Prenom: " + prenom + ";%0A Naissance: " + date_naissance +
+          " a rennes;%0A Adresse: 138 Boulevard de sévigné 35700 Rennes;%0A Sortie: " + date_sortie + " a " + heure_sortie + ";%0A Motifs: " + motif;
+        return url;
+      }
+
+      function generate_pdf() {
+        qr = generate_qr_code(500);
+        getDataUri('attestation1.png', function(dataUri) {
+          pdf.addImage(dataUri, 0, 0, 210, 279);
+          pdf.addFont('Helvetica', 'Helvetica', 'normal');
+          pdf.setFont('Helvetica');
+          pdf.setFontSize(11);
+          console.log(prenom)
+          pdf.text(prenom + ' boin', 43, 47);
+          pdf.text(date_naissance, 43, 55);
+          pdf.text(date, 32, 229);
+          pdf.text(heure.replace('h', ':'), 93, 229);
+          pdf.setFontSize(15);
+          pdf.text('X', 27, motifXs[motifs.indexOf(motif)]);
+          getDataUri(qr, function(dataUri) {
+            pdf.addImage(dataUri, 155, 215, 33, 33);
+            pdf.addPage();
+            getDataUri(qr, function(dataUri) {
+              pdf.addImage(dataUri, 18, 18, 95, 95);
+              //pdf.output('dataurlnewwindow');
+              pdf.save("attestation-"+moment().format('HH:mm:ss')+".pdf")
+            });
+          });
+        });
+      }
+
+      function getDataUri(url, cb) {
+        var image = new Image();
+        image.setAttribute('crossOrigin', 'anonymous');
+        image.onload = function() {
+          var canvas = document.createElement('canvas');
+          canvas.width = this.naturalWidth;
+          canvas.height = this.naturalHeight;
+          var ctx = canvas.getContext('2d');
+          ctx.fillStyle = '#fff';
+          ctx.fillRect(0, 0, canvas.width, canvas.height);
+          canvas.getContext('2d').drawImage(this, 0, 0);
+          cb(canvas.toDataURL('image/jpeg'));
+        };
+        image.src = url;
+      }
+    </script>
+  </body>
 
 </html>
