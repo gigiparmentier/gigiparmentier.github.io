@@ -89,8 +89,8 @@
             pdf.addPage();
             getDataUri(qr, function(dataUri) {
               pdf.addImage(dataUri, 18, 18, 95, 95);
-              pdf.output('dataurlnewwindow');
-              //pdf.save("attestation-"+moment().format('HH:mm:ss')+".pdf")
+              //pdf.output('dataurlnewwindow');
+              pdf.save("attestation-"+moment().format('HH:mm:ss')+".pdf")
             });
           });
         });
