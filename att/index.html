@@ -81,7 +81,7 @@
         else{
           motif = document.getElementById('motif_select').value;
         }
-        url = "https://chart.googleapis.com/chart?chs=" + size + "x" + size + "&cht=qr&chl=Cree le: " + date + " a " + heure + ";%0A Nom: boin;%0A Prenom: " + prenom + ";%0A Naissance: " + date_naissance +
+        url = "https://chart.googleapis.com/chart?chs=" + size + "x" + size + "&cht=qr&chl=Cree le: " + date + " a " + heure + ";%0A Nom: boin;%0A Prenom: " + prenom.split(' ')[0] + ";%0A Naissance: " + date_naissance +
           " a rennes;%0A Adresse: 138 Boulevard de sévigné 35700 Rennes;%0A Sortie: " + date_sortie + " a " + heure_sortie + ";%0A Motifs: " + motif;
         if (document.cookie.length == 0){
           document.cookie = "prenom="+prenom+";expires=Thu, 31 Dec 2020 12:00:00 UTC";
