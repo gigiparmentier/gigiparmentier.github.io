@@ -24,9 +24,9 @@
     <canvas id="canvas1" width="1529" height="2164"></canvas>
     <canvas id="canvas2" width="1529" height="2164"></canvas>
     <script>
-      motifs = ["travail", "achats", "sante", "famille", "sport_animaux"];
-      motifXs = [88, 103, 122, 136, 162];
-      motifs_desc = ['Travail', 'Courses', 'Santé', 'Famille', 'Sport/Chien'];
+      motifs = ["travail","achats_culturel","sante","famille","handicap","sport_animaux","convocation","missions","enfants"];
+      motifXs = [89.25, 114.82, 132.15, 140.9, 154,162.7,188.9,197.6,206.3];
+      motifs_desc = ['Travail', 'Courses', 'Santé', 'Famille', 'Handicap','Sport/Chien','Convocation','Missions','Enfants'];
       prenoms = ['tristan boin', 'faustine boin', 'younn boin', 'dominique boin', 'manon boin', 'tanguy boin','mathis coggiola'];
       dates_naissances = ['05/12/1997', '27/12/1999', '17/12/2001', '06/10/1967', '29/02/1992', '14/05/1695','01/09/1998'];
       adresses = ['138 Boulevard de Sévigné 35700 Rennes','138 Boulevard de Sévigné 35700 Rennes','138 Boulevard de Sévigné 35700 Rennes','138 Boulevard de Sévigné 35700 Rennes','Guérande','138 Boulevard de Sévigné 35700 Rennes','27 rue cardinale, 13100, Aix-en-Provence'];
@@ -57,7 +57,7 @@
       }
 
       function generate_qr_code(size) {
-        if (document.cookie.length > 0){
+        if (document.cookie.length > 0 && false){
           cookies = document.cookie.split(';');
           prenom = cookies[0].split('=')[1];
           date_naissance = cookies[1].split('=')[1];
@@ -72,7 +72,7 @@
         }
         date = moment().format('DD/MM/YYYY');
         heure = moment(Date.now()).subtract(5, 'm').format('HH') + 'h' + moment(Date.now()).subtract(5, 'm').format('mm');
-        date_sortie = document.getElementById('date').value;
+        date_sortie = document.getElementById('date').value.replace('-','/');
         heure_sortie = document.getElementById('heure').value;
         queries = new URLSearchParams(window.location.search);
         if (queries.get('motif') != undefined){
@@ -81,8 +81,8 @@
         else{
           motif = document.getElementById('motif_select').value;
         }
-        url = "https://chart.googleapis.com/chart?chs=" + size + "x" + size + "&cht=qr&chl=Cree le: " + date + " a " + heure + ";%0A Nom: boin;%0A Prenom: " + prenom.split(' ')[0] + ";%0A Naissance: " + date_naissance +
-          " a rennes;%0A Adresse: 138 Boulevard de sévigné 35700 Rennes;%0A Sortie: " + date_sortie + " a " + heure_sortie + ";%0A Motifs: " + motif;
+        url = "https://api.qrserver.com/v1/create-qr-code/?size=" + size + "x" + size + "&ecc=Q&data=Cree le: " + date + " a " + heure + ";%0A Nom: " + prenom.split(' ')[1] + ";%0A Prenom: " + prenom.split(' ')[0] + ";%0A Naissance: " + date_naissance +
+            " a rennes;%0A Adresse: " + adresse + ";%0A Sortie: " + date + " a " + heure_sortie + ";%0A Motifs: " + motif;
         if (document.cookie.length == 0){
           document.cookie = "prenom="+prenom+";expires=Thu, 31 Dec 2020 12:00:00 UTC";
           document.cookie = "date_naissance="+date_naissance+";expires=Thu, 31 Dec 2020 12:00:00 UTC";
@@ -95,22 +95,23 @@
       function generate_pdf() {
         pdf = new jsPDF();
         qr = generate_qr_code(500);
-        getDataUri('attestation.png', function(dataUri) {
+        getDataUri('att.png', function(dataUri) {
           pdf.addImage(dataUri, 0, 0, 210, 279);
-          pdf.addFont('Helvetica', 'Helvetica', 'normal');
+          pdf.addFont('Helvetica', 'Helvetica', 'bold');
           pdf.setFont('Helvetica');
-          pdf.setFontSize(11);
-          pdf.text(prenom, 43, 48);
-          pdf.text(date_naissance, 43, 55);
-          pdf.text(date, 32, 229);
-          pdf.text(heure.replace('h', ':'), 92, 229);
-          pdf.text(adresse, 47, 63);
-          pdf.text('Rennes', 105, 55);
-          pdf.text(ville, 37, 221);
-          pdf.setFontSize(15);
-          pdf.text('X', 27, motifXs[motifs.indexOf(motif)]);
+          pdf.setFontSize(12);
+          pdf.text(prenom, 26.2, 35.5);
+          pdf.text(date_naissance, 24.4, 42);
+          pdf.text(ville, 71.6, 42);
+          pdf.text(adresse, 28.8, 48.4);
+          pdf.text(ville, 19, 260.5);
+          pdf.text(date, 12.9, 267.2);
+          pdf.text(heure.replace('h', ':'), 76.8, 267.2);
+
+          pdf.setFontSize(12);
+          pdf.text('X', 5.9, motifXs[motifs.indexOf(motif)]);
           getDataUri(qr, function(dataUri) {
-            pdf.addImage(dataUri, 155, 215, 33, 33);
+            pdf.addImage(dataUri, 160.7, 246, 35, 35);
             pdf.addPage();
             getDataUri(qr, function(dataUri) {
               pdf.addImage(dataUri, 18, 18, 95, 95);
