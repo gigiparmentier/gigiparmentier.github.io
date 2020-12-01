@@ -15,4 +15,14 @@ img{
   margin: 0 auto;
   width: 300px;
   display: block;
+  animation: 1s ease-in-out infinite alternate both rotation;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(-25deg);
+  }
+  to {
+    transform: rotate(25deg);
+  }
 }
