@@ -1,0 +1,18 @@
+html{
+  background-color: #72b1ab;
+}
+
+h1{
+  font-family: 'Nerko One', cursive;
+  color: #f7d6d0;
+  text-shadow: 3px 3px 0px #c48987;
+  text-transform: uppercase;
+  font-size: 80px;
+  text-align: center;
+}
+
+img{
+  margin: 0 auto;
+  width: 300px;
+  display: block;
+}

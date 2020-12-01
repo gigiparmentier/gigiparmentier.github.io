@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <link rel="icon" href="favicon.ico" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.3.2/dist/confetti.browser.min.js"></script>
+  <meta name="theme-color" content="#72b1ab">
+  <title>Countdown Marie-Line</title>
+</head>
+
+<body>
+  <img src="avatar.png"/>
+  <h1 id="counter"></h1>
+  <script>
+    var countDownDate = new Date("Dec 15, 2020 17:00:00").getTime();
+    var x = setInterval(function() {
+      var now = new Date().getTime();
+      var distance = countDownDate - now;
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      document.getElementById("counter").innerHTML = days + " jours<br/>" + hours + " heures<br/>" +
+        minutes + " minutes<br/>" + seconds + " secondes<br/>avant que Marie-Line soit lààà.";
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "MARIE-LINE EST LAAAAAA";
+      }
+    }, 1000);
+
+
+
+    duration = 15 * 1000;
+    animationEnd = Date.now() + duration;
+    skew = 1;
+    colors = ['#c48987','#add1ce','#ededed','#48847e','#f7d6d0'];
+
+    function randomInRange(min, max) {
+      return Math.random() * (max - min) + min;
+    }
+
+    (function frame() {
+      var timeLeft = animationEnd - Date.now();
+      var ticks = Math.max(200, 500 * (timeLeft / duration));
+      skew = Math.max(0.8, skew - 0.001);
+
+      confetti({
+        particleCount: 1,
+        startVelocity: 0,
+        ticks: ticks,
+        gravity: 0.5,
+        zIndex: -1,
+        origin: {
+          x: Math.random(),
+          y: (Math.random() * skew) - 0.2
+        },
+        colors: [colors[Math.floor(Math.random() * colors.length)]],
+        shapes: ['square'],
+        scalar: randomInRange(0.8, 1.2)
+      });
+
+      requestAnimationFrame(frame);
+    }());
+  </script>
+</body>
+
+</html>
