@@ -17,6 +17,10 @@
       <img src="cmdIcon.png" class="desktopIcon" />
       <p class="IconTitle">CMD.exe</p>
     </div>
+    <div id="cmdIcon">
+      <img src="cmdIcon.png" class="desktopIcon" />
+      <p class="IconTitle">CMD.exe</p>
+    </div>
 
     <!--EVENTS-->
     <script>
@@ -73,7 +77,7 @@
             var value = $(this).val().split(' ')[0].toLowerCase();
             switch (value) {
               case "cd":
-                window.location.href = "https://www.gigiparmentier.com/" + $(this).val().split(/ (.+)/)[1];
+                window.location.href = "https://www.gigiparmentier.com/" + $(this).val().split(/ (.+)/)[1].toLowerCase();
                 break;
 
               case "cls":
@@ -105,24 +109,22 @@
               case "listdir":
                 $(this).siblings(".blink").remove();
                 $(this).parent().append('<p><b>Dossiers existants :</b></p><br />');
+                $(this).parent().append('<p><pre>ATTESTATION    : Génère une attestation datant de 5min plus tôt.</pre></p>');
                 $(this).parent().append('<p><pre>BICLOO         : Affiche les disponibilités Bicloo grâce à l\'API JCDecaux.</pre></p>');
+                $(this).parent().append('<p><pre>CORDINATES     : Test de coordonnées cylindriques/sphériques.</pre></p>');
                 $(this).parent().append('<p><pre>EXTENSION DIAL : Onglet Dial personnel.</pre></p>');
-                $(this).parent().append('<p><pre>FACADES        : résultats de l\'algorithme pix2pix entraîné sur des façades.</pre></p>');
-                $(this).parent().append('<p><pre>INTERNET       : Proxy utilisé à l\'ENSA Nantes lors de la sombre époque du nouveau firewall.</pre></p>');
-                $(this).parent().append('<p><pre>JEU BALLE      : Un des premiers jeux, crée sur construct2.</pre></p>');
+                $(this).parent().append('<p><pre>LABYRINTHE     : Générateur de labyrinthe + algo A* pour le résoudre.</pre></p>');
+                $(this).parent().append('<p><pre>NEURAL         : Réseau de neurones élémentaire pour la détection de chiffre.</pre></p>');
+                $(this).parent().append('<p><pre>PACMAN         : Pacman mjamais fini.</pre></p>');
                 $(this).parent().append('<p><pre>PHOTOSHOP      : Editeur d\'images en ligne.</pre></p>');
-                $(this).parent().append('<p><pre>PIRATES        : Jeu 8-Bit en JS et PHP.</pre></p>');
-                $(this).parent().append('<p><pre>QUESTIONNAIRES : Questionnaires d\'entraînement à la mécanique.</pre></p>');
-                $(this).parent().append('<p><pre>RL VIEWER      : Visualisateur 3D de presets Rocket league.</pre></p>');
-                $(this).parent().append('<p><pre>ROCKET         : Simulateur de lancement de fusée CSS JS.</pre></p>');
-                $(this).parent().append('<p><pre>SKATE GAME     : Jeu de skate construct2.</pre></p>');
+                $(this).parent().append('<p><pre>RL-VIEWER      : Visualisateur de match RL en live.</pre></p>');
+                $(this).parent().append('<p><pre>SHRUG          : ¯\\_(ツ)_/¯</pre></p>');
                 $(this).parent().append('<p><pre>SLAM           : Jeu télévisé recrée en js.</pre></p>');
-                $(this).parent().append('<p><pre>SLAM APP       : Apk du jeu télévisé.</pre></p>');
-                $(this).parent().append('<p><pre>SLAM MULTI     : Jeu multijoueur.</pre></p>');
-                $(this).parent().append('<p><pre>SOUNDBOX       : Soundbox personnelle de son recueillis.</pre></p>');
-                $(this).parent().append('<p><pre>SOUNDBOX-APP   : Apk de la Soundbox.</pre></p>');
-                $(this).parent().append('<p><pre>SPACE          : Simulateur de système solaire avec positions en temps réel.</pre></p>');
-                $(this).parent().append('<p><pre>YTS            : Recherche Youtube plus précise.</pre></p>');
+                $(this).parent().append('<p><pre>SLAM-APP       : Apk du jeu télévisé.</pre></p>');
+                $(this).parent().append('<p><pre>SLAM-MULTI     : Slam multijoueur.</pre></p>');
+                $(this).parent().append('<p><pre>SOUNDBOX       : Soundbox personnelle de sons recueillis.</pre></p>');
+                $(this).parent().append('<p><pre>SOUNDBOX-APK   : Apk de la Soundbox.</pre></p>');
+                $(this).parent().append('<p><pre>SPACE-VIEWER   : Simulateur de système solaire avec positions en temps réel.</pre></p>');
                 $(this).parent().append('<p class="command">www.gigiparmentier.com></p><input type="text" class="commandInput" autofocus autocomplete="off" style="width:0ch;" /><p class="blink">▃</p>');
                 $(this).prop('disabled', true);
                 $(this).siblings(".commandInput").focus();

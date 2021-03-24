@@ -1,0 +1,400 @@
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="favicon.ico" />
+    <title>Physics</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="jquery.min.js"></script>
+    <script src="three.min.js"></script>
+    <script src="OrbitControls.js"></script>
+    <script src='dat.gui.min.js'></script>
+    <script src="THREE.MeshLine.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+
+  <body>
+
+    <div id="rendercontainer"></div>
+    <script>
+      var scene;
+      var renderer;
+      var camera;
+      var time = 0;
+      var POINT;
+      var LINE;
+      var CIRCLE;
+      var ORIGIN;
+      var TRAJECTORY;
+      var MAX_TRAJECTORY_POINTS = 50000;
+      var TRAJECTORY_INDEX = 0;
+      var TRAJPOINTS = [new THREE.Vector3(0, 0, 0)];
+      var options;
+
+      init();
+
+      function init() {
+        //VARS
+        var width = window.innerWidth;
+        var height = window.innerHeight;
+        //SCENE
+        scene = new THREE.Scene();
+        scene.background = HexToCol('dedede');
+        //RENDERER
+        renderer = new THREE.WebGLRenderer({
+          antialias: true,
+          alpha: false
+        });
+        renderer.setSize(width, height);
+        renderer.setPixelRatio(window.devicePixelRatio);
+        var canvas = $('#rendercontainer').append(renderer.domElement);
+        canvas.id = "render";
+        //CAMERA
+        camera = new THREE.OrthographicCamera(width / -2, width / 2, height / 2, height / -2, 1, 1000);
+        camera.position.set(0, 100, 0);
+        camera.zoom = 600;
+        camera.rotation.set(0, 90, 0);
+        camera.aspect = width / height;
+        camera.updateProjectionMatrix();
+        //CONTROLS
+        controls = new THREE.OrbitControls(camera, renderer.domElement);
+        controls.enableDamping = true;
+        controls.enablePan = false;
+        controls.dampingFactor = 0.2;
+        controls.rotateSpeed = 0.2;
+        controls.enableZoom = true;
+        controls.update();
+        //GUI
+        options = {
+          coordinates: 'Cylindric',
+          timeDelta: .5,
+          pause: false,
+          theta: 1,
+          rho: .001,
+          rhoFixed: false,
+          z: .01,
+          zFixed: false,
+          zFixedValue: .005,
+          rhoFixedValue: .0001,
+          phi: 5,
+          clear: function() {
+            clearTrajectory();
+          },
+          resetTime: function() {
+            clearTrajectory();
+            time = 0;
+          }
+        };
+        var gui = new dat.GUI();
+        var general = gui.addFolder('General coordinates');
+        general.add(options, 'rhoFixed', true, false).name('Fixed Rho').listen();
+        general.add(options, 'rho', 0.001, 0.01).name('Rho').listen();
+        general.add(options, 'theta', 0, 5).name('Theta').listen();
+        general.open();
+        var coordinates = general.add(options, 'coordinates', ['Cylindric', 'Spherical']).name('Coordinate System').listen();
+        gui.add(options, 'timeDelta', .01, 1).name('Time Delta').listen();
+        var cylindric = gui.addFolder('Cylindric properties');
+        cylindric.add(options, 'zFixed', 0, .1).name('Fixed Z').listen();
+        cylindric.add(options, 'z', 0, .3).name('z').listen();
+        cylindric.open();
+        var spheric = gui.addFolder('Spherical properties');
+        spheric.add(options, 'phi', 0, 5).name('Phi').listen();
+        spheric.open();
+        gui.add(options, 'clear').name('Clear Trajectory');
+        gui.add(options, 'resetTime').name('Reset Time');
+        gui.add(options, 'pause').name('Pause Time');
+        $(spheric.domElement).attr('hidden', true);
+        coordinates.onChange(function() {
+          if (options.coordinates == 'Cylindric') {
+            $(spheric.domElement).attr('hidden', true);
+            $(cylindric.domElement).attr('hidden', false);
+          } else if (options.coordinates == 'Spherical') {
+            $(spheric.domElement).attr('hidden', false);
+            $(cylindric.domElement).attr('hidden', true);
+          }
+        });
+        //EVENTS BINDERS
+        window.addEventListener('resize', onWindowResize, false);
+        CIRCLE = DrawCircle([0, 0.001, 0], [DegToRad(0), DegToRad(0), DegToRad(0)], .5, .025, 250, 'e3eada');
+        ORIGIN = DrawPoint([0, 0, 0], 2, '59a3a9');
+        setAxes();
+        TRAJECTORY = setTrajectory('9ac2bd');
+        POINT = DrawPoint(CylindricToEuclidian([0, 0, 0]), 3, 'ee6b57');
+        animate();
+      }
+
+      //SET CYLINDRIC OBJECTS
+      function cylindricDemo() {
+        if (options.rhoFixed && time == options.rhoFixedValue) {
+          options.rhoFixedValue = time;
+          p = options.rho * options.rhoFixedValue;
+        } else if (options.rhoFixed == false) {
+          options.rhoFixedValue = time;
+          p = options.rho * time * !options.rhoFixed + options.rhoFixed * options.rho * options.rhoFixedValue;
+        }
+        if (options.zFixed && time == options.zFixedValue) {
+          options.zFixedValue = time;
+          z = options.z * Math.sin(options.zFixedValue / (Math.PI / 2));
+        } else if (options.zFixed) {
+          z = options.z * Math.sin(options.zFixedValue / (Math.PI / 2));
+        } else if (options.zFixed == false) {
+          options.zFixedValue = time;
+          z = options.z * Math.sin(time / (Math.PI / 2));
+        }
+        t = options.theta * time;
+        POINT.position.copy(ArrayToCoords(CylindricToEuclidian([p, DegToRad(t), z])));
+        scene.remove(LINE);
+        LINE = DrawLine(ORIGIN, POINT, 2, '9ac2bd');
+        updateTrajectory();
+        time += options.timeDelta;
+        if (time >= MAX_TRAJECTORY_POINTS) {
+          time = 0;
+          clearTrajectory();
+        }
+      }
+
+      //SET SPHERICAL OBJECTS
+      function sphericDemo() {
+        if (options.rhoFixed && time == options.rhoFixedValue) {
+          options.rhoFixedValue = time;
+          p = options.rho * options.rhoFixedValue;
+        } else if (options.rhoFixed == false) {
+          options.rhoFixedValue = time;
+          p = options.rho * time * !options.rhoFixed + options.rhoFixed * options.rho * options.rhoFixedValue;
+        }
+        h = options.phi * time;
+        t = options.theta * time;
+        
+        scene.remove(LINE);
+        POINT.position.copy(ArrayToCoords(SphericToEuclidian([p, DegToRad(t), DegToRad(h)])));
+        LINE = DrawLine(ORIGIN, POINT, 1, '9bbcb9');
+        updateTrajectory();
+        if (time == MAX_TRAJECTORY_POINTS) {
+          time = 0;
+          clearTrajectory();
+        }
+      }
+
+      //RESIZE WINDOWS EVENT
+      function onWindowResize() {
+        var width = window.innerWidth;
+        var height = window.innerHeight;
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+        renderer.setSize(width, height);
+      }
+
+      //SET AXES
+      function setAxes() {
+        AxeX = DrawPoint([5, 0, 0], 0, '000000');
+        AxeY = DrawPoint([0, 5, 0], 0, '000000');
+        AxeZ = DrawPoint([0, 0, -5], 0, '000000');
+        DrawLine(ORIGIN, AxeX, 4, '59a3a9');
+        DrawLine(ORIGIN, AxeY, 4, '59a3a9');
+        DrawLine(ORIGIN, AxeZ, 4, '59a3a9');
+      }
+
+      //CLEARS TRAJECTORY PATH
+      function clearTrajectory() {
+        TRAJECTORY_INDEX = 0;
+        scene.remove(TRAJECTORY);
+        TRAJPOINTS = [];
+        TRAJECTORY = setTrajectory('5fd0d4');
+      };
+
+      //SET TRAJECTORY
+      function setTrajectory(color) {
+        color = HexToCol(color);
+        var geometry = new THREE.Geometry();
+        geometry.vertices = TRAJPOINTS;
+        var line = new MeshLine();
+        line.setGeometry(geometry);
+        var material = new MeshLineMaterial({
+          lineWidth: .002,
+          color: color
+        });
+        var mesh = new THREE.Mesh(line.geometry, material);
+        scene.add(mesh);
+        return mesh;
+      }
+
+      //UPDATE RENDER
+      function animate() {
+        window.requestAnimationFrame(animate);
+        controls.update();
+        renderer.render(scene, camera);
+        if (!options.pause) {
+          if (options.coordinates == 'Cylindric') {
+            cylindricDemo();
+          } else if (options.coordinates == 'Spherical') {
+            sphericDemo();
+          }
+        }
+      }
+
+      //CONVERT DEGREES TO RADIANS
+      function DegToRad(angle) {
+        return angle * -Math.PI / 180;
+      }
+
+      //GET COORDINATES OF OBJECT
+      function GetEuclidianCoords(mesh) {
+        pos = CoordsToVector(mesh.position);
+        return pos;
+      }
+
+      //CONVERT COORDS TO ARRAY
+      function CoordsToArray(coords) {
+        pos = [coords.x, coords.y, coords.z];
+        return pos;
+      }
+
+      //CONVERT ARRAY TO COORDINATES
+      function ArrayToCoords(array) {
+        pos = new THREE.Vector3(array[0], array[1], array[2]);
+        return pos;
+      }
+
+      //CONVERT COORDINATES TO VECTOR
+      function CoordsToVector(coords) {
+        pos = new THREE.Vector3(coords.x, coords.y, coords.z);
+        return pos;
+      }
+
+      //SET POSITION
+      function SetPos(mesh, coords) {
+        mesh.position.set(coords[0], coords[1], coords[2]);
+        return mesh.position;
+      }
+
+      //SET ROTATION
+      function SetRot(mesh, coords) {
+        mesh.rotation.set(coords[0], coords[1], coords[2]);
+        return mesh.position;
+      }
+
+      //CONVERT HEXADECIMAL TO COLOR MATERIAL
+      function HexToMat(colorString) {
+        color = HexToCol(colorString);
+        var mat = new THREE.MeshBasicMaterial({
+          color: color,
+          side: THREE.DoubleSide
+        });
+        return mat;
+      }
+
+      //CONVERT HEXADECIMAL TO COLOR
+      function HexToCol(hex) {
+        color = new THREE.Color('#' + hex);
+        return color;
+      }
+
+      //UPDATE TRAJECTORY PATH
+      function updateTrajectory() {
+        //trajectory_positions = TRAJECTORY.geometry.attributes.position.array;
+        //trajectory_positions[TRAJECTORY_INDEX++] = CoordsToArray(GetEuclidianCoords(POINT))[0];
+        //trajectory_positions[TRAJECTORY_INDEX++] = CoordsToArray(GetEuclidianCoords(POINT))[1];
+        //trajectory_positions[TRAJECTORY_INDEX++] = CoordsToArray(GetEuclidianCoords(POINT))[2];
+        //TRAJECTORY.geometry.setDrawRange(0, TRAJECTORY_INDEX);
+        //TRAJECTORY.geometry.attributes.position.needsUpdate = true;
+        //TRAJECTORY.geometry.vertices.push(CoordsToVector(POINT));
+        scene.remove(TRAJECTORY);
+        TRAJPOINTS.push(CoordsToVector(GetEuclidianCoords(POINT)));
+        TRAJECTORY = setTrajectory('9ac2bd');
+      }
+
+      //DRAW POINT
+      function DrawPoint(position, size, color) {
+        var geometry = new THREE.Geometry();
+        geometry.vertices.push(new THREE.Vector3());
+        var mat = new THREE.PointsMaterial({
+          size: size,
+          map: CanvasToCircle(color),
+          transparent: true
+        });
+        var dot = new THREE.Points(geometry, mat);
+        SetPos(dot, position);
+        scene.add(dot);
+        return dot;
+      }
+
+      //DRAW CIRCLE
+      function DrawCircle(position, rotation, radius, width, segments, color) {
+        material = HexToMat(color);
+        var geometry = new THREE.RingGeometry((radius - width), radius, segments);
+        var mesh = new THREE.Mesh(geometry, material);
+        SetPos(mesh, position);
+        rotation[0] += DegToRad(90);
+        SetRot(mesh, rotation);
+        scene.add(mesh);
+        return mesh;
+      }
+
+      //DRAW LINE
+      function DrawLine(mesh1, mesh2, width, color) {
+        var geometry = new THREE.Geometry();
+        geometry.vertices.push(
+          mesh1.position, mesh2.position
+        );
+        var line = new MeshLine();
+        line.setGeometry(geometry);
+        var material = new MeshLineMaterial({
+          lineWidth: width/1000,
+          color: HexToCol(color)
+        });
+        var mesh = new THREE.Mesh(line.geometry, material);
+        scene.add(mesh);
+        return mesh;
+      }
+
+      //CREATE CIRCLE MAP FROM CANVAS
+      function CanvasToCircle(color) {
+        size = 128;
+        var matCanvas = document.createElement('canvas');
+        matCanvas.width = matCanvas.height = size;
+        var matContext = matCanvas.getContext('2d');
+        var texture = new THREE.Texture(matCanvas);
+        var center = size / 2;
+        matContext.beginPath();
+        matContext.arc(center, center, size / 2, 0, 2 * Math.PI, false);
+        matContext.closePath();
+        matContext.fillStyle = '#' + color;
+        matContext.fill();
+        texture.needsUpdate = true;
+        return texture;
+      }
+
+      //CONVERT CYLINDRIC COORDINATES TO EUCLIDIAN COORDINATES
+      function CylindricToEuclidian(cords) {
+        p = cords[0];
+        t = cords[1];
+        y = cords[2];
+        x = p * Math.cos(t);
+        z = p * Math.sin(t);
+        cords = [x, y, z];
+        return cords;
+      }
+
+      //CONVERT SPHERICAL COORDINATES TO EUCLIDIAN COORDINATES
+      function SphericToEuclidian(cords) {
+        p = cords[0];
+        t = cords[1];
+        h = cords[2];
+        x = p * Math.sin(t) * Math.cos(h);
+        z = p * Math.sin(t) * Math.sin(h);
+        y = p * Math.cos(t);
+        cords = [x, y, z];
+        return cords;
+      }
+
+      //CHANGE CURSOR ON CLICK
+      $('body').mousedown(function() {
+        $('body').css('cursor', 'grabbing');
+      });
+      $(document).mouseup(function() {
+        $('body').css('cursor', 'grab');
+      });
+    </script>
+  </body>
+
+</html>
