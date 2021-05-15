@@ -30,7 +30,7 @@ body{
 #tabs{
   display: block;
   margin: 0 auto;
-  width:calc(510px*3 + 10px*6);
+  width:calc(410px*4 + 10px*8);
   margin-top: 200px;
   text-align: center;
 }
@@ -38,8 +38,8 @@ body{
 .tab {
   display: inline-block;
   border: 2px solid var(--bg-color);
-  width: 500px;
-  height: 350px;
+  width: 400px;
+  height: 250px;
   margin: 10px;
   background: linear-gradient(var(--bg-color) 0%,var(--bg-color));
   background-position-y: 350px;
@@ -50,6 +50,26 @@ body{
 }
 
 .tab:hover{
+  background-position-y: 0px;
+}
+
+#messenger{
+  display: inline-block;
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg,#0794ff 0%,#a033ff 35%,#ff5280 75%,#ff7061 100%);
+  border-image-slice: 1;
+  width: 400px;
+  height: 250px;
+  margin: 10px;
+  background: linear-gradient(45deg,#0794ff 0%,#a033ff 35%,#ff5280 75%,#ff7061 100%);
+  background-position-y: 350px;
+  background-repeat: no-repeat;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+  text-align: left;
+}
+
+#messenger:hover{
   background-position-y: 0px;
 }
 
