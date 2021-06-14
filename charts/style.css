@@ -24,11 +24,37 @@ body{
   font-family: 'Gotham';
   color:white;
   margin:0 auto;
+  overflow-x: hidden;
 }
 
 h1{
   font-size: 50px;
   font-weight: bold;
+}
+
+#sine, #sine2{
+  width:250px;
+  height:125px;
+  background: url('sine.png');
+  z-index: -10;
+  background-size: 100%;
+  position: absolute;
+  top:400px;
+  left:-250px;
+}
+
+#sine2{
+  left:2000px;
+}
+
+@keyframes leftScroll {
+    0% { background-position: 0 0; }
+    100% { background-position: -250px 0; }
+}
+
+@keyframes rightScroll {
+    0% { background-position: 0 0; }
+    100% { background-position: 250px 0; }
 }
 
 #scroll{
@@ -41,9 +67,9 @@ h1{
 }
 
 #parallax{
-  background-image: url(bg1.png), url(bg2.png), url(bg3.png);
+  background-image: url(bg1.png), url(bg2.png);
   background-repeat: no-repeat;
-  background-position: 150.21% calc(0px +  -0.0025%), calc(-375px + 0.021%) calc(-700px + -0.00025%), calc(0px + 2.395%) calc(0px + -2.1875%);
+  background-position: 150.21% calc(0px +  -0.0025%), calc(-375px + 0.021%) calc(-700px + -0.00025%);
 }
 
 #logo{
