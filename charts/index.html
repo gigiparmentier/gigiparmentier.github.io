@@ -1,0 +1,372 @@
+<html>
+
+<head>
+  <meta charset="utf-8"/>
+  <meta name="theme-color" content="#f672a1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Spotify Charts</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+
+<body>
+  <div id="parallax">
+    <p id="scroll"><i class="fas fa-chevron-down"></i></p>
+    <img src="logo.svg" id="logo" />
+    <h1 id="title">Spotify</h1>
+    <h1 id="title2">Charts</h1><br />
+    <h1 id="top"></h1>
+    <div id="top_song_img_div">
+      <a href="" target="_blank">
+        <div id="top_song_img"></div>
+      </a>
+    </div>
+    <h1 id="top_song"></h1>
+    <canvas id="songs_chart"></canvas>
+    <div id="songs_container">
+      <div id='close_songs'><i class="fas fa-chevron-down"></i></div>
+        <h1>Discover all the <p class="pink">songs</p> you listened to :</h1>
+    </div>
+    <div id="top_artist_img_div">
+      <a href="" target="_blank">
+        <div id="top_artist_img"></div>
+      </a>
+    </div>
+    <h1 id="top_artist"></h1>
+    <canvas id="artists_chart"></canvas>
+    <div id="artists_container">
+      <div id='close_artists'><i class="fas fa-chevron-down"></i></div>
+      <h1>Discover all the <p class="pink">artists</p> you listened to :</h1>
+    </div>
+  </div>
+  <script type="text/javascript">
+    scrollPos = 0;
+      $(window).scroll(function(){
+        if ($(document).scrollTop() < 50){
+          $('#scroll').css('opacity','1');
+        }
+        else{
+          $('#scroll').css('opacity','0');
+
+        }
+        scrollPos = $(document).scrollTop();
+    });
+
+    artists = [];
+    songs = [];
+    songs_names = [];
+    songs_counts = [];
+    artists_names = [];
+    artists_counts = [];
+    genres = [];
+    $.ajaxSetup({
+      async: false
+    });
+    $.getJSON('titanbin.json', function(data) {
+      artists_container = document.querySelector('#artists_container');
+      songs_container = document.querySelector('#songs_container');
+      artists = data.artists;
+      songs = data.songs;
+      artists.sort(function(a, b) {
+        return b.time - a.time;
+      });
+      songs.sort(function(a, b) {
+        return b.time - a.time;
+      });
+      for (song of songs) {
+        var a = document.createElement('a');
+        a.href = song['url'];
+        $(a).attr('target', '_blank');
+        var div = document.createElement('div');
+        div.id = song['name'];
+        div.className = 'song';
+        image = document.createElement('div');
+        image.style.background = 'url(' + song['image'] + ') no-repeat';
+        image.style.backgroundSize = '100%';
+        image.style.backgroundPosition = 'center';
+        image.className = 'cover';
+        div.appendChild(image);
+        var name = document.createElement('h1');
+        name.className = 'name';
+        name.innerHTML = song['name'];
+        div.appendChild(name);
+        var count = document.createElement('p');
+        count.innerHTML = secsToTime(parseInt(song['time']),true) + ' écoutés.';
+        count.className = 'counter';
+        div.appendChild(count);
+        a.appendChild(div);
+        songs_container.appendChild(a);
+        songs_names.push(song['name']);
+        songs_counts.push(song['time']);
+      }
+      for (artist of artists) {
+        var a = document.createElement('a');
+        a.href = artist['url'];
+        $(a).attr('target', '_blank');
+        var div = document.createElement('div');
+        div.id = artist['name'];
+        div.className = 'artist';
+        image = document.createElement('div');
+        image.style.background = 'url(' + artist['image'] + ') no-repeat';
+        image.style.backgroundSize = '100%';
+        image.style.backgroundPosition = 'center';
+        image.className = 'cover';
+        div.appendChild(image);
+        var name = document.createElement('h1');
+        name.className = 'name';
+        name.innerHTML = artist['name'];
+        div.appendChild(name);
+        var count = document.createElement('p');
+        count.innerHTML = secsToTime(parseInt(artist['time']), true) + ' écoutés.';
+        count.className = 'counter';
+        div.appendChild(count);
+        a.appendChild(div);
+        artists_container.appendChild(a);
+        artists_names.push(artist['name']);
+        artists_counts.push(artist['time']);
+        if (artist.hasOwnProperty('genres')){
+          for (genre of artist['genres']) {
+            if (!genres.includes(genre)) {
+              genres.push(genre);
+            }
+          }
+        }
+      }
+    });
+
+    total = artists_counts.reduce((a, b) => a + b, 0);
+
+    function sleep(ms) {
+      return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    async function countup() {
+      i = 0;
+      increment = 10;
+      while (i < total){
+        $("#top").html('In total, you listened to <br/><br/><p class="pink time">' + secsToTime(i, true) + '</p> <br/><br/>by <p class="pink">' + artists_names.length +
+          '</p> different artists, spanning <p class="pink">' + genres.length + '</p> different genres.');
+        await sleep(50);
+        if (i+(increment*1.225) < total){
+          increment *= 1.225
+        }
+        else if (increment > 1){
+          increment /= 1.225
+        }
+        increment = parseInt(increment)
+        i += increment
+      }
+    }
+    countup();
+
+    $('#top_song').html('You listened to <p class="pink">' + songs_names[0] + '</p> by ' + songs[0]['artist'] + ' for <p class="pink">' + secsToTime(songs_counts[0], true) + '</p>.');
+    $('#top_song_img').css('background-image','url(' + songs[0]['image'] + ')');
+    $('#top_song_img_div a').attr('href',songs[0]['url']);
+
+    $('#top_artist').html('Your Top artist is <p class="pink">' + artists_names[0] + '</p> with <p class="pink">' + secsToTime(artists_counts[0], true) + '</p> listened.');
+    $('#top_artist_img').css('background-image','url(' + artists[0]['image'] + ')');
+    $('#top_artist_img_div a').attr('href',artists[0]['url']);
+
+    max = 25;
+
+    if (artists_names.length > max) {
+      artists_names = artists_names.slice(0, max);
+      artists_counts = artists_counts.slice(0, max);
+    }
+
+    new Chart("songs_chart", {
+      type: "bar",
+      data: {
+        labels: songs_names,
+        datasets: [{
+          backgroundColor: '#f672a1',
+          data: songs_counts,
+          hoverBackgroundColor: '#ec1e32',
+          barPercentage: .95,
+          categoryPercentage: .95
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: {
+            display: false
+          }
+        },
+        scales: {
+          yAxis: {
+            display: false
+          },
+          xAxis: {
+            display: false
+          }
+        }
+      }
+    });
+
+    new Chart("artists_chart", {
+      type: "bar",
+      data: {
+        labels: artists_names,
+        datasets: [{
+          backgroundColor: '#f672a1',
+          data: artists_counts,
+          hoverBackgroundColor: '#ec1e32',
+          barPercentage: .95,
+          categoryPercentage: .95
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: {
+            display: false
+          }
+        },
+        scales: {
+          yAxis: {
+            display: false
+          },
+          xAxis: {
+            display: false
+          }
+        }
+      }
+    });
+
+    const maxTilt = 20;
+
+    function mouseOverBoundingElem(evt) {
+      let bounding = evt.target.getBoundingClientRect();
+      let x = evt.originalEvent.clientX - Math.round(bounding.left);
+      let y = evt.originalEvent.clientY - Math.round(bounding.top);
+      //console.log(x,y);
+      return {
+        x: Math.max(0, x),
+        y: Math.max(0, y),
+        width: Math.round(bounding.width),
+        height: Math.round(bounding.height)
+      };
+    }
+
+    $(document).on('mousemove', '.artist, .song', function(evt) {
+      let bounding = mouseOverBoundingElem(evt);
+
+      let posX = bounding.width / 2 - bounding.x;
+      let posY = bounding.height / 2 - bounding.y;
+
+      let hypotenuseCursor = Math.sqrt(Math.pow(posX, 2) + Math.pow(posY, 2));
+      let hypotenuseMax = Math.sqrt(Math.pow(bounding.width / 2, 2) + Math.pow(bounding.height / 2, 2));
+      let ratio = hypotenuseCursor / hypotenuseMax;
+      $(this).css({
+        transform: `rotate3d(${posY / hypotenuseCursor}, ${-posX / hypotenuseCursor}, 0, ${ratio * maxTilt}deg)`,
+        filter: `brightness(${1.1 - (bounding.y / bounding.height)/4})`,
+        boxShadow: '0px 5px 15px 0px rgba(0,0,0,.25)'
+      });
+    });
+
+    $(document).on('mouseenter', '.artist, .song', function(evt) {
+      $this = $(this);
+      setTimeout(function() {
+        $this.css({
+          transition: 'all 0s'
+        });
+      }, 250);
+    });
+
+    $(document).on('mouseleave', '.artist, .song', function(evt) {
+      $(this).css({
+        transition: 'all .25s',
+        transform: `rotate3d(1,1,1,0deg)`,
+        filter: 'brightness(1)',
+        boxShadow: '0px 5px 15px 0px rgba(0,0,0,.05)'
+      });
+    });
+
+    $(document).on('click', '#close_songs', function(evt){
+      if ($('.song').css('height') == '0px'){
+        $(this).css('transform','rotate(0deg)');
+        $('.song *').css('display','block');
+        $('.song').css('height','430px');
+        $('#top_artist_img_div').css('margin-top','200px');
+      }
+      else{
+        $(this).css('transform','rotate(180deg)');
+        $('.song *').css('display','none');
+        $('.song').css('height','0px');
+        $('#top_artist_img_div').css('margin-top','-200px');
+      }
+    });
+
+    $(document).on('click', '#close_artists', function(evt){
+      if ($('.artist').css('display') == 'none'){
+        $(this).css('transform','rotate(0deg)');
+        $('.artist').css('display','inline-block');
+      }
+      else{
+        $(this).css('transform','rotate(180deg)');
+        $('.artist').css('display','none');
+      }
+    });
+
+    function secsToTime(seconds,string) {
+      days = 0;
+      hours = 0;
+      minutes = 0;
+      while (seconds > 60) {
+        while (seconds > 3600) {
+          while (seconds > 86400) {
+            days += 1;
+            seconds -= 86400;
+          }
+          hours += 1;
+          seconds -= 3600;
+        }
+        minutes += 1;
+        seconds -= 60
+      }
+      if (!string){
+        if (days > 0) {
+          return [days,hours,minutes,seconds];
+        }
+        if (hours > 0) {
+          return [hours,minutes,seconds];
+        }
+        if (minutes > 0) {
+          return [minutes,seconds];
+        }
+        return [seconds];
+      }
+      result = seconds + 's';
+      if (minutes > 0) {
+        result = minutes + ' min, ' + result;
+      }
+      if (hours > 0) {
+        result = hours + ' hours, ' + result;
+      }
+      if (days > 0) {
+        result = days + ' days, ' + result;
+      }
+      return result;
+    }
+
+
+    document.addEventListener("mousemove", parallax);
+    const elem = document.querySelector("#parallax");
+
+    function parallax(e) {
+      let _w = window.innerWidth / 2;
+      let _h = window.innerHeight / 2;
+      let _mouseX = e.clientX;
+      let _mouseY = e.clientY;
+      let _depth1 = `calc(0px + ${ - (_mouseY - _w) * 0.005}%) calc(0px + ${0 - (_mouseX - _h) * 0.005}%)`;
+      let _depth2 = `calc(-375px + ${ - (_mouseX - _w) * 0.0005}%) calc(-700px + ${ - (_mouseY - _h) * 0.0005}%)`;
+      let _depth3 = `${150 - (_mouseX - _w) * 0.005}% calc(0px +  ${0 - (_mouseY - _h) * 0.005}%)`;
+      let x = `${_depth3}, ${_depth2}, ${_depth1}`;
+      elem.style.backgroundPosition = x;
+    }
+  </script>
+</body>
+
+</html>
