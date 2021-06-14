@@ -355,6 +355,8 @@
     document.addEventListener("mousemove", parallax);
     const elem = document.querySelector("#parallax");
 
+    document.addEventListener('DOMContentLoaded',parallax);
+
     function parallax(e) {
       let _w = window.innerWidth / 2;
       let _h = window.innerHeight / 2;
@@ -364,6 +366,7 @@
       let _depth2 = `calc(-375px + ${ - (_mouseX - _w) * 0.0005}%) calc(-700px + ${ - (_mouseY - _h) * 0.0005}%)`;
       let _depth3 = `${150 - (_mouseX - _w) * 0.005}% calc(0px +  ${0 - (_mouseY - _h) * 0.005}%)`;
       let x = `${_depth3}, ${_depth2}, ${_depth1}`;
+      console.log(x);
       elem.style.backgroundPosition = x;
     }
   </script>

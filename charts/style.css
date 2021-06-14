@@ -1,6 +1,27 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('Gotham-font/GothamMedium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('Gotham-font/GothamBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('Gotham-font/GothamLight.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
 body{
   background-color: #016855;
-  font-family: Gotham;
+  font-family: 'Gotham';
   color:white;
   margin:0 auto;
 }
@@ -22,6 +43,7 @@ h1{
 #parallax{
   background-image: url(bg1.png), url(bg2.png), url(bg3.png);
   background-repeat: no-repeat;
+  background-position: 150.21% calc(0px +  -0.0025%), calc(-375px + 0.021%) calc(-700px + -0.00025%), calc(0px + 2.395%) calc(0px + -2.1875%);
 }
 
 #logo{
