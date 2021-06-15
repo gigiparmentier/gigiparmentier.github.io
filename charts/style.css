@@ -20,7 +20,7 @@
 }
 
 body{
-  background-color: #016855;
+  background-image: url('bg.png');
   font-family: 'Gotham';
   color:white;
   margin:0 auto;
@@ -30,6 +30,29 @@ body{
 h1{
   font-size: 50px;
   font-weight: bold;
+}
+
+select {
+   width: 200px;
+   height: 50px;
+   border: none;
+   background-color:black;
+   border-radius: 20px;
+   color:white;
+   font-family: 'Gotham';
+   font-weight: bold;
+   text-align: center;
+   font-size: 25px;
+   outline:0px;
+   outline: none;
+   position: absolute;
+   right: 25px;
+   top:50px;
+}
+
+select > option {
+   border: none;
+   outline:0px;
 }
 
 #sine, #sine2{
@@ -69,23 +92,25 @@ h1{
 #parallax{
   background-image: url(bg1.png), url(bg2.png);
   background-repeat: no-repeat;
-  background-position: 150.21% calc(0px +  -0.0025%), calc(-375px + 0.021%) calc(-700px + -0.00025%);
+  background-position: 150.16% calc(0px +  -0.425 * 100px), calc(-350px + 0.032%) calc(-650px + -0.02125 * 100px);
 }
 
 #logo{
   margin-top: 30px;
   margin-left: 50px;
-  vertical-align: -50%;
-  width: 40px;
+  vertical-align: -100%;
+  width: 70px;
 }
 
 #title, #title2{
   display: inline;
-  font-size: 30px;
+  font-size: 42px;
+  letter-spacing: -3px;
+  margin-top: 0px;
 }
 
 #title{
-  font-weight: 500;
+  font-weight: bold;
 }
 
 #title2{

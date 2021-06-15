@@ -13,6 +13,11 @@
 
 <body>
   <div id="parallax">
+    <select name="jsons" id="json-select">
+      <option value="titanbin.json">titanbin</option>
+      <option value="meyliana.json">ML</option>
+      <option value="mathis_coggio@hotmail.fr.json">mathis</option>
+    </select>
     <div id="sine"></div>
     <div id="sine2"></div>
     <p id="scroll"><i class="fas fa-chevron-down"></i></p>
@@ -44,31 +49,51 @@
     </div>
   </div>
   <script type="text/javascript">
-    function move_sine(sine){
-      random_height = window.scrollY + window.innerHeight/2 + (Math.random()*2-1)*200;
-      sine.css({transition: '0s', top: random_height}).delay(1).queue(function(next) {
-        sine.css({transition:'left 5s linear, top 5s linear'});
+    artists = [];
+    songs = [];
+    songs_names = [];
+    songs_counts = [];
+    artists_names = [];
+    artists_counts = [];
+    genres = [];
+    maxCount = 50;
+    songs_chart = null;
+    artists_chart = null;
+    loadJSON($('#json-select').val());
+
+    $('#json-select').change(function() {
+        loadJSON($(this).val());
+    });
+
+    function move_sine(sine) {
+      random_height = window.scrollY + window.innerHeight / 2 + (Math.random() * 2 - 1) * 200;
+      sine.css({
+        transition: '0s',
+        top: random_height
+      }).delay(1).queue(function(next) {
+        sine.css({
+          transition: 'left 5s linear, top 5s linear'
+        });
         left = parseInt(sine.css('left').split('px')[0]);
         tope = parseInt(sine.css('top').split('px')[0]);
-        random_angle = (Math.random()*2-1)*Math.PI/8;
-        if (left < 0){
+        random_angle = (Math.random() * 2 - 1) * Math.PI / 8;
+        if (left < 0) {
           target_left = window.innerWidth + 50;
-          sine.css('transform','rotate(' + random_angle + 'rad)');
-          sine.css('animation','leftScroll 1.0s linear infinite');
-        }
-        else{
+          sine.css('transform', 'rotate(' + random_angle + 'rad)');
+          sine.css('animation', 'leftScroll 1.0s linear infinite');
+        } else {
           target_left = -300;
-          sine.css('transform','rotate(' + (-random_angle) + 'rad)');
-          sine.css('animation','rightScroll 1.0s linear infinite');
+          sine.css('transform', 'rotate(' + (-random_angle) + 'rad)');
+          sine.css('animation', 'rightScroll 1.0s linear infinite');
         }
-        delta_top = window.innerWidth*Math.tan(random_angle);
+        delta_top = window.innerWidth * Math.tan(random_angle);
         target_top = tope + delta_top;
-        sine.css('left',target_left);
-        sine.css('top',target_top);
+        sine.css('left', target_left);
+        sine.css('top', target_top);
         next();
         setTimeout(function() {
           move_sine(sine);
-        }, 6000+Math.random()*1500);
+        }, 6000 + Math.random() * 1500);
         return random_angle;
       });
     }
@@ -84,102 +109,194 @@
       }
     });
 
-    artists = [];
-    songs = [];
-    songs_names = [];
-    songs_counts = [];
-    artists_names = [];
-    artists_counts = [];
-    genres = [];
-    maxCount = 50;
     $.ajaxSetup({
       async: false
     });
-    $.getJSON('titanbin.json', function(data) {
-      artists_container = document.querySelector('#artists_container');
-      songs_container = document.querySelector('#songs_container');
-      artists = data.artists;
-      songs = data.songs;
-      artists.sort(function(a, b) {
-        return b.time - a.time;
-      });
-      songs.sort(function(a, b) {
-        return b.time - a.time;
-      });
-      for (song of songs) {
-        var a = document.createElement('a');
-        a.href = song['url'];
-        $(a).attr('target', '_blank');
-        var div = document.createElement('div');
-        div.id = song['name'];
-        div.className = 'song';
-        image = document.createElement('div');
-        image.style.background = 'url(' + song['image'] + ') no-repeat';
-        image.style.backgroundSize = '100%';
-        image.style.backgroundPosition = 'center';
-        image.className = 'cover';
-        div.appendChild(image);
-        var name = document.createElement('h1');
-        name.className = 'name';
-        name.innerHTML = song['name'];
-        div.appendChild(name);
-        var count = document.createElement('p');
-        count.innerHTML = secsToTime(parseInt(song['time']), true) + ' écoutés.';
-        count.className = 'counter';
-        div.appendChild(count);
-        a.appendChild(div);
-        songs_container.appendChild(a);
-        songs_names.push(song['name']);
-        songs_counts.push(song['time']);
-        if (songs_names.length > maxCount){
-          break
-        }
+
+    function loadJSON(filename) {
+      $('#songs_container').html("<div id='close_songs'><i class='fas fa-chevron-down'></i></div><h1>Discover all the <p class='pink'>songs</p> you listened to :</h1>");
+      $('#artists_container').html("<div id='close_artists'><i class='fas fa-chevron-down'></i></div><h1>Discover all the <p class='pink'>artists</p> you listened to :</h1>");
+      if (songs_chart != null) {
+        songs_chart.destroy();
+        artists_chart.destroy();
       }
-      for (artist of artists) {
-        var a = document.createElement('a');
-        a.href = artist['url'];
-        $(a).attr('target', '_blank');
-        var div = document.createElement('div');
-        div.id = artist['name'];
-        div.className = 'artist';
-        image = document.createElement('div');
-        image.style.background = 'url(' + artist['image'] + ') no-repeat';
-        image.style.backgroundSize = '100%';
-        image.style.backgroundPosition = 'center';
-        image.className = 'cover';
-        div.appendChild(image);
-        var name = document.createElement('h1');
-        name.className = 'name';
-        name.innerHTML = artist['name'];
-        div.appendChild(name);
-        var count = document.createElement('p');
-        count.innerHTML = secsToTime(parseInt(artist['time']), true) + ' écoutés.';
-        count.className = 'counter';
-        div.appendChild(count);
-        a.appendChild(div);
-        artists_container.appendChild(a);
-        artists_names.push(artist['name']);
-        artists_counts.push(artist['time']);
-        if (artist.hasOwnProperty('genres')) {
-          for (genre of artist['genres']) {
-            if (!genres.includes(genre)) {
-              genres.push(genre);
-            }
+      artists = [];
+      songs = [];
+      songs_names = [];
+      songs_counts = [];
+      artists_names = [];
+      artists_counts = [];
+      genres = [];
+      $.getJSON(filename, function(data) {
+        artists_container = document.querySelector('#artists_container');
+        songs_container = document.querySelector('#songs_container');
+        artists = data.artists;
+        songs = data.songs;
+        artists.sort(function(a, b) {
+          return b.time - a.time;
+        });
+        songs.sort(function(a, b) {
+          return b.time - a.time;
+        });
+        for (song of songs) {
+          var a = document.createElement('a');
+          a.href = song['url'];
+          $(a).attr('target', '_blank');
+          var div = document.createElement('div');
+          div.id = song['name'];
+          div.className = 'song';
+          image = document.createElement('div');
+          image.style.background = 'url(' + song['image'] + ') no-repeat';
+          image.style.backgroundSize = '100%';
+          image.style.backgroundPosition = 'center';
+          image.className = 'cover';
+          div.appendChild(image);
+          var name = document.createElement('h1');
+          name.className = 'name';
+          name.innerHTML = song['name'];
+          div.appendChild(name);
+          var count = document.createElement('p');
+          count.innerHTML = secsToTime(parseInt(song['time']), true) + ' écoutés.';
+          count.className = 'counter';
+          div.appendChild(count);
+          a.appendChild(div);
+          songs_container.appendChild(a);
+          songs_names.push(song['name']);
+          songs_counts.push(song['time']);
+          if (songs_names.length > maxCount) {
+            break
           }
         }
-        if (artists_names.length > maxCount){
-          break
+        for (artist of artists) {
+          var a = document.createElement('a');
+          a.href = artist['url'];
+          $(a).attr('target', '_blank');
+          var div = document.createElement('div');
+          div.id = artist['name'];
+          div.className = 'artist';
+          image = document.createElement('div');
+          image.style.background = 'url(' + artist['image'] + ') no-repeat';
+          image.style.backgroundSize = '100%';
+          image.style.backgroundPosition = 'center';
+          image.className = 'cover';
+          div.appendChild(image);
+          var name = document.createElement('h1');
+          name.className = 'name';
+          name.innerHTML = artist['name'];
+          div.appendChild(name);
+          var count = document.createElement('p');
+          count.innerHTML = secsToTime(parseInt(artist['time']), true) + ' écoutés.';
+          count.className = 'counter';
+          div.appendChild(count);
+          a.appendChild(div);
+          artists_container.appendChild(a);
+          artists_names.push(artist['name']);
+          artists_counts.push(artist['time']);
+          if (artist.hasOwnProperty('genres')) {
+            for (genre of artist['genres']) {
+              if (!genres.includes(genre)) {
+                genres.push(genre);
+              }
+            }
+          }
+          if (artists_names.length > maxCount) {
+            break
+          }
         }
-      }
-    });
+        total = artists_counts.reduce((a, b) => a + b, 0);
+        countup(total);
+        $('#top_song').html('You listened to <p class="pink">' + songs_names[0] + '</p> by ' + songs[0]['artist'] + ' for <p class="pink">' + secsToTime(songs_counts[0], true) + '</p>.');
+        $('#top_song_img').css('background-image', 'url(' + songs[0]['image'] + ')');
+        $('#top_song_img_div a').attr('href', songs[0]['url']);
 
-    total = artists_counts.reduce((a, b) => a + b, 0);
+        $('#top_artist').html('Your Top artist is <p class="pink">' + artists_names[0] + '</p> with <p class="pink">' + secsToTime(artists_counts[0], true) + '</p> listened.');
+        $('#top_artist_img').css('background-image', 'url(' + artists[0]['image'] + ')');
+        $('#top_artist_img_div a').attr('href', artists[0]['url']);
+
+        if (artists_names.length > maxCount) {
+          artists_names = artists_names.slice(0, maxCount);
+          artists_counts = artists_counts.slice(0, maxCount);
+        }
+
+        if (songs_names.length > maxCount) {
+          songs_names = songs_names.slice(0, maxCount);
+          songs_counts = songs_counts.slice(0, maxCount);
+        }
+
+        songs_chart = new Chart("songs_chart", {
+          type: "bar",
+          data: {
+            labels: songs_names,
+            datasets: [{
+              backgroundColor: '#f672a1',
+              data: songs_counts,
+              hoverBackgroundColor: '#ec1e32',
+              barPercentage: .95,
+              categoryPercentage: .95
+            }]
+          },
+          options: {
+            responsive: true,
+            plugins: {
+              legend: {
+                display: false
+              }
+            },
+            scales: {
+              yAxis: {
+                display: false
+              },
+              xAxis: {
+                display: false
+              }
+            }
+          }
+        });
+
+        artists_chart = new Chart("artists_chart", {
+          type: "bar",
+          data: {
+            labels: artists_names,
+            datasets: [{
+              backgroundColor: '#f672a1',
+              data: artists_counts,
+              hoverBackgroundColor: '#ec1e32',
+              barPercentage: .95,
+              categoryPercentage: .95
+            }]
+          },
+          options: {
+            responsive: true,
+            plugins: {
+              legend: {
+                display: false
+              }
+            },
+            scales: {
+              yAxis: {
+                display: false
+              },
+              xAxis: {
+                display: false
+              }
+            }
+          }
+        });
+      });
+      $('#close_songs').css('transform', 'rotate(0deg)');
+      $('.song *').css('display', 'block');
+      $('.song').css('height', '430px');
+      $('#songs_container').css('height', 'auto');
+      $('#close_artists').css('transform', 'rotate(0deg)');
+      $('.artist').css('display', 'inline-block');
+    }
+
 
     function sleep(ms) {
       return new Promise(resolve => setTimeout(resolve, ms));
     }
 
-    async function countup() {
+    async function countup(total) {
       i = 0;
       increment = 10;
       while (i < total) {
@@ -195,87 +312,6 @@
         i += increment
       }
     }
-    countup();
-
-    $('#top_song').html('You listened to <p class="pink">' + songs_names[0] + '</p> by ' + songs[0]['artist'] + ' for <p class="pink">' + secsToTime(songs_counts[0], true) + '</p>.');
-    $('#top_song_img').css('background-image', 'url(' + songs[0]['image'] + ')');
-    $('#top_song_img_div a').attr('href', songs[0]['url']);
-
-    $('#top_artist').html('Your Top artist is <p class="pink">' + artists_names[0] + '</p> with <p class="pink">' + secsToTime(artists_counts[0], true) + '</p> listened.');
-    $('#top_artist_img').css('background-image', 'url(' + artists[0]['image'] + ')');
-    $('#top_artist_img_div a').attr('href', artists[0]['url']);
-
-    max = 50;
-
-    if (artists_names.length > max) {
-      artists_names = artists_names.slice(0, max);
-      artists_counts = artists_counts.slice(0, max);
-    }
-
-    if (songs_names.length > max) {
-      songs_names = songs_names.slice(0, max);
-      songs_counts = songs_counts.slice(0, max);
-    }
-
-    new Chart("songs_chart", {
-      type: "bar",
-      data: {
-        labels: songs_names,
-        datasets: [{
-          backgroundColor: '#f672a1',
-          data: songs_counts,
-          hoverBackgroundColor: '#ec1e32',
-          barPercentage: .95,
-          categoryPercentage: .95
-        }]
-      },
-      options: {
-        responsive: true,
-        plugins: {
-          legend: {
-            display: false
-          }
-        },
-        scales: {
-          yAxis: {
-            display: false
-          },
-          xAxis: {
-            display: false
-          }
-        }
-      }
-    });
-
-    new Chart("artists_chart", {
-      type: "bar",
-      data: {
-        labels: artists_names,
-        datasets: [{
-          backgroundColor: '#f672a1',
-          data: artists_counts,
-          hoverBackgroundColor: '#ec1e32',
-          barPercentage: .95,
-          categoryPercentage: .95
-        }]
-      },
-      options: {
-        responsive: true,
-        plugins: {
-          legend: {
-            display: false
-          }
-        },
-        scales: {
-          yAxis: {
-            display: false
-          },
-          xAxis: {
-            display: false
-          }
-        }
-      }
-    });
 
     const maxTilt = 20;
 
@@ -402,7 +438,7 @@
       let _h = window.innerHeight / 2;
       let _mouseX = e.clientX;
       let _mouseY = e.clientY;
-      let _depth2 = `calc(-375px + ${ - (_mouseX - _w) * 0.001}%) calc(-700px + ${ - (_mouseY - _h) * 0.00025} * 100px)`;
+      let _depth2 = `calc(-350px + ${ - (_mouseX - _w) * 0.001}%) calc(-650px + ${ - (_mouseY - _h) * 0.00025} * 100px)`;
       let _depth3 = `${150 - (_mouseX - _w) * 0.005}% calc(0px +  ${0 - (_mouseY - _h) * 0.005} * 100px)`;
       let x = `${_depth3}, ${_depth2}`;
       elem.style.backgroundPosition = x;

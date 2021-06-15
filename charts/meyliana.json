@@ -1,0 +1,1009 @@
+{
+  "artists": [
+    {
+      "name": "Doja Cat",
+      "url": "https://open.spotify.com/artist/5cj0lLjcoR7YOSnhnX0Po5",
+      "time": 821,
+      "genres": [
+        "dance pop",
+        "pop",
+        "pop rap"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb542bce36778c57b4abf80c88"
+    },
+    {
+      "name": "SZA",
+      "url": "https://open.spotify.com/artist/7tYKF4w9nC0nq9CsPZTHyP",
+      "time": 406,
+      "genres": [
+        "pop",
+        "pop rap",
+        "r&b"
+      ],
+      "image": "https://i.scdn.co/image/c249b8945231dce3dbc69a444c9ba2b2c92ec620"
+    },
+    {
+      "name": "Kali Uchis",
+      "url": "https://open.spotify.com/artist/1U1el3k54VvEUzo3ybLPlM",
+      "time": 21,
+      "genres": [
+        "colombian pop",
+        "pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebf295bdba85e6b768ec6ec7fa"
+    },
+    {
+      "name": "Steve Lacy",
+      "url": "https://open.spotify.com/artist/57vWImR43h4CaDao012Ofp",
+      "time": 21,
+      "genres": [
+        "afrofuturism",
+        "alternative r&b",
+        "rap"
+      ],
+      "image": "https://i.scdn.co/image/294326648c2377dbd96bce61cbb1421a91e39dda"
+    },
+    {
+      "name": "Lizzo",
+      "url": "https://open.spotify.com/artist/56oDRnqbIiwx4mymNEv7dS",
+      "time": 43,
+      "genres": [
+        "dance pop",
+        "escape room",
+        "minnesota hip hop",
+        "pop",
+        "pop rap",
+        "post-teen pop",
+        "trap queen"
+      ],
+      "image": "https://i.scdn.co/image/e33e4245fe5901ed940ba95070bb8d56679b6fe0"
+    },
+    {
+      "name": "Your Neighbors",
+      "url": "https://open.spotify.com/artist/6mpyU2azr3zfZDY9k8w5GP",
+      "time": 2184,
+      "genres": [
+        "nashville indie"
+      ],
+      "image": "https://i.scdn.co/image/bbd2fdba521b7c99b0450302f8b3171f8b1a49f1"
+    },
+    {
+      "name": "Sam Will",
+      "url": "https://open.spotify.com/artist/3BPZfXz2Urd2vKUJu5Ptux",
+      "time": 447,
+      "genres": [
+        "alternative r&b",
+        "chill r&b",
+        "indie r&b",
+        "indie soul",
+        "neo r&b",
+        "uk contemporary r&b"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe2272b44f6a656d0481097d5"
+    },
+    {
+      "name": "Oliver Malcolm",
+      "url": "https://open.spotify.com/artist/5ut4VhaCRPsEjAZ93jpPfK",
+      "time": 125,
+      "genres": [
+        "indie hip hop",
+        "modern alternative pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6772690000c46c127f9d6fa16e5337bbf6cf5d"
+    },
+    {
+      "name": "The Happy Fits",
+      "url": "https://open.spotify.com/artist/73rPcaYEhBd0UuVZBqqyQJ",
+      "time": 191,
+      "genres": [
+        "indie pop",
+        "modern alternative rock",
+        "modern folk rock",
+        "modern rock",
+        "new jersey indie"
+      ],
+      "image": "https://i.scdn.co/image/743e6b7e308737c403fdd9dc2710caaef3931af5"
+    },
+    {
+      "name": "Pretoria",
+      "url": "https://open.spotify.com/artist/3dK49BK2fasxOmbCkUXhGc",
+      "time": 200,
+      "genres": [
+        "south african choral",
+        "university choir"
+      ],
+      "image": "https://i.scdn.co/image/ab67616d0000b27362f5d3b2dc7f5110495c4d96"
+    },
+    {
+      "name": "BabyJake",
+      "url": "https://open.spotify.com/artist/07Asx51VtMw5kbNXKrpZlq",
+      "time": 8,
+      "genres": [
+        "pop",
+        "pop rap"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb92ed14ee6c714cd442c1fa69"
+    },
+    {
+      "name": "Early Eyes",
+      "url": "https://open.spotify.com/artist/5Vd6nIpBPLzJDQDcvILQu4",
+      "time": 57,
+      "genres": [
+        "minneapolis indie"
+      ],
+      "image": "https://i.scdn.co/image/36a5cf4227bd29d4768cd3afc06f2781c551791c"
+    },
+    {
+      "name": "Dizzy Fae",
+      "url": "https://open.spotify.com/artist/0jt1EsJCeoQXLNDta4JF6c",
+      "time": 57,
+      "genres": [
+        "alternative r&b",
+        "escape room",
+        "minneapolis indie"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebee0fa8d6466eb5cd4f3226bc"
+    },
+    {
+      "name": "almost monday",
+      "url": "https://open.spotify.com/artist/42FzVuyJH8YbkhzWSR2n8E",
+      "time": 20,
+      "genres": [],
+      "image": "https://i.scdn.co/image/44621aa2d422bce663a320109ede41fcbf2fce95"
+    },
+    {
+      "name": "Friday Pilots Club",
+      "url": "https://open.spotify.com/artist/3PgEvPJKRuil74QPX8wtXY",
+      "time": 203,
+      "genres": [
+        "indie rockism",
+        "modern alternative rock",
+        "modern rock"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb25883e214450a3c29d9af302"
+    },
+    {
+      "name": "Miki Fiki",
+      "url": "https://open.spotify.com/artist/1O1r2qVtIFqlTJoB4jsJKd",
+      "time": 66,
+      "genres": [
+        "nashville indie"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe32af5c80192bf81edeb6d9a"
+    },
+    {
+      "name": "The Brook & The Bluff",
+      "url": "https://open.spotify.com/artist/4dWtsQvuME6tCWFycaTvO7",
+      "time": 52,
+      "genres": [
+        "alabama indie",
+        "indie folk",
+        "stomp and holler"
+      ],
+      "image": "https://i.scdn.co/image/5e3b45d4341813bd56c3401bc411effab4eb04bd"
+    },
+    {
+      "name": "Kid Bloom",
+      "url": "https://open.spotify.com/artist/5CXdWANGwYYRPClH6hhC0P",
+      "time": 178,
+      "genres": [
+        "indie garage rock",
+        "indie pop",
+        "modern rock"
+      ],
+      "image": "https://i.scdn.co/image/cb7d7dbb88a03fc3c357a1ee781cfb803b7bc83a"
+    },
+    {
+      "name": "Leland Blue",
+      "url": "https://open.spotify.com/artist/4TgfkZEpcjkYgRBKeqy1Mh",
+      "time": 235,
+      "genres": [
+        "michigan indie"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebb7cf276f556bcf251d24d266"
+    },
+    {
+      "name": "Sir, Please",
+      "url": "https://open.spotify.com/artist/2ZAMokjGTrSvHIfysfW2JS",
+      "time": 62,
+      "genres": [
+        "la indie"
+      ],
+      "image": "https://i.scdn.co/image/6b6c8ad32f8f79252b8d8b5a17a6709665a1c88f"
+    },
+    {
+      "name": "Okey Dokey",
+      "url": "https://open.spotify.com/artist/3hSFS64223jyO9Ck66rLOf",
+      "time": 114,
+      "genres": [
+        "indie garage rock",
+        "nashville indie"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebee7d90be7193e5fc15f2e7d4"
+    },
+    {
+      "name": "The Backseat Lovers",
+      "url": "https://open.spotify.com/artist/6p2HnfM955TI1bX34dkLnI",
+      "time": 19,
+      "genres": [
+        "indie pop",
+        "modern rock",
+        "slc indie"
+      ],
+      "image": "https://i.scdn.co/image/f2f6ffd58632555c48ffe09c98b969bfdbec2407"
+    },
+    {
+      "name": "WILLOW",
+      "url": "https://open.spotify.com/artist/3rWZHrfrsPBxVy692yAIxF",
+      "time": 247,
+      "genres": [
+        "show tunes"
+      ],
+      "image": "https://i.scdn.co/image/ab67616d0000b273e465904fbcc8de1920c60867"
+    },
+    {
+      "name": "Travis Barker",
+      "url": "https://open.spotify.com/artist/4exLIFE8sISLr28sqG1qNX",
+      "time": 71,
+      "genres": [
+        "rap rock"
+      ],
+      "image": "https://i.scdn.co/image/cd7d87a39a85fa389d10ae84d3f517c1cab4827e"
+    },
+    {
+      "name": "AUDREY NUNA",
+      "url": "https://open.spotify.com/artist/0Wwji82sLA0Hcvtuak3omb",
+      "time": 178,
+      "genres": [
+        "alternative r&b",
+        "indie r&b",
+        "modern indie pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebf0d8635f71ddc6e3af1dfc03"
+    },
+    {
+      "name": "Saba",
+      "url": "https://open.spotify.com/artist/7Hjbimq43OgxaBRpFXic4x",
+      "time": 178,
+      "genres": [
+        "metal",
+        "power metal",
+        "swedish metal",
+        "swedish power metal"
+      ],
+      "image": "https://i.scdn.co/image/ab6772690000c46cdcfed0b0cf82aaa3be8c849e"
+    },
+    {
+      "name": "ericdoa",
+      "url": "https://open.spotify.com/artist/4hR6Bm9YYtktXzjmKhb1Cn",
+      "time": 32,
+      "genres": [
+        "emo rap",
+        "glitchcore"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc8d8a3f169a6cc124358364b"
+    },
+    {
+      "name": "WHOKILLEDXIX",
+      "url": "https://open.spotify.com/artist/0RSogp4qeGu0ZM71JRTay3",
+      "time": 49,
+      "genres": [
+        "glitchcore"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb947ecc33bc5d35d3fdbef82a"
+    },
+    {
+      "name": "Payday",
+      "url": "https://open.spotify.com/artist/6I7IZDntAGBmzkCANUmtV0",
+      "time": 4,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab67616d0000b273fe91082439c70051f7eb7337"
+    },
+    {
+      "name": "AG Club",
+      "url": "https://open.spotify.com/artist/22KyrgRdE2K6aB5wtZls3c",
+      "time": 4,
+      "genres": [
+        "alternative r&b",
+        "indie hip hop",
+        "indie r&b",
+        "underground hip hop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc60b228c4e579969394f47e3"
+    },
+    {
+      "name": "again&again",
+      "url": "https://open.spotify.com/artist/3CIq9N0VQGWfBpCAMzMZZN",
+      "time": 146,
+      "genres": [
+        "modern alternative pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb88fec2666f22a46ffcb94d60"
+    },
+    {
+      "name": "SEB",
+      "url": "https://open.spotify.com/artist/7oPxPZSk7y5q0fhzpmX5Gi",
+      "time": 50,
+      "genres": [
+        "baroque",
+        "classical",
+        "early music",
+        "german baroque"
+      ],
+      "image": "https://i.scdn.co/image/a2ec08fe69ecec2748fbc764aede8f1b03ae8f88"
+    },
+    {
+      "name": "Easy Socks",
+      "url": "https://open.spotify.com/artist/2zjgSpIA3bXva6dO8tRY3x",
+      "time": 78,
+      "genres": [
+        "experimental r&b"
+      ],
+      "image": "https://i.scdn.co/image/1680d71232dc78c50f103d34b522b09450ad4ed8"
+    },
+    {
+      "name": "Ginger Root",
+      "url": "https://open.spotify.com/artist/4UAW69682T7N0wrABUhqx0",
+      "time": 217,
+      "genres": [
+        "oc indie"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc32e932085b7b4afe71d0c93"
+    },
+    {
+      "name": "Matt DiMona",
+      "url": "https://open.spotify.com/artist/1PMiXPKjsgXEDDcfIRNVaq",
+      "time": 260,
+      "genres": [
+        "chill pop"
+      ],
+      "image": "https://i.scdn.co/image/a85556d5b7bee9d37e7e079c05b7da667d20198b"
+    },
+    {
+      "name": "Andrew Bird",
+      "url": "https://open.spotify.com/artist/4uSftVc3FPWe6RJuMZNEe9",
+      "time": 15,
+      "genres": [
+        "art pop",
+        "baroque pop",
+        "chamber pop",
+        "chicago indie",
+        "freak folk",
+        "indie folk",
+        "indie pop",
+        "indie rock",
+        "melancholia",
+        "stomp and holler"
+      ],
+      "image": "https://i.scdn.co/image/0896363fca959f4a3f21bc332996065a5765cf9b"
+    },
+    {
+      "name": "Invertebrate",
+      "url": "https://open.spotify.com/artist/1Sn7GMWz2hpXoZEWOSkVpv",
+      "time": 1,
+      "genres": [],
+      "image": "https://i.scdn.co/image/b96082a61a1d4d49b9df3f3b82c77ca0fffcec57"
+    },
+    {
+      "name": "Arlie",
+      "url": "https://open.spotify.com/artist/6Bllzm0olEwqGwPujaLiuA",
+      "time": 198,
+      "genres": [
+        "modern rock"
+      ],
+      "image": "https://i.scdn.co/image/e73e14b354711c490623126e90087fa10589e546"
+    },
+    {
+      "name": "Hippo Campus",
+      "url": "https://open.spotify.com/artist/1btWGBz4Uu1HozTwb2Lm8A",
+      "time": 445,
+      "genres": [
+        "indie pop",
+        "indie poptimism",
+        "minneapolis indie",
+        "modern alternative rock",
+        "modern rock"
+      ],
+      "image": "https://i.scdn.co/image/8566896482ed0a0e3c0bd4503ca3ae0c1950f019"
+    },
+    {
+      "name": "Foster The People",
+      "url": "https://open.spotify.com/artist/7gP3bB2nilZXLfPHJhMdvc",
+      "time": 82,
+      "genres": [
+        "indietronica",
+        "modern alternative rock",
+        "modern rock",
+        "pop",
+        "rock"
+      ],
+      "image": "https://i.scdn.co/image/e1f7871e6eb5814b15257ae55027d3e17e0aca9f"
+    },
+    {
+      "name": "Vulfpeck",
+      "url": "https://open.spotify.com/artist/7pXu47GoqSYRajmBCjxdD6",
+      "time": 2151,
+      "genres": [
+        "ann arbor indie",
+        "funk rock",
+        "indie soul",
+        "instrumental funk"
+      ],
+      "image": "https://i.scdn.co/image/4dcfc1c4476e9859f72b19cb51dcfdeb72d566a4"
+    },
+    {
+      "name": "Thundercat",
+      "url": "https://open.spotify.com/artist/4frXpPxQQZwbCu3eTGnZEw",
+      "time": 348,
+      "genres": [
+        "afrofuturism",
+        "hip hop",
+        "indie soul"
+      ],
+      "image": "https://i.scdn.co/image/2de0565d544c3cbdd2517b724930bb0dcee6a1c8"
+    },
+    {
+      "name": "Busty and the Bass",
+      "url": "https://open.spotify.com/artist/4XMc1qHObZ7aXQrH5MmbjK",
+      "time": 563,
+      "genres": [
+        "retro soul"
+      ],
+      "image": "https://i.scdn.co/image/79e1e91a0a8f0a923152cb1455e7a47286b9673c"
+    },
+    {
+      "name": "St. Paul & The Broken Bones",
+      "url": "https://open.spotify.com/artist/4fXkvh05wFhuH77MfD4m9o",
+      "time": 463,
+      "genres": [
+        "funk",
+        "indie folk",
+        "retro soul",
+        "soul"
+      ],
+      "image": "https://i.scdn.co/image/bbd3f8c8cb7da39b03758f7fc98cd9eb91105b23"
+    },
+    {
+      "name": "Benny Sings",
+      "url": "https://open.spotify.com/artist/4gHcu2JoaXJ0mV4aNPCd7N",
+      "time": 384,
+      "genres": [
+        "dutch pop",
+        "indie jazz",
+        "indie soul"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb70e9d37d77bb0b57707cb8b0"
+    },
+    {
+      "name": "Mac DeMarco",
+      "url": "https://open.spotify.com/artist/3Sz7ZnJQBIHsXLUSo0OQtM",
+      "time": 183,
+      "genres": [
+        "edmonton indie",
+        "lo-fi indie"
+      ],
+      "image": "https://i.scdn.co/image/e3d3e28c604a1c86e796e0d2aa7d4dc249f62e6f"
+    },
+    {
+      "name": "Charles Jones",
+      "url": "https://open.spotify.com/artist/54SLl07eCSMFL8u2H3MwKl",
+      "time": 231,
+      "genres": [],
+      "image": "https://i.scdn.co/image/2cb5feb74b3028f1a7ae2517f7835b18d6f3ce56"
+    },
+    {
+      "name": "Herbie Hancock",
+      "url": "https://open.spotify.com/artist/2ZvrvbQNrHKwjT7qfGFFUW",
+      "time": 1324,
+      "genres": [
+        "contemporary post-bop",
+        "cool jazz",
+        "funk",
+        "instrumental funk",
+        "jazz",
+        "jazz funk",
+        "jazz fusion",
+        "jazz piano",
+        "soul jazz"
+      ],
+      "image": "https://i.scdn.co/image/15e585b2737a5f49278e4bbbf70cd19377fe641a"
+    },
+    {
+      "name": "Eddie Barbash",
+      "url": "https://open.spotify.com/artist/6FAMuK03UoM3VWVKLLdPEJ",
+      "time": 145,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab67616d0000b273368a862cf4482f61ba7e340c"
+    },
+    {
+      "name": "Macy Gray",
+      "url": "https://open.spotify.com/artist/4ylR3zwA0zaapAu94fktwa",
+      "time": 287,
+      "genres": [
+        "neo soul",
+        "pop rock"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb65c802c7ad3ef6797f39a06d"
+    },
+    {
+      "name": "Theo Katzman",
+      "url": "https://open.spotify.com/artist/2a4lU7F8toqKpb5v6Ftqya",
+      "time": 400,
+      "genres": [
+        "retro soul"
+      ],
+      "image": "https://i.scdn.co/image/d5d3695b120ef8b28a1b40d0444e2b2e03a8f099"
+    },
+    {
+      "name": "Monica Martin",
+      "url": "https://open.spotify.com/artist/2Oq3sgFa2HSvRY0vL6bDxN",
+      "time": 230,
+      "genres": [],
+      "image": "https://i.scdn.co/image/f46bfde6a6949200c615de2820f13885edcfb042"
+    }
+  ],
+  "songs": [
+    {
+      "name": "Need To Know",
+      "url": "https://open.spotify.com/track/10hcDov7xmcRviA8jLwEaI",
+      "time": 415,
+      "image": "https://i.scdn.co/image/ab67616d0000b273d948a70dd076a2a2a10a795b",
+      "artist": "Doja Cat"
+    },
+    {
+      "name": "Kiss Me More (feat. SZA)",
+      "url": "https://open.spotify.com/track/748mdHapucXQri7IAO8yFK",
+      "time": 406,
+      "image": "https://i.scdn.co/image/ab67616d0000b273908280d9807127e185b71d56",
+      "artist": "Doja Cat"
+    },
+    {
+      "name": "Just A Stranger (feat. Steve Lacy)",
+      "url": "https://open.spotify.com/track/1HA2V2EfAgJUBVOju4YfiB",
+      "time": 21,
+      "image": "https://i.scdn.co/image/ab67616d0000b27390b4e1905b1fc48c537ec053",
+      "artist": "Kali Uchis"
+    },
+    {
+      "name": "Truth Hurts",
+      "url": "https://open.spotify.com/track/3HWzoMvoF3TQfYg4UPszDq",
+      "time": 43,
+      "image": "https://i.scdn.co/image/ab67616d0000b2737bebcd2260ef90d7cb7ec0fb",
+      "artist": "Lizzo"
+    },
+    {
+      "name": "Chicken",
+      "url": "https://open.spotify.com/track/7fPUzdTdRD8xIJUOq0uX6n",
+      "time": 1049,
+      "image": "https://i.scdn.co/image/ab67616d0000b2730fad0b0d3a84c57541a4de10",
+      "artist": "Your Neighbors"
+    },
+    {
+      "name": "Temporary",
+      "url": "https://open.spotify.com/track/63elbs0ojWzKKutgg7xx5z",
+      "time": 539,
+      "image": "https://i.scdn.co/image/ab67616d0000b273170445d48cc6d23a783bbe67",
+      "artist": "Your Neighbors"
+    },
+    {
+      "name": "Bodega",
+      "url": "https://open.spotify.com/track/2J75vn6KGIPucvGPZHKQDF",
+      "time": 56,
+      "image": "https://i.scdn.co/image/ab67616d0000b2739d33c0409adcca458731a746",
+      "artist": "Your Neighbors"
+    },
+    {
+      "name": "Grown Ups",
+      "url": "https://open.spotify.com/track/6g4D7osH4c39rNo0RMEkkW",
+      "time": 261,
+      "image": "https://i.scdn.co/image/ab67616d0000b273b7218ddb0edcf35055b39858",
+      "artist": "Your Neighbors"
+    },
+    {
+      "name": "Runaway",
+      "url": "https://open.spotify.com/track/3GYZRYEqrXzl5iwxO42c2H",
+      "time": 125,
+      "image": "https://i.scdn.co/image/ab67616d0000b273a06701a272d6c84f4b8e3b9c",
+      "artist": "Oliver Malcolm"
+    },
+    {
+      "name": "So Alright, Cool, Whatever",
+      "url": "https://open.spotify.com/track/5NxC33tgrysAEqc62yukdT",
+      "time": 191,
+      "image": "https://i.scdn.co/image/ab67616d0000b273a098fc384ce26dde900c1269",
+      "artist": "The Happy Fits"
+    },
+    {
+      "name": "Keep Two-Stepping",
+      "url": "https://open.spotify.com/track/273QLNes7AQUsoFWKSNlPQ",
+      "time": 200,
+      "image": "https://i.scdn.co/image/ab67616d0000b27390f51243be80ed7341937922",
+      "artist": "Pretoria"
+    },
+    {
+      "name": "Cigarettes On Patios",
+      "url": "https://open.spotify.com/track/0LJDFZohBgWOMvXQw0cc9W",
+      "time": 8,
+      "image": "https://i.scdn.co/image/ab67616d0000b273d5d77ef5ffd80806d25ab50c",
+      "artist": "BabyJake"
+    },
+    {
+      "name": "Case for You",
+      "url": "https://open.spotify.com/track/4DbOFdHstaZ8vBDSza2Ei4",
+      "time": 57,
+      "image": "https://i.scdn.co/image/ab67616d0000b273c44817d28172c57375835f16",
+      "artist": "Early Eyes"
+    },
+    {
+      "name": "parking lot view",
+      "url": "https://open.spotify.com/track/3g4o4r0eC0aySaIRNCheL2",
+      "time": 5,
+      "image": "https://i.scdn.co/image/ab67616d0000b2734c750c8989b18110cf8b312a",
+      "artist": "almost monday"
+    },
+    {
+      "name": "End of It",
+      "url": "https://open.spotify.com/track/5SVdsAbdlxHOnhp4azH85D",
+      "time": 203,
+      "image": "https://i.scdn.co/image/ab67616d0000b2730d4d1a237c19a1bd7fbe8552",
+      "artist": "Friday Pilots Club"
+    },
+    {
+      "name": "Theirs",
+      "url": "https://open.spotify.com/track/5jlEPS1BrbCXCbobYMHCzP",
+      "time": 186,
+      "image": "https://i.scdn.co/image/ab67616d0000b273f254ea4050821b30b46f5603",
+      "artist": "Your Neighbors"
+    },
+    {
+      "name": "The First Time",
+      "url": "https://open.spotify.com/track/2A0fhBGmHrrQ1kMQ4QpIjO",
+      "time": 66,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732766719364a5591bcbea286b",
+      "artist": "Miki Fiki"
+    },
+    {
+      "name": "Shelby",
+      "url": "https://open.spotify.com/track/1h1CX2ovWU4EJV3ZwlGf2B",
+      "time": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732ac9afb222b3f9f0268237f1",
+      "artist": "The Brook & The Bluff"
+    },
+    {
+      "name": "Control",
+      "url": "https://open.spotify.com/track/7yS8NOPrjvSelAd9xuRwxm",
+      "time": 178,
+      "image": "https://i.scdn.co/image/ab67616d0000b273f9d97def15f72e144fbbbe0d",
+      "artist": "Kid Bloom"
+    },
+    {
+      "name": "Lying to Myself",
+      "url": "https://open.spotify.com/track/70zrXYC4AiJWHR6FwKJ3HN",
+      "time": 235,
+      "image": "https://i.scdn.co/image/ab67616d0000b27337c9de10f77b8fce1d8ec9f8",
+      "artist": "Leland Blue"
+    },
+    {
+      "name": "broken people",
+      "url": "https://open.spotify.com/track/0GOffguGbp8RViiVFaPCU2",
+      "time": 15,
+      "image": "https://i.scdn.co/image/ab67616d0000b27373380c4a6c0a22f28c8de0ad",
+      "artist": "almost monday"
+    },
+    {
+      "name": "Off the Lawn",
+      "url": "https://open.spotify.com/track/2KD4n8bpJJMp5AKEy0JvZG",
+      "time": 51,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732ac9afb222b3f9f0268237f1",
+      "artist": "The Brook & The Bluff"
+    },
+    {
+      "name": "Dance With Me",
+      "url": "https://open.spotify.com/track/6rdveaxn9mg8gSeYhxyLlF",
+      "time": 62,
+      "image": "https://i.scdn.co/image/ab67616d0000b273614e6b31a4d37213456d4299",
+      "artist": "Sir, Please"
+    },
+    {
+      "name": "Alice",
+      "url": "https://open.spotify.com/track/6HoEbDJWCsE2QMyvCKjigX",
+      "time": 93,
+      "image": "https://i.scdn.co/image/ab67616d0000b27317eed02528dd4b288400b5dc",
+      "artist": "Your Neighbors"
+    },
+    {
+      "name": "Threw My Love Away",
+      "url": "https://open.spotify.com/track/4fIrvCXBXbL3qMbacTsc8Q",
+      "time": 114,
+      "image": "https://i.scdn.co/image/ab67616d0000b2739fbb4fdc64d5a02711a69be8",
+      "artist": "Okey Dokey"
+    },
+    {
+      "name": "Just a Boy",
+      "url": "https://open.spotify.com/track/1jRUUth3iAmmlSFA174YxZ",
+      "time": 19,
+      "image": "https://i.scdn.co/image/ab67616d0000b273bcf3b5582048589627facdb8",
+      "artist": "The Backseat Lovers"
+    },
+    {
+      "name": "t r a n s p a r e n t s o u l feat. Travis Barker",
+      "url": "https://open.spotify.com/track/1QL7nSDZCwZMnbisV4KOXt",
+      "time": 71,
+      "image": "https://i.scdn.co/image/ab67616d0000b273e76af696460a8b3aa26bf623",
+      "artist": "WILLOW"
+    },
+    {
+      "name": "Wait a Minute!",
+      "url": "https://open.spotify.com/track/0y60itmpH0aPKsFiGxmtnh",
+      "time": 150,
+      "image": "https://i.scdn.co/image/ab67616d0000b2736ee651e65c3766d80e7fcab7",
+      "artist": "WILLOW"
+    },
+    {
+      "name": "Time Machine",
+      "url": "https://open.spotify.com/track/1jVjOcs7QeQZJXScbqvofI",
+      "time": 26,
+      "image": "https://i.scdn.co/image/ab67616d0000b2733e0c22d13bc9b4044e90ab9f",
+      "artist": "WILLOW"
+    },
+    {
+      "name": "Top Again",
+      "url": "https://open.spotify.com/track/2KGL937zymqeogaH2rqPuT",
+      "time": 178,
+      "image": "https://i.scdn.co/image/ab67616d0000b273b8d26a54ae2f8f00e25f58e5",
+      "artist": "AUDREY NUNA"
+    },
+    {
+      "name": "fantasize",
+      "url": "https://open.spotify.com/track/6U2sXLGhxJVmKskGUvJzI3",
+      "time": 32,
+      "image": "https://i.scdn.co/image/ab67616d0000b273c63fcc35a0d7de6cdfbcce91",
+      "artist": "ericdoa"
+    },
+    {
+      "name": "spy?",
+      "url": "https://open.spotify.com/track/0QsZ3W21xNvnUnUMbiAY4z",
+      "time": 49,
+      "image": "https://i.scdn.co/image/ab67616d0000b2731fbce81b8eaa4e0bcc55fd06",
+      "artist": "WHOKILLEDXIX"
+    },
+    {
+      "name": "Ode To Soulja Girl (feat. AG Club)",
+      "url": "https://open.spotify.com/track/6TWDNh3Sc6zWB11RDZcKOV",
+      "time": 4,
+      "image": "https://i.scdn.co/image/ab67616d0000b27336d01ab80ad30ee3b68889b6",
+      "artist": "Payday"
+    },
+    {
+      "name": "baby",
+      "url": "https://open.spotify.com/track/0Jb9GMSMYC9SxFCe6uiDRG",
+      "time": 146,
+      "image": "https://i.scdn.co/image/ab67616d0000b273167bfc1e55cdcad0fbbb6278",
+      "artist": "again&again"
+    },
+    {
+      "name": "seaside_demo",
+      "url": "https://open.spotify.com/track/73M0rMVx5CWE8M4uATSsto",
+      "time": 50,
+      "image": "https://i.scdn.co/image/ab67616d0000b2738e7fc05a3d8a67f93f589016",
+      "artist": "SEB"
+    },
+    {
+      "name": "I Know What Your Mama Thinks of Me",
+      "url": "https://open.spotify.com/track/2Z759gcSdPE71tOpSrk4uQ",
+      "time": 78,
+      "image": "https://i.scdn.co/image/ab67616d0000b2736554ddebe18df7779d017222",
+      "artist": "Easy Socks"
+    },
+    {
+      "name": "Call It Home",
+      "url": "https://open.spotify.com/track/6dkrdTD7a0t5swwp9UHo1j",
+      "time": 217,
+      "image": "https://i.scdn.co/image/ab67616d0000b273488e71189d307285437ad1e0",
+      "artist": "Ginger Root"
+    },
+    {
+      "name": "Old School Turntables",
+      "url": "https://open.spotify.com/track/3ijo1UGnywzuH1YIqnSdo3",
+      "time": 260,
+      "image": "https://i.scdn.co/image/ab67616d0000b273fe4ab0f84ca541e7a871066b",
+      "artist": "Matt DiMona"
+    },
+    {
+      "name": "Pulaski",
+      "url": "https://open.spotify.com/track/1tGRfoeKD06YvZr6l3uwEk",
+      "time": 15,
+      "image": "https://i.scdn.co/image/ab67616d0000b2736d600d045cab74e07e9e36f4",
+      "artist": "Andrew Bird"
+    },
+    {
+      "name": "The Same Way",
+      "url": "https://open.spotify.com/track/6555WEA9K1U6QwKeSJYf8K",
+      "time": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000b2730be10ab2577bc573f753c3d4",
+      "artist": "Invertebrate"
+    },
+    {
+      "name": "didya think",
+      "url": "https://open.spotify.com/track/4HOg84QsolNLzNp08qZ3sX",
+      "time": 198,
+      "image": "https://i.scdn.co/image/ab67616d0000b27386ab7fc85640321a5f0d56e1",
+      "artist": "Arlie"
+    },
+    {
+      "name": "buttercup",
+      "url": "https://open.spotify.com/track/5q88vK8yqVkT7LBbjB6dic",
+      "time": 220,
+      "image": "https://i.scdn.co/image/ab67616d0000b2731f163e57546c8c39ca1ca705",
+      "artist": "Hippo Campus"
+    },
+    {
+      "name": "South",
+      "url": "https://open.spotify.com/track/7aZzGuywDTJJR2WdG4u9TN",
+      "time": 225,
+      "image": "https://i.scdn.co/image/ab67616d0000b2738627de02e0304a62db3960a9",
+      "artist": "Hippo Campus"
+    },
+    {
+      "name": "Nevermind",
+      "url": "https://open.spotify.com/track/4PZzEAYfBb26M5Fhm8xbZd",
+      "time": 82,
+      "image": "https://i.scdn.co/image/ab67616d0000b2735a0b4691f118ce97cea73706",
+      "artist": "Foster The People"
+    },
+    {
+      "name": "Animal Spirits",
+      "url": "https://open.spotify.com/track/1SHA4IJyiyNobDOrQzFFXy",
+      "time": 23,
+      "image": "https://i.scdn.co/image/ab67616d0000b273325ed53cf3123d2dd3e31556",
+      "artist": "Vulfpeck"
+    },
+    {
+      "name": "Them Changes",
+      "url": "https://open.spotify.com/track/7CH99b2i1TXS5P8UUyWtnM",
+      "time": 183,
+      "image": "https://i.scdn.co/image/ab67616d0000b27385c5e6c686ced3e43bae2748",
+      "artist": "Thundercat"
+    },
+    {
+      "name": "Disco Ulysses (Instrumental)",
+      "url": "https://open.spotify.com/track/608uL3XBV8f2MHKNgm32Y3",
+      "time": 227,
+      "image": "https://i.scdn.co/image/ab67616d0000b273018465f67a3a59f032bc871f",
+      "artist": "Vulfpeck"
+    },
+    {
+      "name": "Up Top",
+      "url": "https://open.spotify.com/track/5hG8gvQ2d80Qoly4vfGOkH",
+      "time": 276,
+      "image": "https://i.scdn.co/image/ab67616d0000b273c809d9500410474f0cfea00f",
+      "artist": "Busty and the Bass"
+    },
+    {
+      "name": "Back Pocket",
+      "url": "https://open.spotify.com/track/1DrlLvlYd1FIjNavRm6NdX",
+      "time": 179,
+      "image": "https://i.scdn.co/image/ab67616d0000b2739ac61b549ad39e5af30e340e",
+      "artist": "Vulfpeck"
+    },
+    {
+      "name": "Flow with It (You Got Me Feeling Like)",
+      "url": "https://open.spotify.com/track/2eM4Ew20VXdjBhm6a6Cs9l",
+      "time": 188,
+      "image": "https://i.scdn.co/image/ab67616d0000b2733aab37beee0e9198e3c324e7",
+      "artist": "St. Paul & The Broken Bones"
+    },
+    {
+      "name": "1612",
+      "url": "https://open.spotify.com/track/39rHfrVqCX6A55GF7uOZSC",
+      "time": 192,
+      "image": "https://i.scdn.co/image/ab67616d0000b273ffce27a5dbb342d2c2d738c4",
+      "artist": "Vulfpeck"
+    },
+    {
+      "name": "Rolled Up feat. Mac DeMarco",
+      "url": "https://open.spotify.com/track/033AXUT8V7TSpOftXip2g0",
+      "time": 183,
+      "image": "https://i.scdn.co/image/ab67616d0000b2736cbc9dd126a83b509f02f213",
+      "artist": "Benny Sings"
+    },
+    {
+      "name": "Baby I Don't Know Oh Oh (Live at Madison Square Garden)",
+      "url": "https://open.spotify.com/track/6m3uOq1sCyocPlXgMjV6rz",
+      "time": 231,
+      "image": "https://i.scdn.co/image/ab67616d0000b273e8798f61f70fa48b31fbeb01",
+      "artist": "Vulfpeck"
+    },
+    {
+      "name": "Chameleon",
+      "url": "https://open.spotify.com/track/4Ce66JznW8QbeyTdSzdGwR",
+      "time": 936,
+      "image": "https://i.scdn.co/image/ab67616d0000b2736b75d57d2d070c0c4afb3f9a",
+      "artist": "Herbie Hancock"
+    },
+    {
+      "name": "Eddie Buzzsaw",
+      "url": "https://open.spotify.com/track/0mWiZpTODIxNO4mxHqf8Eq",
+      "time": 145,
+      "image": "https://i.scdn.co/image/ab67616d0000b27357fc29a0e3858c14119ee634",
+      "artist": "Vulfpeck"
+    },
+    {
+      "name": "Funny Thing",
+      "url": "https://open.spotify.com/track/1c5CllrZr45UBhWpIqM332",
+      "time": 110,
+      "image": "https://i.scdn.co/image/ab67616d0000b27323fb02f383f3bef16ab9d092",
+      "artist": "Thundercat"
+    },
+    {
+      "name": "Barbara",
+      "url": "https://open.spotify.com/track/45us0AvaxmIEUad3eMADPE",
+      "time": 245,
+      "image": "https://i.scdn.co/image/ab67616d0000b27393c162b42621a123f78f308e",
+      "artist": "Vulfpeck"
+    },
+    {
+      "name": "Out Of Love",
+      "url": "https://open.spotify.com/track/3hNywmR93yvj68y2zl8mRt",
+      "time": 287,
+      "image": "https://i.scdn.co/image/ab67616d0000b273dd11a7c94b1813a290da468f",
+      "artist": "Busty and the Bass"
+    },
+    {
+      "name": "Dean Town",
+      "url": "https://open.spotify.com/track/1oOD1pV43cV9sHg97aBdLs",
+      "time": 207,
+      "image": "https://i.scdn.co/image/ab67616d0000b273325ed53cf3123d2dd3e31556",
+      "artist": "Vulfpeck"
+    },
+    {
+      "name": "Apollo",
+      "url": "https://open.spotify.com/track/4lhhYqzREcts4uOOqWHjRJ",
+      "time": 275,
+      "image": "https://i.scdn.co/image/ab67616d0000b273aff0f524411824c03ab57302",
+      "artist": "St. Paul & The Broken Bones"
+    },
+    {
+      "name": "It Gets Funkier \u2161",
+      "url": "https://open.spotify.com/track/33BRNcBN01BsjKkAxlFYI4",
+      "time": 302,
+      "image": "https://i.scdn.co/image/ab67616d0000b27393c162b42621a123f78f308e",
+      "artist": "Vulfpeck"
+    },
+    {
+      "name": "Nobody's Fault",
+      "url": "https://open.spotify.com/track/4i28YFTQhthmIxfZZ9mPIz",
+      "time": 201,
+      "image": "https://i.scdn.co/image/ab67616d0000b2736cbc9dd126a83b509f02f213",
+      "artist": "Benny Sings"
+    },
+    {
+      "name": "Love Is a Beautiful Thing",
+      "url": "https://open.spotify.com/track/59qmUODXmHXiWwvG8WdzEW",
+      "time": 230,
+      "image": "https://i.scdn.co/image/ab67616d0000b273018465f67a3a59f032bc871f",
+      "artist": "Vulfpeck"
+    },
+    {
+      "name": "Watermelon Man",
+      "url": "https://open.spotify.com/track/2zQl59dZMzwhrmeSBEgiXY",
+      "time": 388,
+      "image": "https://i.scdn.co/image/ab67616d0000b2736b75d57d2d070c0c4afb3f9a",
+      "artist": "Herbie Hancock"
+    },
+    {
+      "name": "Lonely Town",
+      "url": "https://open.spotify.com/track/0QLMAhZQACGtzi11XZVa6A",
+      "time": 170,
+      "image": "https://i.scdn.co/image/ab67616d0000b273018465f67a3a59f032bc871f",
+      "artist": "Vulfpeck"
+    },
+    {
+      "name": "Dragonball Durag",
+      "url": "https://open.spotify.com/track/7eWGnKg4B44sbBPpQp4y2c",
+      "time": 55,
+      "image": "https://i.scdn.co/image/ab67616d0000b27323fb02f383f3bef16ab9d092",
+      "artist": "Thundercat"
+    }
+  ]
+}
