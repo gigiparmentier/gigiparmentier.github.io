@@ -3,7 +3,7 @@
     {
       "name": "Cats On Trees",
       "url": "https://open.spotify.com/artist/3Dcckn2A8PXmu8zLpMuO3B",
-      "time": 182,
+      "time": 556,
       "genres": [
         "french indie pop"
       ],
@@ -41,7 +41,7 @@
     {
       "name": "Pone",
       "url": "https://open.spotify.com/artist/6ejMBwUDjw6LaSY3aSXSBk",
-      "time": 65,
+      "time": 112,
       "genres": [
         "turntablism"
       ],
@@ -173,7 +173,7 @@
     {
       "name": "Shakira",
       "url": "https://open.spotify.com/artist/0EmeFodog0BfCgMzAIvKQp",
-      "time": 1,
+      "time": 18,
       "genres": [
         "colombian pop",
         "dance pop",
@@ -216,7 +216,7 @@
     {
       "name": "Bonaparte",
       "url": "https://open.spotify.com/artist/2jwl8DJIsmnFbA5vPdGSCy",
-      "time": 229,
+      "time": 411,
       "genres": [
         "electronic rock",
         "german alternative rock",
@@ -275,6 +275,913 @@
         "chill pop"
       ],
       "image": "https://i.scdn.co/image/a85556d5b7bee9d37e7e079c05b7da667d20198b"
+    },
+    {
+      "name": "Wyclef Jean",
+      "url": "https://open.spotify.com/artist/7aBzpmFXB4WWpPl2F7RjBe",
+      "time": 17,
+      "genres": [
+        "rap kreyol"
+      ],
+      "image": "https://i.scdn.co/image/ba6e9bbf813f0a877ff31c397ffeda1366522517"
+    },
+    {
+      "name": "Nelly Furtado",
+      "url": "https://open.spotify.com/artist/2jw70GZXlAI8QzWeY2bgRc",
+      "time": 225,
+      "genres": [
+        "canadian latin",
+        "canadian pop",
+        "dance pop",
+        "pop",
+        "pop rap"
+      ],
+      "image": "https://i.scdn.co/image/d89206520f5b03db07bedb0b2ff17eacabd17557"
+    },
+    {
+      "name": "Timbaland",
+      "url": "https://open.spotify.com/artist/5Y5TRrQiqgUO4S36tzjIRZ",
+      "time": 225,
+      "genres": [
+        "dance pop",
+        "hip hop",
+        "hip pop",
+        "pop",
+        "pop rap",
+        "urban contemporary"
+      ],
+      "image": "https://i.scdn.co/image/71e2c7a1026d3a2397ae7ee08797a95d9a16c19f"
+    },
+    {
+      "name": "Kesha",
+      "url": "https://open.spotify.com/artist/6LqNN22kT3074XbTVUrhzX",
+      "time": 387,
+      "genres": [
+        "dance pop",
+        "electropop",
+        "pop",
+        "post-teen pop"
+      ],
+      "image": "https://i.scdn.co/image/282055081bba71c1f715c6459de13d12fb4373d5"
+    },
+    {
+      "name": "Snoop Dogg",
+      "url": "https://open.spotify.com/artist/7hJcb9fa4alzcOq3EaNPoG",
+      "time": 193,
+      "genres": [
+        "g funk",
+        "gangster rap",
+        "hip hop",
+        "pop rap",
+        "rap",
+        "west coast rap"
+      ],
+      "image": "https://i.scdn.co/image/11208d65843456cf3854717b8e411ef8fede7141"
+    },
+    {
+      "name": "Wiz Khalifa",
+      "url": "https://open.spotify.com/artist/137W8MRPWKqSmrBGDBFSop",
+      "time": 193,
+      "genres": [
+        "hip hop",
+        "pittsburgh rap",
+        "pop rap",
+        "rap",
+        "southern hip hop",
+        "trap"
+      ],
+      "image": "https://i.scdn.co/image/119b0e8f0ddd4cfc13945e69205e201750b6006c"
+    },
+    {
+      "name": "Bruno Mars",
+      "url": "https://open.spotify.com/artist/0du5cEVh5yTK9QJze8zA0C",
+      "time": 193,
+      "genres": [
+        "dance pop",
+        "pop"
+      ],
+      "image": "https://i.scdn.co/image/c1ee384b2fe0ea8e9df0b194a17d6b41b2b7993a"
+    },
+    {
+      "name": "Vinyl Disciples",
+      "url": "https://open.spotify.com/artist/3AxC1Mqmt4hnHKqYOkaPjE",
+      "time": 4,
+      "genres": [
+        "vocal house"
+      ],
+      "image": "https://i.scdn.co/image/1a84e6ae5e8ab564a90559496f135e977cfa8a9f"
+    },
+    {
+      "name": "Mike Posner",
+      "url": "https://open.spotify.com/artist/2KsP6tYLJlTBvSUxnwlVWa",
+      "time": 200,
+      "genres": [
+        "dance pop",
+        "pop",
+        "pop rap"
+      ],
+      "image": "https://i.scdn.co/image/c7e63107e1062b22e1e16d51da028d7fccd38e3c"
+    },
+    {
+      "name": "Gigamesh",
+      "url": "https://open.spotify.com/artist/1Bo8Afb2Qbjs4x6kJHyjle",
+      "time": 200,
+      "genres": [
+        "filter house",
+        "new french touch",
+        "nu disco"
+      ],
+      "image": "https://i.scdn.co/image/53a65c3bea32bee25e19cba01c83d3d57bd4bcc8"
+    },
+    {
+      "name": "Macklemore & Ryan Lewis",
+      "url": "https://open.spotify.com/artist/5BcAKTbp20cv7tC5VqPFoC",
+      "time": 131,
+      "genres": [
+        "modern rock",
+        "pop rap",
+        "seattle hip hop"
+      ],
+      "image": "https://i.scdn.co/image/aa77c545af000003e22621637813e2e7c65c4203"
+    },
+    {
+      "name": "Oberhofer",
+      "url": "https://open.spotify.com/artist/5zb7wVUx1vTXLB6HX26EnX",
+      "time": 254,
+      "genres": [
+        "brooklyn indie"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6535af75e62c82aea47d1325"
+    },
+    {
+      "name": "Placebo",
+      "url": "https://open.spotify.com/artist/6RZUqkomCmb8zCRqc9eznB",
+      "time": 206,
+      "genres": [
+        "alternative rock",
+        "britpop",
+        "modern rock",
+        "permanent wave",
+        "rock"
+      ],
+      "image": "https://i.scdn.co/image/a4734e2013188e90ace93d208b0d916e59040a1c"
+    },
+    {
+      "name": "Black Box Revelation",
+      "url": "https://open.spotify.com/artist/3wFP2UY6scUTvqgucLALQq",
+      "time": 310,
+      "genres": [
+        "belgian rock",
+        "dutch rock",
+        "garage rock revival"
+      ],
+      "image": "https://i.scdn.co/image/c191f875fcf99d1f5be3eb578155143556340d8e"
+    },
+    {
+      "name": "C\u0153ur De Pirate",
+      "url": "https://open.spotify.com/artist/2eRNMtoi82UZUuaL6naDjA",
+      "time": 222,
+      "genres": [
+        "chanson",
+        "french pop",
+        "nouvelle chanson francaise"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb3aea713c38950d7d7a946a3b"
+    },
+    {
+      "name": "Birdy Nam Nam",
+      "url": "https://open.spotify.com/artist/4e7qJTThm5uI3CplqZObfT",
+      "time": 41,
+      "genres": [
+        "electronica",
+        "filter house",
+        "turntablism"
+      ],
+      "image": "https://i.scdn.co/image/0f0f4f2a2a816b116f677a9a5073ed1b398dd301"
+    },
+    {
+      "name": "Guts",
+      "url": "https://open.spotify.com/artist/5mMkUZv8uUrlH0SHX89BeS",
+      "time": 202,
+      "genres": [
+        "bboy",
+        "electronica",
+        "nu jazz"
+      ],
+      "image": "https://i.scdn.co/image/1f81c8c190d4a1a9070fafdb1f94e1b217450b5a"
+    },
+    {
+      "name": "Patrice",
+      "url": "https://open.spotify.com/artist/77Kyp9wR2BuxUu0v0lYRnd",
+      "time": 202,
+      "genres": [
+        "french reggae",
+        "german reggae"
+      ],
+      "image": "https://i.scdn.co/image/44999f868f00897fd97933dfc957a1790a3f10ef"
+    },
+    {
+      "name": "The Studio School Voices NYC",
+      "url": "https://open.spotify.com/artist/7jgfoXqbi5tUM8usINkxmY",
+      "time": 202
+    },
+    {
+      "name": "Soviet Suprem",
+      "url": "https://open.spotify.com/artist/2X2ePjwsB7PMG1FbbbLK6C",
+      "time": 149,
+      "genres": [
+        "balkan beats"
+      ],
+      "image": "https://i.scdn.co/image/4053d7f37e81a87e6c6e8203a90be0cd1a2ce719"
+    },
+    {
+      "name": "Vitamin String Quartet",
+      "url": "https://open.spotify.com/artist/6MERXsiRbur2oJZFgYRDKz",
+      "time": 270,
+      "genres": [
+        "bow pop",
+        "classify"
+      ],
+      "image": "https://i.scdn.co/image/19672acda3720bde92474a00e54d2dcc62e42a5a"
+    },
+    {
+      "name": "Jabberwocky",
+      "url": "https://open.spotify.com/artist/7xfdx6PiB50V9VWI4Mq70R",
+      "time": 264,
+      "genres": [
+        "french indie pop",
+        "french indietronica",
+        "new french touch"
+      ],
+      "image": "https://i.scdn.co/image/9ecd536ae6c36edf5d0ea527cf776353cbcaef20"
+    },
+    {
+      "name": "Elodie Wildstars",
+      "url": "https://open.spotify.com/artist/6azJLRL2YwHHtmYdSI12lL",
+      "time": 264
+    },
+    {
+      "name": "Claire Denamur",
+      "url": "https://open.spotify.com/artist/2SzKa92Mz5bZ65HkMpfCtu",
+      "time": 175,
+      "genres": [
+        "nouvelle chanson francaise"
+      ],
+      "image": "https://i.scdn.co/image/ab67616d0000b2732ba7a72ae1306646be0153f9"
+    },
+    {
+      "name": "Moby",
+      "url": "https://open.spotify.com/artist/3OsRAKCvk37zwYcnzRf5XF",
+      "time": 222,
+      "genres": [
+        "downtempo",
+        "electronica"
+      ],
+      "image": "https://i.scdn.co/image/fd5b560a15ab5f2aa6e8862df5ee19bf09bec502"
+    },
+    {
+      "name": "Totally Enormous Extinct Dinosaurs",
+      "url": "https://open.spotify.com/artist/0g3NiCRhEv7M4SEDMrpItN",
+      "time": 263,
+      "genres": [
+        "alternative dance",
+        "electronica",
+        "indietronica",
+        "new rave",
+        "oxford indie"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebb277ea668d714ff452b09399"
+    },
+    {
+      "name": "Loch Lomond",
+      "url": "https://open.spotify.com/artist/2Sxu0c4gjaQiBr1Id6czHN",
+      "time": 286,
+      "genres": [
+        "portland indie"
+      ],
+      "image": "https://i.scdn.co/image/5026c1a6e1a6e8a28824354136240f25422d4303"
+    },
+    {
+      "name": "Vance Joy",
+      "url": "https://open.spotify.com/artist/10exVja0key0uqUkk6LJRT",
+      "time": 326,
+      "genres": [
+        "folk-pop",
+        "modern rock",
+        "pop",
+        "pop rock"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6eec1cb0c7939757b719ff4d"
+    },
+    {
+      "name": "FlicFlac",
+      "url": "https://open.spotify.com/artist/118tMA379KP9TjxmsQsLKY",
+      "time": 326,
+      "genres": [
+        "deep tropical house",
+        "tropical house"
+      ],
+      "image": "https://i.scdn.co/image/81f5abf6a769cb7d06f550d87d01512d276baa9d"
+    },
+    {
+      "name": "Feine Sahne Fischfilet",
+      "url": "https://open.spotify.com/artist/1BdtWszUR1z5SeU5qXNU31",
+      "time": 274,
+      "genres": [
+        "antideutsche",
+        "german punk",
+        "german rock",
+        "german ska"
+      ],
+      "image": "https://i.scdn.co/image/441626139db238d2c3381bd9a229f5622a1cb89d"
+    },
+    {
+      "name": "Echoman",
+      "url": "https://open.spotify.com/artist/2PllmXvuewP4ayuORpZwkQ",
+      "time": 178,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab67616d0000b273c0e3756ba3ea9d9b3d7268cc"
+    },
+    {
+      "name": "Danger Mouse",
+      "url": "https://open.spotify.com/artist/2dBj3prW7gP9bCCOIQeDUf",
+      "time": 205,
+      "genres": [
+        "mashup"
+      ],
+      "image": "https://i.scdn.co/image/5c7a923a8163adc35a1a54e867dcdeb8a1725135"
+    },
+    {
+      "name": "Daniele Luppi",
+      "url": "https://open.spotify.com/artist/1TY8JzETLheB4vm5QblKsF",
+      "time": 205,
+      "genres": [],
+      "image": "https://i.scdn.co/image/07fab4b862032d7671d015e5726683e887c05e4d"
+    },
+    {
+      "name": "Norah Jones",
+      "url": "https://open.spotify.com/artist/2Kx7MNY7cI1ENniW7vT30N",
+      "time": 205,
+      "genres": [
+        "adult standards",
+        "contemporary vocal jazz",
+        "jazz pop",
+        "neo mellow",
+        "vocal jazz"
+      ],
+      "image": "https://i.scdn.co/image/46bfe1f1a29e1b94f04ac9b31c17b57e76d001b2"
+    },
+    {
+      "name": "Saez",
+      "url": "https://open.spotify.com/artist/2yQBgACksUJgNKh1JWPWPe",
+      "time": 311,
+      "genres": [
+        "chanson",
+        "french indie pop",
+        "french pop",
+        "french reggae",
+        "french rock"
+      ],
+      "image": "https://i.scdn.co/image/ab67616d0000b273e045585a947eb63798ad8538"
+    },
+    {
+      "name": "Vulfpeck",
+      "url": "https://open.spotify.com/artist/7pXu47GoqSYRajmBCjxdD6",
+      "time": 183,
+      "genres": [
+        "ann arbor indie",
+        "funk rock",
+        "indie soul",
+        "instrumental funk"
+      ],
+      "image": "https://i.scdn.co/image/4dcfc1c4476e9859f72b19cb51dcfdeb72d566a4"
+    },
+    {
+      "name": "Carbon Airways",
+      "url": "https://open.spotify.com/artist/4z6Ds1vwj0Sfx8qg3Qv7As",
+      "time": 242,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab67616d0000b2736487e33a3e144a875a7f2aa9"
+    },
+    {
+      "name": "Julian Perretta",
+      "url": "https://open.spotify.com/artist/2JLl6rSFWx9YuSPLcLhkAG",
+      "time": 179,
+      "genres": [
+        "francoton",
+        "uk pop"
+      ],
+      "image": "https://i.scdn.co/image/deaa08696330b33fc6b1dde720f24ca64e987284"
+    },
+    {
+      "name": "Chilly Gonzales",
+      "url": "https://open.spotify.com/artist/0qudezVgvl4Chd9BgNFB83",
+      "time": 267,
+      "genres": [
+        "neo-classical"
+      ],
+      "image": "https://i.scdn.co/image/882f8a07c511f4e20d67c2198c59128479b3a4dd"
+    },
+    {
+      "name": "Kasabian",
+      "url": "https://open.spotify.com/artist/11wRdbnoYqRddKBrpHt4Ue",
+      "time": 117,
+      "genres": [
+        "alternative rock",
+        "britpop",
+        "garage rock",
+        "indie rock",
+        "leicester indie",
+        "modern rock",
+        "rock"
+      ],
+      "image": "https://i.scdn.co/image/8ef02a528dfa5496a410aa80e8b0316574ca95b7"
+    },
+    {
+      "name": "The Presets",
+      "url": "https://open.spotify.com/artist/1zTAQ6zkGz2L2i6lfR30EX",
+      "time": 202,
+      "genres": [
+        "alternative dance",
+        "australian dance",
+        "australian indie",
+        "dance-punk",
+        "electronica",
+        "electropop",
+        "indietronica",
+        "new rave"
+      ],
+      "image": "https://i.scdn.co/image/26eb8cc5f64e5701bb6ab789d325cd65ccf07873"
+    },
+    {
+      "name": "Frittenbude",
+      "url": "https://open.spotify.com/artist/7jy0nL3F5ehHJxXYMBImkk",
+      "time": 274,
+      "genres": [
+        "antideutsche",
+        "elektropunk",
+        "german indie",
+        "german pop",
+        "german rock"
+      ],
+      "image": "https://i.scdn.co/image/ad9b1a372cd5cce546b8aacfdbe3e116109b7b00"
+    },
+    {
+      "name": "Maxence Cyrin",
+      "url": "https://open.spotify.com/artist/3NcPjvA2rp9FPj1JBAXwOS",
+      "time": 49,
+      "genres": [],
+      "image": "https://i.scdn.co/image/dada2bee20ba578255be5e1d66c8963028119e8a"
+    },
+    {
+      "name": "Pzk",
+      "url": "https://open.spotify.com/artist/4ii7OZHtY3E4ndPm1MFMSR",
+      "time": 197,
+      "genres": [
+        "francoton"
+      ],
+      "image": "https://i.scdn.co/image/97c4395f14b9db059f3fa997cc5403d74f34d9bf"
+    },
+    {
+      "name": "Klaypex",
+      "url": "https://open.spotify.com/artist/4HBMToZ4yMR07eiK9IxtjK",
+      "time": 4,
+      "genres": [
+        "complextro",
+        "edm",
+        "electro house"
+      ],
+      "image": "https://i.scdn.co/image/04194d84e1a42bce2b4af5c177f3580d839d5e78"
+    },
+    {
+      "name": "Khaled",
+      "url": "https://open.spotify.com/artist/28ztjHIXceRRntmTUfnmUX",
+      "time": 223,
+      "genres": [
+        "hip hop",
+        "miami hip hop",
+        "pop rap",
+        "rap",
+        "southern hip hop",
+        "trap"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebbf921114b7f19be97ce29647"
+    },
+    {
+      "name": "Max & Mango",
+      "url": "https://open.spotify.com/artist/5gAUkYb9Yk1rui2jRjVjoT",
+      "time": 10,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab67616d0000b273c893e48225eb734bef6852ed"
+    },
+    {
+      "name": "Pierre Billon",
+      "url": "https://open.spotify.com/artist/1oRdytqCsZR1eYC5tw6dUz",
+      "time": 9,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab67616d0000b273503442c91e60501628f71c37"
+    },
+    {
+      "name": "La Fine Equipe",
+      "url": "https://open.spotify.com/artist/2EMmqQQmszsCXfVfMRibOQ",
+      "time": 62,
+      "genres": [
+        "french indietronica",
+        "new french touch"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1c02cfbf411ca2e70bf858fb"
+    },
+    {
+      "name": "Vladimir Cauchemar",
+      "url": "https://open.spotify.com/artist/2V5xArcB3BGAHmwsK46tyU",
+      "time": 74,
+      "genres": [
+        "french hip hop",
+        "rap francais"
+      ],
+      "image": "https://i.scdn.co/image/110accc0a52891ba7d19c9c7ed339d80144e7281"
+    },
+    {
+      "name": "alyona alyona",
+      "url": "https://open.spotify.com/artist/2ic3GGGmkixOZP4qnakSA8",
+      "time": 74,
+      "genres": [
+        "ukrainian hip hop",
+        "ukrainian pop",
+        "ukrainian rock"
+      ],
+      "image": "https://i.scdn.co/image/43a20a9095e514b96270cc44a88879e898ccd736"
+    },
+    {
+      "name": "Belinda Carlisle",
+      "url": "https://open.spotify.com/artist/7xkAwz0bQTGDSbkofyQt3U",
+      "time": 237,
+      "genres": [
+        "new romantic",
+        "new wave pop",
+        "pop rock",
+        "soft rock"
+      ],
+      "image": "https://i.scdn.co/image/d42aab3ed5769097183836e0a5e531b6a593dd3e"
+    },
+    {
+      "name": "Vampire Weekend",
+      "url": "https://open.spotify.com/artist/5BvJzeQpmsdsFp4HGUYUEx",
+      "time": 129,
+      "genres": [
+        "baroque pop",
+        "indie pop",
+        "indie rock",
+        "modern rock"
+      ],
+      "image": "https://i.scdn.co/image/5390ca6bd240b2a15b71868d1d105c3d6a7a7b17"
+    },
+    {
+      "name": "Leningrad",
+      "url": "https://open.spotify.com/artist/2a3EJeQjcAelthFGr5bzQC",
+      "time": 425,
+      "genres": [
+        "russian punk",
+        "russian rock"
+      ],
+      "image": "https://i.scdn.co/image/76c3de5de7475e77c2f7b246b0a17140af4c44a1"
+    },
+    {
+      "name": "Owl City",
+      "url": "https://open.spotify.com/artist/07QEuhtrNmmZ0zEcqE9SF6",
+      "time": 207,
+      "genres": [
+        "indietronica",
+        "modern rock",
+        "pop",
+        "pop rock",
+        "post-teen pop"
+      ],
+      "image": "https://i.scdn.co/image/16cfd34449fabdebefffd80ab1e77678f05ffe6c"
+    },
+    {
+      "name": "Oscar Isaac",
+      "url": "https://open.spotify.com/artist/5opRYqktzpMFqZ7jtnp7yy",
+      "time": 164
+    },
+    {
+      "name": "Marcus Mumford",
+      "url": "https://open.spotify.com/artist/3bYcjbVAN3rAuU3TMzw2mB",
+      "time": 164,
+      "genres": [
+        "british singer-songwriter"
+      ],
+      "image": "https://i.scdn.co/image/ad6d4bd06a0ccc7b5d456a49de2bef6dbb1a3389"
+    },
+    {
+      "name": "Gorillaz",
+      "url": "https://open.spotify.com/artist/3AA28KZvwAUcZuOKwyblJQ",
+      "time": 202,
+      "genres": [
+        "alternative hip hop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc65516f09e2a5e782bcbf9dc"
+    },
+    {
+      "name": "Yiruma",
+      "url": "https://open.spotify.com/artist/0fauHpmSHwodVYIjTqOGHz",
+      "time": 218,
+      "genres": [
+        "korean instrumental",
+        "neo-classical",
+        "new age piano"
+      ],
+      "image": "https://i.scdn.co/image/d73f8e8096a7c8c9f7730bd37aacfd99c20ff393"
+    },
+    {
+      "name": "Good Charlotte",
+      "url": "https://open.spotify.com/artist/5aYyPjAsLj7UzANzdupwnS",
+      "time": 24,
+      "genres": [
+        "alternative metal",
+        "pop punk"
+      ],
+      "image": "https://i.scdn.co/image/7040c135ce60a02c8b1a488da4b9fe4fd3be45d2"
+    },
+    {
+      "name": "Mustang",
+      "url": "https://open.spotify.com/artist/2E8cviAuSyzPATw2ahHHpn",
+      "time": 56,
+      "genres": [
+        "electrofox",
+        "french indie folk",
+        "nouvelle chanson francaise"
+      ],
+      "image": "https://i.scdn.co/image/88323f2d8ffd144fe2f222338e1174d30a20e012"
+    },
+    {
+      "name": "Gavin Moss",
+      "url": "https://open.spotify.com/artist/6bTG3OP5laBeEb27xgfoqT",
+      "time": 374,
+      "genres": [
+        "pop edm"
+      ],
+      "image": "https://i.scdn.co/image/9b5cf010c14d88480a5afb5fd3b586133fefa7e8"
+    },
+    {
+      "name": "Synapson",
+      "url": "https://open.spotify.com/artist/5EGOerlVYxwqxaTLEWumBR",
+      "time": 211,
+      "genres": [
+        "french indie pop",
+        "french indietronica",
+        "french synthpop",
+        "new french touch",
+        "tropical house"
+      ],
+      "image": "https://i.scdn.co/image/9a73e063cae9cd624e01312966d563c02553b646"
+    },
+    {
+      "name": "Marsheaux",
+      "url": "https://open.spotify.com/artist/71kSWeYFioviuty6e3aj5k",
+      "time": 55,
+      "genres": [
+        "futurepop",
+        "neo-synthpop"
+      ],
+      "image": "https://i.scdn.co/image/ba4c5403910cc4368368ff888e5e993d2ab4e6d8"
+    },
+    {
+      "name": "MonoKey",
+      "url": "https://open.spotify.com/artist/0nOa9Z9SGphunzM1QoZej7",
+      "time": 134,
+      "genres": [],
+      "image": "https://i.scdn.co/image/d6342c65449bebf9a21649c14057d33a18a8e294"
+    },
+    {
+      "name": "Ruslan",
+      "url": "https://open.spotify.com/artist/6Wua8we63GATTtxIM7AtqR",
+      "time": 134,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab67616d0000b2732e41ad591a1f7912a85a59a6"
+    },
+    {
+      "name": "Henry Moa",
+      "url": "https://open.spotify.com/artist/277xCM5QIdwAgf8rfXSbpV",
+      "time": 134
+    },
+    {
+      "name": "Flavien Berger",
+      "url": "https://open.spotify.com/artist/5PyU5aVBI66v0pkCIvEJfu",
+      "time": 123,
+      "genres": [
+        "electronica",
+        "french indie pop",
+        "french indietronica",
+        "french synthpop",
+        "new french touch"
+      ],
+      "image": "https://i.scdn.co/image/179078aa34fbecf76c555472ceb065ef35c0535b"
+    },
+    {
+      "name": "Bakermat",
+      "url": "https://open.spotify.com/artist/3MyFDtqB80WZvbtCZRsekM",
+      "time": 166,
+      "genres": [
+        "deep euro house",
+        "minimal tech house",
+        "new french touch",
+        "pop dance",
+        "tropical house"
+      ],
+      "image": "https://i.scdn.co/image/c7e491921fb8127146316428d33d86e05624f0ca"
+    },
+    {
+      "name": "Icon For Hire",
+      "url": "https://open.spotify.com/artist/1Jy0lTKAQDnTklKzF0g2o7",
+      "time": 73,
+      "genres": [
+        "christian alternative rock",
+        "christian rock",
+        "gothic alternative",
+        "pixie",
+        "pop emo",
+        "slayer"
+      ],
+      "image": "https://i.scdn.co/image/ebb570d06a07c01ac814d0a4bc6676935aa3ccd6"
+    },
+    {
+      "name": "Charlotte Day Wilson",
+      "url": "https://open.spotify.com/artist/3GQboECxDT1xqPPWC30p7v",
+      "time": 103,
+      "genres": [
+        "alternative r&b",
+        "canadian contemporary r&b",
+        "indie r&b",
+        "indie soul",
+        "neo soul"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb5afdeb5c2e1f6e2e6382b124"
+    },
+    {
+      "name": "Indochine",
+      "url": "https://open.spotify.com/artist/7knmbOGe07k85GmK50vACB",
+      "time": 47,
+      "genres": [
+        "chanson",
+        "francoton",
+        "french pop",
+        "french rock",
+        "french synthpop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb19155dacad55400042992fb9"
+    },
+    {
+      "name": "Da\u00f0i Freyr",
+      "url": "https://open.spotify.com/artist/3Hb64DQZIhDCgyHKrzBXOL",
+      "time": 160,
+      "genres": [
+        "icelandic pop",
+        "sunnlensk tonlist"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebee2d37dfa0a387031555e4ce"
+    },
+    {
+      "name": "Fleet Foxes",
+      "url": "https://open.spotify.com/artist/4EVpmkEwrLYEg6jIsiPMIb",
+      "time": 136,
+      "genres": [
+        "chamber pop",
+        "freak folk",
+        "indie folk",
+        "indie pop",
+        "indie rock",
+        "seattle indie",
+        "stomp and holler"
+      ],
+      "image": "https://i.scdn.co/image/ebf515962abdb0a61c6bfeb26ceea6c629b9e756"
+    },
+    {
+      "name": "The Devil Makes Three",
+      "url": "https://open.spotify.com/artist/63knPlGzLHTNDf1J78Fvte",
+      "time": 188,
+      "genres": [
+        "new americana",
+        "progressive bluegrass",
+        "stomp and holler",
+        "western americana"
+      ],
+      "image": "https://i.scdn.co/image/5bcec9349bacec3c194011f6a19c659153958c47"
+    },
+    {
+      "name": "Renaud",
+      "url": "https://open.spotify.com/artist/15uNxh8omvRvH71kcdIe2r",
+      "time": 146,
+      "genres": [
+        "chanson",
+        "french pop",
+        "french reggae",
+        "french rock",
+        "nouvelle chanson francaise"
+      ],
+      "image": "https://i.scdn.co/image/dc5d92726318342e300e4ba1344561680c401734"
+    },
+    {
+      "name": "Papooz",
+      "url": "https://open.spotify.com/artist/2gaCpvhi31OZtozJKsr5gm",
+      "time": 31,
+      "genres": [
+        "french indie pop",
+        "french indietronica"
+      ],
+      "image": "https://i.scdn.co/image/296b4738992e6fc585ca8166b03e74935e0e8782"
+    },
+    {
+      "name": "Temples",
+      "url": "https://open.spotify.com/artist/4ogwGU9VPWrnVBs1GEwZVV",
+      "time": 408,
+      "genres": [
+        "neo-psychedelic"
+      ],
+      "image": "https://i.scdn.co/image/e55fbd0e79a7ebd048d6418cb1a271158e61d179"
+    },
+    {
+      "name": "Jacques Higelin",
+      "url": "https://open.spotify.com/artist/7KisXggbWbBdYatDQcBmum",
+      "time": 7,
+      "genres": [
+        "chanson",
+        "french pop",
+        "french rock",
+        "nouvelle chanson francaise"
+      ],
+      "image": "https://i.scdn.co/image/7b84037fffa83e7f9e3e453bdf8820330d2bdcfb"
+    },
+    {
+      "name": "Bigflo & Oli",
+      "url": "https://open.spotify.com/artist/5mmEMfYChd6MImBagU7zCs",
+      "time": 378,
+      "genres": [
+        "francoton",
+        "french pop",
+        "rap conscient"
+      ],
+      "image": "https://i.scdn.co/image/0a5adf1ba1fc58ef0b16420c3c4178c7dff50718"
+    },
+    {
+      "name": "Jean Dujardin",
+      "url": "https://open.spotify.com/artist/1SNXHU6Ra98YVdhuoZC5FM",
+      "time": 280
+    },
+    {
+      "name": "Casseurs Flowters",
+      "url": "https://open.spotify.com/artist/5sXx89ZqVFOUKTl5g2uiST",
+      "time": 227,
+      "genres": [
+        "french hip hop",
+        "rap conscient"
+      ],
+      "image": "https://i.scdn.co/image/b289aab3269f374be82ef69d077006fd7cca64d5"
+    },
+    {
+      "name": "BB Brunes",
+      "url": "https://open.spotify.com/artist/4tHeypFR25Cnx83nuHhrud",
+      "time": 134,
+      "genres": [
+        "chanson",
+        "french garage rock",
+        "french indie pop",
+        "french pop",
+        "french rock"
+      ],
+      "image": "https://i.scdn.co/image/f349c824ba005643464c7113089e78a2ca0f556f"
+    },
+    {
+      "name": "PNL",
+      "url": "https://open.spotify.com/artist/3NH8t45zOTqzlZgBvZRjvB",
+      "time": 504,
+      "genres": [
+        "french hip hop",
+        "pop urbaine"
+      ],
+      "image": "https://i.scdn.co/image/5183e0a003fb8679a63fbdac311df70c79bc9851"
+    },
+    {
+      "name": "OBOY",
+      "url": "https://open.spotify.com/artist/66Ok6bgC570sHkw08N20pZ",
+      "time": 175,
+      "genres": [
+        "french hip hop",
+        "pop urbaine",
+        "rap francais"
+      ],
+      "image": "https://i.scdn.co/image/45467b7f6d55278916bb925e483f39133eef0518"
+    },
+    {
+      "name": "Ninho",
+      "url": "https://open.spotify.com/artist/6Te49r3A6f5BiIgBRxH7FH",
+      "time": 107,
+      "genres": [
+        "french hip hop",
+        "pop urbaine",
+        "rap francais"
+      ],
+      "image": "https://i.scdn.co/image/ab67616d0000b2733f12b172c90b9fe9232f38d0"
     }
   ],
   "songs": [
@@ -309,7 +1216,7 @@
     {
       "name": "FAR",
       "url": "https://open.spotify.com/track/1LtNLhMb1SXoD8dvJffrpx",
-      "time": 65,
+      "time": 112,
       "image": "https://i.scdn.co/image/ab67616d0000b273cfeb08578b24c5aa346e81b1",
       "artist": "Pone"
     },
@@ -599,6 +1506,538 @@
       "time": 1,
       "image": "https://i.scdn.co/image/ab67616d0000b273fe4ab0f84ca541e7a871066b",
       "artist": "Matt DiMona"
+    },
+    {
+      "name": "Hips Don't Lie (feat. Wyclef Jean)",
+      "url": "https://open.spotify.com/track/3ZFTkvIE7kyPt6Nu3PEa7V",
+      "time": 17,
+      "image": "https://i.scdn.co/image/ab67616d0000b27327ddd747545c0d0cfe7595fa",
+      "artist": "Shakira"
+    },
+    {
+      "name": "Promiscuous",
+      "url": "https://open.spotify.com/track/2gam98EZKrF9XuOkU13ApN",
+      "time": 225,
+      "image": "https://i.scdn.co/image/ab67616d0000b273a6f439c8957170652f9410e2",
+      "artist": "Nelly Furtado"
+    },
+    {
+      "name": "TiK ToK",
+      "url": "https://open.spotify.com/track/5OMwQFBcte0aWFJFqrr5oj",
+      "time": 182,
+      "image": "https://i.scdn.co/image/ab67616d0000b27365836b344b9d983462d5f1a7",
+      "artist": "Kesha"
+    },
+    {
+      "name": "Young, Wild & Free (feat. Bruno Mars)",
+      "url": "https://open.spotify.com/track/5HQVUIKwCEXpe7JIHyY734",
+      "time": 193,
+      "image": "https://i.scdn.co/image/ab67616d0000b2738596df2f2646ab9aba464c30",
+      "artist": "Snoop Dogg"
+    },
+    {
+      "name": "Self Control (I Miss the 80's Remix)",
+      "url": "https://open.spotify.com/track/4rmD2QsRYaQRaCxRbJQoKZ",
+      "time": 4,
+      "image": "https://i.scdn.co/image/ab67616d0000b2739e89cc095a19a222816e30e8",
+      "artist": "Vinyl Disciples"
+    },
+    {
+      "name": "C'Mon",
+      "url": "https://open.spotify.com/track/4bO6IzKXMWhmncfIO9GBq2",
+      "time": 205,
+      "image": "https://i.scdn.co/image/ab67616d0000b27376c5c62197115a22b23ff950",
+      "artist": "Kesha"
+    },
+    {
+      "name": "Cooler Than Me - Single Mix",
+      "url": "https://open.spotify.com/track/2V4bv1fNWfTcyRJKmej6Sj",
+      "time": 200,
+      "image": "https://i.scdn.co/image/ab67616d0000b273a98ac59b1f31230990d941a2",
+      "artist": "Mike Posner"
+    },
+    {
+      "name": "Can't Hold Us - feat. Ray Dalton",
+      "url": "https://open.spotify.com/track/3bidbhpOYeV4knp8AIu8Xn",
+      "time": 131,
+      "image": "https://i.scdn.co/image/ab67616d0000b27398a02fef3a8b1d80a0f164ec",
+      "artist": "Macklemore & Ryan Lewis"
+    },
+    {
+      "name": "I Could Go",
+      "url": "https://open.spotify.com/track/4UIckjYWJZYYKa7XfZRCuq",
+      "time": 254,
+      "image": "https://i.scdn.co/image/ab67616d0000b273a883aac175d860cbfe68adba",
+      "artist": "Oberhofer"
+    },
+    {
+      "name": "Too Many Friends",
+      "url": "https://open.spotify.com/track/4wocVgDIhqrXaarBj1qM6y",
+      "time": 206,
+      "image": "https://i.scdn.co/image/ab67616d0000b273342ccb4f67cedf91136c527a",
+      "artist": "Placebo"
+    },
+    {
+      "name": "Never Alone, Always Together",
+      "url": "https://open.spotify.com/track/2Pyn5Y5NxrD1vk521OaMHu",
+      "time": 310,
+      "image": "https://i.scdn.co/image/ab67616d0000b2735a4d0e42fc8d46ec95ebca9b",
+      "artist": "Black Box Revelation"
+    },
+    {
+      "name": "Comme Des Enfants - Remix Par Le Matos",
+      "url": "https://open.spotify.com/track/4R3iJVd2aNDjpVbgZiUI4q",
+      "time": 222,
+      "image": "https://i.scdn.co/image/ab67616d0000b273f5d0dfe864fb5b0302f0040d",
+      "artist": "C\u0153ur De Pirate"
+    },
+    {
+      "name": "Abesses",
+      "url": "https://open.spotify.com/track/1ObQhfyAJMl4Kb2vb9U6ZN",
+      "time": 41,
+      "image": "https://i.scdn.co/image/ab67616d0000b273bc72aa9b2bbecd53dde93914",
+      "artist": "Birdy Nam Nam"
+    },
+    {
+      "name": "Want It Back",
+      "url": "https://open.spotify.com/track/7eN0Sdh3AE1VKKLSsFwKBh",
+      "time": 202,
+      "image": "https://i.scdn.co/image/ab67616d0000b2736e50e461ae44616757b2574b",
+      "artist": "Guts"
+    },
+    {
+      "name": "Rongrakatikatong",
+      "url": "https://open.spotify.com/track/33COLW0pVVZq6wgR8zK8aj",
+      "time": 149,
+      "image": "https://i.scdn.co/image/ab67616d0000b2736ddf19f10e8e9e62a8567fc9",
+      "artist": "Soviet Suprem"
+    },
+    {
+      "name": "Reckoner",
+      "url": "https://open.spotify.com/track/5bqemq8TkmXBEGt0rXIiGt",
+      "time": 270,
+      "image": "https://i.scdn.co/image/ab67616d0000b273ddde14d328cecf1d9475f53a",
+      "artist": "Vitamin String Quartet"
+    },
+    {
+      "name": "Photomaton",
+      "url": "https://open.spotify.com/track/3FnLBRntvMISXApLyt4Sl8",
+      "time": 264,
+      "image": "https://i.scdn.co/image/ab67616d0000b27356c8aa482050d55d474b46a0",
+      "artist": "Jabberwocky"
+    },
+    {
+      "name": "Anti Anti",
+      "url": "https://open.spotify.com/track/2PqwDPVpcLM7z8DGC9dXEU",
+      "time": 182,
+      "image": "https://i.scdn.co/image/ab67616d0000b2735b42c403a17898c7bf872d4f",
+      "artist": "Bonaparte"
+    },
+    {
+      "name": "Hang Me Up to Dry",
+      "url": "https://open.spotify.com/track/2sWWksSdq8KLgGQRqFwjWe",
+      "time": 175,
+      "image": "https://i.scdn.co/image/ab67616d0000b27308a94b0020397046605d6e0b",
+      "artist": "Claire Denamur"
+    },
+    {
+      "name": "Extreme Ways",
+      "url": "https://open.spotify.com/track/4FkJn9oX1kjRRftLXSSBxD",
+      "time": 222,
+      "image": "https://i.scdn.co/image/ab67616d0000b273049d72c656c3e9a9f7552955",
+      "artist": "Moby"
+    },
+    {
+      "name": "Garden",
+      "url": "https://open.spotify.com/track/0zPKMvKGxar5Em0rtc53vE",
+      "time": 263,
+      "image": "https://i.scdn.co/image/ab67616d0000b273664d4f310464a4733c0c910a",
+      "artist": "Totally Enormous Extinct Dinosaurs"
+    },
+    {
+      "name": "Wax & Wire",
+      "url": "https://open.spotify.com/track/0wDTLx9uOIA1AO9SPZp2J6",
+      "time": 286,
+      "image": "https://i.scdn.co/image/ab67616d0000b273ddb913351f61ba3b709fe5c3",
+      "artist": "Loch Lomond"
+    },
+    {
+      "name": "Riptide - FlicFlac Edit",
+      "url": "https://open.spotify.com/track/2l4EK2s8KlJP5DJPIjzP5W",
+      "time": 326,
+      "image": "https://i.scdn.co/image/ab67616d0000b273445ecc3b8e98a77b3dbf440e",
+      "artist": "Vance Joy"
+    },
+    {
+      "name": "Komplett im Arsch",
+      "url": "https://open.spotify.com/track/5uSKP5cqw0C2jfykeRti9y",
+      "time": 274,
+      "image": "https://i.scdn.co/image/ab67616d0000b27352aaad59ebb9b12adff90116",
+      "artist": "Feine Sahne Fischfilet"
+    },
+    {
+      "name": "Zero Gravity",
+      "url": "https://open.spotify.com/track/7A83egLbkKUEFTXKlVsJLp",
+      "time": 178,
+      "image": "https://i.scdn.co/image/ab67616d0000b273e29aa69b10c6eb1a50fdf4ad",
+      "artist": "Echoman"
+    },
+    {
+      "name": "Black (feat. Norah Jones)",
+      "url": "https://open.spotify.com/track/5H43dazn2x2O9dkDVvaiDS",
+      "time": 205,
+      "image": "https://i.scdn.co/image/ab67616d0000b273574860379dd3dd615ec3bb7b",
+      "artist": "Danger Mouse"
+    },
+    {
+      "name": "Pilule",
+      "url": "https://open.spotify.com/track/6iWCP4kSF2wx9zMa8bUOGS",
+      "time": 311,
+      "image": "https://i.scdn.co/image/ab67616d0000b273b97213abba56d7450e71368b",
+      "artist": "Saez"
+    },
+    {
+      "name": "Animal Spirits",
+      "url": "https://open.spotify.com/track/1SHA4IJyiyNobDOrQzFFXy",
+      "time": 183,
+      "image": "https://i.scdn.co/image/ab67616d0000b273325ed53cf3123d2dd3e31556",
+      "artist": "Vulfpeck"
+    },
+    {
+      "name": "Black Sun",
+      "url": "https://open.spotify.com/track/7FMyXsXNx016zzAUPqAUWR",
+      "time": 242,
+      "image": "https://i.scdn.co/image/ab67616d0000b2736487e33a3e144a875a7f2aa9",
+      "artist": "Carbon Airways"
+    },
+    {
+      "name": "That\u2019s All",
+      "url": "https://open.spotify.com/track/4iV2qyqVULBSoFu0eOzO3I",
+      "time": 179,
+      "image": "https://i.scdn.co/image/ab67616d0000b27390c7cbe4dc1f6f48d0811b90",
+      "artist": "Julian Perretta"
+    },
+    {
+      "name": "I Am Europe - Original Version",
+      "url": "https://open.spotify.com/track/7M0I5OvRSjOZzFVE8VVxWZ",
+      "time": 267,
+      "image": "https://i.scdn.co/image/ab67616d0000b2734ac2f153304d3fd2b6a6edf6",
+      "artist": "Chilly Gonzales"
+    },
+    {
+      "name": "Re-Wired",
+      "url": "https://open.spotify.com/track/1SsDbcjGHregkNfEjogXpm",
+      "time": 117,
+      "image": "https://i.scdn.co/image/ab67616d0000b2734a122b0ae3b59bc3ec2a0ed8",
+      "artist": "Kasabian"
+    },
+    {
+      "name": "Ghosts",
+      "url": "https://open.spotify.com/track/17qyE3zCNdfOKmH3SXMwFX",
+      "time": 202,
+      "image": "https://i.scdn.co/image/ab67616d0000b273780fc57d8cdf90075bfced5a",
+      "artist": "The Presets"
+    },
+    {
+      "name": "Mindestens in 1000 Jahren",
+      "url": "https://open.spotify.com/track/35ZklWDictFl4BwpMn5UTs",
+      "time": 274,
+      "image": "https://i.scdn.co/image/ab67616d0000b2731d419a575c9d75e20c1b54c7",
+      "artist": "Frittenbude"
+    },
+    {
+      "name": "Where Is My Mind",
+      "url": "https://open.spotify.com/track/4jNQkWhuzqrbqQuqanFFJ6",
+      "time": 49,
+      "image": "https://i.scdn.co/image/ab67616d0000b273142b21bd73f912e8dfd72ade",
+      "artist": "Maxence Cyrin"
+    },
+    {
+      "name": "Chuis Bo!",
+      "url": "https://open.spotify.com/track/0SNDzKQtOyVULvtVkpTBDX",
+      "time": 197,
+      "image": "https://i.scdn.co/image/ab67616d0000b273c3ee642e6bce4916db3c6359",
+      "artist": "Pzk"
+    },
+    {
+      "name": "Lights",
+      "url": "https://open.spotify.com/track/2wl9I2ajE7SbL7ttFU3L47",
+      "time": 4,
+      "image": "https://i.scdn.co/image/ab67616d0000b27397ee160424c9c94dd01a1f6e",
+      "artist": "Klaypex"
+    },
+    {
+      "name": "C\u2019est la vie",
+      "url": "https://open.spotify.com/track/6KGHsN5QI0qunsADx3e51i",
+      "time": 223,
+      "image": "https://i.scdn.co/image/ab67616d0000b2730b4e72c8010f0d953a93b28a",
+      "artist": "Khaled"
+    },
+    {
+      "name": "Tout va bien",
+      "url": "https://open.spotify.com/track/7fzGPmuYLgvR72Ju2MAuYu",
+      "time": 10,
+      "image": "https://i.scdn.co/image/ab67616d0000b273014adce8812f7153e9f7cc9a",
+      "artist": "Max & Mango"
+    },
+    {
+      "name": "La bamba triste",
+      "url": "https://open.spotify.com/track/0mI6UpqN6DlGXjVdlnoTn2",
+      "time": 9,
+      "image": "https://i.scdn.co/image/ab67616d0000b273503442c91e60501628f71c37",
+      "artist": "Pierre Billon"
+    },
+    {
+      "name": "Happy End",
+      "url": "https://open.spotify.com/track/6RtttxKIzcqQeKQuad0R6u",
+      "time": 62,
+      "image": "https://i.scdn.co/image/ab67616d0000b27371c0d4028d955dee0f0c6e73",
+      "artist": "La Fine Equipe"
+    },
+    {
+      "name": "Dancer",
+      "url": "https://open.spotify.com/track/0dKX4AhsbGO6wVvboR52yn",
+      "time": 74,
+      "image": "https://i.scdn.co/image/ab67616d0000b273852926c1d804ced58d6f626a",
+      "artist": "Vladimir Cauchemar"
+    },
+    {
+      "name": "Heaven Is a Place on Earth",
+      "url": "https://open.spotify.com/track/37Q5anxoGWYdRsyeXkkNoI",
+      "time": 237,
+      "image": "https://i.scdn.co/image/ab67616d0000b273e0f0aa947770fe74049dbba3",
+      "artist": "Belinda Carlisle"
+    },
+    {
+      "name": "A-Punk",
+      "url": "https://open.spotify.com/track/5dKBaysNJtfpyNTRa5lqDb",
+      "time": 129,
+      "image": "https://i.scdn.co/image/ab67616d0000b27301e2ebfbf4f8147621c8a866",
+      "artist": "Vampire Weekend"
+    },
+    {
+      "name": "\u042d\u043a\u0441\u043f\u043e\u043d\u0430\u0442",
+      "url": "https://open.spotify.com/track/768W2c6LOOFbsh9AftweTZ",
+      "time": 425,
+      "image": "https://i.scdn.co/image/ab67616d0000b273215393f0215fee5564aea95a",
+      "artist": "Leningrad"
+    },
+    {
+      "name": "When Can I See You Again?",
+      "url": "https://open.spotify.com/track/4yeWj9pIe74dBCzG2dpUbQ",
+      "time": 207,
+      "image": "https://i.scdn.co/image/ab67616d0000b273215b6bee7e9fbbb6c344333c",
+      "artist": "Owl City"
+    },
+    {
+      "name": "Fare Thee Well (Dink's Song)",
+      "url": "https://open.spotify.com/track/0YOOXnCJihgyluizqhAcrz",
+      "time": 164,
+      "image": "https://i.scdn.co/image/ab67616d0000b27323b4c164805747ccda54dec8",
+      "artist": "Oscar Isaac"
+    },
+    {
+      "name": "19-2000 - Soulchild Remix",
+      "url": "https://open.spotify.com/track/3SgYwNgMYlnl3yODszuWnc",
+      "time": 202,
+      "image": "https://i.scdn.co/image/ab67616d0000b273d7afb2c0ffc138d4ee972fd1",
+      "artist": "Gorillaz"
+    },
+    {
+      "name": "River Flows in You",
+      "url": "https://open.spotify.com/track/3xr8COed4nPPn6XWZ0iCGr",
+      "time": 218,
+      "image": "https://i.scdn.co/image/ab67616d0000b273753900acd464d31f3c7e6e4e",
+      "artist": "Yiruma"
+    },
+    {
+      "name": "Lifestyles of the Rich & Famous",
+      "url": "https://open.spotify.com/track/2g2a5kDeZexbUTD8abcvm6",
+      "time": 24,
+      "image": "https://i.scdn.co/image/ab67616d0000b273a9bae94ddb20a71f573931c0",
+      "artist": "Good Charlotte"
+    },
+    {
+      "name": "Le pantalon",
+      "url": "https://open.spotify.com/track/0fLXPRtamjpvR5nRRRxITE",
+      "time": 56,
+      "image": "https://i.scdn.co/image/ab67616d0000b2738b17c705ecbebe3aca28c621",
+      "artist": "Mustang"
+    },
+    {
+      "name": "If You Feel - Gavin Moss Remix",
+      "url": "https://open.spotify.com/track/02zmDET82H25bo957mi4jv",
+      "time": 374,
+      "image": "https://i.scdn.co/image/ab67616d0000b273559863b9d75cc041bece97c9",
+      "artist": "Cats On Trees"
+    },
+    {
+      "name": "Smoking Kills",
+      "url": "https://open.spotify.com/track/0kKqZgGDJOxWB9ljFsZoPA",
+      "time": 211,
+      "image": "https://i.scdn.co/image/ab67616d0000b273d65b7a556222c399ad774f6c",
+      "artist": "Synapson"
+    },
+    {
+      "name": "Pop Corn",
+      "url": "https://open.spotify.com/track/7AtoMmLJREWLdN30gOBRn6",
+      "time": 55,
+      "image": "https://i.scdn.co/image/ab67616d0000b2735055e39de0d3ffc640546eab",
+      "artist": "Marsheaux"
+    },
+    {
+      "name": "Werdersee",
+      "url": "https://open.spotify.com/track/68AUbDQBYxX0z470FXoTUe",
+      "time": 134,
+      "image": "https://i.scdn.co/image/ab67616d0000b27308a780720f00c75a7d3b424a",
+      "artist": "MonoKey"
+    },
+    {
+      "name": "Brutalisme",
+      "url": "https://open.spotify.com/track/58MYwYRWNnuIxF4v7sc3PW",
+      "time": 123,
+      "image": "https://i.scdn.co/image/ab67616d0000b2733ecc56b6d6e62f5e4e4aaec9",
+      "artist": "Flavien Berger"
+    },
+    {
+      "name": "Baian\u00e1",
+      "url": "https://open.spotify.com/track/780be5fB7823aHG06mwTat",
+      "time": 166,
+      "image": "https://i.scdn.co/image/ab67616d0000b273fc7ce3acfa2e8c2479bcf621",
+      "artist": "Bakermat"
+    },
+    {
+      "name": "Make A Move",
+      "url": "https://open.spotify.com/track/0FtD1ZukwCnuTfTNuwxrQM",
+      "time": 73,
+      "image": "https://i.scdn.co/image/ab67616d0000b2731b4fc3fe4f0404a3509a0ec0",
+      "artist": "Icon For Hire"
+    },
+    {
+      "name": "Work",
+      "url": "https://open.spotify.com/track/5T1xKMA4xA7MDX4EiB8Cup",
+      "time": 103,
+      "image": "https://i.scdn.co/image/ab67616d0000b273c9e6b55aac438dce3dc5688a",
+      "artist": "Charlotte Day Wilson"
+    },
+    {
+      "name": "Pink Water 3 - avec Brian Molko",
+      "url": "https://open.spotify.com/track/23T4EvvGIdvbjAlE4ssRYv",
+      "time": 47,
+      "image": "https://i.scdn.co/image/ab67616d0000b27309a0b0763656ef5948984273",
+      "artist": "Indochine"
+    },
+    {
+      "name": "Think About Things",
+      "url": "https://open.spotify.com/track/2iRniYXjMHKmwXqA2jYXP7",
+      "time": 160,
+      "image": "https://i.scdn.co/image/ab67616d0000b273a5c51e96d2583bfb3e45d504",
+      "artist": "Da\u00f0i Freyr"
+    },
+    {
+      "name": "White Winter Hymnal",
+      "url": "https://open.spotify.com/track/4LKiFDUTwsqX8K3Up8I8K0",
+      "time": 136,
+      "image": "https://i.scdn.co/image/ab67616d0000b27397fd388e0740f17611d5c61d",
+      "artist": "Fleet Foxes"
+    },
+    {
+      "name": "Old Number Seven",
+      "url": "https://open.spotify.com/track/7FqrsV0vBwNiQNQI6jfzni",
+      "time": 188,
+      "image": "https://i.scdn.co/image/ab67616d0000b273e6a945e3924ef353cf2e11c4",
+      "artist": "The Devil Makes Three"
+    },
+    {
+      "name": "Adieu minette",
+      "url": "https://open.spotify.com/track/4qwNXTywDMge32JmboD0rY",
+      "time": 146,
+      "image": "https://i.scdn.co/image/ab67616d0000b273ad7e5e9b874440c3e351c26b",
+      "artist": "Renaud"
+    },
+    {
+      "name": "Ann Wants to Dance",
+      "url": "https://open.spotify.com/track/0DiQAYZAOQLL9mwinkRS3E",
+      "time": 31,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732d4266434b031cad697381cd",
+      "artist": "Papooz"
+    },
+    {
+      "name": "The Golden Throne",
+      "url": "https://open.spotify.com/track/4MhKiGv1kZUPhbQWrKvkGf",
+      "time": 5,
+      "image": "https://i.scdn.co/image/ab67616d0000b2737a53758a9b6f487374692f33",
+      "artist": "Temples"
+    },
+    {
+      "name": "Golden Throne - Beyond the Wizard's Sleeve Reanimation",
+      "url": "https://open.spotify.com/track/1CVYXriUy2ASolIoru5pPR",
+      "time": 403,
+      "image": "https://i.scdn.co/image/ab67616d0000b2737a53758a9b6f487374692f33",
+      "artist": "Temples"
+    },
+    {
+      "name": "Tomb\u00e9 du ciel",
+      "url": "https://open.spotify.com/track/2W3uIX1I9qGOsBLWpEpMch",
+      "time": 7,
+      "image": "https://i.scdn.co/image/ab67616d0000b27365cbcbfcdb77cea8b861db23",
+      "artist": "Jacques Higelin"
+    },
+    {
+      "name": "Pour un pote - Bande originale du film \"Brice 3\"",
+      "url": "https://open.spotify.com/track/04MUGkA1QJx4vBZKeaKYIM",
+      "time": 280,
+      "image": "https://i.scdn.co/image/ab67616d0000b27392157385c7def7e2c3603122",
+      "artist": "Bigflo & Oli"
+    },
+    {
+      "name": "Si facile",
+      "url": "https://open.spotify.com/track/7GfmLz1shp0aMwkPYHan0y",
+      "time": 227,
+      "image": "https://i.scdn.co/image/ab67616d0000b2736e069ce557898f321fd403ef",
+      "artist": "Casseurs Flowters"
+    },
+    {
+      "name": "Dis-moi",
+      "url": "https://open.spotify.com/track/1J6BxOelSaHWKwW9GUvL8s",
+      "time": 134,
+      "image": "https://i.scdn.co/image/ab67616d0000b273b70aab4d66a551cdfc55b6d0",
+      "artist": "BB Brunes"
+    },
+    {
+      "name": "Dommage",
+      "url": "https://open.spotify.com/track/4BEWiTPV0v87mBryf7gdxK",
+      "time": 98,
+      "image": "https://i.scdn.co/image/ab67616d0000b27367902198f980f905ab875e91",
+      "artist": "Bigflo & Oli"
+    },
+    {
+      "name": "MOWGLI II",
+      "url": "https://open.spotify.com/track/1w2OwBeojIZI8hTI5WkMkV",
+      "time": 213,
+      "image": "https://i.scdn.co/image/ab67616d0000b273398e4afc8a5774c9b17e1b0d",
+      "artist": "PNL"
+    },
+    {
+      "name": "Alpha",
+      "url": "https://open.spotify.com/track/4uMwc0FWcHccikCXhVuNxk",
+      "time": 175,
+      "image": "https://i.scdn.co/image/ab67616d0000b2738513d950df0d08cea850d371",
+      "artist": "OBOY"
+    },
+    {
+      "name": "Vrais",
+      "url": "https://open.spotify.com/track/6WfnzeciIa1Ta661GY9hue",
+      "time": 107,
+      "image": "https://i.scdn.co/image/ab67616d0000b273b57d9a7441b74f1c8debe51e",
+      "artist": "Ninho"
+    },
+    {
+      "name": "Jusqu'au dernier gramme",
+      "url": "https://open.spotify.com/track/2jBleFNl3YK8lyJc1OvxXt",
+      "time": 291,
+      "image": "https://i.scdn.co/image/ab67616d0000b273034f85da463faf79527d1fe0",
+      "artist": "PNL"
     }
   ]
 }

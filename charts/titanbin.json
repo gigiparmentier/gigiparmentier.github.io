@@ -151,7 +151,7 @@
     {
       "name": "Mac DeMarco",
       "url": "https://open.spotify.com/artist/3Sz7ZnJQBIHsXLUSo0OQtM",
-      "time": 827,
+      "time": 972,
       "genres": [
         "edmonton indie",
         "lo-fi indie"
@@ -443,7 +443,7 @@
     {
       "name": "Dayglow",
       "url": "https://open.spotify.com/artist/6eJa3zG1QZLRB3xgRuyxbm",
-      "time": 205,
+      "time": 206,
       "genres": [
         "austindie",
         "indie pop",
@@ -466,7 +466,7 @@
     {
       "name": "Gus Dapperton",
       "url": "https://open.spotify.com/artist/6sHCvZe1PHrOAuYlwTLNH4",
-      "time": 1,
+      "time": 70,
       "genres": [
         "bedroom pop",
         "indie pop",
@@ -932,7 +932,7 @@
     {
       "name": "Abhi The Nomad",
       "url": "https://open.spotify.com/artist/1gUi2utSbJLNPddYENJAp4",
-      "time": 359,
+      "time": 523,
       "genres": [
         "desi hip hop",
         "modern rock",
@@ -1082,7 +1082,7 @@
     {
       "name": "Denzel Curry",
       "url": "https://open.spotify.com/artist/6fxyWrfmjcbj5d12gXeiNV",
-      "time": 517,
+      "time": 679,
       "genres": [
         "dark trap",
         "drill",
@@ -1264,7 +1264,7 @@
     {
       "name": "The Hails",
       "url": "https://open.spotify.com/artist/3g65HWtAf8uyVmpR4sRbrT",
-      "time": 164,
+      "time": 321,
       "genres": [
         "gainesville indie"
       ],
@@ -1273,7 +1273,7 @@
     {
       "name": "Oliver Malcolm",
       "url": "https://open.spotify.com/artist/5ut4VhaCRPsEjAZ93jpPfK",
-      "time": 8927,
+      "time": 11750,
       "genres": [
         "indie hip hop",
         "modern alternative pop"
@@ -1504,7 +1504,7 @@
     {
       "name": "Deb Never",
       "url": "https://open.spotify.com/artist/55EarwWraRQY9diMo9Oeul",
-      "time": 264,
+      "time": 369,
       "genres": [
         "modern indie pop"
       ],
@@ -1532,7 +1532,7 @@
     {
       "name": "Two Another",
       "url": "https://open.spotify.com/artist/35RvGPQ1OxbEZknWyiaAcs",
-      "time": 165,
+      "time": 335,
       "genres": [
         "alternative r&b",
         "indie soul",
@@ -1581,7 +1581,7 @@
     {
       "name": "Shelter Boy",
       "url": "https://open.spotify.com/artist/0pTrkIFjUhNNHIV3YhtPfV",
-      "time": 210,
+      "time": 474,
       "genres": [
         "german indie"
       ],
@@ -1878,7 +1878,7 @@
     {
       "name": "Arcade Fire",
       "url": "https://open.spotify.com/artist/3kjuyTCjPG1WMFCiyc5IuB",
-      "time": 311,
+      "time": 624,
       "genres": [
         "alternative dance",
         "alternative rock",
@@ -2489,7 +2489,7 @@
     {
       "name": "Hobo Johnson",
       "url": "https://open.spotify.com/artist/05SdqPzK4m3k1ljK2wrTSP",
-      "time": 1658,
+      "time": 1841,
       "genres": [
         "emo rap",
         "sacramento hip hop",
@@ -2532,7 +2532,7 @@
     {
       "name": "Wallice",
       "url": "https://open.spotify.com/artist/6d6ts87Fxm1EdULf4CaLw4",
-      "time": 22,
+      "time": 191,
       "genres": [],
       "image": "https://i.scdn.co/image/ab6761610000e5ebf3e52fd482142e909ff8bd02"
     },
@@ -2770,7 +2770,7 @@
     {
       "name": "Glass Animals",
       "url": "https://open.spotify.com/artist/4yvcSjfu4PC0CYQyLy4wSq",
-      "time": 332,
+      "time": 494,
       "genres": [
         "gauze pop",
         "indietronica",
@@ -2855,6 +2855,736 @@
         "indie r&b"
       ],
       "image": "https://i.scdn.co/image/ab6761610000e5eb6bd50756d5e19062a554ea30"
+    },
+    {
+      "name": "Wallows",
+      "url": "https://open.spotify.com/artist/0NIPkIjTV8mB795yEIiPYL",
+      "time": 76,
+      "genres": [
+        "indie pop",
+        "modern rock",
+        "pop",
+        "rock"
+      ],
+      "image": "https://i.scdn.co/image/d06dc44e5fbb709fbd328b4b1c214f3879c21948"
+    },
+    {
+      "name": "Shimmertraps",
+      "url": "https://open.spotify.com/artist/22mUyP1olHZ6mfObPpEbjI",
+      "time": 74,
+      "genres": [
+        "modern dream pop"
+      ],
+      "image": "https://i.scdn.co/image/c2d35a6712663ed04e90f58163501c770453fb4b"
+    },
+    {
+      "name": "The Growlers",
+      "url": "https://open.spotify.com/artist/2RhgnQNC74QoBlaUvT4MEe",
+      "time": 175,
+      "genres": [
+        "garage rock revival",
+        "indie garage rock",
+        "indie surf"
+      ],
+      "image": "https://i.scdn.co/image/83bf768c4e19fc222bccf05b45e149581bc72bdb"
+    },
+    {
+      "name": "Exhibition",
+      "url": "https://open.spotify.com/artist/7HziAqUufwxB7VZx3ysxoM",
+      "time": 84,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab67616d0000b273a0ef413298234d5624436544"
+    },
+    {
+      "name": "Julian Casablancas",
+      "url": "https://open.spotify.com/artist/1rAv1GhTQ2rmG94p9lU3rB",
+      "time": 84,
+      "genres": [
+        "indie rock"
+      ],
+      "image": "https://i.scdn.co/image/e7a1396741154b787911a8c6c9ba21a6f5b55a5f"
+    },
+    {
+      "name": "Girlhood",
+      "url": "https://open.spotify.com/artist/1zmozsuAfLwrawutG7x9VA",
+      "time": 186,
+      "genres": [
+        "british soul"
+      ],
+      "image": "https://i.scdn.co/image/c26cfcbbaabe8ccab03ee049d5d44e498e4e1eda"
+    },
+    {
+      "name": "bis",
+      "url": "https://open.spotify.com/artist/2CLWZP9ZwueC8Yx9ORbxlW",
+      "time": 6,
+      "genres": [
+        "new french touch",
+        "tropical house"
+      ],
+      "image": "https://i.scdn.co/image/bbd34f257d58aed5c0f6d93394e9c69ee7722761"
+    },
+    {
+      "name": "White Reaper",
+      "url": "https://open.spotify.com/artist/75klPfIVnyYcyEGaicRUSF",
+      "time": 170,
+      "genres": [
+        "indie garage rock",
+        "indie punk",
+        "louisville indie",
+        "modern power pop"
+      ],
+      "image": "https://i.scdn.co/image/886337e5bf6443285e0a463e7743f38a67a21444"
+    },
+    {
+      "name": "Michael Cera",
+      "url": "https://open.spotify.com/artist/4xXQxNcBCtsaz6Gw1IblE3",
+      "time": 89,
+      "genres": [
+        "anti-folk",
+        "canadian indie folk",
+        "small room"
+      ],
+      "image": "https://i.scdn.co/image/ab67616d0000b2730409a2c89b43fc33d1f3cb0d"
+    },
+    {
+      "name": "Sharon Van Etten",
+      "url": "https://open.spotify.com/artist/2wJ4vsxWd7df7dRU4KcoDe",
+      "time": 89,
+      "genres": [
+        "art pop",
+        "chamber pop",
+        "chamber psych",
+        "dream pop",
+        "freak folk",
+        "indie folk",
+        "indie pop",
+        "indie rock",
+        "melancholia",
+        "new americana",
+        "new jersey indie",
+        "stomp and holler"
+      ],
+      "image": "https://i.scdn.co/image/08450baee6651b0a080ff0f63cda949dfc35ff07"
+    },
+    {
+      "name": "Calexico",
+      "url": "https://open.spotify.com/artist/1OmdWpAh1pucAuZPzJaxIJ",
+      "time": 4,
+      "genres": [
+        "alternative country",
+        "roots rock",
+        "tucson indie"
+      ],
+      "image": "https://i.scdn.co/image/0478ca30b735fbe82369a7a80f1459679d98bb21"
+    },
+    {
+      "name": "Lorde",
+      "url": "https://open.spotify.com/artist/163tK9Wjr9P9DmM0AVK7lm",
+      "time": 382,
+      "genres": [
+        "art pop",
+        "dance pop",
+        "electropop",
+        "metropopolis",
+        "nz pop",
+        "pop",
+        "post-teen pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc4902f080d3620b3e6da80c3"
+    },
+    {
+      "name": "Tkay Maidza",
+      "url": "https://open.spotify.com/artist/1kMPdZQVdUhMDKDWOJM5iK",
+      "time": 181,
+      "genres": [
+        "australian hip hop",
+        "escape room"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8c93eafea29400e38263f74d"
+    },
+    {
+      "name": "Clairo",
+      "url": "https://open.spotify.com/artist/3l0CmX0FuQjFxr8SK7Vqag",
+      "time": 147,
+      "genres": [
+        "bedroom pop",
+        "indie pop",
+        "pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb370f4e30deba6da178db36fe"
+    },
+    {
+      "name": "Ritt Momney",
+      "url": "https://open.spotify.com/artist/7MPGCB854Qo4alYMOPkBka",
+      "time": 280,
+      "genres": [
+        "bedroom pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8886486feba69252eca7a09b"
+    },
+    {
+      "name": "Remi Wolf",
+      "url": "https://open.spotify.com/artist/0NB5HROxc8dDBXpkIi1v3d",
+      "time": 343,
+      "genres": [
+        "alternative r&b",
+        "indie pop",
+        "indie r&b",
+        "modern alternative pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebbeb118880a9ef65f3f09b432"
+    },
+    {
+      "name": "b\u00fclow",
+      "url": "https://open.spotify.com/artist/5vBrKGOjN10BMwB0cJADj4",
+      "time": 164,
+      "genres": [
+        "alt z",
+        "electropop",
+        "indie cafe pop",
+        "indie poptimism",
+        "indietronica",
+        "pop",
+        "social media pop"
+      ],
+      "image": "https://i.scdn.co/image/b617b35709a370039911a4ceb870249e5a019db0"
+    },
+    {
+      "name": "Christian Leave",
+      "url": "https://open.spotify.com/artist/2G8UkPZnQ8i78L8TfqP1X6",
+      "time": 25,
+      "genres": [
+        "alt z",
+        "indie cafe pop",
+        "indie pop",
+        "modern rock",
+        "pop"
+      ],
+      "image": "https://i.scdn.co/image/d8e3330e84e6a9c8ff48df38d0af4f58eb4932a7"
+    },
+    {
+      "name": "Declan McKenna",
+      "url": "https://open.spotify.com/artist/2D4FOOOtWycb3Aw9nY5n3c",
+      "time": 1,
+      "genres": [
+        "indie pop",
+        "modern alternative rock",
+        "modern rock",
+        "pop",
+        "rock"
+      ],
+      "image": "https://i.scdn.co/image/f5d6134fd136c452fc065d96883e9d65f47076c8"
+    },
+    {
+      "name": "HONEYMOAN",
+      "url": "https://open.spotify.com/artist/5J9s2Y6roGagMAipTa5XqV",
+      "time": 264,
+      "genres": [
+        "cape town indie",
+        "south african alternative",
+        "south african rock"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb649f80601218a2d4c46b5e15"
+    },
+    {
+      "name": "Superorganism",
+      "url": "https://open.spotify.com/artist/0Wkm45quqfx3NepJpXDvwE",
+      "time": 4,
+      "genres": [
+        "art pop"
+      ],
+      "image": "https://i.scdn.co/image/ab2d92455e0a0377a44aa364124321ac9824b1ef"
+    },
+    {
+      "name": "Claptone",
+      "url": "https://open.spotify.com/artist/4mncDFjVLUa3s025Tct3Ry",
+      "time": 170,
+      "genres": [
+        "deep disco house",
+        "german house",
+        "german techno",
+        "house",
+        "progressive house",
+        "tropical house"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebb06f29682a9727b7d987a3bc"
+    },
+    {
+      "name": "Baby Boys",
+      "url": "https://open.spotify.com/artist/5h1aEtZ8g7GdavtgSg633u",
+      "time": 118,
+      "genres": [],
+      "image": "https://i.scdn.co/image/7286df7ed87fcf89057b6bb7bd9e8c48b0e73def"
+    },
+    {
+      "name": "Los Bitchos",
+      "url": "https://open.spotify.com/artist/07b9qW7pabKGO29JPWXn9m",
+      "time": 228,
+      "genres": [],
+      "image": "https://i.scdn.co/image/1ec643ed0c80eb46dd8b9a6fea6f05f01ab2d21a"
+    },
+    {
+      "name": "TV On The Radio",
+      "url": "https://open.spotify.com/artist/3HJIB8sYPyxrFGuwvKXSLR",
+      "time": 312,
+      "genres": [
+        "alternative dance",
+        "alternative rock",
+        "brooklyn indie",
+        "indie pop",
+        "indie rock",
+        "indietronica",
+        "modern alternative rock",
+        "modern rock",
+        "new rave",
+        "rock"
+      ],
+      "image": "https://i.scdn.co/image/b13e733ea4dad41a53bf1b4eedb8ba6ca8d3dc84"
+    },
+    {
+      "name": "Gardens & Villa",
+      "url": "https://open.spotify.com/artist/5NgfalfOtMDHkJ0SbFAxyA",
+      "time": 191,
+      "genres": [
+        "chillwave",
+        "shimmer pop"
+      ],
+      "image": "https://i.scdn.co/image/079882da28469619c452c76769c19da17214212a"
+    },
+    {
+      "name": "The Asteroids Galaxy Tour",
+      "url": "https://open.spotify.com/artist/68g1s6VqLLLBI3tXR0Bb7C",
+      "time": 179,
+      "genres": [],
+      "image": "https://i.scdn.co/image/2feb62dc3d9d6b3bb83f1c3d2127fec77584e653"
+    },
+    {
+      "name": "Oscar Lang",
+      "url": "https://open.spotify.com/artist/6deCiWT7ATcDWP2Cvlalvn",
+      "time": 232,
+      "genres": [
+        "bedroom pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1e844731b861084e47abbc0e"
+    },
+    {
+      "name": "Jos\u00e9 Gonz\u00e1lez",
+      "url": "https://open.spotify.com/artist/6xrCU6zdcSTsG2hLrojpmI",
+      "time": 163,
+      "genres": [
+        "gothenburg indie",
+        "indie folk",
+        "neo mellow",
+        "stomp and holler",
+        "swedish indie folk",
+        "swedish indie pop",
+        "swedish singer-songwriter"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb121a2bd61b2ab9e371a5c969"
+    },
+    {
+      "name": "Lucy Dacus",
+      "url": "https://open.spotify.com/artist/07D1Bjaof0NFlU32KXiqUP",
+      "time": 173,
+      "genres": [
+        "art pop",
+        "bubblegrunge",
+        "indie folk",
+        "indie pop",
+        "indie rock"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc6edcb6e244bd2842ea81e4b"
+    },
+    {
+      "name": "Bleachers",
+      "url": "https://open.spotify.com/artist/2eam0iDomRHGBypaDQLwWI",
+      "time": 173,
+      "genres": [
+        "double drumming",
+        "indie pop",
+        "indie poptimism",
+        "modern alternative rock",
+        "modern rock",
+        "pop",
+        "pop rock",
+        "stomp and holler"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb10b8516a9d63202c9e325260"
+    },
+    {
+      "name": "Charlotte Day Wilson",
+      "url": "https://open.spotify.com/artist/3GQboECxDT1xqPPWC30p7v",
+      "time": 273,
+      "genres": [
+        "alternative r&b",
+        "canadian contemporary r&b",
+        "indie r&b",
+        "indie soul",
+        "neo soul"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb5afdeb5c2e1f6e2e6382b124"
+    },
+    {
+      "name": "Sleater-Kinney",
+      "url": "https://open.spotify.com/artist/4wLIbcoqmqI4WZHDiBxeCB",
+      "time": 257,
+      "genres": [
+        "alternative pop",
+        "alternative rock",
+        "anti-folk",
+        "indie pop",
+        "indie punk",
+        "indie rock",
+        "lilith",
+        "olympia wa indie",
+        "riot grrrl"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebdceba92082d35e25f712751b"
+    },
+    {
+      "name": "Bo Burnham",
+      "url": "https://open.spotify.com/artist/2Waw2sSbqvAwK8NwACNjVo",
+      "time": 247,
+      "genres": [
+        "comic"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb30d9a4acdf8cd3e8c0ad39ab"
+    },
+    {
+      "name": "Hiatus Kaiyote",
+      "url": "https://open.spotify.com/artist/43JlwunhXm1oqdKyOa2Z9Y",
+      "time": 162,
+      "genres": [
+        "alternative r&b",
+        "australian r&b",
+        "indie jazz",
+        "indie soul",
+        "neo soul",
+        "shiver pop"
+      ],
+      "image": "https://i.scdn.co/image/2bac3fc3fd53854a4ab244c5ea7ed594c335c024"
+    },
+    {
+      "name": "Husbands",
+      "url": "https://open.spotify.com/artist/2FUIaEhxMNdiBpO8ykabdP",
+      "time": 433,
+      "genres": [
+        "french indie pop",
+        "queercore"
+      ],
+      "image": "https://i.scdn.co/image/ab67616d0000b273013db0f281c6cfbce767d7ba"
+    },
+    {
+      "name": "Smoothboi Ezra",
+      "url": "https://open.spotify.com/artist/2efF0JsHHsKKyjceFHUMFj",
+      "time": 288,
+      "genres": [
+        "bedroom pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb2624925c3b6b331e1f26bef7"
+    },
+    {
+      "name": "RICEWINE",
+      "url": "https://open.spotify.com/artist/6Vf4rmMsQbAwiCG00YeEI7",
+      "time": 171,
+      "genres": [
+        "indie garage rock",
+        "melbourne indie"
+      ],
+      "image": "https://i.scdn.co/image/ae5fbd744414332403d8cb79d8424252afe0a6fd"
+    },
+    {
+      "name": "TEMPOREX",
+      "url": "https://open.spotify.com/artist/3BBCgZVbXFRzcnT1ewVfRt",
+      "time": 117,
+      "genres": [
+        "bedroom pop",
+        "indie garage rock",
+        "san diego indie"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebb92dcb3d365b9860bf0859dd"
+    },
+    {
+      "name": "Orla Gartland",
+      "url": "https://open.spotify.com/artist/3ajf12ub55b51qcS94d9Co",
+      "time": 210,
+      "genres": [
+        "alt z",
+        "indie pop",
+        "irish pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb70ee7a1f104ecce0de9f68d9"
+    },
+    {
+      "name": "Richard Orofino",
+      "url": "https://open.spotify.com/artist/3xXUZ2bPGudLudm2eBE7I0",
+      "time": 143,
+      "genres": [],
+      "image": "https://i.scdn.co/image/1b9dff521066320c80d014ecdc1373c9dc314fc3"
+    },
+    {
+      "name": "Junior Mesa",
+      "url": "https://open.spotify.com/artist/0tqSrr7nI6j3yOlMZJGCUX",
+      "time": 162,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb4ce6898469c0f90aa10b91b5"
+    },
+    {
+      "name": "BETWEEN FRIENDS",
+      "url": "https://open.spotify.com/artist/2HkSsS8O2U2gPhnCGVN5vn",
+      "time": 159,
+      "genres": [
+        "alt z",
+        "indie pop",
+        "la pop"
+      ],
+      "image": "https://i.scdn.co/image/3ea2ba6bdc79b38350eb95681dc008210e0b93d9"
+    },
+    {
+      "name": "L'Rain",
+      "url": "https://open.spotify.com/artist/68BVYIej5jGdIh8au5qELn",
+      "time": 229
+    },
+    {
+      "name": "Mac Wetha",
+      "url": "https://open.spotify.com/artist/4q1qItmjb9INKQM0F82StP",
+      "time": 214,
+      "genres": [
+        "uk alternative hip hop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebb5a0c25a17d6536a8bd0a801"
+    },
+    {
+      "name": "Sam Ezeh",
+      "url": "https://open.spotify.com/artist/5Ys0Puc1F5jOw7EpmhMSTK",
+      "time": 178,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb86a3898eb7d37830d385278f"
+    },
+    {
+      "name": "boy pablo",
+      "url": "https://open.spotify.com/artist/7wbkl3zgDZEoZer357mVIw",
+      "time": 264,
+      "genres": [
+        "bedroom pop",
+        "bergen indie",
+        "indie pop",
+        "norwegian indie"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1310724e46f58af76236c53d"
+    },
+    {
+      "name": "Kamal.",
+      "url": "https://open.spotify.com/artist/2gIHyzlzKxntjQWf8xAGaI",
+      "time": 165,
+      "genres": [
+        "francoton"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb184e0ba8d8962b307aa6131b"
+    },
+    {
+      "name": "Whose Rules",
+      "url": "https://open.spotify.com/artist/3GAycRSOI4PRxEe6e1Ci8j",
+      "time": 82,
+      "genres": [],
+      "image": "https://i.scdn.co/image/00e7c165646071977083f7a0ef8cebf6dcf0e137"
+    },
+    {
+      "name": "Sipper",
+      "url": "https://open.spotify.com/artist/2BjcWnk7C01aHhp59HqUED",
+      "time": 175,
+      "genres": [],
+      "image": "https://i.scdn.co/image/e546f607573fbcc3a838c5b76f0998f95d60086d"
+    },
+    {
+      "name": "illuminati hotties",
+      "url": "https://open.spotify.com/artist/3ztRX1UoIOsFqpD7dB6R8O",
+      "time": 179,
+      "genres": [
+        "bubblegrunge",
+        "indie pop",
+        "indie punk",
+        "indie rock",
+        "small room"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebb64114aebf41517b0f17e466"
+    },
+    {
+      "name": "Tiberius b",
+      "url": "https://open.spotify.com/artist/0Kt443UQm5aqR2WCwqSMe0",
+      "time": 232,
+      "genres": [],
+      "image": "https://i.scdn.co/image/0dd68e102dbb81102048a7eeebd72d5ad49138bf"
+    },
+    {
+      "name": "Ber",
+      "url": "https://open.spotify.com/artist/3yojdgzMmWK3m7QABkOr7x",
+      "time": 34,
+      "genres": [
+        "chanson",
+        "french pop",
+        "french rock",
+        "nouvelle chanson francaise"
+      ],
+      "image": "https://i.scdn.co/image/a8f78cfe7c1b5d9858595edd7270042d445ccebb"
+    },
+    {
+      "name": "Japanese Breakfast",
+      "url": "https://open.spotify.com/artist/7MoIc5s9KXolCBH1fy9kkw",
+      "time": 214,
+      "genres": [
+        "art pop",
+        "bubblegrunge",
+        "eugene indie",
+        "indie pop",
+        "indie rock",
+        "philly indie"
+      ],
+      "image": "https://i.scdn.co/image/5f81d58a6a1de44b28148055a4fadfe46ab38bcd"
+    },
+    {
+      "name": "Cavetown",
+      "url": "https://open.spotify.com/artist/2hR4h1Cao2ueuI7Cx9c7V8",
+      "time": 166,
+      "genres": [
+        "bedroom pop",
+        "indie pop",
+        "modern rock"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebdb84295167720ad0241de31d"
+    },
+    {
+      "name": "Samia",
+      "url": "https://open.spotify.com/artist/1Uk1GyijF6fSfX4mWq5bfR",
+      "time": 158,
+      "genres": [
+        "art pop",
+        "bubblegrunge",
+        "indie folk",
+        "indie pop",
+        "indie rock"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb72183b7ccda1039d14d8a4f5"
+    },
+    {
+      "name": "CHVRCHES",
+      "url": "https://open.spotify.com/artist/3CjlHNtplJyTf9npxaPl5w",
+      "time": 44,
+      "genres": [
+        "dance pop",
+        "electropop",
+        "indie pop",
+        "indie poptimism",
+        "metropopolis",
+        "neo-synthpop",
+        "shimmer pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebea72be78f2a71616661b982e"
+    },
+    {
+      "name": "Robert Smith",
+      "url": "https://open.spotify.com/artist/0GsLdcNOitgx7M8l6OX9fY",
+      "time": 44,
+      "genres": [],
+      "image": "https://i.scdn.co/image/6d5600a80cadf8321e6509a9421f3ac582d461b3"
+    },
+    {
+      "name": "Oklou",
+      "url": "https://open.spotify.com/artist/6fFcUOFcbjeIuEomuUthkw",
+      "time": 51,
+      "genres": [
+        "art pop",
+        "deconstructed club",
+        "electropop",
+        "escape room",
+        "hyperpop"
+      ],
+      "image": "https://i.scdn.co/image/02804c9741d8e18c167db818240cc729a11d7f7f"
+    },
+    {
+      "name": "A. G. Cook",
+      "url": "https://open.spotify.com/artist/335TWGWGFan4vaacJzSiU8",
+      "time": 51,
+      "genres": [
+        "art pop",
+        "deconstructed club",
+        "electropop",
+        "escape room",
+        "hyperpop"
+      ],
+      "image": "https://i.scdn.co/image/f6521962d0d205684b2d71e646023ff50d7da07f"
+    },
+    {
+      "name": "Billie Eilish",
+      "url": "https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH",
+      "time": 70,
+      "genres": [
+        "electropop",
+        "pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd8b9980db67272cb4d2c3daf"
+    },
+    {
+      "name": "Jungle",
+      "url": "https://open.spotify.com/artist/59oA5WbbQvomJz2BuRG071",
+      "time": 138,
+      "genres": [
+        "indie soul",
+        "uk contemporary r&b"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8bb1c41fc079f9df4b472a2b"
+    },
+    {
+      "name": "Villagers",
+      "url": "https://open.spotify.com/artist/2m1l9MLSslzup4vvokKgvQ",
+      "time": 248,
+      "genres": [
+        "chamber pop",
+        "indie folk",
+        "stomp and holler"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd70a688f6de9ccd2a06ef3c6"
+    },
+    {
+      "name": "Arlo Parks",
+      "url": "https://open.spotify.com/artist/4kIwETcbpuFgRukE8o7Opx",
+      "time": 221,
+      "genres": [
+        "indie soul",
+        "uk contemporary r&b"
+      ],
+      "image": "https://i.scdn.co/image/dec23a5b598a80a8dc36e51f428bf89a64b2b1fb"
+    },
+    {
+      "name": "OJR",
+      "url": "https://open.spotify.com/artist/3BxLJvBTizcXZfwkydW2oT",
+      "time": 181,
+      "genres": [
+        "deep new americana"
+      ],
+      "image": "https://i.scdn.co/image/ab67616d0000b273dfba8c8294a5a6b3b4214578"
+    },
+    {
+      "name": "Del Water Gap",
+      "url": "https://open.spotify.com/artist/0xPoVNPnxIIUS1vrxAYV00",
+      "time": 189,
+      "genres": [
+        "deep new americana",
+        "indie pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc7bcab842ecbfed8231b12fb"
+    },
+    {
+      "name": "Father John Misty",
+      "url": "https://open.spotify.com/artist/2kGBy2WHvF0VdZyqiVCkDT",
+      "time": 58,
+      "genres": [
+        "indie folk",
+        "indie pop",
+        "indie rock",
+        "stomp and holler"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebcb1d98e8066f904971d33455"
     }
   ],
   "songs": [
@@ -2924,7 +3654,7 @@
     {
       "name": "Outside",
       "url": "https://open.spotify.com/track/2i40wZkiPAGIFudrGH99nx",
-      "time": 593,
+      "time": 730,
       "image": "https://i.scdn.co/image/ab67616d0000b2738daa0157da70aa3f36781874",
       "artist": "Kota the Friend"
     },
@@ -3113,7 +3843,7 @@
     {
       "name": "Kevin",
       "url": "https://open.spotify.com/track/0lsBZvE7PBJrOEc0GEnsbv",
-      "time": 764,
+      "time": 841,
       "image": "https://i.scdn.co/image/ab67616d0000b273a06701a272d6c84f4b8e3b9c",
       "artist": "Oliver Malcolm"
     },
@@ -3386,7 +4116,7 @@
     {
       "name": "Hot Rod",
       "url": "https://open.spotify.com/track/0zePbRMJ9sd7wsZRlbPQua",
-      "time": 1,
+      "time": 2,
       "image": "https://i.scdn.co/image/ab67616d0000b273ccd63af052f7e438c05f6c94",
       "artist": "Dayglow"
     },
@@ -3400,7 +4130,7 @@
     {
       "name": "This Old Dog",
       "url": "https://open.spotify.com/track/1KTMZ2DeqT4oqIJ7Co5F6R",
-      "time": 149,
+      "time": 294,
       "image": "https://i.scdn.co/image/ab67616d0000b27398526846ff341ae71e5c3818",
       "artist": "Mac DeMarco"
     },
@@ -3456,7 +4186,7 @@
     {
       "name": "Stay",
       "url": "https://open.spotify.com/track/1tphpNOryX2zZOFm50E1Mu",
-      "time": 24,
+      "time": 181,
       "image": "https://i.scdn.co/image/ab67616d0000b273f09f8c87d69b20bdb6dcf0fd",
       "artist": "The Hails"
     },
@@ -3526,7 +4256,7 @@
     {
       "name": "The Suburbs",
       "url": "https://open.spotify.com/track/4esS3584y3Mjvbqg0FE6Uj",
-      "time": 311,
+      "time": 624,
       "image": "https://i.scdn.co/image/ab67616d0000b273ce9097d719ec72da26e07864",
       "artist": "Arcade Fire"
     },
@@ -3827,7 +4557,7 @@
     {
       "name": "Runaway",
       "url": "https://open.spotify.com/track/3GYZRYEqrXzl5iwxO42c2H",
-      "time": 4921,
+      "time": 6986,
       "image": "https://i.scdn.co/image/ab67616d0000b273a06701a272d6c84f4b8e3b9c",
       "artist": "Oliver Malcolm"
     },
@@ -3911,7 +4641,7 @@
     {
       "name": "Disassociate",
       "url": "https://open.spotify.com/track/0Apty1GYyLLBkG6MHehlqF",
-      "time": 102,
+      "time": 207,
       "image": "https://i.scdn.co/image/ab67616d0000b273cf11178c51a0a60315d163e1",
       "artist": "Deb Never"
     },
@@ -4002,7 +4732,7 @@
     {
       "name": "I want you Back",
       "url": "https://open.spotify.com/track/6Pnn1ehv3N8MLbFJDeDEly",
-      "time": 123,
+      "time": 306,
       "image": "https://i.scdn.co/image/ab67616d0000b2731891bae909f06e9d32666a4e",
       "artist": "Hobo Johnson"
     },
@@ -4247,21 +4977,21 @@
     {
       "name": "Tokyo Drifting - Oliver Malcolm Remix",
       "url": "https://open.spotify.com/track/2eOW4hT8wfZmyi11DGItc8",
-      "time": 332,
+      "time": 494,
       "image": "https://i.scdn.co/image/ab67616d0000b27352b264be496ab31fe8db3907",
       "artist": "Glass Animals"
     },
     {
       "name": "Switched Up",
       "url": "https://open.spotify.com/track/6i3eLzjEcN3Xbc23vFxGRp",
-      "time": 430,
+      "time": 572,
       "image": "https://i.scdn.co/image/ab67616d0000b273a06701a272d6c84f4b8e3b9c",
       "artist": "Oliver Malcolm"
     },
     {
       "name": "Skywalker",
       "url": "https://open.spotify.com/track/7cvTaamVS2hhKjEtKGpNlF",
-      "time": 475,
+      "time": 715,
       "image": "https://i.scdn.co/image/ab67616d0000b273a06701a272d6c84f4b8e3b9c",
       "artist": "Oliver Malcolm"
     },
@@ -4418,6 +5148,475 @@
       "time": 92,
       "image": "https://i.scdn.co/image/ab67616d0000b2730b891ecf0990dac512caf82f",
       "artist": "Chiiild"
+    },
+    {
+      "name": "OK",
+      "url": "https://open.spotify.com/track/0APAKxMXB7jdDs4kw1l30y",
+      "time": 76,
+      "image": "https://i.scdn.co/image/ab67616d0000b27318613efad01d21a4a67cc532",
+      "artist": "Wallows"
+    },
+    {
+      "name": "Fog",
+      "url": "https://open.spotify.com/track/1XSwOLhL8ZpUtLC5U5HxEO",
+      "time": 74,
+      "image": "https://i.scdn.co/image/ab67616d0000b273b96bba43ae9b726a193d68c4",
+      "artist": "Shimmertraps"
+    },
+    {
+      "name": "Vacant Lot",
+      "url": "https://open.spotify.com/track/67asRo6h3xBKz9S9Oewdgq",
+      "time": 175,
+      "image": "https://i.scdn.co/image/ab67616d0000b2739c36a2c0ca9e33c697c1d779",
+      "artist": "The Growlers"
+    },
+    {
+      "name": "No One There",
+      "url": "https://open.spotify.com/track/7A7YHqlKVuqOVyRv6fMqFu",
+      "time": 84,
+      "image": "https://i.scdn.co/image/ab67616d0000b273db013f14a495ac11f330ff64",
+      "artist": "Exhibition"
+    },
+    {
+      "name": "It Might Take A Woman",
+      "url": "https://open.spotify.com/track/1kVyVPvuaQsuiuCE7YF2Ek",
+      "time": 186,
+      "image": "https://i.scdn.co/image/ab67616d0000b273324ca40ada53d7530ef314f4",
+      "artist": "Girlhood"
+    },
+    {
+      "name": "Statement of Intent",
+      "url": "https://open.spotify.com/track/5E4bOBja2Dq1CO7Jwa3g6J",
+      "time": 6,
+      "image": "https://i.scdn.co/image/ab67616d0000b273f5af15ecb664b555d7e9bcc6",
+      "artist": "bis"
+    },
+    {
+      "name": "Daisies",
+      "url": "https://open.spotify.com/track/6pJkyX7oE1nRg0r6JIchUQ",
+      "time": 170,
+      "image": "https://i.scdn.co/image/ab67616d0000b273788aa0b1dcbbee94a22f7724",
+      "artist": "White Reaper"
+    },
+    {
+      "name": "Best I Can (feat. Sharon Van Etten)",
+      "url": "https://open.spotify.com/track/2ljlog0cXfnorySQUoDkt0",
+      "time": 89,
+      "image": "https://i.scdn.co/image/ab67616d0000b273709c5c60b578a4cb3da082e8",
+      "artist": "Michael Cera"
+    },
+    {
+      "name": "Crystal Frontier Widescreen - Re-Release",
+      "url": "https://open.spotify.com/track/5V3Bwmi4H5lKmFYuRkXYQV",
+      "time": 4,
+      "image": "https://i.scdn.co/image/ab67616d0000b273bf91e2bac9cb757fb0162285",
+      "artist": "Calexico"
+    },
+    {
+      "name": "Solar Power",
+      "url": "https://open.spotify.com/track/3KdoeNlEN0BoAKWzaRLNZa",
+      "time": 382,
+      "image": "https://i.scdn.co/image/ab67616d0000b273d08ee7bfe4aaf52168247de7",
+      "artist": "Lorde"
+    },
+    {
+      "name": "Cashmere",
+      "url": "https://open.spotify.com/track/6xszMomofJTQMICSVVNNDL",
+      "time": 181,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732d539dc2407b04a5ba3bca37",
+      "artist": "Tkay Maidza"
+    },
+    {
+      "name": "Blouse",
+      "url": "https://open.spotify.com/track/34q8siON3Dxf5HFVt3pynf",
+      "time": 147,
+      "image": "https://i.scdn.co/image/ab67616d0000b27366d377b9fac0ad2ac542fa81",
+      "artist": "Clairo"
+    },
+    {
+      "name": "Escalator",
+      "url": "https://open.spotify.com/track/0FpsrB0Kivu69LD8TaywhD",
+      "time": 280,
+      "image": "https://i.scdn.co/image/ab67616d0000b2738a9689e752cdd3483215b206",
+      "artist": "Ritt Momney"
+    },
+    {
+      "name": "Liz",
+      "url": "https://open.spotify.com/track/5wJ9sSG7NItwu34jMnyxqa",
+      "time": 343,
+      "image": "https://i.scdn.co/image/ab67616d0000b273f6386052742c587f52b3f005",
+      "artist": "Remi Wolf"
+    },
+    {
+      "name": "Revolver",
+      "url": "https://open.spotify.com/track/3alJBylWqwz6zFDhzT9xO3",
+      "time": 164,
+      "image": "https://i.scdn.co/image/ab67616d0000b27315aa47872d26d8b4b9e81ddd",
+      "artist": "b\u00fclow"
+    },
+    {
+      "name": "Your Life Your Time - Acoustic",
+      "url": "https://open.spotify.com/track/33whXaknBDUx53evCaViv1",
+      "time": 25,
+      "image": "https://i.scdn.co/image/ab67616d0000b273e833c8ee5fa873e40f928c6a",
+      "artist": "Christian Leave"
+    },
+    {
+      "name": "Rapture",
+      "url": "https://open.spotify.com/track/1YujOVzHHRNWqurlssJIOx",
+      "time": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000b273c7ac770d6d205c87c38d2dcf",
+      "artist": "Declan McKenna"
+    },
+    {
+      "name": "We",
+      "url": "https://open.spotify.com/track/0BSI1Epu3YeVwXF1bvL8oH",
+      "time": 264,
+      "image": "https://i.scdn.co/image/ab67616d0000b273ea3bca2935ddedaedeca0483",
+      "artist": "HONEYMOAN"
+    },
+    {
+      "name": "Something For Your M.I.N.D.",
+      "url": "https://open.spotify.com/track/47wq2z7KMHDRnoSMdZODUA",
+      "time": 4,
+      "image": "https://i.scdn.co/image/ab67616d0000b27315e40f96a2ce4c31e7106210",
+      "artist": "Superorganism"
+    },
+    {
+      "name": "Golden",
+      "url": "https://open.spotify.com/track/1AbxRPvSQPSlNxoPJ89JE7",
+      "time": 170,
+      "image": "https://i.scdn.co/image/ab67616d0000b27330b93d9ef1e3355bda295420",
+      "artist": "Claptone"
+    },
+    {
+      "name": "Duke and the Cash",
+      "url": "https://open.spotify.com/track/3z1n3YpF1qPiq1Ekmfasaa",
+      "time": 118,
+      "image": "https://i.scdn.co/image/ab67616d0000b273cae2c8ff1185635bcb1c1612",
+      "artist": "Baby Boys"
+    },
+    {
+      "name": "Me No Evil",
+      "url": "https://open.spotify.com/track/77QScpB2OMJPRJqTmAyiVf",
+      "time": 164,
+      "image": "https://i.scdn.co/image/ab67616d0000b273167ffb059828ecac0e9c69fe",
+      "artist": "Abhi The Nomad"
+    },
+    {
+      "name": "The Link Is About to Die",
+      "url": "https://open.spotify.com/track/2tbbQfENfWDAbIz0OyiUa2",
+      "time": 228,
+      "image": "https://i.scdn.co/image/ab67616d0000b273794b00bd1cc9850112fdd295",
+      "artist": "Los Bitchos"
+    },
+    {
+      "name": "Young Liars",
+      "url": "https://open.spotify.com/track/2x24uEfWPzORC6r7FdjBFz",
+      "time": 312,
+      "image": "https://i.scdn.co/image/ab67616d0000b2731e121099514918d0dc9bd7de",
+      "artist": "TV On The Radio"
+    },
+    {
+      "name": "Disco Kitchen",
+      "url": "https://open.spotify.com/track/00eHtpRr74BgWQN7u6vEHT",
+      "time": 191,
+      "image": "https://i.scdn.co/image/ab67616d0000b27315fbaf5fa7c6a2e6e4474d26",
+      "artist": "Gardens & Villa"
+    },
+    {
+      "name": "Bring Us Together",
+      "url": "https://open.spotify.com/track/7ziyYL3B9w4a6XCdY8QzCl",
+      "time": 179,
+      "image": "https://i.scdn.co/image/ab67616d0000b2735dd4ae1df8825b9cc7edd560",
+      "artist": "The Asteroids Galaxy Tour"
+    },
+    {
+      "name": "Sober Up",
+      "url": "https://open.spotify.com/track/3UnMcZ7ewqsJgCcuT7hQhu",
+      "time": 69,
+      "image": "https://i.scdn.co/image/ab67616d0000b273b274b87074336d26329171f5",
+      "artist": "Gus Dapperton"
+    },
+    {
+      "name": "21st Century Hobby",
+      "url": "https://open.spotify.com/track/4RMGlgCIVjvnBYUGRsSe82",
+      "time": 232,
+      "image": "https://i.scdn.co/image/ab67616d0000b273a04011305e514dd72bae721b",
+      "artist": "Oscar Lang"
+    },
+    {
+      "name": "Head On",
+      "url": "https://open.spotify.com/track/2ku71f9zbPxkykS1cySXyL",
+      "time": 163,
+      "image": "https://i.scdn.co/image/ab67616d0000b273328ade64828ccdc3dc590a1d",
+      "artist": "Jos\u00e9 Gonz\u00e1lez"
+    },
+    {
+      "name": "Brando",
+      "url": "https://open.spotify.com/track/74W2WLhCxYJEmOs7fCu76j",
+      "time": 173,
+      "image": "https://i.scdn.co/image/ab67616d0000b27371a30e96bfd46944faa85dac",
+      "artist": "Lucy Dacus"
+    },
+    {
+      "name": "How Dare You Want More",
+      "url": "https://open.spotify.com/track/3ofm3iqaRbHBCGvqf5jK7H",
+      "time": 173,
+      "image": "https://i.scdn.co/image/ab67616d0000b2730b58648ab3f156bafa261434",
+      "artist": "Bleachers"
+    },
+    {
+      "name": "Keep Moving",
+      "url": "https://open.spotify.com/track/1oe4dRDAmm9Ct5aapThtGN",
+      "time": 273,
+      "image": "https://i.scdn.co/image/ab67616d0000b2738904d948bd809389201ed31e",
+      "artist": "Charlotte Day Wilson"
+    },
+    {
+      "name": "Method",
+      "url": "https://open.spotify.com/track/7A9jRkVwEKPMISJCQhSpeh",
+      "time": 257,
+      "image": "https://i.scdn.co/image/ab67616d0000b273890c6ccd195251dd50aef0e3",
+      "artist": "Sleater-Kinney"
+    },
+    {
+      "name": "How the World Works",
+      "url": "https://open.spotify.com/track/3ymKC2QCBeN3hMseX2hUYm",
+      "time": 247,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732853b5ea06ddc676b337c389",
+      "artist": "Bo Burnham"
+    },
+    {
+      "name": "Chivalry Is Not Dead",
+      "url": "https://open.spotify.com/track/4nd9kZRsdc1IC9cWYjL2ox",
+      "time": 162,
+      "image": "https://i.scdn.co/image/ab67616d0000b273b0350b18dc0f9a899a887173",
+      "artist": "Hiatus Kaiyote"
+    },
+    {
+      "name": "Must Be a Cop",
+      "url": "https://open.spotify.com/track/3EK8CQiAGRn8iXgzQO4J5Y",
+      "time": 225,
+      "image": "https://i.scdn.co/image/ab67616d0000b273c1655301463d9a0f754e3dc2",
+      "artist": "Husbands"
+    },
+    {
+      "name": "Without Me",
+      "url": "https://open.spotify.com/track/59CvrXg1dTTVlPDpdur9wK",
+      "time": 288,
+      "image": "https://i.scdn.co/image/ab67616d0000b27373fc3fc7d3bae1f6e38ea332",
+      "artist": "Smoothboi Ezra"
+    },
+    {
+      "name": "Already Gone",
+      "url": "https://open.spotify.com/track/0gdWSthwNMJ4TPVya8b0bh",
+      "time": 171,
+      "image": "https://i.scdn.co/image/ab67616d0000b2730348f4ead02964889488f88a",
+      "artist": "RICEWINE"
+    },
+    {
+      "name": "New Lane",
+      "url": "https://open.spotify.com/track/2vO9Ha3zfJ7MXRLsfHyI7q",
+      "time": 117,
+      "image": "https://i.scdn.co/image/ab67616d0000b27348fd6cc2c48544ee665c6ea2",
+      "artist": "TEMPOREX"
+    },
+    {
+      "name": "Do You Mind?",
+      "url": "https://open.spotify.com/track/5b5aNXBIOVyWas8NGgzOl5",
+      "time": 210,
+      "image": "https://i.scdn.co/image/ab67616d0000b273e1ca58ff5db1e6b266effde8",
+      "artist": "Orla Gartland"
+    },
+    {
+      "name": "Fake Me",
+      "url": "https://open.spotify.com/track/1mjQCaUq0evcXGglw5LA34",
+      "time": 143,
+      "image": "https://i.scdn.co/image/ab67616d0000b273ed7f226e54e489fff5b496b8",
+      "artist": "Richard Orofino"
+    },
+    {
+      "name": "Listen Close",
+      "url": "https://open.spotify.com/track/32f5O0U9hax2OLL7rEN6Kc",
+      "time": 162,
+      "image": "https://i.scdn.co/image/ab67616d0000b27314c577260848498b704a82d1",
+      "artist": "Junior Mesa"
+    },
+    {
+      "name": "ok",
+      "url": "https://open.spotify.com/track/5ILHXmaeyzwt87dLAdPFo4",
+      "time": 159,
+      "image": "https://i.scdn.co/image/ab67616d0000b2733aeef24b02f26744f452c85c",
+      "artist": "BETWEEN FRIENDS"
+    },
+    {
+      "name": "Suck Teeth",
+      "url": "https://open.spotify.com/track/6wIeymnRFnRnyF4GoGKxSF",
+      "time": 229,
+      "image": "https://i.scdn.co/image/ab67616d0000b2733cf6611ea4de2f9bc94a1bb6",
+      "artist": "L'Rain"
+    },
+    {
+      "name": "Wayside",
+      "url": "https://open.spotify.com/track/2IH2ZVes9PkTRUxlDJj0vm",
+      "time": 214,
+      "image": "https://i.scdn.co/image/ab67616d0000b27335aaade4c0503c70bee9777a",
+      "artist": "Mac Wetha"
+    },
+    {
+      "name": "Relay",
+      "url": "https://open.spotify.com/track/7cHLutQTiJ5cMfVI5Bg7nQ",
+      "time": 178,
+      "image": "https://i.scdn.co/image/ab67616d0000b27381190ce304834cfdabead41f",
+      "artist": "Sam Ezeh"
+    },
+    {
+      "name": "Terrace",
+      "url": "https://open.spotify.com/track/4PBgPkUQ8K7RttxbZol0mA",
+      "time": 264,
+      "image": "https://i.scdn.co/image/ab67616d0000b2738fb6637583b4a0947274effb",
+      "artist": "Shelter Boy"
+    },
+    {
+      "name": "war outside",
+      "url": "https://open.spotify.com/track/7IXCfadpx5y8O37WojfLUp",
+      "time": 165,
+      "image": "https://i.scdn.co/image/ab67616d0000b273407d52429d28670a5931c332",
+      "artist": "Kamal."
+    },
+    {
+      "name": "Out of Love",
+      "url": "https://open.spotify.com/track/0ITjwjywJdyBk5jDCu8Zk5",
+      "time": 82,
+      "image": "https://i.scdn.co/image/ab67616d0000b2735a0c29337c192e67270be1fc",
+      "artist": "Whose Rules"
+    },
+    {
+      "name": "Fuck June",
+      "url": "https://open.spotify.com/track/6zIjeRxHPybvw7ZjWsEa8i",
+      "time": 175,
+      "image": "https://i.scdn.co/image/ab67616d0000b2733d9636684a4dfe2fa617321c",
+      "artist": "Sipper"
+    },
+    {
+      "name": "Pool Hopping",
+      "url": "https://open.spotify.com/track/3MMGTD1oJQ6MZSHLap5ec6",
+      "time": 179,
+      "image": "https://i.scdn.co/image/ab67616d0000b27374f184f0aa6e249842f6116e",
+      "artist": "illuminati hotties"
+    },
+    {
+      "name": "Stains",
+      "url": "https://open.spotify.com/track/3jqRDmH8YN6GT6j53kPi3a",
+      "time": 232,
+      "image": "https://i.scdn.co/image/ab67616d0000b2731dbd3702e998edd9c446ed9b",
+      "artist": "Tiberius b"
+    },
+    {
+      "name": "Bad For Me",
+      "url": "https://open.spotify.com/track/7tmj8qKBJaZwBtB6k6TYng",
+      "time": 34,
+      "image": "https://i.scdn.co/image/ab67616d0000b273edb5148e31b2054f7f314567",
+      "artist": "Ber"
+    },
+    {
+      "name": "Paprika",
+      "url": "https://open.spotify.com/track/7hINOWdRK2rAWDKmjXTHth",
+      "time": 214,
+      "image": "https://i.scdn.co/image/ab67616d0000b273fc6b64a6baeac1ea56cf7437",
+      "artist": "Japanese Breakfast"
+    },
+    {
+      "name": "Idea of Her",
+      "url": "https://open.spotify.com/track/167NK7xPIRNKnSmUE9dBrQ",
+      "time": 166,
+      "image": "https://i.scdn.co/image/ab67616d0000b2736c8decf40486fd2cd30172cc",
+      "artist": "Cavetown"
+    },
+    {
+      "name": "Show Up",
+      "url": "https://open.spotify.com/track/6ouWFK1glsWeCC5C0uw2KR",
+      "time": 158,
+      "image": "https://i.scdn.co/image/ab67616d0000b27357b6cc3b6b283c7d2ed4b007",
+      "artist": "Samia"
+    },
+    {
+      "name": "Dramamine",
+      "url": "https://open.spotify.com/track/2MCcUgZVe1RH8beGoeA4bE",
+      "time": 169,
+      "image": "https://i.scdn.co/image/ab67616d0000b2739a0e7f5b20e5d5872329ef66",
+      "artist": "Wallice"
+    },
+    {
+      "name": "How Not To Drown (feat. Robert Smith)",
+      "url": "https://open.spotify.com/track/0Z5lJxM6ongiaJ1z2ERwY3",
+      "time": 44,
+      "image": "https://i.scdn.co/image/ab67616d0000b27361583916c430a4bdf8469ba3",
+      "artist": "CHVRCHES"
+    },
+    {
+      "name": "fall - A. G. Cook remix",
+      "url": "https://open.spotify.com/track/44dDBvATJffxnqvdMNsfDQ",
+      "time": 51,
+      "image": "https://i.scdn.co/image/ab67616d0000b27340bc47c4f2b323753c519a71",
+      "artist": "Oklou"
+    },
+    {
+      "name": "Lost Cause",
+      "url": "https://open.spotify.com/track/2xdwCJLfKCkat14mlgR26M",
+      "time": 70,
+      "image": "https://i.scdn.co/image/ab67616d0000b27319fc30a2e29973763e3d8a53",
+      "artist": "Billie Eilish"
+    },
+    {
+      "name": "Talk About It",
+      "url": "https://open.spotify.com/track/3mIK4mZ6dZbKNXU6yofkxB",
+      "time": 138,
+      "image": "https://i.scdn.co/image/ab67616d0000b273e7a2c86b83133b246f7f348a",
+      "artist": "Jungle"
+    },
+    {
+      "name": "Mexico",
+      "url": "https://open.spotify.com/track/2bN6To5ipOH6yjYcdujDpt",
+      "time": 208,
+      "image": "https://i.scdn.co/image/ab67616d0000b2731019e3360bf531938b1c74cc",
+      "artist": "Husbands"
+    },
+    {
+      "name": "A Trick of the Light",
+      "url": "https://open.spotify.com/track/1rCPg5GOtes0FIo1BzgvUi",
+      "time": 248,
+      "image": "https://i.scdn.co/image/ab67616d0000b27333b0111aa700ee59f233069e",
+      "artist": "Villagers"
+    },
+    {
+      "name": "Too Good",
+      "url": "https://open.spotify.com/track/1HHIv96gVeVkoOBzQeH9d8",
+      "time": 221,
+      "image": "https://i.scdn.co/image/ab67616d0000b2730869a7bb597fe38cb1b98102",
+      "artist": "Arlo Parks"
+    },
+    {
+      "name": "Front-Door Man",
+      "url": "https://open.spotify.com/track/66ubBggCcC4zssjnZT5Qd7",
+      "time": 181,
+      "image": "https://i.scdn.co/image/ab67616d0000b273dfba8c8294a5a6b3b4214578",
+      "artist": "OJR"
+    },
+    {
+      "name": "Ode to a Conversation Stuck in Your Throat",
+      "url": "https://open.spotify.com/track/3imxKEdtgGSMWihNKLdylF",
+      "time": 189,
+      "image": "https://i.scdn.co/image/ab67616d0000b2731e08ff0ff66c27809bbfea72",
+      "artist": "Del Water Gap"
+    },
+    {
+      "name": "Date Night",
+      "url": "https://open.spotify.com/track/0yhtHv2XQw0sTlClTOdABp",
+      "time": 58,
+      "image": "https://i.scdn.co/image/ab67616d0000b273a62562cc28e6061c568d53dc",
+      "artist": "Father John Misty"
     }
   ]
 }
