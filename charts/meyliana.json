@@ -61,7 +61,7 @@
     {
       "name": "Your Neighbors",
       "url": "https://open.spotify.com/artist/6mpyU2azr3zfZDY9k8w5GP",
-      "time": 7355,
+      "time": 7792,
       "genres": [
         "nashville indie"
       ],
@@ -70,7 +70,7 @@
     {
       "name": "Sam Will",
       "url": "https://open.spotify.com/artist/3BPZfXz2Urd2vKUJu5Ptux",
-      "time": 826,
+      "time": 1024,
       "genres": [
         "alternative r&b",
         "chill r&b",
@@ -84,7 +84,7 @@
     {
       "name": "Oliver Malcolm",
       "url": "https://open.spotify.com/artist/5ut4VhaCRPsEjAZ93jpPfK",
-      "time": 125,
+      "time": 142,
       "genres": [
         "indie hip hop",
         "modern alternative pop"
@@ -174,7 +174,7 @@
     {
       "name": "The Brook & The Bluff",
       "url": "https://open.spotify.com/artist/4dWtsQvuME6tCWFycaTvO7",
-      "time": 52,
+      "time": 327,
       "genres": [
         "alabama indie",
         "indie folk",
@@ -196,7 +196,7 @@
     {
       "name": "Leland Blue",
       "url": "https://open.spotify.com/artist/4TgfkZEpcjkYgRBKeqy1Mh",
-      "time": 235,
+      "time": 482,
       "genres": [
         "michigan indie"
       ],
@@ -409,7 +409,7 @@
     {
       "name": "Foster The People",
       "url": "https://open.spotify.com/artist/7gP3bB2nilZXLfPHJhMdvc",
-      "time": 82,
+      "time": 393,
       "genres": [
         "indietronica",
         "modern alternative rock",
@@ -466,7 +466,7 @@
     {
       "name": "Benny Sings",
       "url": "https://open.spotify.com/artist/4gHcu2JoaXJ0mV4aNPCd7N",
-      "time": 410,
+      "time": 581,
       "genres": [
         "dutch pop",
         "indie jazz",
@@ -779,7 +779,7 @@
     {
       "name": "Papooz",
       "url": "https://open.spotify.com/artist/2gaCpvhi31OZtozJKsr5gm",
-      "time": 12,
+      "time": 201,
       "genres": [
         "french indie pop",
         "french indietronica"
@@ -789,7 +789,7 @@
     {
       "name": "L'Imp\u00e9ratrice",
       "url": "https://open.spotify.com/artist/4PwlsrN0t5mLN0C827cbEU",
-      "time": 507
+      "time": 815
     },
     {
       "name": "Ichon",
@@ -820,6 +820,784 @@
         "korean r&b"
       ],
       "image": "https://i.scdn.co/image/14d30146c285860e5ae7b9795b765b5ae918cecd"
+    },
+    {
+      "name": "Little Simz",
+      "url": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI",
+      "time": 532,
+      "genres": [
+        "escape room",
+        "indie soul",
+        "trap queen"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8a02fd1dc695f4483a7b3da5"
+    },
+    {
+      "name": "Cleo Sol",
+      "url": "https://open.spotify.com/artist/3ETLPQkcEd7z4k3IbZmXMq",
+      "time": 532,
+      "genres": [
+        "alternative r&b",
+        "chill r&b",
+        "indie r&b",
+        "indie soul",
+        "uk contemporary r&b",
+        "uk funky"
+      ],
+      "image": "https://i.scdn.co/image/cbf354dd05237480385b6c5189e7773c376e2dc1"
+    },
+    {
+      "name": "Old Man Canyon",
+      "url": "https://open.spotify.com/artist/3lybdJ5QPH5NJolzMVKnLx",
+      "time": 213,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb2488019d8fd84bef0c033afc"
+    },
+    {
+      "name": "Evergreen",
+      "url": "https://open.spotify.com/artist/2rdtngq3t4zQwluqyGfZuS",
+      "time": 49,
+      "genres": [
+        "french indie pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb28c161dd22f75362bc938da9"
+    },
+    {
+      "name": "CLAY",
+      "url": "https://open.spotify.com/artist/20aPu5vizjmoX2A7f7AOWL",
+      "time": 205,
+      "genres": [
+        "alternative r&b",
+        "indie r&b",
+        "nyc pop",
+        "pop"
+      ],
+      "image": "https://i.scdn.co/image/1e9ed07e4716e22b012a972e349d01670e0463d7"
+    },
+    {
+      "name": "Warhaus",
+      "url": "https://open.spotify.com/artist/5uy67fWgovgNdbkP1kAf7m",
+      "time": 506,
+      "genres": [
+        "belgian indie",
+        "belgian rock"
+      ],
+      "image": "https://i.scdn.co/image/a83978db523feaa70ecb92e9467968fb5d80a6ea"
+    },
+    {
+      "name": "Cage The Elephant",
+      "url": "https://open.spotify.com/artist/26T3LtbuGT1Fu9m0eRq5X3",
+      "time": 220,
+      "genres": [
+        "modern rock",
+        "punk blues",
+        "rock"
+      ],
+      "image": "https://i.scdn.co/image/3f50bb245648f81ff86ac941e01b9912f5d9713d"
+    },
+    {
+      "name": "Shibo",
+      "url": "https://open.spotify.com/artist/73BkLU3tOvi55IkQXWGFFy",
+      "time": 163,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb9284d3d0f43fa9f7f20785a9"
+    },
+    {
+      "name": "Nick Dorian",
+      "url": "https://open.spotify.com/artist/60tZRF2LOOUONoZXo2ATtd",
+      "time": 163,
+      "genres": [],
+      "image": "https://i.scdn.co/image/116b838def4854251b0a5aa48a1127f720e11050"
+    },
+    {
+      "name": "Johnny Balik",
+      "url": "https://open.spotify.com/artist/6cXU3B0U7wNEOOU8UjaWww",
+      "time": 233,
+      "genres": [
+        "chattanooga indie",
+        "pop soul"
+      ],
+      "image": "https://i.scdn.co/image/587b4883b5550980370c758521bb6f76e6cd3f3e"
+    },
+    {
+      "name": "Drake",
+      "url": "https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4",
+      "time": 87,
+      "genres": [
+        "canadian hip hop",
+        "canadian pop",
+        "hip hop",
+        "pop rap",
+        "rap",
+        "toronto rap"
+      ],
+      "image": "https://i.scdn.co/image/60cfab40c6bb160a1906be45276829d430058005"
+    },
+    {
+      "name": "DAISY",
+      "url": "https://open.spotify.com/artist/7riIDkMpiCIuZUbLaScpQq",
+      "time": 3,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab67616d0000b273812c1c7d94a836bb14bb5a65"
+    },
+    {
+      "name": "Parcels",
+      "url": "https://open.spotify.com/artist/3oKRxpszQKUjjaHz388fVA",
+      "time": 145,
+      "genres": [
+        "aussietronica",
+        "indie soul"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebfa5a2af08fc637b172750ed4"
+    },
+    {
+      "name": "Phum Viphurit",
+      "url": "https://open.spotify.com/artist/5mqguTgtaoCMNMZD6txCh6",
+      "time": 0,
+      "genres": [
+        "bedroom pop"
+      ],
+      "image": "https://i.scdn.co/image/296a395dd8cb2b1f8d3ee95cebb2de9888f2a2a9"
+    },
+    {
+      "name": "Dam Swindle",
+      "url": "https://open.spotify.com/artist/6hJtgCB3L5cnJSND7sp6GU",
+      "time": 331,
+      "genres": [
+        "deep disco house",
+        "deep house",
+        "disco house",
+        "float house",
+        "funky house",
+        "house",
+        "indie soul",
+        "minimal tech house"
+      ],
+      "image": "https://i.scdn.co/image/2782ccb65e8607b0e2d4c735482369a4d38ea4d3"
+    },
+    {
+      "name": "Tom Misch",
+      "url": "https://open.spotify.com/artist/1uiEZYehlNivdK3iQyAbye",
+      "time": 508,
+      "genres": [
+        "indie soul",
+        "jazz pop"
+      ],
+      "image": "https://i.scdn.co/image/fad839d0564bf98f27a0b0fa048d7b0ec0033651"
+    },
+    {
+      "name": "Royal Blood",
+      "url": "https://open.spotify.com/artist/2S5hlvw4CMtMGswFtfdK15",
+      "time": 251,
+      "genres": [
+        "brighton indie",
+        "garage rock",
+        "modern alternative rock",
+        "modern blues rock",
+        "modern hard rock",
+        "modern rock",
+        "rock"
+      ],
+      "image": "https://i.scdn.co/image/8ba442100dedf420b2be9e2012afd5cb134960d4"
+    },
+    {
+      "name": "John Mayer",
+      "url": "https://open.spotify.com/artist/0hEurMDQu99nJRq8pTxO14",
+      "time": 581,
+      "genres": [
+        "neo mellow",
+        "pop",
+        "pop rock",
+        "singer-songwriter"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb265ef5547ecff4dabd6352bf"
+    },
+    {
+      "name": "The Hails",
+      "url": "https://open.spotify.com/artist/3g65HWtAf8uyVmpR4sRbrT",
+      "time": 222,
+      "genres": [
+        "gainesville indie"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb3758007e8eaf75386f8851f2"
+    },
+    {
+      "name": "alt-J",
+      "url": "https://open.spotify.com/artist/3XHO7cRUPCLOr6jwp8vsx5",
+      "time": 228,
+      "genres": [
+        "indie rock",
+        "modern rock"
+      ],
+      "image": "https://i.scdn.co/image/7ac54cbec2f1b3f5f1b7f6fc23acb9d00c70fb51"
+    },
+    {
+      "name": "Lauv",
+      "url": "https://open.spotify.com/artist/5JZ7CnR6gTvEMKX4g70Amv",
+      "time": 205,
+      "genres": [
+        "dance pop",
+        "electropop",
+        "pop",
+        "post-teen pop"
+      ],
+      "image": "https://i.scdn.co/image/a9056e58b858d3bd3354be7f0c4192c6b4933fa8"
+    },
+    {
+      "name": "Kevin Walkman",
+      "url": "https://open.spotify.com/artist/0Q1Xt8JEFDwfiuNBIM60E4",
+      "time": 199,
+      "genres": [],
+      "image": "https://i.scdn.co/image/76531dac2cc8d4ca79a381cacbbeb1046d81f46f"
+    },
+    {
+      "name": "James Tillman",
+      "url": "https://open.spotify.com/artist/4FXBouJHB0s6E3d6Q9YeSO",
+      "time": 20,
+      "genres": [
+        "alternative r&b",
+        "indie jazz",
+        "indie r&b",
+        "indie soul",
+        "neo r&b"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1f68c7b7edc4a13dec7cc4da"
+    },
+    {
+      "name": "Phoenix",
+      "url": "https://open.spotify.com/artist/1xU878Z1QtBldR7ru9owdU",
+      "time": 3,
+      "genres": [
+        "alternative dance",
+        "indie pop",
+        "indie rock",
+        "modern rock",
+        "new rave",
+        "rock independant francais"
+      ],
+      "image": "https://i.scdn.co/image/a64377f63086e90368b6ca73a4f44fd179d3f68e"
+    },
+    {
+      "name": "KALEO",
+      "url": "https://open.spotify.com/artist/7jdFEYD2LTYjfwxOdlVjmc",
+      "time": 62,
+      "genres": [
+        "icelandic indie",
+        "icelandic rock",
+        "modern alternative rock",
+        "modern rock"
+      ],
+      "image": "https://i.scdn.co/image/ea0426bc99cc1fcfbf45ad26f61fd864629b558c"
+    },
+    {
+      "name": "Dan Croll",
+      "url": "https://open.spotify.com/artist/5Rr15NSbi1Xjno1AEP9u21",
+      "time": 3,
+      "genres": [
+        "shimmer pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebb6a5a41d073612e6ae35f127"
+    },
+    {
+      "name": "Isaac Jones",
+      "url": "https://open.spotify.com/artist/07Otr2GoEFP3sRUUXpYMQN",
+      "time": 192,
+      "genres": [],
+      "image": "https://i.scdn.co/image/b4216bddb0e08d6790f09d9e7bb2862fd82f8e1c"
+    },
+    {
+      "name": "Loyle Carner",
+      "url": "https://open.spotify.com/artist/4oDjh8wNW5vDHyFRrDYC4k",
+      "time": 15,
+      "genres": [
+        "indie soul",
+        "london rap",
+        "uk alternative hip hop"
+      ],
+      "image": "https://i.scdn.co/image/9e1046ee5d3c2eafe7e7f7a2fb6d01d1af08d5c5"
+    },
+    {
+      "name": "Kenny Burrell",
+      "url": "https://open.spotify.com/artist/1sdyFmN4bVOcuFDpTVsxBB",
+      "time": 21,
+      "genres": [
+        "bebop",
+        "cool jazz",
+        "hard bop",
+        "jazz",
+        "jazz fusion",
+        "jazz guitar",
+        "soul jazz",
+        "straight-ahead jazz"
+      ],
+      "image": "https://i.scdn.co/image/ad7daf534f6b12f3c64732c9538c1d8f4ba48af7"
+    },
+    {
+      "name": "Lianne La Havas",
+      "url": "https://open.spotify.com/artist/2RP4pPHTXlQpDnO9LvR7Yt",
+      "time": 760,
+      "genres": [
+        "british soul",
+        "indie soul",
+        "neo soul",
+        "pop soul",
+        "soul"
+      ],
+      "image": "https://i.scdn.co/image/117403a6981d84417984eede5bd3715578034143"
+    },
+    {
+      "name": "Devon Gilfillian",
+      "url": "https://open.spotify.com/artist/5cbak2U6nZWXDYiG72E3lH",
+      "time": 24,
+      "genres": [
+        "nashville indie"
+      ],
+      "image": "https://i.scdn.co/image/6e54d370336001b30c5bf63d7cb6e4b8cd16233b"
+    },
+    {
+      "name": "James Bay",
+      "url": "https://open.spotify.com/artist/4EzkuveR9pLvDVFNx6foYD",
+      "time": 14,
+      "genres": [
+        "modern rock",
+        "neo mellow",
+        "pop",
+        "pop rock"
+      ],
+      "image": "https://i.scdn.co/image/5f5d665db928583d126db1eb3b2ebf990511d73b"
+    },
+    {
+      "name": "Dan D'Lion",
+      "url": "https://open.spotify.com/artist/6dLGrJfOwF5gdyI8Ga7b76",
+      "time": 169,
+      "genres": [
+        "uk pop"
+      ],
+      "image": "https://i.scdn.co/image/aca25762f601f47c814dd6484b0c4fb72b4fdc8d"
+    },
+    {
+      "name": "The Mar\u00edas",
+      "url": "https://open.spotify.com/artist/2sSGPbdZJkaSE2AbcGOACx",
+      "time": 3,
+      "genres": [
+        "bedroom pop",
+        "indie pop",
+        "la indie"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eba37a2e21b6b2d1aa22826548"
+    },
+    {
+      "name": "Arlo Parks",
+      "url": "https://open.spotify.com/artist/4kIwETcbpuFgRukE8o7Opx",
+      "time": 27,
+      "genres": [
+        "indie soul",
+        "uk contemporary r&b"
+      ],
+      "image": "https://i.scdn.co/image/dec23a5b598a80a8dc36e51f428bf89a64b2b1fb"
+    },
+    {
+      "name": "Nathy Peluso",
+      "url": "https://open.spotify.com/artist/3VHAySZQPlfGlNLslzXYpN",
+      "time": 238,
+      "genres": [
+        "r&b en espanol",
+        "rap latina"
+      ],
+      "image": "https://i.scdn.co/image/31fe825007bc1bb926c81003896aec671dc90cb6"
+    },
+    {
+      "name": "Diverseddie",
+      "url": "https://open.spotify.com/artist/3aia8Qn8pZXJldrYzQqOOq",
+      "time": 30,
+      "genres": [
+        "chinese r&b"
+      ],
+      "image": "https://i.scdn.co/image/451953c1aa5f1c2a135fe78f47bc15e241233801"
+    },
+    {
+      "name": "FKJ",
+      "url": "https://open.spotify.com/artist/2FwDTncULUnmANIh7qKa5z",
+      "time": 139,
+      "genres": [
+        "filter house",
+        "indie soul"
+      ],
+      "image": "https://i.scdn.co/image/e7626f95822500fcab5bdff4c02f831175782ad2"
+    },
+    {
+      "name": "Ariana Grande",
+      "url": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR",
+      "time": 1505,
+      "genres": [
+        "dance pop",
+        "pop",
+        "post-teen pop"
+      ],
+      "image": "https://i.scdn.co/image/f8c793519d837ca2f920c561535fe62ef32e8e5b"
+    },
+    {
+      "name": "The Weeknd",
+      "url": "https://open.spotify.com/artist/1Xyo4u8uXC1ZmMpatF05PJ",
+      "time": 2,
+      "genres": [
+        "canadian contemporary r&b",
+        "canadian pop",
+        "pop"
+      ],
+      "image": "https://i.scdn.co/image/37376dba0623c33923eae9d234e5e199b76d227f"
+    },
+    {
+      "name": "Social House",
+      "url": "https://open.spotify.com/artist/5UjifI1TYefXWn9GdqDOHl",
+      "time": 177,
+      "genres": [
+        "pop rap"
+      ],
+      "image": "https://i.scdn.co/image/835b44735e591adeee42d5d06638dfd46ae9021e"
+    },
+    {
+      "name": "Justin Bieber",
+      "url": "https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s",
+      "time": 82,
+      "genres": [
+        "canadian pop",
+        "pop",
+        "post-teen pop"
+      ],
+      "image": "https://i.scdn.co/image/1a81cce45919b84a588bb1f277e9ec818ff64f92"
+    },
+    {
+      "name": "Pharrell Williams",
+      "url": "https://open.spotify.com/artist/2RdwBSPQiwcmiDo9kixcl8",
+      "time": 191,
+      "genres": [
+        "pop rap"
+      ],
+      "image": "https://i.scdn.co/image/555bf2119822c212ebf8cbe12b2a9fbff964a2e7"
+    },
+    {
+      "name": "Hey Steve",
+      "url": "https://open.spotify.com/artist/1dEy8GyHa99GlK0dYuOmjo",
+      "time": 172,
+      "genres": [
+        "modern alternative rock"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebdc872718a22e172fdc370f94"
+    },
+    {
+      "name": "Elton Aura",
+      "url": "https://open.spotify.com/artist/4O24XfCPqIJQUMXOJ2F0ni",
+      "time": 213,
+      "genres": [
+        "bedroom soul"
+      ],
+      "image": "https://i.scdn.co/image/d556b8044778306e94750cf7e0f479fbb424ff28"
+    },
+    {
+      "name": "Bedows",
+      "url": "https://open.spotify.com/artist/2Dh99o5qQLhqwRv5i1tIGX",
+      "time": 213,
+      "genres": [],
+      "image": "https://i.scdn.co/image/dea6c58beb42df7e0d4130045a7ee7fe6ccd1f28"
+    },
+    {
+      "name": "Young the Giant",
+      "url": "https://open.spotify.com/artist/4j56EQDQu5XnL7R3E9iFJT",
+      "time": 9,
+      "genres": [
+        "indie pop",
+        "indie rock",
+        "modern alternative rock",
+        "modern rock",
+        "pop rock",
+        "rock",
+        "stomp and holler"
+      ],
+      "image": "https://i.scdn.co/image/5754aa3578199f83f26fbede03c923f937a9b525"
+    },
+    {
+      "name": "Irie Lee",
+      "url": "https://open.spotify.com/artist/66HtM6fwEJMF3feEXxCpnx",
+      "time": 4,
+      "genres": [
+        "el paso indie"
+      ],
+      "image": "https://i.scdn.co/image/3d956a531e46eb3f9e11f6fe5484ca2695dec606"
+    },
+    {
+      "name": "Julie London",
+      "url": "https://open.spotify.com/artist/3qUMmh5biaB5hqpF4LqS3m",
+      "time": 1,
+      "genres": [
+        "adult standards",
+        "lounge",
+        "soul",
+        "swing",
+        "torch song",
+        "vocal jazz"
+      ],
+      "image": "https://i.scdn.co/image/66ce0fab7aceb0dd691fb04a9c77858fc489e43e"
+    },
+    {
+      "name": "Jungle",
+      "url": "https://open.spotify.com/artist/59oA5WbbQvomJz2BuRG071",
+      "time": 284,
+      "genres": [
+        "indie soul",
+        "uk contemporary r&b"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8bb1c41fc079f9df4b472a2b"
+    },
+    {
+      "name": "Bad Snacks",
+      "url": "https://open.spotify.com/artist/5gZDpKtrxDf0ULvDuhLMZy",
+      "time": 19,
+      "genres": [
+        "downtempo bass"
+      ],
+      "image": "https://i.scdn.co/image/3af4a0e14ed1e9445adb9bc08da7e22d2f394bdc"
+    },
+    {
+      "name": "Sure Sure",
+      "url": "https://open.spotify.com/artist/1anAI9P9iSzc9qzLv6AtHZ",
+      "time": 146,
+      "genres": [
+        "indie pop",
+        "indie poptimism",
+        "indie rock",
+        "la indie",
+        "modern rock"
+      ],
+      "image": "https://i.scdn.co/image/0e6c73999101df713a2985cafd2630678b2b38c3"
+    },
+    {
+      "name": "SG Lewis",
+      "url": "https://open.spotify.com/artist/0GG2cWaonE4JPrjcCCQ1EG",
+      "time": 247,
+      "genres": [
+        "alternative r&b",
+        "indie soul",
+        "uk dance",
+        "vapor soul"
+      ],
+      "image": "https://i.scdn.co/image/6c2826821c3b77c3d23ed81c06f34fede37d4930"
+    },
+    {
+      "name": "The Script",
+      "url": "https://open.spotify.com/artist/3AQRLZ9PuTAozP28Skbq8V",
+      "time": 1,
+      "genres": [
+        "celtic rock",
+        "dance pop",
+        "neo mellow",
+        "pop",
+        "pop rock",
+        "post-teen pop",
+        "viral pop"
+      ],
+      "image": "https://i.scdn.co/image/b0d7782a07bb4305554837a88078a3b19a5c9eda"
+    },
+    {
+      "name": "Soccer Mommy",
+      "url": "https://open.spotify.com/artist/4wXchxfTTggLtzkoUhO86Q",
+      "time": 2,
+      "genres": [
+        "art pop",
+        "bubblegrunge",
+        "indie folk",
+        "indie pop",
+        "indie rock",
+        "small room"
+      ],
+      "image": "https://i.scdn.co/image/289ff5ff03ad90dc0e2073c2fd4430ce6617af6b"
+    },
+    {
+      "name": "Unknown Mortal Orchestra",
+      "url": "https://open.spotify.com/artist/1LeVJ5GPeYDOVUjxx1y7Rp",
+      "time": 261,
+      "genres": [
+        "chillwave",
+        "indie rock",
+        "indie soul",
+        "kiwi rock",
+        "neo-psychedelic",
+        "new rave",
+        "portland hip hop",
+        "psychedelic pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebdb34bbd6ecd5431f8b6d4536"
+    },
+    {
+      "name": "The Frightnrs",
+      "url": "https://open.spotify.com/artist/0wwBxT2qVH327KlBJbwMEP",
+      "time": 6,
+      "genres": [
+        "reggae",
+        "rock steady",
+        "ska"
+      ],
+      "image": "https://i.scdn.co/image/c27af9e20f17099feae19874d41ded33c420e5c9"
+    },
+    {
+      "name": "punchnello",
+      "url": "https://open.spotify.com/artist/5enwJ9yOnKlCP91ov4Dqhv",
+      "time": 69,
+      "genres": [
+        "k-rap",
+        "korean r&b"
+      ],
+      "image": "https://i.scdn.co/image/683121507cbe95cf66d08de4b842c672e559cc85"
+    },
+    {
+      "name": "Crush",
+      "url": "https://open.spotify.com/artist/6aLdhHUqgdKE86xbtNmY8g",
+      "time": 69,
+      "genres": [
+        "k-pop",
+        "korean r&b"
+      ],
+      "image": "https://i.scdn.co/image/96f3ad53a68387f0824e202c2e989bdff0ea50ed"
+    },
+    {
+      "name": "Leon Bridges",
+      "url": "https://open.spotify.com/artist/3qnGvpP8Yth1AqSBMqON5x",
+      "time": 16,
+      "genres": [
+        "modern blues",
+        "soul"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc1493f8c442935b396753e21"
+    },
+    {
+      "name": "Alfa Mist",
+      "url": "https://open.spotify.com/artist/2i1CPudyCUjL50Wqjv8AMI",
+      "time": 162,
+      "genres": [
+        "british jazz",
+        "indie jazz",
+        "indie soul",
+        "uk contemporary jazz"
+      ],
+      "image": "https://i.scdn.co/image/2ad65fe894ff707515a55fdc6e6328fd32c38ac1"
+    },
+    {
+      "name": "Havelock",
+      "url": "https://open.spotify.com/artist/3AIAml2wCQUDhWt0BffVbA",
+      "time": 150,
+      "genres": [
+        "modern indie pop"
+      ],
+      "image": "https://i.scdn.co/image/0e6f637434bc8e2f2dd02a4fb8ffc3eb196639d4"
+    },
+    {
+      "name": "Radiohead",
+      "url": "https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb",
+      "time": 216,
+      "genres": [
+        "alternative rock",
+        "art rock",
+        "melancholia",
+        "oxford indie",
+        "permanent wave",
+        "rock"
+      ],
+      "image": "https://i.scdn.co/image/afcd616e1ef2d2786f47b3b4a8a6aeea24a72adc"
+    },
+    {
+      "name": "Rebounder",
+      "url": "https://open.spotify.com/artist/2g2HWripkxzRZDZJ4KTBSB",
+      "time": 15,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb04db933f0624b429d1fdae68"
+    },
+    {
+      "name": "half\u2022alive",
+      "url": "https://open.spotify.com/artist/7sOR7gk6XUlGnxj3p9F54k",
+      "time": 154,
+      "genres": [
+        "alt z",
+        "indie pop",
+        "modern alternative rock",
+        "modern rock"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb84716c9b76eff60fae97fc46"
+    },
+    {
+      "name": "Henry Green",
+      "url": "https://open.spotify.com/artist/0VbDAlm2KUlKI5UhXRBKWp",
+      "time": 119,
+      "genres": [
+        "indie soul",
+        "vapor soul"
+      ],
+      "image": "https://i.scdn.co/image/c953095d757332fa180abc39e8544c20ca572ba0"
+    },
+    {
+      "name": "Gnarls Barkley",
+      "url": "https://open.spotify.com/artist/5SbkVQYYzlw1kte75QIabH",
+      "time": 42,
+      "genres": [
+        "atl hip hop",
+        "neo soul"
+      ],
+      "image": "https://i.scdn.co/image/03e8855382d21e1cbf8172c03001ab8847889f38"
+    },
+    {
+      "name": "Cashmere Cat",
+      "url": "https://open.spotify.com/artist/2LZDXcxJWgsJfKXZv9a5eG",
+      "time": 217,
+      "genres": [
+        "downtempo",
+        "pop",
+        "post-teen pop",
+        "shiver pop"
+      ],
+      "image": "https://i.scdn.co/image/c2099c99ef84554ab7cd6cdd6bb7211e033e4ec9"
+    },
+    {
+      "name": "Similar Kind",
+      "url": "https://open.spotify.com/artist/67jp9dtthPw2v0no8iFg3k",
+      "time": 189,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb9bbbe775ff48361d4a1a4983"
+    },
+    {
+      "name": "BIBI",
+      "url": "https://open.spotify.com/artist/6UbmqUEgjLA6jAcXwbM1Z9",
+      "time": 154,
+      "genres": [
+        "k-pop",
+        "korean r&b"
+      ],
+      "image": "https://i.scdn.co/image/ab67616d0000b2735ab0f207b5e583a951915b2d"
+    },
+    {
+      "name": "Bronze",
+      "url": "https://open.spotify.com/artist/4YJiSEvipvRRttmmpvT3U7",
+      "time": 208,
+      "genres": [
+        "auteur-compositeur-interprete quebecois",
+        "indie quebecois"
+      ],
+      "image": "https://i.scdn.co/image/2d8cb2583c40ee3cb0b3b1d15edf0228d0a63c02"
+    },
+    {
+      "name": "OOHYO",
+      "url": "https://open.spotify.com/artist/50Zu2bK9y5UAtD0jcqk5VX",
+      "time": 208,
+      "genres": [
+        "k-indie",
+        "korean electropop"
+      ],
+      "image": "https://i.scdn.co/image/98c42df4b78e592895710ed1874b7a4c5da27309"
+    },
+    {
+      "name": "Pell",
+      "url": "https://open.spotify.com/artist/2O2dI9lY9PnWtAa4OlrgMi",
+      "time": 142,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab6761610000e5eba720cc435674419d805aa7f2"
     }
   ],
   "songs": [
@@ -861,7 +1639,7 @@
     {
       "name": "Temporary",
       "url": "https://open.spotify.com/track/63elbs0ojWzKKutgg7xx5z",
-      "time": 776,
+      "time": 1015,
       "image": "https://i.scdn.co/image/ab67616d0000b273170445d48cc6d23a783bbe67",
       "artist": "Your Neighbors"
     },
@@ -875,14 +1653,14 @@
     {
       "name": "Grown Ups",
       "url": "https://open.spotify.com/track/6g4D7osH4c39rNo0RMEkkW",
-      "time": 453,
+      "time": 651,
       "image": "https://i.scdn.co/image/ab67616d0000b273b7218ddb0edcf35055b39858",
       "artist": "Your Neighbors"
     },
     {
       "name": "Runaway",
       "url": "https://open.spotify.com/track/3GYZRYEqrXzl5iwxO42c2H",
-      "time": 125,
+      "time": 142,
       "image": "https://i.scdn.co/image/ab67616d0000b273a06701a272d6c84f4b8e3b9c",
       "artist": "Oliver Malcolm"
     },
@@ -959,7 +1737,7 @@
     {
       "name": "Lying to Myself",
       "url": "https://open.spotify.com/track/70zrXYC4AiJWHR6FwKJ3HN",
-      "time": 235,
+      "time": 482,
       "image": "https://i.scdn.co/image/ab67616d0000b27337c9de10f77b8fce1d8ec9f8",
       "artist": "Leland Blue"
     },
@@ -1127,7 +1905,7 @@
     {
       "name": "Nevermind",
       "url": "https://open.spotify.com/track/4PZzEAYfBb26M5Fhm8xbZd",
-      "time": 82,
+      "time": 393,
       "image": "https://i.scdn.co/image/ab67616d0000b2735a0b4691f118ce97cea73706",
       "artist": "Foster The People"
     },
@@ -1645,14 +2423,14 @@
     {
       "name": "Theatrical State of Mind",
       "url": "https://open.spotify.com/track/00fhsRlHHe9tpd7Nyep7XJ",
-      "time": 12,
+      "time": 201,
       "image": "https://i.scdn.co/image/ab67616d0000b273d54d4d5faafa5f5f76692a9b",
       "artist": "Papooz"
     },
     {
       "name": "Fou",
       "url": "https://open.spotify.com/track/7eAp3ZgBPzmXo0bwnmFELp",
-      "time": 301,
+      "time": 609,
       "image": "https://i.scdn.co/image/ab67616d0000b273389ffd99d51037a6f0a256f5",
       "artist": "L'Imp\u00e9ratrice"
     },
@@ -1673,7 +2451,7 @@
     {
       "name": "Sunny Afternoon",
       "url": "https://open.spotify.com/track/2E8nYLg26h31C3cGNWODKV",
-      "time": 26,
+      "time": 197,
       "image": "https://i.scdn.co/image/ab67616d0000b2736cbc9dd126a83b509f02f213",
       "artist": "Benny Sings"
     },
@@ -1683,6 +2461,580 @@
       "time": 376,
       "image": "https://i.scdn.co/image/ab67616d0000b273ef506280e70e4dbba1c94bc9",
       "artist": "Tamino"
+    },
+    {
+      "name": "Woman",
+      "url": "https://open.spotify.com/track/1CYeaVkI5cGod4IGZKM87T",
+      "time": 532,
+      "image": "https://i.scdn.co/image/ab67616d0000b2739a0470881eabaf7e61ee501f",
+      "artist": "Little Simz"
+    },
+    {
+      "name": "It Just Comes and Goes",
+      "url": "https://open.spotify.com/track/3aQkJx2WpFWrxKEYO159Vy",
+      "time": 213,
+      "image": "https://i.scdn.co/image/ab67616d0000b273743984247a7dc1e855af8681",
+      "artist": "Old Man Canyon"
+    },
+    {
+      "name": "Gemini",
+      "url": "https://open.spotify.com/track/3rJEu8LZdav4zROLJynwnj",
+      "time": 49,
+      "image": "https://i.scdn.co/image/ab67616d0000b2733dc4dea83c301d7692ced0ab",
+      "artist": "Evergreen"
+    },
+    {
+      "name": "orange",
+      "url": "https://open.spotify.com/track/6vrFIzWogs4kLbCSMsjnRC",
+      "time": 205,
+      "image": "https://i.scdn.co/image/ab67616d0000b273edd23fbf8319cb763a89c547",
+      "artist": "CLAY"
+    },
+    {
+      "name": "Bang Bang",
+      "url": "https://open.spotify.com/track/0bxbFEIHWZ2E6QyVwsEnzh",
+      "time": 506,
+      "image": "https://i.scdn.co/image/ab67616d0000b273d9d46458acbfbe3c401b3a59",
+      "artist": "Warhaus"
+    },
+    {
+      "name": "Trouble",
+      "url": "https://open.spotify.com/track/3pxw9Agh9VB9kyx79REpRQ",
+      "time": 219,
+      "image": "https://i.scdn.co/image/ab67616d0000b2739ac01a98ea90f9199d6668ad",
+      "artist": "Cage The Elephant"
+    },
+    {
+      "name": "pH",
+      "url": "https://open.spotify.com/track/2seFcLiWwxHZ72EYFezJmJ",
+      "time": 163,
+      "image": "https://i.scdn.co/image/ab67616d0000b273c5b01c58b2f05af48ef180da",
+      "artist": "Shibo"
+    },
+    {
+      "name": "Honey",
+      "url": "https://open.spotify.com/track/3p7byaSR5J1he8vvDkxirp",
+      "time": 233,
+      "image": "https://i.scdn.co/image/ab67616d0000b2739b4f3635a63d977996d54d04",
+      "artist": "Johnny Balik"
+    },
+    {
+      "name": "Nonstop",
+      "url": "https://open.spotify.com/track/0TlLq3lA83rQOYtrqBqSct",
+      "time": 87,
+      "image": "https://i.scdn.co/image/ab67616d0000b273f907de96b9a4fbc04accc0d5",
+      "artist": "Drake"
+    },
+    {
+      "name": "Way Cool Baby Love",
+      "url": "https://open.spotify.com/track/3AzaarbayKjSC7tIRc7LZx",
+      "time": 3,
+      "image": "https://i.scdn.co/image/ab67616d0000b27399e5ae5d69afa0dde9fcd5e3",
+      "artist": "DAISY"
+    },
+    {
+      "name": "IknowhowIfeel",
+      "url": "https://open.spotify.com/track/2IFaUS63AIAr9P46W1lEwt",
+      "time": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000b273d26bc8655d6132c9e243f82e",
+      "artist": "Parcels"
+    },
+    {
+      "name": "Lover Boy",
+      "url": "https://open.spotify.com/track/2rd4FH1cSaWGc0ZiUaMbX9",
+      "time": 0,
+      "image": "https://i.scdn.co/image/ab67616d0000b273ebefdcb9f6e825e8582bbac4",
+      "artist": "Phum Viphurit"
+    },
+    {
+      "name": "Yes, No, Maybe",
+      "url": "https://open.spotify.com/track/2jx9VNmPInE1d2m2T9eotT",
+      "time": 331,
+      "image": "https://i.scdn.co/image/ab67616d0000b273bd4b15df50c73e4725e956f8",
+      "artist": "Dam Swindle"
+    },
+    {
+      "name": "Better Strangers",
+      "url": "https://open.spotify.com/track/1odEpn9xw2Hom1tRxS1IHR",
+      "time": 251,
+      "image": "https://i.scdn.co/image/ab67616d0000b27369471a9c0a6073a9beb81410",
+      "artist": "Royal Blood"
+    },
+    {
+      "name": "Gravity - Live at the Nokia Theatre, Los Angeles, CA - December 2007",
+      "url": "https://open.spotify.com/track/68KdvPllp9Pug8ZG6AByFY",
+      "time": 581,
+      "image": "https://i.scdn.co/image/ab67616d0000b2735b9c332f9f76cabc137e400f",
+      "artist": "John Mayer"
+    },
+    {
+      "name": "Younger",
+      "url": "https://open.spotify.com/track/3ksCO7ycQY9iKoYVD2tyie",
+      "time": 222,
+      "image": "https://i.scdn.co/image/ab67616d0000b27372b2c079abf05cd7fcddb6e6",
+      "artist": "The Hails"
+    },
+    {
+      "name": "Breezeblocks",
+      "url": "https://open.spotify.com/track/7gARZ2i5u5DHC1b1n1fML5",
+      "time": 226,
+      "image": "https://i.scdn.co/image/ab67616d0000b273d381b6e0d9ffb31c47080079",
+      "artist": "alt-J"
+    },
+    {
+      "name": "Easy Love",
+      "url": "https://open.spotify.com/track/2ZE3DJuizYTad2S4CvRRhK",
+      "time": 205,
+      "image": "https://i.scdn.co/image/ab67616d0000b273184766c511de1c5c093c556a",
+      "artist": "Lauv"
+    },
+    {
+      "name": "WasteUrTime",
+      "url": "https://open.spotify.com/track/1Nru7nCQ9VyqaEAez3nKmN",
+      "time": 199,
+      "image": "https://i.scdn.co/image/ab67616d0000b273548ef75e11c9bd302fd7d369",
+      "artist": "Kevin Walkman"
+    },
+    {
+      "name": "Self Portrait of a New Yorker",
+      "url": "https://open.spotify.com/track/4hbqTCFQ0REWJkEAFMPGNT",
+      "time": 20,
+      "image": "https://i.scdn.co/image/ab67616d0000b273631725ce525fb75a8d25e0d4",
+      "artist": "James Tillman"
+    },
+    {
+      "name": "If I Ever Feel Better",
+      "url": "https://open.spotify.com/track/3AA8xNhDC0MpqwkGX3EP5V",
+      "time": 3,
+      "image": "https://i.scdn.co/image/ab67616d0000b273fd7121d725a0e4aafd4fe785",
+      "artist": "Phoenix"
+    },
+    {
+      "name": "Way down We Go",
+      "url": "https://open.spotify.com/track/7aUuoq4oMfLxaLa5GVUDHi",
+      "time": 62,
+      "image": "https://i.scdn.co/image/ab67616d0000b273ff24db4bc917e09a986edf2b",
+      "artist": "KALEO"
+    },
+    {
+      "name": "On Top",
+      "url": "https://open.spotify.com/track/1pcSKI4na3DjV2aWwzJXHK",
+      "time": 3,
+      "image": "https://i.scdn.co/image/ab67616d0000b273d7dc9a444d65a80c0f11cb0d",
+      "artist": "Dan Croll"
+    },
+    {
+      "name": "Listen",
+      "url": "https://open.spotify.com/track/7c3P9U29I2rBipN2n5SVSJ",
+      "time": 192,
+      "image": "https://i.scdn.co/image/ab67616d0000b273e411417a1a4c9f2e5c4ae84f",
+      "artist": "Isaac Jones"
+    },
+    {
+      "name": "Nightgowns",
+      "url": "https://open.spotify.com/track/0Maqqr2tZ93fqgy1n88q9e",
+      "time": 15,
+      "image": "https://i.scdn.co/image/ab67616d0000b27304673b3ef017a7581b96e42f",
+      "artist": "Tom Misch"
+    },
+    {
+      "name": "Why Did I Choose You?",
+      "url": "https://open.spotify.com/track/71OE4XvnViAudkKxDGMiFT",
+      "time": 21,
+      "image": "https://i.scdn.co/image/ab67616d0000b2737116339a4ab6b82aaa61bdbb",
+      "artist": "Kenny Burrell"
+    },
+    {
+      "name": "Please Don't Make Me Cry",
+      "url": "https://open.spotify.com/track/45RztUROkc4H1pHoCtRR6c",
+      "time": 617,
+      "image": "https://i.scdn.co/image/ab67616d0000b273389e657f84c49346d6bdc40d",
+      "artist": "Lianne La Havas"
+    },
+    {
+      "name": "Troublemaker",
+      "url": "https://open.spotify.com/track/1XDLcR3ykWZx7p0UmMoLKp",
+      "time": 24,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732419220b2eb9998ce36bb510",
+      "artist": "Devon Gilfillian"
+    },
+    {
+      "name": "Every Other Freckle",
+      "url": "https://open.spotify.com/track/0HV1cGoX5ASBlPA1pqH8fG",
+      "time": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000b27357e8362b39b7b3a85822303d",
+      "artist": "alt-J"
+    },
+    {
+      "name": "Sugar Drunk High",
+      "url": "https://open.spotify.com/track/6MlvaeqRJDCaU26QTFfAS7",
+      "time": 14,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732c13c88b2e95b39dc72bdef3",
+      "artist": "James Bay"
+    },
+    {
+      "name": "Co-Pilot",
+      "url": "https://open.spotify.com/track/03OQandATniqP5H35Xlxki",
+      "time": 169,
+      "image": "https://i.scdn.co/image/ab67616d0000b273d1429aad8251c45b5bf47cd8",
+      "artist": "Dan D'Lion"
+    },
+    {
+      "name": "Clueless",
+      "url": "https://open.spotify.com/track/7mrEpwmQJ7qK1ik7ZjjcdD",
+      "time": 3,
+      "image": "https://i.scdn.co/image/ab67616d0000b273e1f8dfae32fdcbffbb726260",
+      "artist": "The Mar\u00edas"
+    },
+    {
+      "name": "Hurt",
+      "url": "https://open.spotify.com/track/3OREiYBiC7wSpOLukQMDZR",
+      "time": 27,
+      "image": "https://i.scdn.co/image/ab67616d0000b273af14871e5f48ff46da6e4f35",
+      "artist": "Arlo Parks"
+    },
+    {
+      "name": "BUENOS AIRES",
+      "url": "https://open.spotify.com/track/2my7K20Fv5OtE27cjG9sfu",
+      "time": 238,
+      "image": "https://i.scdn.co/image/ab67616d0000b2735eb6fc30c41f63356f7af40a",
+      "artist": "Nathy Peluso"
+    },
+    {
+      "name": "Sparkling Clean",
+      "url": "https://open.spotify.com/track/6e1WBbFD1OAT2ShvGx8srQ",
+      "time": 30,
+      "image": "https://i.scdn.co/image/ab67616d0000b2739fbdc5b2eafd86ec5f8cf291",
+      "artist": "Diverseddie"
+    },
+    {
+      "name": "Cigarette Daydreams",
+      "url": "https://open.spotify.com/track/6EThJr4Dq1Y93JspecGU2F",
+      "time": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000b2739166a9093ea242eed64d21c6",
+      "artist": "Cage The Elephant"
+    },
+    {
+      "name": "Unstoppable - FKJ Remix",
+      "url": "https://open.spotify.com/track/0mBe4dWMRLXvrAs8ixpmbp",
+      "time": 135,
+      "image": "https://i.scdn.co/image/ab67616d0000b2730786798fac9a15f293a62502",
+      "artist": "Lianne La Havas"
+    },
+    {
+      "name": "positions",
+      "url": "https://open.spotify.com/track/35mvY5S1H3J2QZyna3TFe0",
+      "time": 164,
+      "image": "https://i.scdn.co/image/ab67616d0000b2735ef878a782c987d38d82b605",
+      "artist": "Ariana Grande"
+    },
+    {
+      "name": "7 rings",
+      "url": "https://open.spotify.com/track/6ocbgoVGwYJhOv1GgI9NsF",
+      "time": 174,
+      "image": "https://i.scdn.co/image/ab67616d0000b27356ac7b86e090f307e218e9c8",
+      "artist": "Ariana Grande"
+    },
+    {
+      "name": "Daydreamin'",
+      "url": "https://open.spotify.com/track/2CcQDI2IDhHbmBIFup58JE",
+      "time": 15,
+      "image": "https://i.scdn.co/image/ab67616d0000b273ea28881e9e363244a4a2347b",
+      "artist": "Ariana Grande"
+    },
+    {
+      "name": "off the table (with The Weeknd)",
+      "url": "https://open.spotify.com/track/7E1jVNoWuemqUryI4FxsVD",
+      "time": 2,
+      "image": "https://i.scdn.co/image/ab67616d0000b2735ef878a782c987d38d82b605",
+      "artist": "Ariana Grande"
+    },
+    {
+      "name": "just like magic",
+      "url": "https://open.spotify.com/track/1N9hFgcgWYbGINUKjhvcK6",
+      "time": 145,
+      "image": "https://i.scdn.co/image/ab67616d0000b2739508fb7ca2eedc0d98b9139f",
+      "artist": "Ariana Grande"
+    },
+    {
+      "name": "Jason's Song (Gave It Away)",
+      "url": "https://open.spotify.com/track/0kngSEayfCOjR8w83R7vAT",
+      "time": 257,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732e651648db439a9b5995e065",
+      "artist": "Ariana Grande"
+    },
+    {
+      "name": "Love Is Everything",
+      "url": "https://open.spotify.com/track/25tkPPlBrYCXkSIAASibtL",
+      "time": 32,
+      "image": "https://i.scdn.co/image/ab67616d0000b2730c053ee476f7ce576369241e",
+      "artist": "Ariana Grande"
+    },
+    {
+      "name": "boyfriend (with Social House)",
+      "url": "https://open.spotify.com/track/0Ryd8975WihbObpp5cPW1t",
+      "time": 177,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732ca010dcf3863a07611d8b4f",
+      "artist": "Ariana Grande"
+    },
+    {
+      "name": "Stuck with U (with Justin Bieber)",
+      "url": "https://open.spotify.com/track/4HBZA5flZLE435QTztThqH",
+      "time": 82,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732babb9dbd8f5146112f1bf86",
+      "artist": "Ariana Grande"
+    },
+    {
+      "name": "Not Just On Christmas",
+      "url": "https://open.spotify.com/track/6JJ4W13A4Q5yeK4g6OROmg",
+      "time": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000b273bb915a166d2d2a97a2015a7b",
+      "artist": "Ariana Grande"
+    },
+    {
+      "name": "blazed (feat. Pharrell Williams)",
+      "url": "https://open.spotify.com/track/4mLkiFppf8Xvem6BSY34qw",
+      "time": 191,
+      "image": "https://i.scdn.co/image/ab67616d0000b273c3af0c2355c24ed7023cd394",
+      "artist": "Ariana Grande"
+    },
+    {
+      "name": "Why Try",
+      "url": "https://open.spotify.com/track/30RyEhFRhQwdU9uz9GpsIW",
+      "time": 46,
+      "image": "https://i.scdn.co/image/ab67616d0000b2739e730d8fbd256885242f1e96",
+      "artist": "Ariana Grande"
+    },
+    {
+      "name": "breathin",
+      "url": "https://open.spotify.com/track/4OafepJy2teCjYJbvFE60J",
+      "time": 2,
+      "image": "https://i.scdn.co/image/ab67616d0000b273c3af0c2355c24ed7023cd394",
+      "artist": "Ariana Grande"
+    },
+    {
+      "name": "Chaotic Good",
+      "url": "https://open.spotify.com/track/228PgiPSMxkYxIEINdZ8H8",
+      "time": 172,
+      "image": "https://i.scdn.co/image/ab67616d0000b273b5cf82f7e3f6a9102a3070ff",
+      "artist": "Hey Steve"
+    },
+    {
+      "name": "Combo #5",
+      "url": "https://open.spotify.com/track/1rXWvBaFnaU6KNmt36C6OL",
+      "time": 213,
+      "image": "https://i.scdn.co/image/ab67616d0000b2739d088f08615d5b0138dc7e5c",
+      "artist": "Elton Aura"
+    },
+    {
+      "name": "Garands",
+      "url": "https://open.spotify.com/track/7igZ6W4e6PWt9pSfCGomV1",
+      "time": 9,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732d057fa5b5580c47ea6474c4",
+      "artist": "Young the Giant"
+    },
+    {
+      "name": "II. Van Gogh",
+      "url": "https://open.spotify.com/track/5X6ru7ffyrGOcDzGgIL6WE",
+      "time": 4,
+      "image": "https://i.scdn.co/image/ab67616d0000b273c6398ffcc97ece37c6b711c8",
+      "artist": "Irie Lee"
+    },
+    {
+      "name": "Can't Fight",
+      "url": "https://open.spotify.com/track/2gnvh9HRH5fCo5iDQXMvQN",
+      "time": 8,
+      "image": "https://i.scdn.co/image/ab67616d0000b273389e657f84c49346d6bdc40d",
+      "artist": "Lianne La Havas"
+    },
+    {
+      "name": "Cry Me A River",
+      "url": "https://open.spotify.com/track/34muFtukCHoVpMmTzY4kio",
+      "time": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000b273c8b1a0e31c4206fe93cc5da1",
+      "artist": "Julie London"
+    },
+    {
+      "name": "Pray",
+      "url": "https://open.spotify.com/track/1oU1aXYXzKuma1MBWumfhX",
+      "time": 284,
+      "image": "https://i.scdn.co/image/ab67616d0000b2733960505e249b30cac0ce8d82",
+      "artist": "Jungle"
+    },
+    {
+      "name": "Shiki No Uta",
+      "url": "https://open.spotify.com/track/5zOKeWtBRUZxlpfG8P0LnX",
+      "time": 19,
+      "image": "https://i.scdn.co/image/ab67616d0000b273f764ca467b0993ae4a0a21fd",
+      "artist": "Bad Snacks"
+    },
+    {
+      "name": "Lie Lie Lie",
+      "url": "https://open.spotify.com/track/0tI0VIellIrlTSrdnyFElw",
+      "time": 146,
+      "image": "https://i.scdn.co/image/ab67616d0000b273d545741f492b66f4710f1f8a",
+      "artist": "Sure Sure"
+    },
+    {
+      "name": "Chemicals",
+      "url": "https://open.spotify.com/track/4xnaRQjBsHrJY5hmxBlMel",
+      "time": 247,
+      "image": "https://i.scdn.co/image/ab67616d0000b2734d8a780ff1cbcd686cbe370a",
+      "artist": "SG Lewis"
+    },
+    {
+      "name": "Fall for Anything",
+      "url": "https://open.spotify.com/track/5F1tJvDM8GRCT0Fj0ETYta",
+      "time": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000b273b53dbf1293e3a6c8523c239f",
+      "artist": "The Script"
+    },
+    {
+      "name": "House of the Rising Sun",
+      "url": "https://open.spotify.com/track/09W79IcE4FvjeZYiIh8slG",
+      "time": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000b273a244cd3c636e0759e20d758a",
+      "artist": "alt-J"
+    },
+    {
+      "name": "Your Dog",
+      "url": "https://open.spotify.com/track/3BpUZB0tw4zNmG3Iw1mclL",
+      "time": 2,
+      "image": "https://i.scdn.co/image/ab67616d0000b2735b3865880c7946fd6283db25",
+      "artist": "Soccer Mommy"
+    },
+    {
+      "name": "Hunnybee",
+      "url": "https://open.spotify.com/track/3DPFmwFtV5ElQaTniLOdgk",
+      "time": 261,
+      "image": "https://i.scdn.co/image/ab67616d0000b273aa839bb04931542d830c73b1",
+      "artist": "Unknown Mortal Orchestra"
+    },
+    {
+      "name": "Bemyself",
+      "url": "https://open.spotify.com/track/2aE8uSjiWN0k4Nkvp0bUwB",
+      "time": 144,
+      "image": "https://i.scdn.co/image/ab67616d0000b273d26bc8655d6132c9e243f82e",
+      "artist": "Parcels"
+    },
+    {
+      "name": "Nothing More to Say",
+      "url": "https://open.spotify.com/track/7fyDbS2jM5v9SxpUvDvBRN",
+      "time": 6,
+      "image": "https://i.scdn.co/image/ab67616d0000b273ee82ccb5195f19272f5b730f",
+      "artist": "The Frightnrs"
+    },
+    {
+      "name": "CORONA",
+      "url": "https://open.spotify.com/track/0Gl26CYRYO06tZCK8TgRpV",
+      "time": 69,
+      "image": "https://i.scdn.co/image/ab67616d0000b273054671508a4a7275ac077f38",
+      "artist": "punchnello"
+    },
+    {
+      "name": "Bad Bad News",
+      "url": "https://open.spotify.com/track/7FxzgizJRGTQ3fxUqfvljg",
+      "time": 16,
+      "image": "https://i.scdn.co/image/ab67616d0000b273a47ee7a49c53ccdcb38dc874",
+      "artist": "Leon Bridges"
+    },
+    {
+      "name": "Hark",
+      "url": "https://open.spotify.com/track/0OIkb1unFOOnCcNI8g4JTG",
+      "time": 162,
+      "image": "https://i.scdn.co/image/ab67616d0000b27304673b3ef017a7581b96e42f",
+      "artist": "Tom Misch"
+    },
+    {
+      "name": "London's Burning",
+      "url": "https://open.spotify.com/track/0wnbScPjcmyaTg0Jfdh7w3",
+      "time": 150,
+      "image": "https://i.scdn.co/image/ab67616d0000b2734eaf26bf4f7c7260e5198d62",
+      "artist": "Havelock"
+    },
+    {
+      "name": "Burn the Witch",
+      "url": "https://open.spotify.com/track/3pcCifdPTc2BbqmWpEhtUd",
+      "time": 216,
+      "image": "https://i.scdn.co/image/ab67616d0000b2730365011d800890bd210dd043",
+      "artist": "Radiohead"
+    },
+    {
+      "name": "Japanese Posters",
+      "url": "https://open.spotify.com/track/6ztalf0qthMhvcqVxL7v6I",
+      "time": 15,
+      "image": "https://i.scdn.co/image/ab67616d0000b2738d1b9d1d3c044ae8de14dd89",
+      "artist": "Rebounder"
+    },
+    {
+      "name": "Everything Is Just a Mess",
+      "url": "https://open.spotify.com/track/61wUA5kA0F88dsakAPSjPg",
+      "time": 275,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732ac9afb222b3f9f0268237f1",
+      "artist": "The Brook & The Bluff"
+    },
+    {
+      "name": "RUNAWAY",
+      "url": "https://open.spotify.com/track/6iRXOuVt9bOdGr3nohzddj",
+      "time": 154,
+      "image": "https://i.scdn.co/image/ab67616d0000b273ba57712581046e3b5c93869b",
+      "artist": "half\u2022alive"
+    },
+    {
+      "name": "TUI",
+      "url": "https://open.spotify.com/track/0syxBXqvW4MhO3yYGcxkuw",
+      "time": 4,
+      "image": "https://i.scdn.co/image/ab67616d0000b273e1051585514b369419416bdc",
+      "artist": "FKJ"
+    },
+    {
+      "name": "Electric Feel",
+      "url": "https://open.spotify.com/track/0vJvCnuxXL2BCSRa1ZoeNl",
+      "time": 119,
+      "image": "https://i.scdn.co/image/ab67616d0000b2739024f71abb56e984f5d9eb4d",
+      "artist": "Henry Green"
+    },
+    {
+      "name": "Crazy",
+      "url": "https://open.spotify.com/track/1vxw6aYJls2oq3gW0DujAo",
+      "time": 42,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732cb3f40f7d4114236061f77f",
+      "artist": "Gnarls Barkley"
+    },
+    {
+      "name": "Be My Baby",
+      "url": "https://open.spotify.com/track/2Gl4i222fTI6qG8DQiAh9E",
+      "time": 217,
+      "image": "https://i.scdn.co/image/ab67616d0000b2739e730d8fbd256885242f1e96",
+      "artist": "Ariana Grande"
+    },
+    {
+      "name": "Nobody Loves You",
+      "url": "https://open.spotify.com/track/6N3VJIqPItqIaLNDe3mktV",
+      "time": 189,
+      "image": "https://i.scdn.co/image/ab67616d0000b2739824e94e4cc8e661e0e62ab9",
+      "artist": "Similar Kind"
+    },
+    {
+      "name": "Life is a Bi\u2026",
+      "url": "https://open.spotify.com/track/4d79iPe88TzFewhFk2vrcy",
+      "time": 154,
+      "image": "https://i.scdn.co/image/ab67616d0000b2735ab0f207b5e583a951915b2d",
+      "artist": "BIBI"
+    },
+    {
+      "name": "With The Star",
+      "url": "https://open.spotify.com/track/5v7RICydLLBV5AKoCRmfrG",
+      "time": 208,
+      "image": "https://i.scdn.co/image/ab67616d0000b2733fbb0ffd333aa72d094d3cd7",
+      "artist": "Bronze"
+    },
+    {
+      "name": "Greyhound",
+      "url": "https://open.spotify.com/track/3ORawnFOkFrsIpzoxLso8l",
+      "time": 142,
+      "image": "https://i.scdn.co/image/ab67616d0000b27324aeea8992fc351c2767d455",
+      "artist": "Pell"
     }
   ]
 }
