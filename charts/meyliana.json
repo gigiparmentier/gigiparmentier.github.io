@@ -61,7 +61,7 @@
     {
       "name": "Your Neighbors",
       "url": "https://open.spotify.com/artist/6mpyU2azr3zfZDY9k8w5GP",
-      "time": 7792,
+      "time": 7999,
       "genres": [
         "nashville indie"
       ],
@@ -70,7 +70,7 @@
     {
       "name": "Sam Will",
       "url": "https://open.spotify.com/artist/3BPZfXz2Urd2vKUJu5Ptux",
-      "time": 1024,
+      "time": 1028,
       "genres": [
         "alternative r&b",
         "chill r&b",
@@ -477,7 +477,7 @@
     {
       "name": "Mac DeMarco",
       "url": "https://open.spotify.com/artist/3Sz7ZnJQBIHsXLUSo0OQtM",
-      "time": 183,
+      "time": 867,
       "genres": [
         "edmonton indie",
         "lo-fi indie"
@@ -824,7 +824,7 @@
     {
       "name": "Little Simz",
       "url": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI",
-      "time": 532,
+      "time": 792,
       "genres": [
         "escape room",
         "indie soul",
@@ -835,7 +835,7 @@
     {
       "name": "Cleo Sol",
       "url": "https://open.spotify.com/artist/3ETLPQkcEd7z4k3IbZmXMq",
-      "time": 532,
+      "time": 792,
       "genres": [
         "alternative r&b",
         "chill r&b",
@@ -849,7 +849,7 @@
     {
       "name": "Old Man Canyon",
       "url": "https://open.spotify.com/artist/3lybdJ5QPH5NJolzMVKnLx",
-      "time": 213,
+      "time": 225,
       "genres": [],
       "image": "https://i.scdn.co/image/ab6761610000e5eb2488019d8fd84bef0c033afc"
     },
@@ -978,7 +978,7 @@
     {
       "name": "Tom Misch",
       "url": "https://open.spotify.com/artist/1uiEZYehlNivdK3iQyAbye",
-      "time": 508,
+      "time": 2795,
       "genres": [
         "indie soul",
         "jazz pop"
@@ -1108,7 +1108,7 @@
     {
       "name": "Loyle Carner",
       "url": "https://open.spotify.com/artist/4oDjh8wNW5vDHyFRrDYC4k",
-      "time": 15,
+      "time": 277,
       "genres": [
         "indie soul",
         "london rap",
@@ -1361,7 +1361,7 @@
     {
       "name": "Sure Sure",
       "url": "https://open.spotify.com/artist/1anAI9P9iSzc9qzLv6AtHZ",
-      "time": 146,
+      "time": 313,
       "genres": [
         "indie pop",
         "indie poptimism",
@@ -1462,7 +1462,7 @@
     {
       "name": "Leon Bridges",
       "url": "https://open.spotify.com/artist/3qnGvpP8Yth1AqSBMqON5x",
-      "time": 16,
+      "time": 17,
       "genres": [
         "modern blues",
         "soul"
@@ -1526,7 +1526,7 @@
     {
       "name": "Henry Green",
       "url": "https://open.spotify.com/artist/0VbDAlm2KUlKI5UhXRBKWp",
-      "time": 119,
+      "time": 134,
       "genres": [
         "indie soul",
         "vapor soul"
@@ -1598,6 +1598,103 @@
       "time": 142,
       "genres": [],
       "image": "https://i.scdn.co/image/ab6761610000e5eba720cc435674419d805aa7f2"
+    },
+    {
+      "name": "Mac Ayres",
+      "url": "https://open.spotify.com/artist/0fTav4sBLmYOAzKuJw0grL",
+      "time": 3,
+      "genres": [
+        "alternative r&b",
+        "chill r&b",
+        "indie r&b",
+        "indie soul",
+        "pop",
+        "r&b"
+      ],
+      "image": "https://i.scdn.co/image/81ada3d40c2a772da82ea5b393365aa02d7e6509"
+    },
+    {
+      "name": "Declan Miers",
+      "url": "https://open.spotify.com/artist/3k7CekVyE74IPWO2T9pZRa",
+      "time": 3,
+      "genres": [],
+      "image": "https://i.scdn.co/image/80bc0ba28d4409128d45378e59077786e72d9e26"
+    },
+    {
+      "name": "Summer Salt",
+      "url": "https://open.spotify.com/artist/3MATPJ9tYbcMhw5VOZrRU6",
+      "time": 208,
+      "genres": [
+        "indie garage rock"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebf545d72c0579b73a0eb09470"
+    },
+    {
+      "name": "Blur",
+      "url": "https://open.spotify.com/artist/7MhMgCo0Bl0Kukl93PZbYS",
+      "time": 580,
+      "genres": [
+        "alternative rock",
+        "britpop",
+        "madchester",
+        "modern rock",
+        "permanent wave",
+        "pop rock",
+        "rock"
+      ],
+      "image": "https://i.scdn.co/image/b3fa1dd751944a695df05624d4449d2862dc8fba"
+    },
+    {
+      "name": "De La Soul",
+      "url": "https://open.spotify.com/artist/1Z8ODXyhEBi3WynYw0Rya6",
+      "time": 261,
+      "genres": [
+        "alternative hip hop",
+        "east coast hip hop",
+        "gangster rap",
+        "golden age hip hop",
+        "hardcore hip hop",
+        "hip hop",
+        "jazz rap",
+        "rap"
+      ],
+      "image": "https://i.scdn.co/image/be4757c033697c4535381131c9807dcf51ca0ca5"
+    },
+    {
+      "name": "Poppy Ajudha",
+      "url": "https://open.spotify.com/artist/6oPQiSj92N4mk5jXLtX1bl",
+      "time": 280,
+      "genres": [
+        "indie jazz",
+        "indie soul",
+        "uk contemporary r&b"
+      ],
+      "image": "https://i.scdn.co/image/951254f8e005de5b27025f5f1b976db0c583df87"
+    },
+    {
+      "name": "Bee Gees",
+      "url": "https://open.spotify.com/artist/1LZEQNv7sE11VDY3SdxQeN",
+      "time": 633,
+      "genres": [
+        "disco",
+        "mellow gold",
+        "soft rock"
+      ],
+      "image": "https://i.scdn.co/image/1d5a05673975ba0c378cd280344e000b0b865620"
+    },
+    {
+      "name": "The Corrs",
+      "url": "https://open.spotify.com/artist/1VbWUxZTRNY2gw3qZ1tg9W",
+      "time": 134,
+      "genres": [
+        "bow pop",
+        "celtic rock",
+        "dance pop",
+        "europop",
+        "new wave pop",
+        "pop rock"
+      ],
+      "image": "https://i.scdn.co/image/5813e7315f6fa4c3c0d5880c7df2d18f0889b18e"
     }
   ],
   "songs": [
@@ -1632,7 +1729,7 @@
     {
       "name": "Chicken",
       "url": "https://open.spotify.com/track/7fPUzdTdRD8xIJUOq0uX6n",
-      "time": 1427,
+      "time": 1630,
       "image": "https://i.scdn.co/image/ab67616d0000b2730fad0b0d3a84c57541a4de10",
       "artist": "Your Neighbors"
     },
@@ -1653,7 +1750,7 @@
     {
       "name": "Grown Ups",
       "url": "https://open.spotify.com/track/6g4D7osH4c39rNo0RMEkkW",
-      "time": 651,
+      "time": 655,
       "image": "https://i.scdn.co/image/ab67616d0000b273b7218ddb0edcf35055b39858",
       "artist": "Your Neighbors"
     },
@@ -2465,14 +2562,14 @@
     {
       "name": "Woman",
       "url": "https://open.spotify.com/track/1CYeaVkI5cGod4IGZKM87T",
-      "time": 532,
+      "time": 792,
       "image": "https://i.scdn.co/image/ab67616d0000b2739a0470881eabaf7e61ee501f",
       "artist": "Little Simz"
     },
     {
       "name": "It Just Comes and Goes",
       "url": "https://open.spotify.com/track/3aQkJx2WpFWrxKEYO159Vy",
-      "time": 213,
+      "time": 225,
       "image": "https://i.scdn.co/image/ab67616d0000b273743984247a7dc1e855af8681",
       "artist": "Old Man Canyon"
     },
@@ -2990,7 +3087,7 @@
     {
       "name": "Electric Feel",
       "url": "https://open.spotify.com/track/0vJvCnuxXL2BCSRa1ZoeNl",
-      "time": 119,
+      "time": 134,
       "image": "https://i.scdn.co/image/ab67616d0000b2739024f71abb56e984f5d9eb4d",
       "artist": "Henry Green"
     },
@@ -3035,6 +3132,188 @@
       "time": 142,
       "image": "https://i.scdn.co/image/ab67616d0000b27324aeea8992fc351c2767d455",
       "artist": "Pell"
+    },
+    {
+      "name": "There She Goes",
+      "url": "https://open.spotify.com/track/7wwkhCE1rHAHxpfu5TtvDa",
+      "time": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000b273a8df0c930a741d6f49cc3f8d",
+      "artist": "Leon Bridges"
+    },
+    {
+      "name": "Calvin's Joint",
+      "url": "https://open.spotify.com/track/33VQJLL7QWS0LUuF7r39Rq",
+      "time": 3,
+      "image": "https://i.scdn.co/image/ab67616d0000b27322b392532bd082d33d74500b",
+      "artist": "Mac Ayres"
+    },
+    {
+      "name": "Fat Lady",
+      "url": "https://open.spotify.com/track/3YSefJ4OGYCIHNVowuSx7O",
+      "time": 167,
+      "image": "https://i.scdn.co/image/ab67616d0000b273140791666d7a1b2c899ed946",
+      "artist": "Sure Sure"
+    },
+    {
+      "name": "Oh Dear",
+      "url": "https://open.spotify.com/track/197W2OQ1Khv8gnO0ZSBNq7",
+      "time": 208,
+      "image": "https://i.scdn.co/image/ab67616d0000b2730fee92e062a3f1cbef7c45f9",
+      "artist": "Summer Salt"
+    },
+    {
+      "name": "Still Beating",
+      "url": "https://open.spotify.com/track/2N4idqj9TT3HnH2OFT9j0v",
+      "time": 179,
+      "image": "https://i.scdn.co/image/ab67616d0000b27398526846ff341ae71e5c3818",
+      "artist": "Mac DeMarco"
+    },
+    {
+      "name": "The Way You'd Love Her",
+      "url": "https://open.spotify.com/track/1hYz27mkvDvokNzyTyqUru",
+      "time": 149,
+      "image": "https://i.scdn.co/image/ab67616d0000b273e00e6cd440d5dedbf61acda0",
+      "artist": "Mac DeMarco"
+    },
+    {
+      "name": "Another One",
+      "url": "https://open.spotify.com/track/3pXAa69soxZ98bQ1gr18HO",
+      "time": 153,
+      "image": "https://i.scdn.co/image/ab67616d0000b273e00e6cd440d5dedbf61acda0",
+      "artist": "Mac DeMarco"
+    },
+    {
+      "name": "Brother",
+      "url": "https://open.spotify.com/track/2xcRTNxhhCL5HbCp4UGkjh",
+      "time": 203,
+      "image": "https://i.scdn.co/image/ab67616d0000b2737da53b49b2eb7b7a695d9cca",
+      "artist": "Mac DeMarco"
+    },
+    {
+      "name": "Ghost Ship",
+      "url": "https://open.spotify.com/track/61JDaStnXY3vbaEjliB5WA",
+      "time": 291,
+      "image": "https://i.scdn.co/image/ab67616d0000b2739602bb7b128f2469cf60f27d",
+      "artist": "Blur"
+    },
+    {
+      "name": "Country Sad Ballad Man - 2012 Remaster",
+      "url": "https://open.spotify.com/track/5xmx7M5W64Na5DEVqX0V2I",
+      "time": 285,
+      "image": "https://i.scdn.co/image/ab67616d0000b27318073371261cd205988be64d",
+      "artist": "Blur"
+    },
+    {
+      "name": "Swamp Song",
+      "url": "https://open.spotify.com/track/6I8JbgjPq1UKcTvjlROgLc",
+      "time": 4,
+      "image": "https://i.scdn.co/image/ab67616d0000b273bf2d790a9c0db632cbadbf4b",
+      "artist": "Blur"
+    },
+    {
+      "name": "It Runs Through Me",
+      "url": "https://open.spotify.com/track/02CygBCQOIyEuhNZqHHcNx",
+      "time": 261,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732aebf42d8901fbcd14c9eca8",
+      "artist": "Tom Misch"
+    },
+    {
+      "name": "South of the River",
+      "url": "https://open.spotify.com/track/5w3yxRRxy5pvZdUvBJF6ve",
+      "time": 260,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732aebf42d8901fbcd14c9eca8",
+      "artist": "Tom Misch"
+    },
+    {
+      "name": "Water Baby",
+      "url": "https://open.spotify.com/track/6Pd20wirRDM9k4e69px3dN",
+      "time": 262,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732aebf42d8901fbcd14c9eca8",
+      "artist": "Tom Misch"
+    },
+    {
+      "name": "Before Paris",
+      "url": "https://open.spotify.com/track/4D5POIvEJfBH8wO80Ic4T8",
+      "time": 31,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732aebf42d8901fbcd14c9eca8",
+      "artist": "Tom Misch"
+    },
+    {
+      "name": "Isn't She Lovely",
+      "url": "https://open.spotify.com/track/23H8PpuhyTDHwpqcDm7vS6",
+      "time": 86,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732aebf42d8901fbcd14c9eca8",
+      "artist": "Tom Misch"
+    },
+    {
+      "name": "We've Come So Far",
+      "url": "https://open.spotify.com/track/46mMjdrfaJicOdrOA7NtBa",
+      "time": 231,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732aebf42d8901fbcd14c9eca8",
+      "artist": "Tom Misch"
+    },
+    {
+      "name": "Movie",
+      "url": "https://open.spotify.com/track/6pxElwU80zhjbCC77Vn8EI",
+      "time": 350,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732aebf42d8901fbcd14c9eca8",
+      "artist": "Tom Misch"
+    },
+    {
+      "name": "Man Like You",
+      "url": "https://open.spotify.com/track/673BqQR0tNM3VtzcV3Ul2Q",
+      "time": 273,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732aebf42d8901fbcd14c9eca8",
+      "artist": "Tom Misch"
+    },
+    {
+      "name": "Cos I Love You",
+      "url": "https://open.spotify.com/track/58xN31xmYcfrgA56gAeM3W",
+      "time": 253,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732aebf42d8901fbcd14c9eca8",
+      "artist": "Tom Misch"
+    },
+    {
+      "name": "Disco Yes",
+      "url": "https://open.spotify.com/track/61Ivix5DTnDPVjp1dgLyov",
+      "time": 280,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732aebf42d8901fbcd14c9eca8",
+      "artist": "Tom Misch"
+    },
+    {
+      "name": "Stayin Alive",
+      "url": "https://open.spotify.com/track/5ubvP9oKmxLUVq506fgLhk",
+      "time": 284,
+      "image": "https://i.scdn.co/image/ab67616d0000b273324045726c4b0deb6cb7c875",
+      "artist": "Bee Gees"
+    },
+    {
+      "name": "Stayin' Alive",
+      "url": "https://open.spotify.com/track/4UDmDIqJIbrW0hMBQMFOsM",
+      "time": 90,
+      "image": "https://i.scdn.co/image/ab67616d0000b27355fb38fda5321a8923911ff9",
+      "artist": "Bee Gees"
+    },
+    {
+      "name": "I.O.I.O.",
+      "url": "https://open.spotify.com/track/0NkLNNAYVf85PXPW4kZEZC",
+      "time": 167,
+      "image": "https://i.scdn.co/image/ab67616d0000b27371341047c592b972a24bee15",
+      "artist": "Bee Gees"
+    },
+    {
+      "name": "Nights On Broadway",
+      "url": "https://open.spotify.com/track/4JjcCdm0RSPuvQWnZyrNkm",
+      "time": 92,
+      "image": "https://i.scdn.co/image/ab67616d0000b27383566f12b1105339207b01c4",
+      "artist": "Bee Gees"
+    },
+    {
+      "name": "Only When I Sleep - MTV Unplugged Version",
+      "url": "https://open.spotify.com/track/0Nh9xUxOJDkwTBd5DFV2uL",
+      "time": 134,
+      "image": "https://i.scdn.co/image/ab67616d0000b2731613606cdc92045d912f5dc1",
+      "artist": "The Corrs"
     }
   ]
 }

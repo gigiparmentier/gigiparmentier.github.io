@@ -3,7 +3,7 @@
     {
       "name": "Cats On Trees",
       "url": "https://open.spotify.com/artist/3Dcckn2A8PXmu8zLpMuO3B",
-      "time": 1133,
+      "time": 1405,
       "genres": [
         "french indie pop"
       ],
@@ -676,7 +676,7 @@
     {
       "name": "Chilly Gonzales",
       "url": "https://open.spotify.com/artist/0qudezVgvl4Chd9BgNFB83",
-      "time": 267,
+      "time": 342,
       "genres": [
         "neo-classical"
       ],
@@ -917,7 +917,7 @@
     {
       "name": "Gavin Moss",
       "url": "https://open.spotify.com/artist/6bTG3OP5laBeEb27xgfoqT",
-      "time": 571,
+      "time": 664,
       "genres": [
         "pop edm"
       ],
@@ -1333,7 +1333,7 @@
     {
       "name": "Vald",
       "url": "https://open.spotify.com/artist/3CnCGFxXbOA8bAK54jR8js",
-      "time": 197,
+      "time": 224,
       "genres": [
         "french hip hop",
         "pop urbaine",
@@ -2603,7 +2603,7 @@
     {
       "name": "Sum 41",
       "url": "https://open.spotify.com/artist/0qT79UgT5tY4yudH9VfsdT",
-      "time": 89,
+      "time": 102,
       "genres": [
         "alternative metal",
         "canadian pop punk",
@@ -2904,7 +2904,7 @@
     {
       "name": "Zamdane",
       "url": "https://open.spotify.com/artist/5CtPAGoxpJ4yLJLx6CSrO8",
-      "time": 1403,
+      "time": 1827,
       "genres": [
         "french hip hop",
         "pop urbaine",
@@ -2934,6 +2934,176 @@
         "pop urbaine"
       ],
       "image": "https://i.scdn.co/image/13ff83fe47491e48db4b10afbb63b45145a77b3b"
+    },
+    {
+      "name": "Toto Cutugno",
+      "url": "https://open.spotify.com/artist/6elIiwc8OyeqKxXe2rmPXZ",
+      "time": 703,
+      "genres": [
+        "classic italian pop"
+      ],
+      "image": "https://i.scdn.co/image/ec77f5a1ab08dc093cc793f35f87a799910cb95b"
+    },
+    {
+      "name": "The xx",
+      "url": "https://open.spotify.com/artist/3iOvXCl6edW5Um0fXEBRXy",
+      "time": 37,
+      "genres": [
+        "downtempo",
+        "dream pop",
+        "indietronica"
+      ],
+      "image": "https://i.scdn.co/image/922163afa546eca372c27be4513a481de06e9481"
+    },
+    {
+      "name": "La Compagnie Cr\u00e9ole",
+      "url": "https://open.spotify.com/artist/4GFqys2YA5hdCl4P2pdX3h",
+      "time": 20,
+      "genres": [
+        "chanson",
+        "chanson paillarde",
+        "french pop"
+      ],
+      "image": "https://i.scdn.co/image/d54683c0128ff2e15c2988630471e8f39b67fa85"
+    },
+    {
+      "name": "Deluxe",
+      "url": "https://open.spotify.com/artist/4EePV5BljRSXJnYww4d5Qa",
+      "time": 181,
+      "genres": [
+        "french indie pop",
+        "new french touch",
+        "spanish indie pop"
+      ],
+      "image": "https://i.scdn.co/image/ed592c7fd764dfde2cb8fc6f6e791ea019595456"
+    },
+    {
+      "name": "Editors",
+      "url": "https://open.spotify.com/artist/6e9wIFWhBPHLE9bXK8gtBI",
+      "time": 1,
+      "genres": [
+        "alternative dance",
+        "indie rock",
+        "modern rock",
+        "new rave",
+        "rock"
+      ],
+      "image": "https://i.scdn.co/image/be320943a529d1ff060478998af86290a931a71d"
+    },
+    {
+      "name": "999999999",
+      "url": "https://open.spotify.com/artist/6uD2LjPHUjxrpax0se17Nc",
+      "time": 23,
+      "genres": [
+        "acid techno",
+        "italian techno"
+      ],
+      "image": "https://i.scdn.co/image/e07960748929cd70f21e09de8aa5a93d483f95ce"
+    },
+    {
+      "name": "alt-J",
+      "url": "https://open.spotify.com/artist/3XHO7cRUPCLOr6jwp8vsx5",
+      "time": 0,
+      "genres": [
+        "indie rock",
+        "modern rock"
+      ],
+      "image": "https://i.scdn.co/image/7ac54cbec2f1b3f5f1b7f6fc23acb9d00c70fb51"
+    },
+    {
+      "name": "Makala",
+      "url": "https://open.spotify.com/artist/3r7t38zbphQtpfAH12UbRd",
+      "time": 512,
+      "genres": [
+        "french hip hop",
+        "rap calme"
+      ],
+      "image": "https://i.scdn.co/image/dfc9a23235dd4ecd9fd5a736eff28b063046c085"
+    },
+    {
+      "name": "Danitsa",
+      "url": "https://open.spotify.com/artist/0M1Kb2aco43kS4nb66HOn2",
+      "time": 195,
+      "genres": [
+        "swiss indie"
+      ],
+      "image": "https://i.scdn.co/image/34a62a86d53db0a551abf19ad1fa249cde0aa40b"
+    },
+    {
+      "name": "Moussa",
+      "url": "https://open.spotify.com/artist/5szBKM0Zc5bKmQvkiO1NDS",
+      "time": 121,
+      "genres": [
+        "french indie pop",
+        "french indietronica"
+      ],
+      "image": "https://i.scdn.co/image/0371338326b89f991a79c91693138dc0ac731963"
+    },
+    {
+      "name": "Eduardo De Crescenzo",
+      "url": "https://open.spotify.com/artist/5YECQ35f0dFPI1OPXCwP8g",
+      "time": 6,
+      "genres": [
+        "classic italian pop",
+        "italian adult pop"
+      ],
+      "image": "https://i.scdn.co/image/fa56149eeda91a0f9f87a64ccc67e646ceef240d"
+    },
+    {
+      "name": "Zucchero",
+      "url": "https://open.spotify.com/artist/2KftmGt9sk1yLjsAoloC3M",
+      "time": 1,
+      "genres": [
+        "classic italian pop",
+        "italian adult pop",
+        "italian pop rock"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb30855c386fbe36ed4e7f0605"
+    },
+    {
+      "name": "Man\u00e1",
+      "url": "https://open.spotify.com/artist/7okwEbXzyT2VffBmyQBWLz",
+      "time": 1,
+      "genres": [
+        "french rock",
+        "rap conscient"
+      ],
+      "image": "https://i.scdn.co/image/ef6e3cc0f504c843fb8af8db010ccf8604d02a50"
+    },
+    {
+      "name": "Balthazar",
+      "url": "https://open.spotify.com/artist/4oMBP1OWXtmxyDhAj2aRyQ",
+      "time": 221,
+      "genres": [
+        "belgian indie",
+        "belgian rock",
+        "dutch indie",
+        "dutch rock",
+        "ghent indie"
+      ],
+      "image": "https://i.scdn.co/image/a308f651c410362c1c5efc673c8e08498c9fe343"
+    },
+    {
+      "name": "Alphaville",
+      "url": "https://open.spotify.com/artist/0xliTEbFfy5HQHvsTknTkX",
+      "time": 212,
+      "genres": [
+        "europop",
+        "new romantic",
+        "new wave",
+        "new wave pop",
+        "synthpop"
+      ],
+      "image": "https://i.scdn.co/image/f3bd67b1c4935c7e8ce825aa0e8bfbd8149300f8"
+    },
+    {
+      "name": "Scarlet Pleasure",
+      "url": "https://open.spotify.com/artist/7wrulS1dfanckBnoxxEuS6",
+      "time": 155,
+      "genres": [
+        "danish pop"
+      ],
+      "image": "https://i.scdn.co/image/523c9909b5463dc71730553543812a1f78810ac4"
     }
   ],
   "songs": [
@@ -3619,7 +3789,7 @@
     {
       "name": "If You Feel - Gavin Moss Remix",
       "url": "https://open.spotify.com/track/02zmDET82H25bo957mi4jv",
-      "time": 571,
+      "time": 664,
       "image": "https://i.scdn.co/image/ab67616d0000b273559863b9d75cc041bece97c9",
       "artist": "Cats On Trees"
     },
@@ -4872,14 +5042,14 @@
     {
       "name": "Affam\u00e9 #10 - Ath\u00e9na",
       "url": "https://open.spotify.com/track/393EKVlfiWs7y3ae8D1CGw",
-      "time": 227,
+      "time": 455,
       "image": "https://i.scdn.co/image/ab67616d0000b273fe19b90ba3c22419f8d2b893",
       "artist": "Zamdane"
     },
     {
       "name": "Favaro",
       "url": "https://open.spotify.com/track/5cWKh0tzGKbiaNzh2IxTPW",
-      "time": 197,
+      "time": 393,
       "image": "https://i.scdn.co/image/ab67616d0000b273af8e0df1a24893ab63bfe69f",
       "artist": "Zamdane"
     },
@@ -4917,6 +5087,153 @@
       "time": 158,
       "image": "https://i.scdn.co/image/ab67616d0000b27365befbcbbad2a33f5338745b",
       "artist": "Zamdane"
+    },
+    {
+      "name": "L'italiano",
+      "url": "https://open.spotify.com/track/2S7RApTsKT0CtYojYq2cKz",
+      "time": 7,
+      "image": "https://i.scdn.co/image/ab67616d0000b273d919d138f6e83aba728bd697",
+      "artist": "Toto Cutugno"
+    },
+    {
+      "name": "L'italiano - Remastered",
+      "url": "https://open.spotify.com/track/70inhLw8ww9CZnC0J0aZty",
+      "time": 696,
+      "image": "https://i.scdn.co/image/ab67616d0000b2736dc8d4845eeeb475b45bd5f9",
+      "artist": "Toto Cutugno"
+    },
+    {
+      "name": "Together",
+      "url": "https://open.spotify.com/track/33NysMbc4naLtmQyODcZxo",
+      "time": 37,
+      "image": "https://i.scdn.co/image/ab67616d0000b273b2bed3c9e5361d8163e7e341",
+      "artist": "The xx"
+    },
+    {
+      "name": "Ba Moin En Ti Bo",
+      "url": "https://open.spotify.com/track/7vrT8EJk9UhRzVoL2qH3W4",
+      "time": 20,
+      "image": "https://i.scdn.co/image/ab67616d0000b2731dac64edac163d62b0b10ee4",
+      "artist": "La Compagnie Cr\u00e9ole"
+    },
+    {
+      "name": "Pretty Flaws",
+      "url": "https://open.spotify.com/track/1yibWhxefvqJQfcNKS9m4l",
+      "time": 181,
+      "image": "https://i.scdn.co/image/ab67616d0000b273141990a8fe637b0b3b4f6d68",
+      "artist": "Deluxe"
+    },
+    {
+      "name": "Papillon",
+      "url": "https://open.spotify.com/track/4EeC062v5HNOHEltMGI0S5",
+      "time": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000b27392cc9b12efa7dbc7625c6ea9",
+      "artist": "Editors"
+    },
+    {
+      "name": "Ich Glaube Ich Spinne",
+      "url": "https://open.spotify.com/track/4jYW5YB0vXUksgAXRVVYxK",
+      "time": 23,
+      "image": "https://i.scdn.co/image/ab67616d0000b273093a4cbbe7707dd1c24e7ff8",
+      "artist": "999999999"
+    },
+    {
+      "name": "Deviens g\u00e9nial",
+      "url": "https://open.spotify.com/track/3zpSnxhr0PZa8542kB21JW",
+      "time": 27,
+      "image": "https://i.scdn.co/image/ab67616d0000b27382f6c9fecc589fb8a1d506f9",
+      "artist": "Vald"
+    },
+    {
+      "name": "Bloodflood",
+      "url": "https://open.spotify.com/track/4X5APgppvSErHIuORSKgT7",
+      "time": 0,
+      "image": "https://i.scdn.co/image/ab67616d0000b273d381b6e0d9ffb31c47080079",
+      "artist": "alt-J"
+    },
+    {
+      "name": "Ginger Juice",
+      "url": "https://open.spotify.com/track/2LAcgT2zwkBcny4GE8ueOH",
+      "time": 346,
+      "image": "https://i.scdn.co/image/ab67616d0000b273a76a66a6c028668f2aef3584",
+      "artist": "Makala"
+    },
+    {
+      "name": "Sergue\u00ef Diop",
+      "url": "https://open.spotify.com/track/1z8gACkg32PKNLZHBb5u6V",
+      "time": 166,
+      "image": "https://i.scdn.co/image/ab67616d0000b273179b664fbab16d28c827ff9f",
+      "artist": "Makala"
+    },
+    {
+      "name": "Remember Me",
+      "url": "https://open.spotify.com/track/1RlaUjjjgpAimdT6ZYRAWC",
+      "time": 195,
+      "image": "https://i.scdn.co/image/ab67616d0000b2730f24ef64952bd90a54f1d546",
+      "artist": "Danitsa"
+    },
+    {
+      "name": "Cabrioli",
+      "url": "https://open.spotify.com/track/1wQdNXLp8XhQ0p0uG5ZRDD",
+      "time": 121,
+      "image": "https://i.scdn.co/image/ab67616d0000b273c765239edae5cbe4fb761b15",
+      "artist": "Moussa"
+    },
+    {
+      "name": "Da Lontano",
+      "url": "https://open.spotify.com/track/1eal7mHNEklcohEL9mLzIt",
+      "time": 6,
+      "image": "https://i.scdn.co/image/ab67616d0000b2731608b3c7a808aaef6d5748bf",
+      "artist": "Eduardo De Crescenzo"
+    },
+    {
+      "name": "Baila Morena",
+      "url": "https://open.spotify.com/track/2MFiX5NURKleByp8YAn9xq",
+      "time": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000b2735a51a3d944b6a2891abf7607",
+      "artist": "Zucchero"
+    },
+    {
+      "name": "Burn",
+      "url": "https://open.spotify.com/track/5gSx6Ewe8M5FMgXnnDMsVl",
+      "time": 179,
+      "image": "https://i.scdn.co/image/ab67616d0000b273329eb8138b3ceedc88d0442d",
+      "artist": "Cats On Trees"
+    },
+    {
+      "name": "Pieces",
+      "url": "https://open.spotify.com/track/3ly0wJa1lUtpIWHZxymVyX",
+      "time": 13,
+      "image": "https://i.scdn.co/image/ab67616d0000b273533f9a4e483152ec3b5626ac",
+      "artist": "Sum 41"
+    },
+    {
+      "name": "On A Roll",
+      "url": "https://open.spotify.com/track/3x5Epc2KaH4lAeOPa7NnAZ",
+      "time": 221,
+      "image": "https://i.scdn.co/image/ab67616d0000b273e0aaf7b46564fce9139ab598",
+      "artist": "Balthazar"
+    },
+    {
+      "name": "Forever Young - 2019 Remaster",
+      "url": "https://open.spotify.com/track/6XHNIbru8xGohLzHNgxQvF",
+      "time": 212,
+      "image": "https://i.scdn.co/image/ab67616d0000b273a6621413c70b12650f670c5d",
+      "artist": "Alphaville"
+    },
+    {
+      "name": "What A Life - From the Motion Picture \"Another Round\"",
+      "url": "https://open.spotify.com/track/4DXceUhBu8hVYO1EuT6EOt",
+      "time": 155,
+      "image": "https://i.scdn.co/image/ab67616d0000b27341dc0dbbeccef05fa37bd634",
+      "artist": "Scarlet Pleasure"
+    },
+    {
+      "name": "Knight Moves",
+      "url": "https://open.spotify.com/track/2PeeXU7B0KReH9jFmzZmSe",
+      "time": 75,
+      "image": "https://i.scdn.co/image/ab67616d0000b273c8b439febd2310f788a424cc",
+      "artist": "Chilly Gonzales"
     }
   ]
 }
