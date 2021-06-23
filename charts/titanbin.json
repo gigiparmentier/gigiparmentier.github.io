@@ -1105,7 +1105,7 @@
     {
       "name": "Doja Cat",
       "url": "https://open.spotify.com/artist/5cj0lLjcoR7YOSnhnX0Po5",
-      "time": 4589,
+      "time": 5035,
       "genres": [
         "dance pop",
         "pop",
@@ -1147,7 +1147,7 @@
     {
       "name": "StarBoi3",
       "url": "https://open.spotify.com/artist/2WgfkM8S11vg4kxLgDY3F5",
-      "time": 196,
+      "time": 355,
       "genres": [],
       "image": "https://i.scdn.co/image/785af69b6414f39f053794303937c02708e1968c"
     },
@@ -1215,7 +1215,7 @@
     {
       "name": "Saweetie",
       "url": "https://open.spotify.com/artist/6cK3NBO6uP7hh0oyuVELFl",
-      "time": 153,
+      "time": 156,
       "genres": [
         "cali rap",
         "dance pop",
@@ -5584,6 +5584,44 @@
         "modern dream pop"
       ],
       "image": "https://i.scdn.co/image/07ce4d52e825d2826d14230b74d16e6090fa89ef"
+    },
+    {
+      "name": "Tyga",
+      "url": "https://open.spotify.com/artist/5LHRHt1k9lMyONurDHEdrp",
+      "time": 199,
+      "genres": [
+        "dance pop",
+        "hip hop",
+        "pop rap",
+        "rap",
+        "southern hip hop",
+        "trap"
+      ],
+      "image": "https://i.scdn.co/image/3842af326294420283f03b9fbca920d4c193e17b"
+    },
+    {
+      "name": "Sickick",
+      "url": "https://open.spotify.com/artist/3NR7hAacOhmcztWvD7vJfS",
+      "time": 159,
+      "genres": [
+        "bass trap"
+      ],
+      "image": "https://i.scdn.co/image/815276810c40d0f070c8d6e1b8fb9303e55b8c05"
+    },
+    {
+      "name": "Snakehips",
+      "url": "https://open.spotify.com/artist/2FwJwEswyIUAljqgjNSHgP",
+      "time": 85,
+      "genres": [
+        "dance pop",
+        "edm",
+        "electropop",
+        "indie poptimism",
+        "pop",
+        "pop dance",
+        "tropical house"
+      ],
+      "image": "https://i.scdn.co/image/dc9276c987a1e89560b52b2d21bee4d21e4cdbb2"
     }
   ],
   "songs": [
@@ -5793,7 +5831,7 @@
     {
       "name": "Best Friend (feat. Doja Cat)",
       "url": "https://open.spotify.com/track/2etHQJxIbV0soyPhelVs9Y",
-      "time": 153,
+      "time": 156,
       "image": "https://i.scdn.co/image/ab67616d0000b2739aeed9bbffaac4c99cc4c4d9",
       "artist": "Saweetie"
     },
@@ -9625,6 +9663,27 @@
       "time": 2,
       "image": "https://i.scdn.co/image/ab67616d0000b27388883701231713b18429f80b",
       "artist": "Cage The Elephant"
+    },
+    {
+      "name": "Juicy",
+      "url": "https://open.spotify.com/track/7qvsl2pYzrsYgPeFBN5jxp",
+      "time": 199,
+      "image": "https://i.scdn.co/image/ab67616d0000b273b9a4fe1957c5a4b25f2830b8",
+      "artist": "Doja Cat"
+    },
+    {
+      "name": "Dick (feat. Doja Cat) - Sickick Remix",
+      "url": "https://open.spotify.com/track/7avreNC8Af4ifQDk8CGJOz",
+      "time": 159,
+      "image": "https://i.scdn.co/image/ab67616d0000b2738ec07ac0f30ad82f93cff1f3",
+      "artist": "StarBoi3"
+    },
+    {
+      "name": "Say So - Snakehips Remix",
+      "url": "https://open.spotify.com/track/0YiILuIBfDyYTUmd9uLwcd",
+      "time": 85,
+      "image": "https://i.scdn.co/image/ab67616d0000b2737b95a1ec6ab90741c3f4f9cb",
+      "artist": "Doja Cat"
     }
   ]
 }

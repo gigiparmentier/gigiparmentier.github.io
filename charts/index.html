@@ -310,6 +310,9 @@
         increment = parseInt(increment)
         i += increment
       }
+      i = total;
+      $("#top").html('In total, you listened to <br/><br/><p class="pink time">' + secsToTime(i, true) + '</p> <br/><br/>by <p class="pink">' + artists.length +
+        '</p> different artists, spanning <p class="pink">' + genres.length + '</p> different genres.');
     }
 
     const maxTilt = 20;
@@ -395,11 +398,15 @@
             days += 1;
             seconds -= 86400;
           }
-          hours += 1;
-          seconds -= 3600;
+          if (seconds > 3600){
+            hours += 1;
+            seconds -= 3600;
+          }
         }
-        minutes += 1;
-        seconds -= 60
+        if (seconds > 60){
+          minutes += 1;
+          seconds -= 60
+        }
       }
       if (!string) {
         if (days > 0) {
@@ -418,10 +425,20 @@
         result = minutes + ' min, ' + result;
       }
       if (hours > 0) {
-        result = hours + ' hours, ' + result;
+        if (days == 1){
+          result = hours + ' hour, ' + result;
+        }
+        else{
+          result = hours + ' hours, ' + result;
+        }
       }
       if (days > 0) {
-        result = days + ' days, ' + result;
+        if (days == 1){
+          result = days + ' day, ' + result;
+        }
+        else{
+          result = days + ' days, ' + result;
+        }
       }
       return result;
     }
