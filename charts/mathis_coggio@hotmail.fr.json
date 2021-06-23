@@ -3,7 +3,7 @@
     {
       "name": "Cats On Trees",
       "url": "https://open.spotify.com/artist/3Dcckn2A8PXmu8zLpMuO3B",
-      "time": 1405,
+      "time": 1486,
       "genres": [
         "french indie pop"
       ],
@@ -41,7 +41,7 @@
     {
       "name": "Pone",
       "url": "https://open.spotify.com/artist/6ejMBwUDjw6LaSY3aSXSBk",
-      "time": 112,
+      "time": 122,
       "genres": [
         "turntablism"
       ],
@@ -917,7 +917,7 @@
     {
       "name": "Gavin Moss",
       "url": "https://open.spotify.com/artist/6bTG3OP5laBeEb27xgfoqT",
-      "time": 664,
+      "time": 745,
       "genres": [
         "pop edm"
       ],
@@ -1284,7 +1284,7 @@
     {
       "name": "Kebou Officiel",
       "url": "https://open.spotify.com/artist/2YZlDOixp7nOTym2F4ZzR9",
-      "time": 123,
+      "time": 245,
       "genres": [
         "chanson virale"
       ],
@@ -2708,7 +2708,7 @@
     {
       "name": "Vaudeville Smash",
       "url": "https://open.spotify.com/artist/5STWqgM2UA9s0YmWYNn3yF",
-      "time": 249,
+      "time": 499,
       "genres": [
         "indie electropop",
         "vaudeville"
@@ -2718,7 +2718,7 @@
     {
       "name": "Les Murray",
       "url": "https://open.spotify.com/artist/2o2o9y1Nd4fyftVPSgoGWZ",
-      "time": 249
+      "time": 499
     },
     {
       "name": "Amy Macdonald",
@@ -3104,6 +3104,103 @@
         "danish pop"
       ],
       "image": "https://i.scdn.co/image/523c9909b5463dc71730553543812a1f78810ac4"
+    },
+    {
+      "name": "Jeremih",
+      "url": "https://open.spotify.com/artist/3KV3p5EY4AvKxOlhGHORLg",
+      "time": 28,
+      "genres": [
+        "chicago rap",
+        "dance pop",
+        "hip hop",
+        "pop",
+        "pop rap",
+        "r&b",
+        "southern hip hop",
+        "trap",
+        "urban contemporary"
+      ],
+      "image": "https://i.scdn.co/image/48e38236955edc0ac5dbe291992dbf82a90e6d6d"
+    },
+    {
+      "name": "YG",
+      "url": "https://open.spotify.com/artist/0A0FS04o6zMoto8OKPsDwY",
+      "time": 28,
+      "genres": [
+        "french hip hop",
+        "pop urbaine",
+        "rap belge",
+        "rap calme",
+        "rap francais"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb5ab73b47613242ab1eaeb5c3"
+    },
+    {
+      "name": "Grizzly Bear",
+      "url": "https://open.spotify.com/artist/2Jv5eshHtLycR6R8KQCdc4",
+      "time": 48,
+      "genres": [
+        "alternative dance",
+        "art pop",
+        "baroque pop",
+        "brooklyn indie",
+        "chillwave",
+        "dream pop",
+        "freak folk",
+        "indie pop",
+        "indie rock",
+        "modern rock",
+        "new rave",
+        "new weird america",
+        "shimmer pop",
+        "stomp and holler"
+      ],
+      "image": "https://i.scdn.co/image/986d8d77dac4a075ebb30338f6db85ea923144be"
+    },
+    {
+      "name": "The Heavy",
+      "url": "https://open.spotify.com/artist/0bZCak2tcRMY1dzEIuwF42",
+      "time": 525,
+      "genres": [
+        "bath indie",
+        "funk",
+        "garage rock",
+        "modern alternative rock",
+        "modern blues rock",
+        "modern rock",
+        "rock"
+      ],
+      "image": "https://i.scdn.co/image/902fb7929782b9ac35a0002fa4cfcd29c5e97eaf"
+    },
+    {
+      "name": "Frankie Goes To Hollywood",
+      "url": "https://open.spotify.com/artist/1mZu3rO7qSD09GdDpePHhY",
+      "time": 236,
+      "genres": [
+        "art rock",
+        "dance rock",
+        "hi-nrg",
+        "new romantic",
+        "new wave",
+        "new wave pop",
+        "synthpop"
+      ],
+      "image": "https://i.scdn.co/image/7e04ad11e04ea805f9257a08d9204229aea45345"
+    },
+    {
+      "name": "Sara Bareilles",
+      "url": "https://open.spotify.com/artist/2Sqr0DXoaYABbjBo9HaMkM",
+      "time": 6,
+      "genres": [
+        "acoustic pop",
+        "dance pop",
+        "lilith",
+        "neo mellow",
+        "pop",
+        "pop rock",
+        "post-teen pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb0bae7cfd3b32b10154e0b8b3"
     }
   ],
   "songs": [
@@ -3138,7 +3235,7 @@
     {
       "name": "FAR",
       "url": "https://open.spotify.com/track/1LtNLhMb1SXoD8dvJffrpx",
-      "time": 112,
+      "time": 122,
       "image": "https://i.scdn.co/image/ab67616d0000b273cfeb08578b24c5aa346e81b1",
       "artist": "Pone"
     },
@@ -3789,7 +3886,7 @@
     {
       "name": "If You Feel - Gavin Moss Remix",
       "url": "https://open.spotify.com/track/02zmDET82H25bo957mi4jv",
-      "time": 664,
+      "time": 745,
       "image": "https://i.scdn.co/image/ab67616d0000b273559863b9d75cc041bece97c9",
       "artist": "Cats On Trees"
     },
@@ -4013,7 +4110,7 @@
     {
       "name": "Officiel Musique de la coupe du monde 2018",
       "url": "https://open.spotify.com/track/2f6OiiERtZtTWx18Lql96a",
-      "time": 123,
+      "time": 245,
       "image": "https://i.scdn.co/image/ab67616d0000b273b0c170c0c85fdf6f80bb03a7",
       "artist": "Kebou Officiel"
     },
@@ -5234,6 +5331,48 @@
       "time": 75,
       "image": "https://i.scdn.co/image/ab67616d0000b273c8b439febd2310f788a424cc",
       "artist": "Chilly Gonzales"
+    },
+    {
+      "name": "Don't Tell 'Em",
+      "url": "https://open.spotify.com/track/5rph5sObvxskRcb1JLV70r",
+      "time": 28,
+      "image": "https://i.scdn.co/image/ab67616d0000b2731b9a71e652c6018e3141a8af",
+      "artist": "Jeremih"
+    },
+    {
+      "name": "Two Weeks",
+      "url": "https://open.spotify.com/track/0iTpQYzJnYgh7kIxyq8A2O",
+      "time": 48,
+      "image": "https://i.scdn.co/image/ab67616d0000b273f5819f138439b3ac881a2a6b",
+      "artist": "Grizzly Bear"
+    },
+    {
+      "name": "Short Change Hero",
+      "url": "https://open.spotify.com/track/2inSaXfDWLkOfwYPZItoBw",
+      "time": 525,
+      "image": "https://i.scdn.co/image/ab67616d0000b2737389867f3702284e91f7799a",
+      "artist": "The Heavy"
+    },
+    {
+      "name": "Relax",
+      "url": "https://open.spotify.com/track/2K22nUTdyr48JDwI5t906t",
+      "time": 236,
+      "image": "https://i.scdn.co/image/ab67616d0000b273275774501f737e10d92adaca",
+      "artist": "Frankie Goes To Hollywood"
+    },
+    {
+      "name": "Zinedine Zidane (feat. Les Murray)",
+      "url": "https://open.spotify.com/track/5tfJQZXasH9Rkvchivf0xP",
+      "time": 250,
+      "image": "https://i.scdn.co/image/ab67616d0000b273e92c973a816402e8f82bf389",
+      "artist": "Vaudeville Smash"
+    },
+    {
+      "name": "Hercules",
+      "url": "https://open.spotify.com/track/1Ng4tk8lYfiwXbw4t8gdA2",
+      "time": 6,
+      "image": "https://i.scdn.co/image/ab67616d0000b273022b4010e20659300f42c375",
+      "artist": "Sara Bareilles"
     }
   ]
 }
