@@ -2033,7 +2033,7 @@
     {
       "name": "OK Go",
       "url": "https://open.spotify.com/artist/3hozsZ9hqNq7CoBGYNlFTz",
-      "time": 370,
+      "time": 556,
       "genres": [
         "alternative rock",
         "chicago indie",
@@ -2757,7 +2757,7 @@
     {
       "name": "Foster The People",
       "url": "https://open.spotify.com/artist/7gP3bB2nilZXLfPHJhMdvc",
-      "time": 864,
+      "time": 875,
       "genres": [
         "indietronica",
         "modern alternative rock",
@@ -3244,7 +3244,7 @@
     {
       "name": "Bo Burnham",
       "url": "https://open.spotify.com/artist/2Waw2sSbqvAwK8NwACNjVo",
-      "time": 247,
+      "time": 3493,
       "genres": [
         "comic"
       ],
@@ -4442,7 +4442,7 @@
     {
       "name": "Arctic Monkeys",
       "url": "https://open.spotify.com/artist/7Ln80lUS6He07XvHI8qqHH",
-      "time": 1492,
+      "time": 1493,
       "genres": [
         "garage rock",
         "modern rock",
@@ -5177,7 +5177,7 @@
     {
       "name": "Family Jools",
       "url": "https://open.spotify.com/artist/2D2dkAs69ZoWgiMmj4Cszl",
-      "time": 4919,
+      "time": 4921,
       "genres": [],
       "image": "https://i.scdn.co/image/4be45393b9b4b480ac9c67c02d42263aaf6eb35d"
     },
@@ -5288,7 +5288,7 @@
     {
       "name": "American Dead Cross",
       "url": "https://open.spotify.com/artist/34Dax4BzzztDBGblPWsUJ2",
-      "time": 4427,
+      "time": 4723,
       "genres": [],
       "image": "https://i.scdn.co/image/ab6761610000e5eb062ecd7f9436c426c83644ef"
     },
@@ -7074,7 +7074,7 @@
     {
       "name": "Still Pigeon",
       "url": "https://open.spotify.com/artist/6IJ1LHh1lwcxFEoiFViuxV",
-      "time": 10107,
+      "time": 10686,
       "genres": [
         "oxford indie"
       ],
@@ -7847,14 +7847,14 @@
     {
       "name": "Talkie",
       "url": "https://open.spotify.com/artist/0Y6irzUei35Nn9Kj8qqiQn",
-      "time": 2233,
+      "time": 2964,
       "genres": [],
       "image": "https://i.scdn.co/image/ab6761610000e5eb6bdf78bd9892ed33c676f5b1"
     },
     {
       "name": "Lil Nas X",
       "url": "https://open.spotify.com/artist/7jVv8c5Fj3E9VhNjxT4snq",
-      "time": 125,
+      "time": 134,
       "genres": [
         "lgbtq+ hip hop",
         "pop rap"
@@ -7874,7 +7874,7 @@
     {
       "name": "Say Yes Dog",
       "url": "https://open.spotify.com/artist/039HWymb5EJiSHhtlJctsi",
-      "time": 391,
+      "time": 983,
       "genres": [
         "german indie",
         "german indie pop",
@@ -8299,6 +8299,58 @@
         "electro house"
       ],
       "image": "https://i.scdn.co/image/ab6761610000e5eb5cc7aca0b30b4214a4dc154e"
+    },
+    {
+      "name": "little hurricane",
+      "url": "https://open.spotify.com/artist/5VLQQzAkJrzG7QggE4DVg2",
+      "time": 47,
+      "genres": [
+        "modern alternative rock",
+        "modern blues rock",
+        "san diego indie"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8e577e5a929d0bb3a8093f5d"
+    },
+    {
+      "name": "Fran\u00e7ois Feldman",
+      "url": "https://open.spotify.com/artist/3marwXSwSzZctZtvg35LOe",
+      "time": 24,
+      "genres": [
+        "chanson",
+        "classic french pop",
+        "french pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd0d02bed2024d8eeaa3bec2d"
+    },
+    {
+      "name": "Elliott Smith",
+      "url": "https://open.spotify.com/artist/2ApaG60P4r0yhBoDCGD8YG",
+      "time": 21,
+      "genres": [
+        "alternative rock",
+        "anti-folk",
+        "freak folk",
+        "indie folk",
+        "indie pop",
+        "indie rock",
+        "melancholia",
+        "singer-songwriter"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb079739b801ab3f105866b76f"
+    },
+    {
+      "name": "Phoenix",
+      "url": "https://open.spotify.com/artist/1xU878Z1QtBldR7ru9owdU",
+      "time": 67,
+      "genres": [
+        "alternative dance",
+        "indie pop",
+        "indie rock",
+        "modern rock",
+        "new rave",
+        "rock independant francais"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6bd7f08ef83442be8dc4ba21"
     }
   ],
   "songs": [
@@ -9068,7 +9120,7 @@
     {
       "name": "A Million Ways",
       "url": "https://open.spotify.com/track/0n49fCjNGsbtNOE6cuWk79",
-      "time": 193,
+      "time": 379,
       "image": "https://i.scdn.co/image/ab67616d0000b27371e01645abce04dda00e1c0c",
       "artist": "OK Go"
     },
@@ -11910,7 +11962,7 @@
     {
       "name": "Georgia",
       "url": "https://open.spotify.com/track/4kAukfZAOOx5dokpv25dX7",
-      "time": 4919,
+      "time": 4921,
       "image": "https://i.scdn.co/image/ab67616d0000b2738409a354e8b2109cc5af66c9",
       "artist": "Family Jools"
     },
@@ -11994,7 +12046,7 @@
     {
       "name": "Sociopath",
       "url": "https://open.spotify.com/track/4KWCu7IGukWiGdqfCy4I4I",
-      "time": 4427,
+      "time": 4723,
       "image": "https://i.scdn.co/image/ab67616d0000b2739ee68ab010ab65408f02eaca",
       "artist": "American Dead Cross"
     },
@@ -12337,7 +12389,7 @@
     {
       "name": "Goodbye",
       "url": "https://open.spotify.com/track/50nZ2pvMssa7zcSI8ZgARe",
-      "time": 2,
+      "time": 315,
       "image": "https://i.scdn.co/image/ab67616d0000b27388883701231713b18429f80b",
       "artist": "Cage The Elephant"
     },
@@ -13653,7 +13705,7 @@
     {
       "name": "Crocodile Tears",
       "url": "https://open.spotify.com/track/3h57F6FVKvSbOtskwx2C8q",
-      "time": 9280,
+      "time": 9859,
       "image": "https://i.scdn.co/image/ab67616d0000b27321ee93fe405a7dd9f3ec3805",
       "artist": "Still Pigeon"
     },
@@ -14094,7 +14146,7 @@
     {
       "name": "Fuzzy Disco",
       "url": "https://open.spotify.com/track/4XjT6LdUtPUUORaqSZXyuT",
-      "time": 2233,
+      "time": 2964,
       "image": "https://i.scdn.co/image/ab67616d0000b273ac50a23f8565b0fdb3a8b967",
       "artist": "Talkie"
     },
@@ -14122,7 +14174,7 @@
     {
       "name": "Feel Better",
       "url": "https://open.spotify.com/track/0VxmXSMb4X69RWFW8BwgRA",
-      "time": 391,
+      "time": 983,
       "image": "https://i.scdn.co/image/ab67616d0000b27383a257250a9646678a101ca7",
       "artist": "Say Yes Dog"
     },
@@ -14419,6 +14471,125 @@
       "time": 3,
       "image": "https://i.scdn.co/image/ab67616d0000b27333ad842f9d28649e78fe3d42",
       "artist": "ZHU"
+    },
+    {
+      "name": "Bring U Down",
+      "url": "https://open.spotify.com/track/3fsH9s00dbn9mSgUu7Yi9D",
+      "time": 9,
+      "image": "https://i.scdn.co/image/ab67616d0000b273c0e7bf5cdd630f314f20586a",
+      "artist": "Lil Nas X"
+    },
+    {
+      "name": "Welcome to the Internet",
+      "url": "https://open.spotify.com/track/25AvaE23MXl06YRtQcQoJS",
+      "time": 809,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732853b5ea06ddc676b337c389",
+      "artist": "Bo Burnham"
+    },
+    {
+      "name": "All Eyes On Me",
+      "url": "https://open.spotify.com/track/3rV5y8rcQrwRt9fWGLmjOQ",
+      "time": 764,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732853b5ea06ddc676b337c389",
+      "artist": "Bo Burnham"
+    },
+    {
+      "name": "Intro",
+      "url": "https://open.spotify.com/track/7yJjUSvtGHwXQ3DYsazdmh",
+      "time": 7,
+      "image": "https://i.scdn.co/image/ab67616d0000b2737bcd00ad448241a28d7e2393",
+      "artist": "Bo Burnham"
+    },
+    {
+      "name": "Look Who\u2019s Inside Again",
+      "url": "https://open.spotify.com/track/7d8dqy6GbiUqotcTSs0jXg",
+      "time": 165,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732853b5ea06ddc676b337c389",
+      "artist": "Bo Burnham"
+    },
+    {
+      "name": "Shit",
+      "url": "https://open.spotify.com/track/2xQShwyOMYlX10w8dxbFX1",
+      "time": 147,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732853b5ea06ddc676b337c389",
+      "artist": "Bo Burnham"
+    },
+    {
+      "name": "Bezos I",
+      "url": "https://open.spotify.com/track/0Kdj7nwaYQmvhxnqZaIQuW",
+      "time": 53,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732853b5ea06ddc676b337c389",
+      "artist": "Bo Burnham"
+    },
+    {
+      "name": "Content",
+      "url": "https://open.spotify.com/track/7av3s72hOwmgzA2VE5pWDa",
+      "time": 186,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732853b5ea06ddc676b337c389",
+      "artist": "Bo Burnham"
+    },
+    {
+      "name": "That Funny Feeling",
+      "url": "https://open.spotify.com/track/7uCq4vBPffjaTMlE8EQzJD",
+      "time": 300,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732853b5ea06ddc676b337c389",
+      "artist": "Bo Burnham"
+    },
+    {
+      "name": "Comedy",
+      "url": "https://open.spotify.com/track/2AziR5bWTpniyTm2GQNer7",
+      "time": 439,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732853b5ea06ddc676b337c389",
+      "artist": "Bo Burnham"
+    },
+    {
+      "name": "Problematic",
+      "url": "https://open.spotify.com/track/6NBAtnU5ICF7fazEFn2hKL",
+      "time": 63,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732853b5ea06ddc676b337c389",
+      "artist": "Bo Burnham"
+    },
+    {
+      "name": "Haunted Heart",
+      "url": "https://open.spotify.com/track/1g9gUDaH8idPgZcLZAa7Qx",
+      "time": 47,
+      "image": "https://i.scdn.co/image/ab67616d0000b2734434aef3026f9cd77717ccdf",
+      "artist": "little hurricane"
+    },
+    {
+      "name": "Sit Next to Me",
+      "url": "https://open.spotify.com/track/4BdGO1CaObRD4La9l5Zanz",
+      "time": 11,
+      "image": "https://i.scdn.co/image/ab67616d0000b273ca02f2ecba4a803b191c7eab",
+      "artist": "Foster The People"
+    },
+    {
+      "name": "Les valses de Vienne",
+      "url": "https://open.spotify.com/track/6J8iEzFAr5Y3rlUWwCgvA0",
+      "time": 24,
+      "image": "https://i.scdn.co/image/ab67616d0000b27380153ed2745a54c13a6d6881",
+      "artist": "Fran\u00e7ois Feldman"
+    },
+    {
+      "name": "Waltz #2 (XO)",
+      "url": "https://open.spotify.com/track/5AMrnF761nziCWUfjBgRUI",
+      "time": 21,
+      "image": "https://i.scdn.co/image/ab67616d0000b273cdf1be0ff556d169eade4368",
+      "artist": "Elliott Smith"
+    },
+    {
+      "name": "From The Ritz To The Rubble",
+      "url": "https://open.spotify.com/track/2vQQfWTanvD99OeHLAoyhW",
+      "time": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000b2736b3fa88bdd4af566fbbf2bbf",
+      "artist": "Arctic Monkeys"
+    },
+    {
+      "name": "1901",
+      "url": "https://open.spotify.com/track/1mvyqSb1tOvtVP1qfWEyPa",
+      "time": 67,
+      "image": "https://i.scdn.co/image/ab67616d0000b273cb36983369136148fecece5a",
+      "artist": "Phoenix"
     }
   ]
 }

@@ -422,7 +422,7 @@
     {
       "name": "Vulfpeck",
       "url": "https://open.spotify.com/artist/7pXu47GoqSYRajmBCjxdD6",
-      "time": 2379,
+      "time": 2576,
       "genres": [
         "ann arbor indie",
         "funk rock",
@@ -466,7 +466,7 @@
     {
       "name": "Benny Sings",
       "url": "https://open.spotify.com/artist/4gHcu2JoaXJ0mV4aNPCd7N",
-      "time": 581,
+      "time": 774,
       "genres": [
         "dutch pop",
         "indie jazz",
@@ -1218,7 +1218,7 @@
     {
       "name": "FKJ",
       "url": "https://open.spotify.com/artist/2FwDTncULUnmANIh7qKa5z",
-      "time": 139,
+      "time": 372,
       "genres": [
         "filter house",
         "indie soul"
@@ -1342,7 +1342,7 @@
     {
       "name": "Jungle",
       "url": "https://open.spotify.com/artist/59oA5WbbQvomJz2BuRG071",
-      "time": 475,
+      "time": 662,
       "genres": [
         "indie soul",
         "uk contemporary r&b"
@@ -3799,6 +3799,68 @@
         "uk contemporary r&b"
       ],
       "image": "https://i.scdn.co/image/ab6761610000e5ebe2272b44f6a656d0481097d5"
+    },
+    {
+      "name": "Bo Burnham",
+      "url": "https://open.spotify.com/artist/2Waw2sSbqvAwK8NwACNjVo",
+      "time": 199,
+      "genres": [
+        "comic"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb30d9a4acdf8cd3e8c0ad39ab"
+    },
+    {
+      "name": "Hablot Brown",
+      "url": "https://open.spotify.com/artist/6LtgEnShwvrqAaKohg7skM",
+      "time": 0,
+      "genres": [
+        "alternative r&b",
+        "chill r&b",
+        "indie r&b",
+        "indie soul"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc6e635522c79c1498eb3e913"
+    },
+    {
+      "name": "Amber Mark",
+      "url": "https://open.spotify.com/artist/0tbeZu9lv8YEKSQ9tZSslu",
+      "time": 211,
+      "genres": [
+        "alternative r&b",
+        "indie r&b",
+        "indie soul",
+        "nyc pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb0c4ffef05cc7c1cc733df01d"
+    },
+    {
+      "name": "Jorja Smith",
+      "url": "https://open.spotify.com/artist/1CoZyIx7UvdxT5c8UkMzHd",
+      "time": 7,
+      "genres": [
+        "alternative r&b",
+        "dance pop",
+        "pop",
+        "r&b",
+        "uk contemporary r&b"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eba0b796c89e85df7a1df2a7f8"
+    },
+    {
+      "name": "Tom Bailey",
+      "url": "https://open.spotify.com/artist/2oazmaA42Jf78TZeTsUIDU",
+      "time": 233,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb814d1b53c0f2c77b8d143a0e"
+    },
+    {
+      "name": "Knox Brown",
+      "url": "https://open.spotify.com/artist/0J0CtYc9Ef2ikCUCdprLQV",
+      "time": 186,
+      "genres": [
+        "neo r&b"
+      ],
+      "image": "https://i.scdn.co/image/fcb596c5882140879011a7a30ca42721717f34ea"
     }
   ],
   "songs": [
@@ -4155,7 +4217,7 @@
     {
       "name": "1612",
       "url": "https://open.spotify.com/track/39rHfrVqCX6A55GF7uOZSC",
-      "time": 192,
+      "time": 389,
       "image": "https://i.scdn.co/image/ab67616d0000b273ffce27a5dbb342d2c2d738c4",
       "artist": "Vulfpeck"
     },
@@ -6416,7 +6478,7 @@
     {
       "name": "Cherry",
       "url": "https://open.spotify.com/track/0Y30sCKxtNQ2MRpl00aA03",
-      "time": 191,
+      "time": 378,
       "image": "https://i.scdn.co/image/ab67616d0000b273ed7161514b659102e49bb589",
       "artist": "Jungle"
     },
@@ -7238,6 +7300,55 @@
       "time": 182,
       "image": "https://i.scdn.co/image/ab67616d0000b27304673b3ef017a7581b96e42f",
       "artist": "Tom Misch"
+    },
+    {
+      "name": "All Eyes On Me",
+      "url": "https://open.spotify.com/track/3rV5y8rcQrwRt9fWGLmjOQ",
+      "time": 199,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732853b5ea06ddc676b337c389",
+      "artist": "Bo Burnham"
+    },
+    {
+      "name": "GO (Detroit Swindle Remix)",
+      "url": "https://open.spotify.com/track/3dBUKgLv3oFrE9kYhboIXm",
+      "time": 0,
+      "image": "https://i.scdn.co/image/ab67616d0000b2736aea8ecd0ec1f24f52c7a641",
+      "artist": "Hablot Brown"
+    },
+    {
+      "name": "Passionfruit",
+      "url": "https://open.spotify.com/track/5KIJrdXriNXUkl8zYasAJN",
+      "time": 193,
+      "image": "https://i.scdn.co/image/ab67616d0000b2734826b66366af7a6a6297da34",
+      "artist": "Benny Sings"
+    },
+    {
+      "name": "Lose My Cool",
+      "url": "https://open.spotify.com/track/01sRfrpyfVmK9WafGQ3911",
+      "time": 211,
+      "image": "https://i.scdn.co/image/ab67616d0000b2735af53445adc2323fd4c2b877",
+      "artist": "Amber Mark"
+    },
+    {
+      "name": "Addicted",
+      "url": "https://open.spotify.com/track/1vqYqiZA1Su4GgqIO4oVSY",
+      "time": 7,
+      "image": "https://i.scdn.co/image/ab67616d0000b2739c913ae93b422159fc84ca5c",
+      "artist": "Jorja Smith"
+    },
+    {
+      "name": "Drops",
+      "url": "https://open.spotify.com/track/2zeZKCbHujxCfB6e45S8fk",
+      "time": 233,
+      "image": "https://i.scdn.co/image/ab67616d0000b27305d85e6bb865f7e20a26e2e6",
+      "artist": "FKJ"
+    },
+    {
+      "name": "FLEX",
+      "url": "https://open.spotify.com/track/2OJAJkXXfuNHLElpkteLCk",
+      "time": 186,
+      "image": "https://i.scdn.co/image/ab67616d0000b2734e62ace3e3826ec20a39e09e",
+      "artist": "Knox Brown"
     }
   ]
 }
