@@ -477,7 +477,7 @@
     {
       "name": "Mac DeMarco",
       "url": "https://open.spotify.com/artist/3Sz7ZnJQBIHsXLUSo0OQtM",
-      "time": 867,
+      "time": 1797,
       "genres": [
         "edmonton indie",
         "lo-fi indie"
@@ -3803,7 +3803,7 @@
     {
       "name": "Bo Burnham",
       "url": "https://open.spotify.com/artist/2Waw2sSbqvAwK8NwACNjVo",
-      "time": 199,
+      "time": 336,
       "genres": [
         "comic"
       ],
@@ -3856,11 +3856,38 @@
     {
       "name": "Knox Brown",
       "url": "https://open.spotify.com/artist/0J0CtYc9Ef2ikCUCdprLQV",
-      "time": 186,
+      "time": 407,
       "genres": [
         "neo r&b"
       ],
       "image": "https://i.scdn.co/image/fcb596c5882140879011a7a30ca42721717f34ea"
+    },
+    {
+      "name": "Ricky Reed",
+      "url": "https://open.spotify.com/artist/5Q7Fmn2aPAdijQIUzobRdZ",
+      "time": 157,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6aa97815a1ce7abfeab72c90"
+    },
+    {
+      "name": "Lido Pimienta",
+      "url": "https://open.spotify.com/artist/1IdkKQ9CM1i0wygfxYV4Z3",
+      "time": 157,
+      "genres": [
+        "canadian latin",
+        "deep latin alternative",
+        "latintronica"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1c8f02caee774e2e05189947"
+    },
+    {
+      "name": "Pink Skies",
+      "url": "https://open.spotify.com/artist/52hSI2C4N5tiTqSRIvWfyV",
+      "time": 44,
+      "genres": [
+        "modern dream pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb54850c645751c1faa884e82a"
     }
   ],
   "songs": [
@@ -7346,9 +7373,163 @@
     {
       "name": "FLEX",
       "url": "https://open.spotify.com/track/2OJAJkXXfuNHLElpkteLCk",
-      "time": 186,
+      "time": 407,
       "image": "https://i.scdn.co/image/ab67616d0000b2734e62ace3e3826ec20a39e09e",
       "artist": "Knox Brown"
+    },
+    {
+      "name": "Catch You",
+      "url": "https://open.spotify.com/track/3FPjHnotCbkUZhzYxYvotq",
+      "time": 157,
+      "image": "https://i.scdn.co/image/ab67616d0000b273c69af202d65a2fe0c2e89ded",
+      "artist": "Ricky Reed"
+    },
+    {
+      "name": "I'll Be Here A While",
+      "url": "https://open.spotify.com/track/3XKGFDN39V5rTxSqUkgIC2",
+      "time": 44,
+      "image": "https://i.scdn.co/image/ab67616d0000b27347dcc39dd09f15c7c123e710",
+      "artist": "Pink Skies"
+    },
+    {
+      "name": "Chamber Of Reflection",
+      "url": "https://open.spotify.com/track/1MJ5f5EYBC92ADD6xcz7nb",
+      "time": 130,
+      "image": "https://i.scdn.co/image/ab67616d0000b2737da53b49b2eb7b7a695d9cca",
+      "artist": "Mac DeMarco"
+    },
+    {
+      "name": "Salad Days",
+      "url": "https://open.spotify.com/track/4keAoywVf4jxRvXU7ON0hV",
+      "time": 7,
+      "image": "https://i.scdn.co/image/ab67616d0000b2737da53b49b2eb7b7a695d9cca",
+      "artist": "Mac DeMarco"
+    },
+    {
+      "name": "For the First Time",
+      "url": "https://open.spotify.com/track/4LB5cNN7f18wIJA2RU4iIO",
+      "time": 97,
+      "image": "https://i.scdn.co/image/ab67616d0000b27398526846ff341ae71e5c3818",
+      "artist": "Mac DeMarco"
+    },
+    {
+      "name": "Dreams from Yesterday",
+      "url": "https://open.spotify.com/track/0mGJYajNW8Y4T9NxnD6P79",
+      "time": 30,
+      "image": "https://i.scdn.co/image/ab67616d0000b27398526846ff341ae71e5c3818",
+      "artist": "Mac DeMarco"
+    },
+    {
+      "name": "One More Love Song",
+      "url": "https://open.spotify.com/track/6l91G5h57AW47LDPMuJSST",
+      "time": 45,
+      "image": "https://i.scdn.co/image/ab67616d0000b27398526846ff341ae71e5c3818",
+      "artist": "Mac DeMarco"
+    },
+    {
+      "name": "On the Level",
+      "url": "https://open.spotify.com/track/36rqjSUBaArtMBLWrzwInc",
+      "time": 136,
+      "image": "https://i.scdn.co/image/ab67616d0000b27398526846ff341ae71e5c3818",
+      "artist": "Mac DeMarco"
+    },
+    {
+      "name": "Moonlight on the River",
+      "url": "https://open.spotify.com/track/1yCJHs8UFfmqMujayg9i5y",
+      "time": 0,
+      "image": "https://i.scdn.co/image/ab67616d0000b27398526846ff341ae71e5c3818",
+      "artist": "Mac DeMarco"
+    },
+    {
+      "name": "Watching Him Fade Away",
+      "url": "https://open.spotify.com/track/4q0CeoDsBdFYCDDj3a6Jej",
+      "time": 6,
+      "image": "https://i.scdn.co/image/ab67616d0000b27398526846ff341ae71e5c3818",
+      "artist": "Mac DeMarco"
+    },
+    {
+      "name": "Little Dogs March",
+      "url": "https://open.spotify.com/track/7ixHZ5EUkPYCKScXKGaYoS",
+      "time": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000b273fa1323bb50728c7489980672",
+      "artist": "Mac DeMarco"
+    },
+    {
+      "name": "Skyless Moon",
+      "url": "https://open.spotify.com/track/0RhSiT2gNwrHQdI6UzFj1B",
+      "time": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000b273fa1323bb50728c7489980672",
+      "artist": "Mac DeMarco"
+    },
+    {
+      "name": "Baby Bye Bye",
+      "url": "https://open.spotify.com/track/1hTo9vkhJuRkE5BGJeNfdt",
+      "time": 7,
+      "image": "https://i.scdn.co/image/ab67616d0000b273fa1323bb50728c7489980672",
+      "artist": "Mac DeMarco"
+    },
+    {
+      "name": "Nobody",
+      "url": "https://open.spotify.com/track/42EMSKPgulAzr4RLY65Eut",
+      "time": 26,
+      "image": "https://i.scdn.co/image/ab67616d0000b273fa1323bb50728c7489980672",
+      "artist": "Mac DeMarco"
+    },
+    {
+      "name": "Passing Out Pieces",
+      "url": "https://open.spotify.com/track/2J4obtL5oOmstcOfq5UW3C",
+      "time": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000b2737da53b49b2eb7b7a695d9cca",
+      "artist": "Mac DeMarco"
+    },
+    {
+      "name": "Let Her Go",
+      "url": "https://open.spotify.com/track/7KmawNv6JUgZ54gSyVF6VQ",
+      "time": 86,
+      "image": "https://i.scdn.co/image/ab67616d0000b2737da53b49b2eb7b7a695d9cca",
+      "artist": "Mac DeMarco"
+    },
+    {
+      "name": "One Another",
+      "url": "https://open.spotify.com/track/4xF9zRaPdnrLU7QmVMKOzR",
+      "time": 114,
+      "image": "https://i.scdn.co/image/ab67616d0000b27398526846ff341ae71e5c3818",
+      "artist": "Mac DeMarco"
+    },
+    {
+      "name": "My Kind of Woman",
+      "url": "https://open.spotify.com/track/2OFrAsP5Vrcb0DtsPNsm54",
+      "time": 65,
+      "image": "https://i.scdn.co/image/ab67616d0000b2731e07e60dea6e2c877ea3b2b4",
+      "artist": "Mac DeMarco"
+    },
+    {
+      "name": "Ode to Viceroy",
+      "url": "https://open.spotify.com/track/601KiLiZtBJRTXBrTjeieP",
+      "time": 45,
+      "image": "https://i.scdn.co/image/ab67616d0000b2731e07e60dea6e2c877ea3b2b4",
+      "artist": "Mac DeMarco"
+    },
+    {
+      "name": "Still Together",
+      "url": "https://open.spotify.com/track/2RLm6OrnjLuoyQEowCJ6QE",
+      "time": 133,
+      "image": "https://i.scdn.co/image/ab67616d0000b2731e07e60dea6e2c877ea3b2b4",
+      "artist": "Mac DeMarco"
+    },
+    {
+      "name": "Don't Wanna Know",
+      "url": "https://open.spotify.com/track/7kK9h00nOXVagkOCXPcBxx",
+      "time": 58,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732853b5ea06ddc676b337c389",
+      "artist": "Bo Burnham"
+    },
+    {
+      "name": "Shit",
+      "url": "https://open.spotify.com/track/2xQShwyOMYlX10w8dxbFX1",
+      "time": 79,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732853b5ea06ddc676b337c389",
+      "artist": "Bo Burnham"
     }
   ]
 }
