@@ -3,7 +3,7 @@
     {
       "name": "Doja Cat",
       "url": "https://open.spotify.com/artist/5cj0lLjcoR7YOSnhnX0Po5",
-      "time": 955,
+      "time": 1088,
       "genres": [
         "dance pop",
         "pop",
@@ -35,7 +35,7 @@
     {
       "name": "Steve Lacy",
       "url": "https://open.spotify.com/artist/57vWImR43h4CaDao012Ofp",
-      "time": 21,
+      "time": 28,
       "genres": [
         "afrofuturism",
         "alternative r&b",
@@ -422,7 +422,7 @@
     {
       "name": "Vulfpeck",
       "url": "https://open.spotify.com/artist/7pXu47GoqSYRajmBCjxdD6",
-      "time": 3577,
+      "time": 3591,
       "genres": [
         "ann arbor indie",
         "funk rock",
@@ -1374,7 +1374,7 @@
     {
       "name": "SG Lewis",
       "url": "https://open.spotify.com/artist/0GG2cWaonE4JPrjcCCQ1EG",
-      "time": 1163,
+      "time": 1180,
       "genres": [
         "alternative r&b",
         "indie soul",
@@ -1452,7 +1452,7 @@
     {
       "name": "Crush",
       "url": "https://open.spotify.com/artist/6aLdhHUqgdKE86xbtNmY8g",
-      "time": 1257,
+      "time": 1322,
       "genres": [
         "k-pop",
         "korean r&b"
@@ -1565,7 +1565,7 @@
     {
       "name": "BIBI",
       "url": "https://open.spotify.com/artist/6UbmqUEgjLA6jAcXwbM1Z9",
-      "time": 451,
+      "time": 753,
       "genres": [
         "k-pop",
         "korean r&b"
@@ -2214,7 +2214,7 @@
     {
       "name": "Anderson .Paak",
       "url": "https://open.spotify.com/artist/3jK9MiCrA42lLAdMGUZpwa",
-      "time": 207,
+      "time": 212,
       "genres": [
         "escape room"
       ],
@@ -3951,7 +3951,7 @@
     {
       "name": "Lucky Daye",
       "url": "https://open.spotify.com/artist/5Vuvs6Py2JRU7WiFDVsI7J",
-      "time": 916,
+      "time": 933,
       "genres": [
         "alternative r&b",
         "chill r&b",
@@ -4414,7 +4414,7 @@
     {
       "name": "Joey Dosik",
       "url": "https://open.spotify.com/artist/3kANxNTLNOhxpOPoCbGq9E",
-      "time": 444,
+      "time": 458,
       "genres": [
         "retro soul"
       ],
@@ -4596,7 +4596,7 @@
     {
       "name": "Post Nebbia",
       "url": "https://open.spotify.com/artist/0BdiTIT0f1quCjphcLrwKZ",
-      "time": 517,
+      "time": 592,
       "genres": [
         "indie veneto",
         "italian indie pop"
@@ -4730,6 +4730,127 @@
       "time": 82,
       "genres": [],
       "image": "https://i.scdn.co/image/ab6761610000e5eb6bdf78bd9892ed33c676f5b1"
+    },
+    {
+      "name": "Fleece",
+      "url": "https://open.spotify.com/artist/3M8JKaNdIRChzvxVK1XxKm",
+      "time": 76,
+      "genres": [
+        "neo-psychedelic",
+        "psychedelic pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6203844122b347039d17f711"
+    },
+    {
+      "name": "No Suits",
+      "url": "https://open.spotify.com/artist/1B62oENW0VGjnBBUvwkYtX",
+      "time": 42,
+      "genres": [
+        "la pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb74ee2869828c18e3b3e16f9b"
+    },
+    {
+      "name": "Broken Bells",
+      "url": "https://open.spotify.com/artist/6dgwEwnK0YtDfS9XhRwBTG",
+      "time": 6,
+      "genres": [
+        "alternative dance",
+        "alternative rock",
+        "indie pop",
+        "indie rock",
+        "indietronica",
+        "la indie",
+        "modern alternative rock",
+        "modern rock",
+        "new rave",
+        "rock"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc4102d5dabbe90bd62d43dfb"
+    },
+    {
+      "name": "Omar Apollo",
+      "url": "https://open.spotify.com/artist/5FxD8fkQZ6KcsSYupDVoSO",
+      "time": 4,
+      "genres": [
+        "alternative r&b",
+        "bedroom pop",
+        "bedroom soul",
+        "chill r&b",
+        "indie r&b",
+        "pop",
+        "r&b"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb63f19b87e0efaccd71aa09dc"
+    },
+    {
+      "name": "Sam Kim",
+      "url": "https://open.spotify.com/artist/4BBN286rBKyCWsSPq2cxYO",
+      "time": 441,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb15fc38ba1c6e9ccb4e2f7f7a"
+    },
+    {
+      "name": "TAEYEON",
+      "url": "https://open.spotify.com/artist/3qNVuliS40BLgXGxhdBdqu",
+      "time": 11,
+      "genres": [
+        "k-pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6b77989b3299ed402297d859"
+    },
+    {
+      "name": "binki",
+      "url": "https://open.spotify.com/artist/2jbd7OqeJJd1hz81vOXwwW",
+      "time": 14,
+      "genres": [
+        "modern indie pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb0c10168106e95ed8b0cb751a"
+    },
+    {
+      "name": "boy pablo",
+      "url": "https://open.spotify.com/artist/7wbkl3zgDZEoZer357mVIw",
+      "time": 4,
+      "genres": [
+        "bedroom pop",
+        "bergen indie",
+        "indie pop",
+        "norwegian indie"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1310724e46f58af76236c53d"
+    },
+    {
+      "name": "Carter Ace",
+      "url": "https://open.spotify.com/artist/0bhck1r45kgsoMNBVqIziz",
+      "time": 194,
+      "genres": [
+        "indie r&b"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebdc446913eb2797159129f9bd"
+    },
+    {
+      "name": "Solomonophonic",
+      "url": "https://open.spotify.com/artist/4Ino9RgrdzNW29Ycx3xxwU",
+      "time": 1,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb660f24c6a58f89344e5689e5"
+    },
+    {
+      "name": "Walker",
+      "url": "https://open.spotify.com/artist/6VWmuRhDSoyqiftAnlNFXz",
+      "time": 9,
+      "genres": [
+        "electro house"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebfc16b9995c5301d3f7e5fad4"
+    },
+    {
+      "name": "The Criticals",
+      "url": "https://open.spotify.com/artist/6ArhcOX0zzUe8GDzLTgBrK",
+      "time": 190,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebebd5437e5c3eb9cbb1131b98"
     }
   ],
   "songs": [
@@ -6150,7 +6271,7 @@
     {
       "name": "Life is a Bi\u2026",
       "url": "https://open.spotify.com/track/4d79iPe88TzFewhFk2vrcy",
-      "time": 451,
+      "time": 753,
       "image": "https://i.scdn.co/image/ab67616d0000b2735ab0f207b5e583a951915b2d",
       "artist": "BIBI"
     },
@@ -8551,7 +8672,7 @@
     {
       "name": "Feed The Fire (feat. Lucky Daye)",
       "url": "https://open.spotify.com/track/0XDA8IPloCFvf8c0ZNzRnB",
-      "time": 916,
+      "time": 933,
       "image": "https://i.scdn.co/image/ab67616d0000b27324e02fc97dd7d653c3929961",
       "artist": "SG Lewis"
     },
@@ -8824,7 +8945,7 @@
     {
       "name": "LAX",
       "url": "https://open.spotify.com/track/1o0nAjgZwMDK9TI4TTUSNn",
-      "time": 444,
+      "time": 458,
       "image": "https://i.scdn.co/image/ab67616d0000b27357fc29a0e3858c14119ee634",
       "artist": "Vulfpeck"
     },
@@ -8950,7 +9071,7 @@
     {
       "name": "Televendite di quadri",
       "url": "https://open.spotify.com/track/2sRuOQ3fg1EGzzcuBgohJX",
-      "time": 517,
+      "time": 592,
       "image": "https://i.scdn.co/image/ab67616d0000b27346b1a62030662c168b46d6fc",
       "artist": "Post Nebbia"
     },
@@ -8999,7 +9120,7 @@
     {
       "name": "Get Into It (Yuh)",
       "url": "https://open.spotify.com/track/0W6I02J9xcqK8MtSeosEXb",
-      "time": 134,
+      "time": 267,
       "image": "https://i.scdn.co/image/ab67616d0000b2734df3245f26298a1579ecc321",
       "artist": "Doja Cat"
     },
@@ -9058,6 +9179,111 @@
       "time": 82,
       "image": "https://i.scdn.co/image/ab67616d0000b273ac50a23f8565b0fdb3a8b967",
       "artist": "Talkie"
+    },
+    {
+      "name": "Upside Down",
+      "url": "https://open.spotify.com/track/05t8QbXnq2d15Vr8RqtlZU",
+      "time": 76,
+      "image": "https://i.scdn.co/image/ab67616d0000b27328e2a6fe7ae5bed623c87839",
+      "artist": "Fleece"
+    },
+    {
+      "name": "3 Wishes",
+      "url": "https://open.spotify.com/track/6ZdaEynFT1xP0jCCZUdCGp",
+      "time": 42,
+      "image": "https://i.scdn.co/image/ab67616d0000b273b320cb39e1b168e7fff29bdc",
+      "artist": "No Suits"
+    },
+    {
+      "name": "No Matter What You're Told",
+      "url": "https://open.spotify.com/track/3F4j67bF2sUZQ0B5FYYjUu",
+      "time": 6,
+      "image": "https://i.scdn.co/image/ab67616d0000b273198d560b5547761babc7607d",
+      "artist": "Broken Bells"
+    },
+    {
+      "name": "So Good",
+      "url": "https://open.spotify.com/track/0xjpgDNFyekbjessCBaaBq",
+      "time": 4,
+      "image": "https://i.scdn.co/image/ab67616d0000b27330a4346fc409e4e6e3ef37ec",
+      "artist": "Omar Apollo"
+    },
+    {
+      "name": "The Juice",
+      "url": "https://open.spotify.com/track/3uZA0ESQMYXlOb7bXHwlfd",
+      "time": 376,
+      "image": "https://i.scdn.co/image/ab67616d0000b273851d551defea3d8386d7a382",
+      "artist": "Sam Kim"
+    },
+    {
+      "name": "Weekend",
+      "url": "https://open.spotify.com/track/6cqH1q7g5GeRVQVMK1Vc7f",
+      "time": 11,
+      "image": "https://i.scdn.co/image/ab67616d0000b273f4eaffe012c3fc3b73a61bb2",
+      "artist": "TAEYEON"
+    },
+    {
+      "name": "Make Up",
+      "url": "https://open.spotify.com/track/19zsSUEuJNzNA6eqInqyF9",
+      "time": 65,
+      "image": "https://i.scdn.co/image/ab67616d0000b2738368fc4dff4622c0e00e6dbf",
+      "artist": "Sam Kim"
+    },
+    {
+      "name": "Sea Sick",
+      "url": "https://open.spotify.com/track/3jLHo30ucbkYY9P7v8leKh",
+      "time": 14,
+      "image": "https://i.scdn.co/image/ab67616d0000b273107edd639e60f9b99029b89c",
+      "artist": "binki"
+    },
+    {
+      "name": "wachito rico",
+      "url": "https://open.spotify.com/track/0OYf62rdwDouKohtCALD55",
+      "time": 4,
+      "image": "https://i.scdn.co/image/ab67616d0000b273c9a9f145388397f878892480",
+      "artist": "boy pablo"
+    },
+    {
+      "name": "If It Don't Work",
+      "url": "https://open.spotify.com/track/3FsjNq0T7I4rrU2hlvt3jv",
+      "time": 194,
+      "image": "https://i.scdn.co/image/ab67616d0000b2738f529c1e613b9054ec71206f",
+      "artist": "Carter Ace"
+    },
+    {
+      "name": "Some",
+      "url": "https://open.spotify.com/track/4riDfclV7kPDT9D58FpmHd",
+      "time": 7,
+      "image": "https://i.scdn.co/image/ab67616d0000b2737c0c6c1cfac7464b6211587d",
+      "artist": "Steve Lacy"
+    },
+    {
+      "name": "The Carol in Her Eyes",
+      "url": "https://open.spotify.com/track/4Kc36hVkjt9tYVU1NCxRj8",
+      "time": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000b2734c96a1967fe56b3d525c3db2",
+      "artist": "Solomonophonic"
+    },
+    {
+      "name": "Heart Don't Stand a Chance",
+      "url": "https://open.spotify.com/track/25GlFJq5QNAXyVgJvCZ4Mf",
+      "time": 5,
+      "image": "https://i.scdn.co/image/ab67616d0000b273f8e77075414234fd77fce32b",
+      "artist": "Anderson .Paak"
+    },
+    {
+      "name": "It's Not (Her Eyes)",
+      "url": "https://open.spotify.com/track/4yra1ed71k9Q3q0oV2pL00",
+      "time": 9,
+      "image": "https://i.scdn.co/image/ab67616d0000b2736dcd2824034151da16d47e39",
+      "artist": "Walker"
+    },
+    {
+      "name": "Treat Ya Better",
+      "url": "https://open.spotify.com/track/2t8RsUdWmOwd7cfH1XgTZX",
+      "time": 190,
+      "image": "https://i.scdn.co/image/ab67616d0000b273037bfb5e135db9d9a6badf7f",
+      "artist": "The Criticals"
     }
   ]
 }
