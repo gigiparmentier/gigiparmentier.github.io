@@ -4,6 +4,6 @@ import os
 #os.system("start \"\" cmd /k \"spot.pyw marieline\"")
 #os.system("start \"\" cmd /k \"spot.pyw mathis\"")
 
-os.system("spot.py titanbin")
-os.system("spot.py marieline")
-os.system("spot.py mathis")
+os.system("spot.pyw titanbin")
+os.system("spot.pyw marieline")
+os.system("spot.pyw mathis")
