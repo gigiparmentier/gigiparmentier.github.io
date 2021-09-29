@@ -61,7 +61,7 @@
     {
       "name": "Your Neighbors",
       "url": "https://open.spotify.com/artist/6mpyU2azr3zfZDY9k8w5GP",
-      "time": 9436,
+      "time": 9440,
       "genres": [
         "nashville indie"
       ],
@@ -235,7 +235,7 @@
     {
       "name": "WILLOW",
       "url": "https://open.spotify.com/artist/3rWZHrfrsPBxVy692yAIxF",
-      "time": 709,
+      "time": 728,
       "genres": [
         "show tunes"
       ],
@@ -466,7 +466,7 @@
     {
       "name": "Benny Sings",
       "url": "https://open.spotify.com/artist/4gHcu2JoaXJ0mV4aNPCd7N",
-      "time": 1545,
+      "time": 1968,
       "genres": [
         "dutch pop",
         "indie jazz",
@@ -978,7 +978,7 @@
     {
       "name": "Tom Misch",
       "url": "https://open.spotify.com/artist/1uiEZYehlNivdK3iQyAbye",
-      "time": 5583,
+      "time": 5616,
       "genres": [
         "indie soul",
         "jazz pop"
@@ -1663,7 +1663,7 @@
     {
       "name": "Poppy Ajudha",
       "url": "https://open.spotify.com/artist/6oPQiSj92N4mk5jXLtX1bl",
-      "time": 1785,
+      "time": 1818,
       "genres": [
         "indie jazz",
         "indie soul",
@@ -2398,7 +2398,7 @@
     {
       "name": "BENEE",
       "url": "https://open.spotify.com/artist/0Cp8WN4V8Tu4QJQwCN5Md4",
-      "time": 559,
+      "time": 764,
       "genres": [
         "alt z",
         "nz pop",
@@ -2856,7 +2856,7 @@
     {
       "name": "Orion Sun",
       "url": "https://open.spotify.com/artist/2efrqekWSHlvhATD50AG3m",
-      "time": 184,
+      "time": 345,
       "genres": [
         "alternative r&b",
         "bedroom pop",
@@ -4771,7 +4771,7 @@
     {
       "name": "Omar Apollo",
       "url": "https://open.spotify.com/artist/5FxD8fkQZ6KcsSYupDVoSO",
-      "time": 561,
+      "time": 701,
       "genres": [
         "alternative r&b",
         "bedroom pop",
@@ -5100,7 +5100,7 @@
     {
       "name": "HAIM",
       "url": "https://open.spotify.com/artist/4Ui2kfOqGujY81UcPrb5KE",
-      "time": 387,
+      "time": 569,
       "genres": [
         "art pop",
         "dance pop",
@@ -5113,14 +5113,14 @@
     {
       "name": "Rachel Bobbitt",
       "url": "https://open.spotify.com/artist/2scnOsuExko5GJdIYZdEnC",
-      "time": 642,
+      "time": 850,
       "genres": [],
       "image": "https://i.scdn.co/image/ab6761610000e5ebe36df0639ff4742f1f04503e"
     },
     {
       "name": "Justice Der",
       "url": "https://open.spotify.com/artist/2N79L5eT2Xraec4UJsi2Fz",
-      "time": 642,
+      "time": 850,
       "genres": [
         "lo-fi cover"
       ],
@@ -5199,7 +5199,7 @@
     {
       "name": "THE ANXIETY",
       "url": "https://open.spotify.com/artist/64H8UqGLbJFHwKtGxiV8OP",
-      "time": 294,
+      "time": 313,
       "genres": [
         "modern alternative pop"
       ],
@@ -5208,7 +5208,7 @@
     {
       "name": "Tyler Cole",
       "url": "https://open.spotify.com/artist/1xoxekeb8jUVHKJB7m6bfg",
-      "time": 294,
+      "time": 313,
       "genres": [
         "bedroom soul"
       ],
@@ -5296,7 +5296,7 @@
     {
       "name": "Helsinki Lambda Club",
       "url": "https://open.spotify.com/artist/3jpFXrTLWqYtXSAxboiiL5",
-      "time": 690,
+      "time": 969,
       "genres": [
         "j-rock",
         "japanese alternative rock",
@@ -5408,7 +5408,7 @@
     {
       "name": "George Moir",
       "url": "https://open.spotify.com/artist/6eNGoUHSDYfXSy5SvnN1Uu",
-      "time": 587,
+      "time": 608,
       "genres": [
         "devon indie"
       ],
@@ -5417,7 +5417,7 @@
     {
       "name": "Rocketman",
       "url": "https://open.spotify.com/artist/4PSlXQjt2u6ua1YxEsHfsQ",
-      "time": 1052,
+      "time": 1226,
       "genres": [
         "big room"
       ],
@@ -5852,7 +5852,7 @@
     {
       "name": "Manwolves",
       "url": "https://open.spotify.com/artist/6RCI4WXRwG9jnRHZgzBYFr",
-      "time": 739,
+      "time": 1120,
       "genres": [
         "bedroom soul"
       ],
@@ -6941,7 +6941,7 @@
     {
       "name": "Fewjar",
       "url": "https://open.spotify.com/artist/32icQ3y9495zedEztO2MFp",
-      "time": 334,
+      "time": 372,
       "genres": [],
       "image": "https://i.scdn.co/image/ab6761610000e5eb1632f8bc6dcc15ea6bb02a14"
     },
@@ -6975,6 +6975,25 @@
         "israeli indie"
       ],
       "image": "https://i.scdn.co/image/ab6761610000e5eb73f2a49225dce45ac6208d9c"
+    },
+    {
+      "name": "Lonely Benson",
+      "url": "https://open.spotify.com/artist/5YNnmXnEEEJM0ArqHDSyET",
+      "time": 173,
+      "genres": [
+        "nashville indie"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb284f838e429198f6d97db9f7"
+    },
+    {
+      "name": "aespa",
+      "url": "https://open.spotify.com/artist/6YVMFz59CuY7ngCxTxjpxE",
+      "time": 546,
+      "genres": [
+        "k-pop",
+        "k-pop girl group"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb341f7680a6ad0fbb62c14c3d"
     }
   ],
   "songs": [
@@ -7023,7 +7042,7 @@
     {
       "name": "Bodega",
       "url": "https://open.spotify.com/track/2J75vn6KGIPucvGPZHKQDF",
-      "time": 471,
+      "time": 475,
       "image": "https://i.scdn.co/image/ab67616d0000b2739d33c0409adcca458731a746",
       "artist": "Your Neighbors"
     },
@@ -8556,7 +8575,7 @@
     {
       "name": "Disco Yes",
       "url": "https://open.spotify.com/track/61Ivix5DTnDPVjp1dgLyov",
-      "time": 1785,
+      "time": 1818,
       "image": "https://i.scdn.co/image/ab67616d0000b2732aebf42d8901fbcd14c9eca8",
       "artist": "Tom Misch"
     },
@@ -11734,14 +11753,14 @@
     {
       "name": "3 AM",
       "url": "https://open.spotify.com/track/1zLH9CLHFlCQ22stPDOgei",
-      "time": 387,
+      "time": 569,
       "image": "https://i.scdn.co/image/ab67616d0000b2731bff3b5284c581b83e918d19",
       "artist": "HAIM"
     },
     {
       "name": "Iris Road",
       "url": "https://open.spotify.com/track/4jnE0kIfLcrW3221E4kmsU",
-      "time": 642,
+      "time": 850,
       "image": "https://i.scdn.co/image/ab67616d0000b2737004f779cf9613f66b295625",
       "artist": "Rachel Bobbitt"
     },
@@ -11797,7 +11816,7 @@
     {
       "name": "Poolside",
       "url": "https://open.spotify.com/track/1aNiHxopNsQDGRCrrAw9FX",
-      "time": 294,
+      "time": 313,
       "image": "https://i.scdn.co/image/ab67616d0000b27335dc760d511434859ce80997",
       "artist": "THE ANXIETY"
     },
@@ -11867,7 +11886,7 @@
     {
       "name": "\u7720\u3063\u305f\u3075\u308a\u3057\u3066",
       "url": "https://open.spotify.com/track/53leB7CUwXC5wRj0lZCeqs",
-      "time": 690,
+      "time": 969,
       "image": "https://i.scdn.co/image/ab67616d0000b273c5af3a0da1b610d22138a61f",
       "artist": "Helsinki Lambda Club"
     },
@@ -11986,7 +12005,7 @@
     {
       "name": "Orange Coffee",
       "url": "https://open.spotify.com/track/0tdUSzLEtBoReXlUwUFwxI",
-      "time": 1052,
+      "time": 1226,
       "image": "https://i.scdn.co/image/ab67616d0000b27345c439baa4429ff5e91e121a",
       "artist": "Rocketman"
     },
@@ -12000,7 +12019,7 @@
     {
       "name": "Patio",
       "url": "https://open.spotify.com/track/4g3WTTn3b4SH7euXZXBElU",
-      "time": 583,
+      "time": 604,
       "image": "https://i.scdn.co/image/ab67616d0000b273d6ce77f8ca2a3699b512b12d",
       "artist": "George Moir"
     },
@@ -12231,7 +12250,7 @@
     {
       "name": "SOFTLY",
       "url": "https://open.spotify.com/track/4BhF5FBT6LPUnDpBlJ7emz",
-      "time": 771,
+      "time": 1194,
       "image": "https://i.scdn.co/image/ab67616d0000b273b337c2e11b29440a36acd554",
       "artist": "Benny Sings"
     },
@@ -12322,7 +12341,7 @@
     {
       "name": "Dry Bones",
       "url": "https://open.spotify.com/track/06vZXlSMMJb0IPR0R1UmH9",
-      "time": 442,
+      "time": 589,
       "image": "https://i.scdn.co/image/ab67616d0000b2730cfa8779835e27d24b166a87",
       "artist": "Manwolves"
     },
@@ -12343,7 +12362,7 @@
     {
       "name": "These Days",
       "url": "https://open.spotify.com/track/3u0s2L2nv0gUuDwLlVi4qH",
-      "time": 398,
+      "time": 632,
       "image": "https://i.scdn.co/image/ab67616d0000b27359b9d0eaa767ad4f698487cf",
       "artist": "Manwolves"
     },
@@ -13253,7 +13272,7 @@
     {
       "name": "Skeleton",
       "url": "https://open.spotify.com/track/1EKDoiTFpmnIu5Rt5QduFQ",
-      "time": 210,
+      "time": 248,
       "image": "https://i.scdn.co/image/ab67616d0000b2739342b4662952402c5d597b74",
       "artist": "Fewjar"
     },
@@ -13281,7 +13300,7 @@
     {
       "name": "Wishful Thinking",
       "url": "https://open.spotify.com/track/06Xh1KvQofFghlSt33mFjc",
-      "time": 213,
+      "time": 418,
       "image": "https://i.scdn.co/image/ab67616d0000b273447289301b37e205337ddd61",
       "artist": "BENEE"
     },
@@ -13312,6 +13331,48 @@
       "time": 29,
       "image": "https://i.scdn.co/image/ab67616d0000b273f94f5879a2e4612b309fa494",
       "artist": "Noga Erez"
+    },
+    {
+      "name": "Antidote",
+      "url": "https://open.spotify.com/track/1NlGXcWeUSe1s3IgRKcqmB",
+      "time": 161,
+      "image": "https://i.scdn.co/image/ab67616d0000b273ee0ec368f9b61f602365d864",
+      "artist": "Orion Sun"
+    },
+    {
+      "name": "Strawberry Afternoons",
+      "url": "https://open.spotify.com/track/7iTLtSajuKrAB6f65Y5HtW",
+      "time": 173,
+      "image": "https://i.scdn.co/image/ab67616d0000b273a605f05e7bf436d8d767c3c4",
+      "artist": "Lonely Benson"
+    },
+    {
+      "name": "Black Mamba",
+      "url": "https://open.spotify.com/track/1t2qYCAjUAoGfeFeoBlK51",
+      "time": 313,
+      "image": "https://i.scdn.co/image/ab67616d0000b2736f248f7695eb544a3a1955c5",
+      "artist": "aespa"
+    },
+    {
+      "name": "Next Level",
+      "url": "https://open.spotify.com/track/2zrhoHlFKxFTRF5aMyxMoQ",
+      "time": 219,
+      "image": "https://i.scdn.co/image/ab67616d0000b2737a393b04e8ced571618223e8",
+      "artist": "aespa"
+    },
+    {
+      "name": "Forever (\uc57d\uc18d)",
+      "url": "https://open.spotify.com/track/26YNVqHuwAPeBVfDscTPds",
+      "time": 14,
+      "image": "https://i.scdn.co/image/ab67616d0000b2737fdc50db3e3b281109f5a831",
+      "artist": "aespa"
+    },
+    {
+      "name": "Useless",
+      "url": "https://open.spotify.com/track/7dJN4NWQuqCjWwIT3UwOps",
+      "time": 140,
+      "image": "https://i.scdn.co/image/ab67616d0000b27373f6df727a4167d26d7b7f45",
+      "artist": "Omar Apollo"
     }
   ]
 }

@@ -3,7 +3,7 @@
     {
       "name": "Oasis",
       "url": "https://open.spotify.com/artist/2DaxqgrOhkeH0fpeiQq2f4",
-      "time": 211,
+      "time": 521,
       "genres": [
         "beatlesque",
         "britpop",
@@ -57,7 +57,7 @@
     {
       "name": "Queen",
       "url": "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d",
-      "time": 209,
+      "time": 471,
       "genres": [
         "classic rock",
         "glam rock",
@@ -159,7 +159,7 @@
     {
       "name": "Coldplay",
       "url": "https://open.spotify.com/artist/4gzpq5DPGxSnKTe4SA8HAU",
-      "time": 2138,
+      "time": 2657,
       "genres": [
         "permanent wave",
         "pop"
@@ -411,7 +411,7 @@
     {
       "name": "Balthazar",
       "url": "https://open.spotify.com/artist/4oMBP1OWXtmxyDhAj2aRyQ",
-      "time": 418,
+      "time": 647,
       "genres": [
         "belgian indie",
         "belgian rock",
@@ -424,7 +424,7 @@
     {
       "name": "Status Quo",
       "url": "https://open.spotify.com/artist/4gIdjgLlvgEOz7MexDZzpM",
-      "time": 204,
+      "time": 485,
       "genres": [
         "album rock",
         "blues rock",
@@ -1439,7 +1439,7 @@
     {
       "name": "Indochine",
       "url": "https://open.spotify.com/artist/7knmbOGe07k85GmK50vACB",
-      "time": 232,
+      "time": 674,
       "genres": [
         "chanson",
         "francoton",
@@ -1888,7 +1888,7 @@
     {
       "name": "Breakbot",
       "url": "https://open.spotify.com/artist/0iui2Be5CP8EWxvHYsVspL",
-      "time": 205,
+      "time": 420,
       "genres": [
         "alternative dance",
         "filter house",
@@ -1900,7 +1900,7 @@
     {
       "name": "Irfane",
       "url": "https://open.spotify.com/artist/3nqQeOUvDPTu4vtYtPfBjX",
-      "time": 205,
+      "time": 420,
       "genres": [],
       "image": "https://i.scdn.co/image/ab67616d0000b273ff8bc29915857091170859dc"
     },
@@ -1980,7 +1980,7 @@
     {
       "name": "Taylor Swift",
       "url": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
-      "time": 225,
+      "time": 831,
       "genres": [
         "pop",
         "post-teen pop"
@@ -1995,7 +1995,7 @@
     {
       "name": "The Raconteurs",
       "url": "https://open.spotify.com/artist/4wo1267SJuUfHgasdlfNfc",
-      "time": 1,
+      "time": 10,
       "genres": [
         "alternative rock",
         "garage rock",
@@ -2202,7 +2202,7 @@
     {
       "name": "B\u00d8RNS",
       "url": "https://open.spotify.com/artist/1KP6TWI40m7p3QBTU6u2xo",
-      "time": 207,
+      "time": 411,
       "genres": [
         "modern alternative rock",
         "modern rock",
@@ -2415,7 +2415,7 @@
     {
       "name": "Stromae",
       "url": "https://open.spotify.com/artist/5j4HeCoUlzhfWtjAfM1acR",
-      "time": 221,
+      "time": 504,
       "genres": [
         "belgian pop",
         "g-house"
@@ -2505,6 +2505,1036 @@
         "rock"
       ],
       "image": "https://i.scdn.co/image/ab6761610000e5eb23a7b4c49d285729a974d6dd"
+    },
+    {
+      "name": "Sam The Sham & The Pharaohs",
+      "url": "https://open.spotify.com/artist/05sRO4JdAtJGyZQOTb6kSL",
+      "time": 156,
+      "genres": [
+        "brill building pop",
+        "bubblegum pop",
+        "classic garage rock",
+        "folk rock",
+        "rock-and-roll",
+        "surf music"
+      ],
+      "image": "https://i.scdn.co/image/a6262c9f12285143f8300dc91aa1f82891d5f966"
+    },
+    {
+      "name": "Khaled",
+      "url": "https://open.spotify.com/artist/28ztjHIXceRRntmTUfnmUX",
+      "time": 221,
+      "genres": [
+        "hip hop",
+        "miami hip hop",
+        "pop",
+        "pop rap",
+        "rap",
+        "southern hip hop",
+        "trap"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebbf921114b7f19be97ce29647"
+    },
+    {
+      "name": "Leslie Odom Jr.",
+      "url": "https://open.spotify.com/artist/3cR4rhS2hBWqI7rJEBacvN",
+      "time": 7,
+      "genres": [
+        "broadway",
+        "hollywood",
+        "show tunes",
+        "vocal jazz"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebb35dba51746ae3ebb2d8958b"
+    },
+    {
+      "name": "Anthony Ramos",
+      "url": "https://open.spotify.com/artist/660YptcR0hNHJ8iEr1qcse",
+      "time": 7,
+      "genres": [
+        "hollywood",
+        "show tunes"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc91008816820f338383286f8"
+    },
+    {
+      "name": "Daveed Diggs",
+      "url": "https://open.spotify.com/artist/3twuAojvYNrlWZpMkxLm3P",
+      "time": 7,
+      "genres": [
+        "alternative hip hop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebf638289c7621609519d8ad24"
+    },
+    {
+      "name": "Okieriete Onaodowan",
+      "url": "https://open.spotify.com/artist/6G3sPhnj4JBCsBVBGvZnkk",
+      "time": 7
+    },
+    {
+      "name": "Lin-Manuel Miranda",
+      "url": "https://open.spotify.com/artist/4aXXDj9aZnlshx7mzj3W1N",
+      "time": 7,
+      "genres": [
+        "hollywood",
+        "show tunes"
+      ],
+      "image": "https://i.scdn.co/image/84dc87cca456089fc5cfa2d7593d9d960ca4553f"
+    },
+    {
+      "name": "Phillipa Soo",
+      "url": "https://open.spotify.com/artist/2OEGI2wrCVmvavKEOMlccy",
+      "time": 7,
+      "genres": [
+        "hollywood",
+        "show tunes"
+      ],
+      "image": "https://i.scdn.co/image/ab67616d0000b273b47bb04577839c77f2e300bd"
+    },
+    {
+      "name": "Original Broadway Cast of Hamilton",
+      "url": "https://open.spotify.com/artist/3UUJfRbrA2nTbcg4i0MOwu",
+      "time": 7,
+      "genres": [
+        "broadway",
+        "hollywood",
+        "show tunes"
+      ],
+      "image": "https://i.scdn.co/image/ab67616d0000b2733743f2dba9dde74bf4338540"
+    },
+    {
+      "name": "Susumu Hirasawa",
+      "url": "https://open.spotify.com/artist/6kaueP97pX7WZoOwF8XsI2",
+      "time": 275,
+      "genres": [
+        "anime score",
+        "japanese alternative pop",
+        "japanese electropop",
+        "japanese soundtrack"
+      ],
+      "image": "https://i.scdn.co/image/ab67616d0000b273d5959cf16de4098975b98a01"
+    },
+    {
+      "name": "IAMX",
+      "url": "https://open.spotify.com/artist/223iUzG0kb5V166FJP9ovD",
+      "time": 18,
+      "genres": [
+        "indietronica"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb26975740967eea66d02887fb"
+    },
+    {
+      "name": "The Beach Boys",
+      "url": "https://open.spotify.com/artist/3oDbviiivRWhXwIE8hxkVV",
+      "time": 268,
+      "genres": [
+        "baroque pop",
+        "brill building pop",
+        "classic rock",
+        "psychedelic rock",
+        "rock",
+        "sunshine pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb2925fdb609608a401845eeb9"
+    },
+    {
+      "name": "C418",
+      "url": "https://open.spotify.com/artist/4uFZsG1vXrPcvnZ4iSQyrx",
+      "time": 18,
+      "genres": [
+        "dream smp",
+        "minecraft"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eba9b8234e3071836212561d19"
+    },
+    {
+      "name": "Guns N' Roses",
+      "url": "https://open.spotify.com/artist/3qm84nBOXUEQ2vnTfUTTFC",
+      "time": 396,
+      "genres": [
+        "glam metal",
+        "hard rock",
+        "rock"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb50defaf9fc059a1efc541f4c"
+    },
+    {
+      "name": "Michel Sardou",
+      "url": "https://open.spotify.com/artist/0krCd0zVANPv9ryri4T0TO",
+      "time": 29,
+      "genres": [
+        "chanson",
+        "french pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6ac52482e43d0773bf14aa76"
+    },
+    {
+      "name": "James Deano",
+      "url": "https://open.spotify.com/artist/2qcWSyZDxjzTQspgc5Bjas",
+      "time": 3,
+      "genres": [
+        "belgian hip hop",
+        "french hip hop"
+      ],
+      "image": "https://i.scdn.co/image/ab67616d0000b2735854d411b1526d9593c830bc"
+    },
+    {
+      "name": "Cats On Trees",
+      "url": "https://open.spotify.com/artist/3Dcckn2A8PXmu8zLpMuO3B",
+      "time": 180,
+      "genres": [
+        "french indie pop",
+        "french pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6e10224ca03c1a5c82851ddd"
+    },
+    {
+      "name": "U2",
+      "url": "https://open.spotify.com/artist/51Blml2LZPmy7TTiAg47vQ",
+      "time": 507,
+      "genres": [
+        "irish rock",
+        "permanent wave",
+        "rock"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb4ecf08103fb2de53f1aabc39"
+    },
+    {
+      "name": "Philip Glass",
+      "url": "https://open.spotify.com/artist/69lxxQvsfAIoQbB20bEPFC",
+      "time": 52,
+      "genres": [
+        "american contemporary classical",
+        "classical",
+        "compositional ambient",
+        "contemporary classical",
+        "minimalism"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6165e2f3712049f0b05f36a0"
+    },
+    {
+      "name": "Michael Riesman",
+      "url": "https://open.spotify.com/artist/1KPzLZHZrqvYILcVTEMCP1",
+      "time": 25,
+      "genres": [
+        "compositional ambient"
+      ],
+      "image": "https://i.scdn.co/image/ab67616d0000b273aff082118fe566658a437fd1"
+    },
+    {
+      "name": "Clairo",
+      "url": "https://open.spotify.com/artist/3l0CmX0FuQjFxr8SK7Vqag",
+      "time": 0,
+      "genres": [
+        "bedroom pop",
+        "indie pop",
+        "pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb370f4e30deba6da178db36fe"
+    },
+    {
+      "name": "Chateau Marmont",
+      "url": "https://open.spotify.com/artist/4IQ782VL9bK0q2Judy9mIF",
+      "time": 6,
+      "genres": [
+        "electrofox",
+        "french synthpop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb2647d2ac07a2abbefb200e4a"
+    },
+    {
+      "name": "Passion Pit",
+      "url": "https://open.spotify.com/artist/7gjAu1qr5C2grXeQFFOGeh",
+      "time": 161,
+      "genres": [
+        "alternative dance",
+        "indie pop",
+        "indie rock",
+        "indietronica",
+        "modern alternative rock",
+        "modern rock",
+        "pop rock",
+        "shimmer pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebeccf9bbcdcf7b750f6a6c687"
+    },
+    {
+      "name": "Muse",
+      "url": "https://open.spotify.com/artist/12Chz98pHFMPJEknJQMWvI",
+      "time": 335,
+      "genres": [
+        "modern rock",
+        "permanent wave",
+        "rock"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebb506164c3174bb7123a41424"
+    },
+    {
+      "name": "Andre Bourvil",
+      "url": "https://open.spotify.com/artist/5ruLBvB3VLj0yLVxwitU0M",
+      "time": 5,
+      "genres": [
+        "vintage chanson"
+      ],
+      "image": "https://i.scdn.co/image/ab67616d0000b2735e25da1eadd26bb14f5312ee"
+    },
+    {
+      "name": "The Lumineers",
+      "url": "https://open.spotify.com/artist/16oZKvXb6WkQlVAjwo2Wbg",
+      "time": 154,
+      "genres": [
+        "folk-pop",
+        "modern rock",
+        "pop rock",
+        "stomp and holler"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb60d2331a408c313771d31276"
+    },
+    {
+      "name": "Eminem",
+      "url": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR",
+      "time": 8,
+      "genres": [
+        "detroit hip hop",
+        "hip hop",
+        "rap"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eba00b11c129b27a88fc72f36b"
+    },
+    {
+      "name": "Carla Bruni",
+      "url": "https://open.spotify.com/artist/1HVwzNriKEjaeE06okqSpx",
+      "time": 161,
+      "genres": [
+        "chanson"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1d05c17e7271984b1e009d6f"
+    },
+    {
+      "name": "Youssou N'Dour",
+      "url": "https://open.spotify.com/artist/77zlytAFjPFjUKda8TNIDY",
+      "time": 290,
+      "genres": [
+        "afropop",
+        "mande pop",
+        "mbalax",
+        "world"
+      ],
+      "image": "https://i.scdn.co/image/ab6772690000c46cae6d13738a00418f31f22a9f"
+    },
+    {
+      "name": "Neneh Cherry",
+      "url": "https://open.spotify.com/artist/3JxCEqL9zjKnDJgUhRuRJD",
+      "time": 290,
+      "genres": [
+        "new wave pop",
+        "urban contemporary"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb9a20a09637ee0c3cbac6d5cc"
+    },
+    {
+      "name": "Elliott Smith",
+      "url": "https://open.spotify.com/artist/2ApaG60P4r0yhBoDCGD8YG",
+      "time": 294,
+      "genres": [
+        "alternative rock",
+        "indie folk",
+        "indie pop",
+        "indie rock",
+        "melancholia",
+        "singer-songwriter"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb079739b801ab3f105866b76f"
+    },
+    {
+      "name": "2 Be 3",
+      "url": "https://open.spotify.com/artist/2431cuILysJKDnrOeCgQiX",
+      "time": 209,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab67616d0000b2730c5c78726cf07b4be53eb1c3"
+    },
+    {
+      "name": "Future Islands",
+      "url": "https://open.spotify.com/artist/1WvvwcQx0tj6NdDhZZ2zZz",
+      "time": 551,
+      "genres": [
+        "alternative dance",
+        "baltimore indie",
+        "chillwave",
+        "indie rock",
+        "indietronica",
+        "modern rock",
+        "new rave"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebcda4ff270c54e7def68fd2db"
+    },
+    {
+      "name": "Gorillaz",
+      "url": "https://open.spotify.com/artist/3AA28KZvwAUcZuOKwyblJQ",
+      "time": 219,
+      "genres": [
+        "alternative hip hop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe9de8fae8eacbcff097dc818"
+    },
+    {
+      "name": "Them Crooked Vultures",
+      "url": "https://open.spotify.com/artist/4zYQWYmtimAEmI6WWEzGfO",
+      "time": 63,
+      "genres": [
+        "alternative metal",
+        "alternative rock",
+        "blues rock",
+        "modern alternative rock",
+        "modern blues rock",
+        "modern rock",
+        "rock",
+        "supergroup"
+      ],
+      "image": "https://i.scdn.co/image/7e78d34c33af8c3555f8eec0f8823cbde00ae2cc"
+    },
+    {
+      "name": "The Voidz",
+      "url": "https://open.spotify.com/artist/4nUBBtLtzqZGpdiynTJbYJ",
+      "time": 1,
+      "genres": [
+        "modern alternative rock"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebba98ae8279d80c55094484ad"
+    },
+    {
+      "name": "Jon Lajoie",
+      "url": "https://open.spotify.com/artist/0ru4hXR4RJY1mikvbQKgWa",
+      "time": 111,
+      "genres": [
+        "comedy rap",
+        "comic",
+        "parody"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6fa914797df44bdb52ed3d6f"
+    },
+    {
+      "name": "Dooz Kawa",
+      "url": "https://open.spotify.com/artist/4z8LvfxawVZLoLR1KTUzQL",
+      "time": 25,
+      "genres": [
+        "french hip hop",
+        "rap conscient",
+        "rap inde"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebbf7f005944612f1d03f3c728"
+    },
+    {
+      "name": "Vald",
+      "url": "https://open.spotify.com/artist/3CnCGFxXbOA8bAK54jR8js",
+      "time": 184,
+      "genres": [
+        "french hip hop",
+        "pop urbaine",
+        "rap conscient",
+        "rap francais"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebbb5d08bce59cfcc825c301f4"
+    },
+    {
+      "name": "Le 77",
+      "url": "https://open.spotify.com/artist/1IEmy7NUSGRZijdZoJe90C",
+      "time": 51,
+      "genres": [
+        "belgian hip hop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebea76cef9c782223e40611c69"
+    },
+    {
+      "name": "Skip the Use",
+      "url": "https://open.spotify.com/artist/6UWiE4V9p2HK4C74A0CGKB",
+      "time": 174,
+      "genres": [
+        "french indie pop",
+        "french rock",
+        "rock independant francais"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb7abd229caa504b8d3e4f6cc8"
+    },
+    {
+      "name": "Nekfeu",
+      "url": "https://open.spotify.com/artist/4LXBc13z5EWsc5N32bLxfH",
+      "time": 3,
+      "genres": [
+        "french hip hop",
+        "pop urbaine",
+        "rap conscient"
+      ],
+      "image": "https://i.scdn.co/image/4b29b23a7dc7ac866210d93d4a5287c95941696c"
+    },
+    {
+      "name": "Vanessa Paradis",
+      "url": "https://open.spotify.com/artist/1FmxE030Xe2H8Bn9bdv6Pd",
+      "time": 3,
+      "genres": [
+        "chanson",
+        "french indie pop",
+        "french pop",
+        "french rock",
+        "nouvelle chanson francaise"
+      ],
+      "image": "https://i.scdn.co/image/a37befebfb6bf42aaa90f6c1ff6a83ecab583ee6"
+    },
+    {
+      "name": "Les Wampas",
+      "url": "https://open.spotify.com/artist/2nsGWZA0LtO7istBNsyNTE",
+      "time": 153,
+      "genres": [
+        "french punk",
+        "french reggae",
+        "french rock"
+      ],
+      "image": "https://i.scdn.co/image/421edd9d2a277d4c50590d34ae27dbc01d4a82b0"
+    },
+    {
+      "name": "The Offspring",
+      "url": "https://open.spotify.com/artist/5LfGQac0EIXyAN8aUwmNAQ",
+      "time": 15,
+      "genres": [
+        "alternative metal",
+        "permanent wave",
+        "punk",
+        "rock",
+        "skate punk",
+        "socal pop punk"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd7c5bbf32459922a72ec0d31"
+    },
+    {
+      "name": "Emma Stone",
+      "url": "https://open.spotify.com/artist/68Uwx1d3EbjDJhYsLjqvIq",
+      "time": 43,
+      "genres": [
+        "hollywood"
+      ],
+      "image": "https://i.scdn.co/image/cee04ea73506df4e3bc77fc334e9cfbd49387383"
+    },
+    {
+      "name": "The Cure",
+      "url": "https://open.spotify.com/artist/7bu3H8JO7d0UbMoVzbo70s",
+      "time": 192,
+      "genres": [
+        "new wave",
+        "permanent wave",
+        "rock",
+        "uk post-punk"
+      ],
+      "image": "https://i.scdn.co/image/7ca743e822b80133971ccf5c70fcbd77a4f4f508"
+    },
+    {
+      "name": "Nina Simone",
+      "url": "https://open.spotify.com/artist/7G1GBhoKtEPnP86X2PvEYO",
+      "time": 52,
+      "genres": [
+        "adult standards",
+        "jazz blues",
+        "soul",
+        "soul jazz",
+        "torch song",
+        "vocal jazz"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb136c51c848c26a6cce7f9e56"
+    },
+    {
+      "name": "The Dead Weather",
+      "url": "https://open.spotify.com/artist/4AZab8zo2nTYd7ORDmQu0V",
+      "time": 185,
+      "genres": [
+        "alternative rock",
+        "blues rock",
+        "garage rock",
+        "indie rock",
+        "modern alternative rock",
+        "modern blues rock",
+        "modern rock",
+        "punk blues",
+        "rock",
+        "supergroup"
+      ],
+      "image": "https://i.scdn.co/image/f0a510f1be43dcb3bc104b2b089342887fa13463"
+    },
+    {
+      "name": "Billy Joel",
+      "url": "https://open.spotify.com/artist/6zFYqv1mOsgBRQbae3JJ9e",
+      "time": 337,
+      "genres": [
+        "classic rock",
+        "folk rock",
+        "mellow gold",
+        "piano rock",
+        "rock",
+        "singer-songwriter",
+        "soft rock"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc152fc4fed805e8a82ed950b"
+    },
+    {
+      "name": "The Black Keys",
+      "url": "https://open.spotify.com/artist/7mnBLXK823vNxN3UWB7Gfz",
+      "time": 237,
+      "genres": [
+        "alternative rock",
+        "blues rock",
+        "garage rock",
+        "modern blues rock",
+        "modern rock",
+        "punk blues",
+        "rock",
+        "roots rock"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebda012e44f73353016e419282"
+    },
+    {
+      "name": "Thibault Cauvin",
+      "url": "https://open.spotify.com/artist/6d81rjlV6r9u8qPMAjavRV",
+      "time": 27,
+      "genres": [
+        "classical guitar"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc35803b6d4607121a1598834"
+    },
+    {
+      "name": "Ad\u00e9la\u00efde Ferri\u00e8re",
+      "url": "https://open.spotify.com/artist/7LVem5lQc728oiiB8KmuRe",
+      "time": 27,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb7554ce0f8e6e3500b414e4b7"
+    },
+    {
+      "name": "Temples",
+      "url": "https://open.spotify.com/artist/4ogwGU9VPWrnVBs1GEwZVV",
+      "time": 62,
+      "genres": [
+        "neo-psychedelic"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebcb726061ae8139ffe3da39fa"
+    },
+    {
+      "name": "Dead Man's Bones",
+      "url": "https://open.spotify.com/artist/66uU7VPJQ8eC06LAZyqYYk",
+      "time": 1,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab67616d0000b273f2362e7be67a9c9e3e196e7b"
+    },
+    {
+      "name": "Pzk",
+      "url": "https://open.spotify.com/artist/4ii7OZHtY3E4ndPm1MFMSR",
+      "time": 199,
+      "genres": [
+        "francoton"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb413e99272e1b75e62acfcd62"
+    },
+    {
+      "name": "Adrian Str\u00f6m",
+      "url": "https://open.spotify.com/artist/6wx08H9LZLWjuj6gYySyzX",
+      "time": 8,
+      "genres": [
+        "new french touch"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb322235d54dfeda22a2503d22"
+    },
+    {
+      "name": "Cage The Elephant",
+      "url": "https://open.spotify.com/artist/26T3LtbuGT1Fu9m0eRq5X3",
+      "time": 139,
+      "genres": [
+        "modern alternative rock",
+        "modern rock",
+        "punk blues",
+        "rock"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb7d994f7e137c10249de19455"
+    },
+    {
+      "name": "Charlotte Gainsbourg",
+      "url": "https://open.spotify.com/artist/2rBcvLKWCZs9w1qIWv560v",
+      "time": 295,
+      "genres": [
+        "art pop",
+        "electronica"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb5c6941ccec946b6e52c87362"
+    },
+    {
+      "name": "VETO",
+      "url": "https://open.spotify.com/artist/0iirUbtgwt9jEkc2Grin8C",
+      "time": 0,
+      "genres": [
+        "danish alternative rock",
+        "danish indie",
+        "danish rock"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe15c8841e8efac09c3aaab0e"
+    },
+    {
+      "name": "Amadou & Mariam",
+      "url": "https://open.spotify.com/artist/3KH7WsR2JZQ94Ik8SyabU6",
+      "time": 189,
+      "genres": [
+        "afropop",
+        "malian blues",
+        "mande pop",
+        "world"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb26ee7f149e2863b4d005fe02"
+    },
+    {
+      "name": "AFI",
+      "url": "https://open.spotify.com/artist/19I4tYiChJoxEO5EuviXpz",
+      "time": 9,
+      "genres": [
+        "pop punk",
+        "punk",
+        "screamo",
+        "skate punk"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebbdecf4762da0117e96e03fb8"
+    },
+    {
+      "name": "The Mamas & The Papas",
+      "url": "https://open.spotify.com/artist/1bs7HoMkSyQwcobCpE9KpN",
+      "time": 146,
+      "genres": [
+        "brill building pop",
+        "bubblegum pop",
+        "classic rock",
+        "folk rock",
+        "mellow gold",
+        "psychedelic rock",
+        "rock",
+        "sunshine pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb4626b4e3185058d73c9ec7a7"
+    },
+    {
+      "name": "Leonard Cohen",
+      "url": "https://open.spotify.com/artist/5l8VQNuIg0turYE1VtM9zV",
+      "time": 4,
+      "genres": [
+        "canadian singer-songwriter",
+        "folk",
+        "folk rock",
+        "melancholia",
+        "permanent wave",
+        "singer-songwriter"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd09c1295779cfb71683cee99"
+    },
+    {
+      "name": "Villagers",
+      "url": "https://open.spotify.com/artist/2m1l9MLSslzup4vvokKgvQ",
+      "time": 1,
+      "genres": [
+        "chamber pop",
+        "indie folk",
+        "indie rock",
+        "stomp and holler"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebef1ce3c76ebd01753fc14c63"
+    },
+    {
+      "name": "Collectif M\u00e9tiss\u00e9",
+      "url": "https://open.spotify.com/artist/0gt9nFdIsu03ipyhLajGvK",
+      "time": 47,
+      "genres": [
+        "francoton",
+        "french pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb4d5fd6acda2340681d3424af"
+    },
+    {
+      "name": "Superpoze",
+      "url": "https://open.spotify.com/artist/1iQhd9xO2v82j0dBbt4tHz",
+      "time": 0,
+      "genres": [
+        "french indietronica",
+        "new french touch"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb7b9c2226a2e411d33a22cb92"
+    },
+    {
+      "name": "Justice",
+      "url": "https://open.spotify.com/artist/1gR0gsQYfi6joyO1dlp76N",
+      "time": 230,
+      "genres": [
+        "alternative dance",
+        "electro house",
+        "electronica",
+        "filter house",
+        "new rave"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb7c8d2eb76dc05630521eefa4"
+    },
+    {
+      "name": "Blacklisted Me",
+      "url": "https://open.spotify.com/artist/30fMRB95OXcwPKp9VHQ3HR",
+      "time": 7,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab67616d0000b2732291eae151d8687192300826"
+    },
+    {
+      "name": "Didier Super",
+      "url": "https://open.spotify.com/artist/50IylcM1VOHNXVHMMMWhJA",
+      "time": 142,
+      "genres": [
+        "french punk",
+        "french reggae",
+        "french rock"
+      ],
+      "image": "https://i.scdn.co/image/d7bb2d2f3d9545e4418792594d8afee7987ab065"
+    },
+    {
+      "name": "The Aro String Band",
+      "url": "https://open.spotify.com/artist/3fUMRKTiRQorbj8r4a7xcB",
+      "time": 142,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab67616d0000b273fde6240ced5aa58db5677e7c"
+    },
+    {
+      "name": "Phoenix",
+      "url": "https://open.spotify.com/artist/1xU878Z1QtBldR7ru9owdU",
+      "time": 1428,
+      "genres": [
+        "alternative dance",
+        "indie pop",
+        "indie rock",
+        "modern rock",
+        "new rave",
+        "pop rock",
+        "rock independant francais"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6bd7f08ef83442be8dc4ba21"
+    },
+    {
+      "name": "Jean-Jacques Goldman",
+      "url": "https://open.spotify.com/artist/2Cx19OTMqa6gpz2l60cGG2",
+      "time": 322,
+      "genres": [
+        "chanson",
+        "francoton",
+        "french pop",
+        "french rock"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb5b0234933d862408792e19a3"
+    },
+    {
+      "name": "Sirima",
+      "url": "https://open.spotify.com/artist/1dvEnTh99k2nSW66P3dS7M",
+      "time": 322
+    },
+    {
+      "name": "Miles Kane",
+      "url": "https://open.spotify.com/artist/3M0H4efyA5YcijrKlaKbYn",
+      "time": 194,
+      "genres": [
+        "baroque pop",
+        "britpop",
+        "garage rock",
+        "indie rock",
+        "modern alternative rock",
+        "modern rock",
+        "rock"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebf976d00ec1856fabf6d74229"
+    },
+    {
+      "name": "Madcon",
+      "url": "https://open.spotify.com/artist/6c4sUNBgdonFJz8Kx2VsGz",
+      "time": 203,
+      "genres": [
+        "dance pop",
+        "norwegian hip hop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebaee04f651b61ca7d91b73d64"
+    },
+    {
+      "name": "Weezer",
+      "url": "https://open.spotify.com/artist/3jOstUTkEu2JkjvRdBA5Gu",
+      "time": 189,
+      "genres": [
+        "alternative rock",
+        "modern power pop",
+        "modern rock",
+        "permanent wave",
+        "rock"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebef2e09aeedd0d8f842d1a690"
+    },
+    {
+      "name": "Pulp",
+      "url": "https://open.spotify.com/artist/36E7oYfz3LLRto6l2WmDcD",
+      "time": 338,
+      "genres": [
+        "alternative rock",
+        "art rock",
+        "britpop",
+        "modern rock",
+        "new wave",
+        "permanent wave",
+        "pop rock",
+        "rock",
+        "sheffield indie"
+      ],
+      "image": "https://i.scdn.co/image/274a6b04d4086699f74f761b7932adf122c5619e"
+    },
+    {
+      "name": "Pegase",
+      "url": "https://open.spotify.com/artist/3CyGpunc019xO6V7Skfmry",
+      "time": 2,
+      "genres": [
+        "electrofox",
+        "french indietronica",
+        "french synthpop",
+        "nantes indie"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb1147e519bd11ab9c44a7f21e"
+    },
+    {
+      "name": "Patrick Fiori",
+      "url": "https://open.spotify.com/artist/18PkzXDURSTyGZTg9w66qq",
+      "time": 190,
+      "genres": [
+        "chanson",
+        "francoton",
+        "french pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb586d18f18f848c506cb80af8"
+    },
+    {
+      "name": "Jose Garcia",
+      "url": "https://open.spotify.com/artist/0jezfHhTNUwE6PwIC0IdXD",
+      "time": 190,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebb34969987b202f53ac4b399a"
+    },
+    {
+      "name": "Thierry Ragueneau",
+      "url": "https://open.spotify.com/artist/0uUEBNTne0kL8dCatkKbn1",
+      "time": 190
+    },
+    {
+      "name": "Pierre Francois Pistorio",
+      "url": "https://open.spotify.com/artist/0GKqgSvsiMAnOK3ZB2PWjb",
+      "time": 190
+    },
+    {
+      "name": "Michel Vign\u00e9",
+      "url": "https://open.spotify.com/artist/1wQuzbB0oVi3t8yVCkcx4W",
+      "time": 190
+    },
+    {
+      "name": "Chorus - Mulan",
+      "url": "https://open.spotify.com/artist/4KpdqBDU2C5gB3vhdojuqA",
+      "time": 190
+    },
+    {
+      "name": "Hans Zimmer",
+      "url": "https://open.spotify.com/artist/0YC192cP3KPCRWx8zr8MfZ",
+      "time": 10,
+      "genres": [
+        "german soundtrack",
+        "soundtrack"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb371632043a8c12bb7eeeaf9d"
+    },
+    {
+      "name": "Lebo M.",
+      "url": "https://open.spotify.com/artist/0zp9qNDSeYi3QEodhcKAAA",
+      "time": 10,
+      "genres": [
+        "disney",
+        "movie tunes"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebcc494ba98eadd560b5001226"
+    },
+    {
+      "name": "The Doobie Brothers",
+      "url": "https://open.spotify.com/artist/39T6qqI0jDtSWWioX8eGJz",
+      "time": 60,
+      "genres": [
+        "album rock",
+        "blues rock",
+        "classic rock",
+        "country rock",
+        "folk rock",
+        "hard rock",
+        "heartland rock",
+        "mellow gold",
+        "rock",
+        "soft rock",
+        "yacht rock"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb68a38c02f356fae44e7dd63b"
+    },
+    {
+      "name": "UssaR",
+      "url": "https://open.spotify.com/artist/4gXudTKsfn8dfrGm9ENfjX",
+      "time": 193,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebac1dab3bf71504ce14bccfc8"
+    },
+    {
+      "name": "Anastacia",
+      "url": "https://open.spotify.com/artist/2siHvYaxjaW5rKVRiIrMYH",
+      "time": 241,
+      "genres": [
+        "dance pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8baadc90f2b96790f86d36c0"
+    },
+    {
+      "name": "Renaud",
+      "url": "https://open.spotify.com/artist/15uNxh8omvRvH71kcdIe2r",
+      "time": 0,
+      "genres": [
+        "chanson",
+        "french pop",
+        "french reggae",
+        "french rock"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc2c9be6d4869a21ee46d0848"
+    },
+    {
+      "name": "Monty Python",
+      "url": "https://open.spotify.com/artist/5IxfhXIHjAOAqibxl90NZO",
+      "time": 68,
+      "genres": [
+        "british comedy",
+        "comic"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb9bed9dd9939efc8842d1de29"
+    },
+    {
+      "name": "Rammstein",
+      "url": "https://open.spotify.com/artist/6wWVKhxIU2cEi0K81v7HvP",
+      "time": 215,
+      "genres": [
+        "alternative metal",
+        "german metal",
+        "industrial",
+        "industrial metal",
+        "industrial rock",
+        "neue deutsche harte",
+        "nu metal"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eba8be16a95c2cc4950cbaa8d8"
+    },
+    {
+      "name": "Sigrid",
+      "url": "https://open.spotify.com/artist/4TrraAsitQKl821DQY42cZ",
+      "time": 29,
+      "genres": [
+        "dance pop",
+        "norwegian pop",
+        "pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebcba128753f3121ef52cf914b"
     }
   ],
   "songs": [
@@ -2777,7 +3807,7 @@
     {
       "name": "Decency",
       "url": "https://open.spotify.com/track/5JluTzkpD4gHQ1wTRL5FcF",
-      "time": 224,
+      "time": 453,
       "image": "https://i.scdn.co/image/ab67616d0000b273d632e17b91974cbc22adf992",
       "artist": "Balthazar"
     },
@@ -3365,7 +4395,7 @@
     {
       "name": "Baby I'm Yours (feat. Irfane)",
       "url": "https://open.spotify.com/track/3LUnTIYJHd6wZH5kXvOsWq",
-      "time": 205,
+      "time": 420,
       "image": "https://i.scdn.co/image/ab67616d0000b27328b5afa3c379727a00ea17ce",
       "artist": "Breakbot"
     },
@@ -3421,7 +4451,7 @@
     {
       "name": "Love Story (Taylor\u2019s Version)",
       "url": "https://open.spotify.com/track/3CeCwYWvdfXbZLXFhBrbnf",
-      "time": 225,
+      "time": 446,
       "image": "https://i.scdn.co/image/ab67616d0000b273877ea8fa223c26f19aaef92d",
       "artist": "Taylor Swift"
     },
@@ -3540,7 +4570,7 @@
     {
       "name": "Electric Love",
       "url": "https://open.spotify.com/track/2GiJYvgVaD2HtM8GqD9EgQ",
-      "time": 207,
+      "time": 411,
       "image": "https://i.scdn.co/image/ab67616d0000b273cc2cf912462d8ae4ef856434",
       "artist": "B\u00d8RNS"
     },
@@ -3767,6 +4797,671 @@
       "time": 578,
       "image": "https://i.scdn.co/image/ab67616d0000b273914d1e0ea2784475c457b7dc",
       "artist": "Deep Purple"
+    },
+    {
+      "name": "I Never Had No One",
+      "url": "https://open.spotify.com/track/5JMXJWWb1u1VBtdTxvsm58",
+      "time": 156,
+      "image": "https://i.scdn.co/image/ab67616d0000b2733f868e135479fba71c010415",
+      "artist": "Sam The Sham & The Pharaohs"
+    },
+    {
+      "name": "C\u2019est la vie",
+      "url": "https://open.spotify.com/track/6KGHsN5QI0qunsADx3e51i",
+      "time": 221,
+      "image": "https://i.scdn.co/image/ab67616d0000b2730b4e72c8010f0d953a93b28a",
+      "artist": "Khaled"
+    },
+    {
+      "name": "Alexander Hamilton",
+      "url": "https://open.spotify.com/track/4TTV7EcfroSLWzXRY6gLv6",
+      "time": 7,
+      "image": "https://i.scdn.co/image/ab67616d0000b273d72fb5571087bca0a2fed008",
+      "artist": "Leslie Odom Jr."
+    },
+    {
+      "name": "The Girl in Byakkoya",
+      "url": "https://open.spotify.com/track/76M1BJTSBYrD4mXWEHY9FI",
+      "time": 275,
+      "image": "https://i.scdn.co/image/ab67616d0000b2738a873ac1ffb2a8157cb25def",
+      "artist": "Susumu Hirasawa"
+    },
+    {
+      "name": "Brighton Rock - Remastered 2011",
+      "url": "https://open.spotify.com/track/0w7lKfhxW190u1ckXi45E9",
+      "time": 262,
+      "image": "https://i.scdn.co/image/ab67616d0000b27309e2ec500166cf2d5ac21050",
+      "artist": "Queen"
+    },
+    {
+      "name": "I Come with Knives",
+      "url": "https://open.spotify.com/track/0SKSL3UsVNETyFjMlxjMBc",
+      "time": 18,
+      "image": "https://i.scdn.co/image/ab67616d0000b273db1db376909de79aa1275800",
+      "artist": "IAMX"
+    },
+    {
+      "name": "God Only Knows - Mono / Remastered",
+      "url": "https://open.spotify.com/track/6iGU74CwXuT4XVepjc9Emf",
+      "time": 164,
+      "image": "https://i.scdn.co/image/ab67616d0000b273bde8dfd1922129f3d9e3732f",
+      "artist": "The Beach Boys"
+    },
+    {
+      "name": "Mice On Venus",
+      "url": "https://open.spotify.com/track/5fqjfiMOFapIb8uFcxBStH",
+      "time": 18,
+      "image": "https://i.scdn.co/image/ab67616d0000b273aaeb5c9fb6131977995b7f0e",
+      "artist": "C418"
+    },
+    {
+      "name": "Paradise City",
+      "url": "https://open.spotify.com/track/3YBZIN3rekqsKxbJc9FZko",
+      "time": 396,
+      "image": "https://i.scdn.co/image/ab67616d0000b27368384dd85fd5e95831252f60",
+      "artist": "Guns N' Roses"
+    },
+    {
+      "name": "Les lacs du Connemara",
+      "url": "https://open.spotify.com/track/6AV7AKRQX6lcqukck9Zj7D",
+      "time": 29,
+      "image": "https://i.scdn.co/image/ab67616d0000b273284e0f25727d41e32bc5433d",
+      "artist": "Michel Sardou"
+    },
+    {
+      "name": "Squatter les terrasses",
+      "url": "https://open.spotify.com/track/0Psg9I37jSzox4p7caEWCN",
+      "time": 3,
+      "image": "https://i.scdn.co/image/ab67616d0000b2735854d411b1526d9593c830bc",
+      "artist": "James Deano"
+    },
+    {
+      "name": "Jimmy",
+      "url": "https://open.spotify.com/track/3GnbLA5jz38vYi4zVT5lus",
+      "time": 180,
+      "image": "https://i.scdn.co/image/ab67616d0000b2733dc76f28ce9d1e3ebbf4452d",
+      "artist": "Cats On Trees"
+    },
+    {
+      "name": "Beautiful Day",
+      "url": "https://open.spotify.com/track/0gzqZ9d1jIKo9psEIthwXe",
+      "time": 236,
+      "image": "https://i.scdn.co/image/ab67616d0000b27338fa0dfe55b1ff2e8c962bae",
+      "artist": "U2"
+    },
+    {
+      "name": "Einstein on the Beach: Knee Play 1",
+      "url": "https://open.spotify.com/track/7vz0tHb2Fh7C7cRVNT7JWH",
+      "time": 25,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732ffbc54ba5047acf866b87f7",
+      "artist": "Philip Glass"
+    },
+    {
+      "name": "Sofia",
+      "url": "https://open.spotify.com/track/7B3z0ySL9Rr0XvZEAjWZzM",
+      "time": 0,
+      "image": "https://i.scdn.co/image/ab67616d0000b27333ccb60f9b2785ef691b2fbc",
+      "artist": "Clairo"
+    },
+    {
+      "name": "Wind Blows",
+      "url": "https://open.spotify.com/track/7lHoDKWtnZpiI7LfwaXUNX",
+      "time": 6,
+      "image": "https://i.scdn.co/image/ab67616d0000b27398387628b81160a51f5319e8",
+      "artist": "Chateau Marmont"
+    },
+    {
+      "name": "Sleepyhead",
+      "url": "https://open.spotify.com/track/3ZUMC5OazTA8QtLpdlPdz9",
+      "time": 161,
+      "image": "https://i.scdn.co/image/ab67616d0000b2736bd8e0a79b85e9622a8e85c3",
+      "artist": "Passion Pit"
+    },
+    {
+      "name": "Resistance",
+      "url": "https://open.spotify.com/track/1C2QJNTmsTxCDBuIgai8QV",
+      "time": 335,
+      "image": "https://i.scdn.co/image/ab67616d0000b273b6d4566db0d12894a1a3b7a2",
+      "artist": "Muse"
+    },
+    {
+      "name": "La tactique du gendarme",
+      "url": "https://open.spotify.com/track/4rKXLSYjmbxsucIuQOv8kN",
+      "time": 5,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732105b194c8cbc7819c747d8c",
+      "artist": "Andre Bourvil"
+    },
+    {
+      "name": "Ho Hey",
+      "url": "https://open.spotify.com/track/1jdNcAD8Ir58RlsdGjJJdx",
+      "time": 154,
+      "image": "https://i.scdn.co/image/ab67616d0000b273b23ded2daf5be916f9759077",
+      "artist": "The Lumineers"
+    },
+    {
+      "name": "Berzerk",
+      "url": "https://open.spotify.com/track/06aw4JI5nYa8XBeBKVrltZ",
+      "time": 8,
+      "image": "https://i.scdn.co/image/ab67616d0000b2734f22365402a62c4f6e1adb44",
+      "artist": "Eminem"
+    },
+    {
+      "name": "Quelqu'un m'a dit",
+      "url": "https://open.spotify.com/track/6d9iYQG2JvTTEgcndW81lt",
+      "time": 161,
+      "image": "https://i.scdn.co/image/ab67616d0000b273c48c319bb17da9480bae2179",
+      "artist": "Carla Bruni"
+    },
+    {
+      "name": "Consoler Of The Lonely",
+      "url": "https://open.spotify.com/track/61E09JBeATUugl9JaEKRIe",
+      "time": 9,
+      "image": "https://i.scdn.co/image/ab67616d0000b273793b53e62d1bc08ab505d3d0",
+      "artist": "The Raconteurs"
+    },
+    {
+      "name": "7 Seconds (feat. Neneh Cherry)",
+      "url": "https://open.spotify.com/track/4sv1iemiMkkZVTUbV16C8L",
+      "time": 290,
+      "image": "https://i.scdn.co/image/ab67616d0000b273a2c9d286243eb9609d2fe565",
+      "artist": "Youssou N'Dour"
+    },
+    {
+      "name": "Between The Bars",
+      "url": "https://open.spotify.com/track/52Bg6oaos7twR7IUtEpqcE",
+      "time": 128,
+      "image": "https://i.scdn.co/image/ab67616d0000b273ea7ac80765aa4549d18a27b9",
+      "artist": "Elliott Smith"
+    },
+    {
+      "name": "Partir un jour",
+      "url": "https://open.spotify.com/track/7APhfGjNSqcNiS0eXNVjcK",
+      "time": 209,
+      "image": "https://i.scdn.co/image/ab67616d0000b273975faf45b795209f04723877",
+      "artist": "2 Be 3"
+    },
+    {
+      "name": "Light House",
+      "url": "https://open.spotify.com/track/2nWCQC688OgFKIfzk6bqKk",
+      "time": 551,
+      "image": "https://i.scdn.co/image/ab67616d0000b27396ccd3c596b643c1d1bb65b8",
+      "artist": "Future Islands"
+    },
+    {
+      "name": "Dirty Harry",
+      "url": "https://open.spotify.com/track/2bfGNzdiRa1jXZRdfssSzR",
+      "time": 219,
+      "image": "https://i.scdn.co/image/ab67616d0000b27319d85a472f328a6ed9b704cf",
+      "artist": "Gorillaz"
+    },
+    {
+      "name": "New Fang",
+      "url": "https://open.spotify.com/track/37chc886yyUq0amK9lfwhM",
+      "time": 63,
+      "image": "https://i.scdn.co/image/ab67616d0000b273e7e9f152c3b923dd849909a1",
+      "artist": "Them Crooked Vultures"
+    },
+    {
+      "name": "Human Sadness",
+      "url": "https://open.spotify.com/track/3YB9cvd668HXBEq8rbBW8P",
+      "time": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000b273d8e1c5b2d1cd14c8d0433d47",
+      "artist": "The Voidz"
+    },
+    {
+      "name": "Please Use This Song",
+      "url": "https://open.spotify.com/track/5OLz8CR3llb4vkfn5u730X",
+      "time": 111,
+      "image": "https://i.scdn.co/image/ab67616d0000b2730f841b95e5b2397370f956df",
+      "artist": "Jon Lajoie"
+    },
+    {
+      "name": "A Sky Full of Stars",
+      "url": "https://open.spotify.com/track/6HFbq7cewJ7rPiffV0ciil",
+      "time": 260,
+      "image": "https://i.scdn.co/image/ab67616d0000b273d16ee0b4fef011c59bcfb2f1",
+      "artist": "Coldplay"
+    },
+    {
+      "name": "I Still Haven't Found What I'm Looking For - Remastered 2007",
+      "url": "https://open.spotify.com/track/7gozgbG5EBTukCFWToTRA5",
+      "time": 271,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732e5cea3a0e09cccb3d1568e8",
+      "artist": "U2"
+    },
+    {
+      "name": "Dieu d'amour",
+      "url": "https://open.spotify.com/track/2ElVvzhBxPJlZgmXMGC9RY",
+      "time": 25,
+      "image": "https://i.scdn.co/image/ab67616d0000b2739f415738b8104800681b2aae",
+      "artist": "Dooz Kawa"
+    },
+    {
+      "name": "Ma meilleure amie",
+      "url": "https://open.spotify.com/track/24ZqZGoiSeKBYHf10Awj23",
+      "time": 184,
+      "image": "https://i.scdn.co/image/ab67616d0000b2736b57557a09f39222059959ef",
+      "artist": "Vald"
+    },
+    {
+      "name": "Salprod",
+      "url": "https://open.spotify.com/track/1HWgtkqrrSTDKN3BWAiEji",
+      "time": 51,
+      "image": "https://i.scdn.co/image/ab67616d0000b273cedf2a07cec38c22a7cb11dc",
+      "artist": "Le 77"
+    },
+    {
+      "name": "Ghost",
+      "url": "https://open.spotify.com/track/39Gq9XL3OGQL56mZTOxsu9",
+      "time": 174,
+      "image": "https://i.scdn.co/image/ab67616d0000b2737dc68ef4a987bceb8d457443",
+      "artist": "Skip the Use"
+    },
+    {
+      "name": "Dans l'univers",
+      "url": "https://open.spotify.com/track/2PYXOG6GdxF9sUIH2NfOAD",
+      "time": 3,
+      "image": "https://i.scdn.co/image/ab67616d0000b27376370f7e9d19f210360186ca",
+      "artist": "Nekfeu"
+    },
+    {
+      "name": "Manu Chao - Single Version",
+      "url": "https://open.spotify.com/track/3iP2zPzKv47zEB6FsQ5gKW",
+      "time": 153,
+      "image": "https://i.scdn.co/image/ab67616d0000b27331711ab205573cfe6a682f62",
+      "artist": "Les Wampas"
+    },
+    {
+      "name": "Pretty Fly (For a White Guy)",
+      "url": "https://open.spotify.com/track/15HadeuRG9THazDGzLH8ZU",
+      "time": 15,
+      "image": "https://i.scdn.co/image/ab67616d0000b2730fdb7379076fe5c08ac55c38",
+      "artist": "The Offspring"
+    },
+    {
+      "name": "Audition (The Fools Who Dream) - From \"La La Land\" Soundtrack",
+      "url": "https://open.spotify.com/track/2lDWYLNnfYyXngjz4plpy2",
+      "time": 43,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732a307d64201d08144f68cc49",
+      "artist": "Emma Stone"
+    },
+    {
+      "name": "In Between Days - Live At The Palace, Auburn Hills, Michigan",
+      "url": "https://open.spotify.com/track/4uexN8lwDjGX5SQycpz97I",
+      "time": 192,
+      "image": "https://i.scdn.co/image/ab67616d0000b27369a4fcb5af1d3df68e53530a",
+      "artist": "The Cure"
+    },
+    {
+      "name": "Color Is A Beautiful Thing",
+      "url": "https://open.spotify.com/track/027wIJmxOgCGvpI6qzHjj2",
+      "time": 52,
+      "image": "https://i.scdn.co/image/ab67616d0000b273b0a03a11e2323e49e5a1832f",
+      "artist": "Nina Simone"
+    },
+    {
+      "name": "Trouble",
+      "url": "https://open.spotify.com/track/0R8P9KfGJCDULmlEoBagcO",
+      "time": 259,
+      "image": "https://i.scdn.co/image/ab67616d0000b2733d92b2ad5af9fbc8637425f0",
+      "artist": "Coldplay"
+    },
+    {
+      "name": "I Can't Hear You",
+      "url": "https://open.spotify.com/track/3O1rkVw6tpDizXzHqMZfh5",
+      "time": 185,
+      "image": "https://i.scdn.co/image/ab67616d0000b27344fa41b48b461daa475d0d05",
+      "artist": "The Dead Weather"
+    },
+    {
+      "name": "Piano Man",
+      "url": "https://open.spotify.com/track/70C4NyhjD5OZUMzvWZ3njJ",
+      "time": 337,
+      "image": "https://i.scdn.co/image/ab67616d0000b273aff4aef671b2510be7c115b3",
+      "artist": "Billy Joel"
+    },
+    {
+      "name": "Fever",
+      "url": "https://open.spotify.com/track/4MzGM692jKGkNSQ7qzeTaJ",
+      "time": 237,
+      "image": "https://i.scdn.co/image/ab67616d0000b273907b38a51c7e04ebd44497d6",
+      "artist": "The Black Keys"
+    },
+    {
+      "name": "In The Army Now",
+      "url": "https://open.spotify.com/track/6QLspHLCLftSGPa6vNzKuo",
+      "time": 281,
+      "image": "https://i.scdn.co/image/ab67616d0000b2733b43ef752e5af1d00c1fc213",
+      "artist": "Status Quo"
+    },
+    {
+      "name": "New York - Mad Rush",
+      "url": "https://open.spotify.com/track/35pO11yyhKYnOv9L8pLwa8",
+      "time": 27,
+      "image": "https://i.scdn.co/image/ab67616d0000b2734b0212d8d166dc3af2f8ac96",
+      "artist": "Philip Glass"
+    },
+    {
+      "name": "Golden Throne - Beyond the Wizard's Sleeve Reanimation",
+      "url": "https://open.spotify.com/track/1CVYXriUy2ASolIoru5pPR",
+      "time": 62,
+      "image": "https://i.scdn.co/image/ab67616d0000b2737a53758a9b6f487374692f33",
+      "artist": "Temples"
+    },
+    {
+      "name": "Pa Pa Power",
+      "url": "https://open.spotify.com/track/7vRdcsmD92oErIQDnmp60e",
+      "time": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000b273f2362e7be67a9c9e3e196e7b",
+      "artist": "Dead Man's Bones"
+    },
+    {
+      "name": "Chuis Bo!",
+      "url": "https://open.spotify.com/track/0SNDzKQtOyVULvtVkpTBDX",
+      "time": 199,
+      "image": "https://i.scdn.co/image/ab67616d0000b273c3ee642e6bce4916db3c6359",
+      "artist": "Pzk"
+    },
+    {
+      "name": "Pens\u00e9e sur l'amour",
+      "url": "https://open.spotify.com/track/08Xb4OQdnTKhm2j6OLyZCz",
+      "time": 8,
+      "image": "https://i.scdn.co/image/ab67616d0000b27326dbf911a61feff84da78582",
+      "artist": "Adrian Str\u00f6m"
+    },
+    {
+      "name": "Ain't No Rest For The Wicked - Original Version",
+      "url": "https://open.spotify.com/track/5c5a2Ptu8eyIpljhQHjIqk",
+      "time": 139,
+      "image": "https://i.scdn.co/image/ab67616d0000b27304a4f82bf0594b411397edde",
+      "artist": "Cage The Elephant"
+    },
+    {
+      "name": "Dodo",
+      "url": "https://open.spotify.com/track/00zkLP8wpJrpFFteYoeZvg",
+      "time": 86,
+      "image": "https://i.scdn.co/image/ab67616d0000b273d3db4db6d624dea274eaf887",
+      "artist": "Stromae"
+    },
+    {
+      "name": "Les Oxalis",
+      "url": "https://open.spotify.com/track/07s04lGFPY7CoIwqzi0GDr",
+      "time": 295,
+      "image": "https://i.scdn.co/image/ab67616d0000b273accef7f99d3774de325a663f",
+      "artist": "Charlotte Gainsbourg"
+    },
+    {
+      "name": "You Say Yes, I Say Yes",
+      "url": "https://open.spotify.com/track/63k4iz0Etm5oA9QavD0XPS",
+      "time": 0,
+      "image": "https://i.scdn.co/image/ab67616d0000b273792a3d3b278a946005f591a5",
+      "artist": "VETO"
+    },
+    {
+      "name": "Sabali",
+      "url": "https://open.spotify.com/track/6VmBgpdYXbCXQ4eNA6KKDt",
+      "time": 189,
+      "image": "https://i.scdn.co/image/ab67616d0000b2738ca082b8c8ceaf77c795f727",
+      "artist": "Amadou & Mariam"
+    },
+    {
+      "name": "Pink Water 3 - avec Brian Molko",
+      "url": "https://open.spotify.com/track/23T4EvvGIdvbjAlE4ssRYv",
+      "time": 130,
+      "image": "https://i.scdn.co/image/ab67616d0000b27309a0b0763656ef5948984273",
+      "artist": "Indochine"
+    },
+    {
+      "name": "Canary Bay",
+      "url": "https://open.spotify.com/track/3WOFIGsCzse0Wa3kd1UGG8",
+      "time": 312,
+      "image": "https://i.scdn.co/image/ab67616d0000b2737e0eff6f9a10fe75705c2174",
+      "artist": "Indochine"
+    },
+    {
+      "name": "Miss Murder",
+      "url": "https://open.spotify.com/track/6k6gzf2RjLHawPOvxXimdv",
+      "time": 9,
+      "image": "https://i.scdn.co/image/ab67616d0000b273bcd93b95683ca20bfbe2805a",
+      "artist": "AFI"
+    },
+    {
+      "name": "California Dreamin' - Single Version",
+      "url": "https://open.spotify.com/track/4s6LhHAV5SEsOV0lC2tjvJ",
+      "time": 146,
+      "image": "https://i.scdn.co/image/ab67616d0000b27308181b9f840a06e7a071cf72",
+      "artist": "The Mamas & The Papas"
+    },
+    {
+      "name": "Almost Like the Blues",
+      "url": "https://open.spotify.com/track/3Yk6KgDKwpp3UqidVR6cWv",
+      "time": 4,
+      "image": "https://i.scdn.co/image/ab67616d0000b273a81df27931abcf41dd387d11",
+      "artist": "Leonard Cohen"
+    },
+    {
+      "name": "Nothing Arrived - Live",
+      "url": "https://open.spotify.com/track/7na7OQHZZyrJnqcDC4e4D8",
+      "time": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000b273af48ca1fb3e1d01a3500b90c",
+      "artist": "Villagers"
+    },
+    {
+      "name": "Laisse tomber tes probl\u00e8mes - Radio Edit",
+      "url": "https://open.spotify.com/track/0D5KD7xcOzo4FWYr1pwVDS",
+      "time": 47,
+      "image": "https://i.scdn.co/image/ab67616d0000b27396e4fc4bda786a1cba6ae39a",
+      "artist": "Collectif M\u00e9tiss\u00e9"
+    },
+    {
+      "name": "Overseas",
+      "url": "https://open.spotify.com/track/7EsM8Fns0K0zXI3T1ygvx8",
+      "time": 0,
+      "image": "https://i.scdn.co/image/ab67616d0000b2734f85db61c286acc18b535ad0",
+      "artist": "Superpoze"
+    },
+    {
+      "name": "D.A.N.C.E",
+      "url": "https://open.spotify.com/track/33yAEqzKXexYM3WlOYtTfQ",
+      "time": 230,
+      "image": "https://i.scdn.co/image/ab67616d0000b2731c0bcf8b536295438d26c70d",
+      "artist": "Justice"
+    },
+    {
+      "name": "Reprobate Romance",
+      "url": "https://open.spotify.com/track/0CneU0QbH1GPdgOLByWUj7",
+      "time": 7,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732291eae151d8687192300826",
+      "artist": "Blacklisted Me"
+    },
+    {
+      "name": "Rien \u00e0 foutre",
+      "url": "https://open.spotify.com/track/2vFqFYAOtBIXUFbCMUZqUX",
+      "time": 142,
+      "image": "https://i.scdn.co/image/ab67616d0000b273fde6240ced5aa58db5677e7c",
+      "artist": "Didier Super"
+    },
+    {
+      "name": "Waltz #2 (XO)",
+      "url": "https://open.spotify.com/track/5AMrnF761nziCWUfjBgRUI",
+      "time": 166,
+      "image": "https://i.scdn.co/image/ab67616d0000b273cdf1be0ff556d169eade4368",
+      "artist": "Elliott Smith"
+    },
+    {
+      "name": "Lisztomania",
+      "url": "https://open.spotify.com/track/7zkDEBSxkcBVsStS4qBFpK",
+      "time": 239,
+      "image": "https://i.scdn.co/image/ab67616d0000b273cb36983369136148fecece5a",
+      "artist": "Phoenix"
+    },
+    {
+      "name": "1901",
+      "url": "https://open.spotify.com/track/1mvyqSb1tOvtVP1qfWEyPa",
+      "time": 69,
+      "image": "https://i.scdn.co/image/ab67616d0000b273cb36983369136148fecece5a",
+      "artist": "Phoenix"
+    },
+    {
+      "name": "If I Ever Feel Better",
+      "url": "https://open.spotify.com/track/3AA8xNhDC0MpqwkGX3EP5V",
+      "time": 251,
+      "image": "https://i.scdn.co/image/ab67616d0000b273fd7121d725a0e4aafd4fe785",
+      "artist": "Phoenix"
+    },
+    {
+      "name": "Telefono",
+      "url": "https://open.spotify.com/track/0YDMGiwxjDbZwqtCnkDHot",
+      "time": 356,
+      "image": "https://i.scdn.co/image/ab67616d0000b2731c2b51413ddb5ac2544abaa5",
+      "artist": "Phoenix"
+    },
+    {
+      "name": "J-Boy",
+      "url": "https://open.spotify.com/track/3yw4kKq5dcfCEV6lvIwwPx",
+      "time": 236,
+      "image": "https://i.scdn.co/image/ab67616d0000b2731c2b51413ddb5ac2544abaa5",
+      "artist": "Phoenix"
+    },
+    {
+      "name": "Bourgeois",
+      "url": "https://open.spotify.com/track/5ftFQMA83O4VrZddMYsCVH",
+      "time": 277,
+      "image": "https://i.scdn.co/image/ab67616d0000b27300d02cf187fae4ca2e5bec2d",
+      "artist": "Phoenix"
+    },
+    {
+      "name": "L\u00e0-bas",
+      "url": "https://open.spotify.com/track/5TvQAl5xfY0jfy7ZWLSg5D",
+      "time": 322,
+      "image": "https://i.scdn.co/image/ab67616d0000b2731385475805baab6d4c9432b0",
+      "artist": "Jean-Jacques Goldman"
+    },
+    {
+      "name": "Rearrange",
+      "url": "https://open.spotify.com/track/6f4V3llGPLYgv49ro7vXSE",
+      "time": 194,
+      "image": "https://i.scdn.co/image/ab67616d0000b273c24c8db23e0b9efefb7fb282",
+      "artist": "Miles Kane"
+    },
+    {
+      "name": "Beggin'",
+      "url": "https://open.spotify.com/track/7563lpbP10g7JXJvSt9FGf",
+      "time": 203,
+      "image": "https://i.scdn.co/image/ab67616d0000b273ad3f3c90ab6f1cd96ef98cd1",
+      "artist": "Madcon"
+    },
+    {
+      "name": "Island In The Sun",
+      "url": "https://open.spotify.com/track/2MLHyLy5z5l5YRp7momlgw",
+      "time": 189,
+      "image": "https://i.scdn.co/image/ab67616d0000b2731e0dc5baaabda304b0ad1815",
+      "artist": "Weezer"
+    },
+    {
+      "name": "Common People",
+      "url": "https://open.spotify.com/track/5xMAMaVbW3tkjXTmSUBPTd",
+      "time": 338,
+      "image": "https://i.scdn.co/image/ab67616d0000b273b2bbf9b103bd08d1d768c06e",
+      "artist": "Pulp"
+    },
+    {
+      "name": "Out of Range",
+      "url": "https://open.spotify.com/track/0IrBFlgosxyTHKMcnS2eDZ",
+      "time": 2,
+      "image": "https://i.scdn.co/image/ab67616d0000b2738f0aa92341d058a05d5fa494",
+      "artist": "Pegase"
+    },
+    {
+      "name": "b\u00e2tard",
+      "url": "https://open.spotify.com/track/3pCN6X0566rmU6P5ZgFIYu",
+      "time": 197,
+      "image": "https://i.scdn.co/image/ab67616d0000b2738a6bb98baff4c9b15f9972fc",
+      "artist": "Stromae"
+    },
+    {
+      "name": "Comme un homme",
+      "url": "https://open.spotify.com/track/16TPtk65LzaqSKtNoZvCNC",
+      "time": 190,
+      "image": "https://i.scdn.co/image/ab67616d0000b273d783f63d4825d1f616d7e156",
+      "artist": "Patrick Fiori"
+    },
+    {
+      "name": "This Land",
+      "url": "https://open.spotify.com/track/7BjvaB3uKVoGTo7DX1RGkZ",
+      "time": 10,
+      "image": "https://i.scdn.co/image/ab67616d0000b27359235d40e20d96dd8c40ffd2",
+      "artist": "Hans Zimmer"
+    },
+    {
+      "name": "Good Vibrations - Remastered 2001",
+      "url": "https://open.spotify.com/track/5t9KYe0Fhd5cW6UYT4qP8f",
+      "time": 104,
+      "image": "https://i.scdn.co/image/ab67616d0000b273fb9dac3244b8486758058a81",
+      "artist": "The Beach Boys"
+    },
+    {
+      "name": "All Too Well",
+      "url": "https://open.spotify.com/track/6GNRkaWUB0Lwc19SdkTgx8",
+      "time": 385,
+      "image": "https://i.scdn.co/image/ab67616d0000b273254c8a09649551438b20f4c0",
+      "artist": "Taylor Swift"
+    },
+    {
+      "name": "Long Train Runnin'",
+      "url": "https://open.spotify.com/track/4nXkbcTj3nyww1cHkw5RAP",
+      "time": 60,
+      "image": "https://i.scdn.co/image/ab67616d0000b2737d419ac975423c069995c7bb",
+      "artist": "The Doobie Brothers"
+    },
+    {
+      "name": "6 milliards",
+      "url": "https://open.spotify.com/track/22qyEb5In6fsjWKmH8HTRt",
+      "time": 193,
+      "image": "https://i.scdn.co/image/ab67616d0000b2738496be18da798b54af520d54",
+      "artist": "UssaR"
+    },
+    {
+      "name": "Left Outside Alone",
+      "url": "https://open.spotify.com/track/3xl7PsO7Hzuig6To9FgDm6",
+      "time": 241,
+      "image": "https://i.scdn.co/image/ab67616d0000b273ff4a7c68133a6c9398be6b64",
+      "artist": "Anastacia"
+    },
+    {
+      "name": "Morgane de toi",
+      "url": "https://open.spotify.com/track/3v6ClatJ2nG0TIpfL3HwY1",
+      "time": 0,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732d36e32359c10593dea19348",
+      "artist": "Renaud"
+    },
+    {
+      "name": "Lyla",
+      "url": "https://open.spotify.com/track/59iMndgRxDOBjIZtt8YAUW",
+      "time": 310,
+      "image": "https://i.scdn.co/image/ab67616d0000b273a19a3b7264b8094179adb945",
+      "artist": "Oasis"
+    },
+    {
+      "name": "Always Look On The Bright Side Of Life",
+      "url": "https://open.spotify.com/track/0MFoWrqSGZs0x4Y156Izuz",
+      "time": 68,
+      "image": "https://i.scdn.co/image/ab67616d0000b27383e8d33d38893a0e46d581e0",
+      "artist": "Monty Python"
+    },
+    {
+      "name": "AUSL\u00c4NDER",
+      "url": "https://open.spotify.com/track/7j43FohbLVulScL7S9sQZk",
+      "time": 215,
+      "image": "https://i.scdn.co/image/ab67616d0000b27302add2c77fb6999e311a3248",
+      "artist": "Rammstein"
+    },
+    {
+      "name": "Don't Kill My Vibe - Acoustic",
+      "url": "https://open.spotify.com/track/3ITCORPxFEHz4XsUPIa21O",
+      "time": 29,
+      "image": "https://i.scdn.co/image/ab67616d0000b27394e8c490adb34152afe6126e",
+      "artist": "Sigrid"
     }
   ]
 }
