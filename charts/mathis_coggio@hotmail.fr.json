@@ -149,7 +149,7 @@
     {
       "name": "Tom Odell",
       "url": "https://open.spotify.com/artist/2txHhyCwHjUEpJjWrEyqyX",
-      "time": 231,
+      "time": 379,
       "genres": [
         "chill pop",
         "pop"
@@ -234,7 +234,7 @@
     {
       "name": "Sum 41",
       "url": "https://open.spotify.com/artist/0qT79UgT5tY4yudH9VfsdT",
-      "time": 28,
+      "time": 29,
       "genres": [
         "alternative metal",
         "canadian pop punk",
@@ -2012,7 +2012,7 @@
     {
       "name": "Katzenjammer",
       "url": "https://open.spotify.com/artist/7K4k5g1ie2qHIH42UMNO7n",
-      "time": 0,
+      "time": 1,
       "genres": [
         "oslo indie"
       ],
@@ -4051,7 +4051,7 @@
     {
       "name": "Rebecca & Fiona",
       "url": "https://open.spotify.com/artist/6rgEPiKjowlMKZC1DF6W75",
-      "time": 205,
+      "time": 211,
       "genres": [
         "electropop",
         "swedish electropop",
@@ -6526,7 +6526,7 @@
     {
       "name": "Mario",
       "url": "https://open.spotify.com/artist/20s0P9QLxGqKuCsGwFsp7w",
-      "time": 357,
+      "time": 606,
       "genres": [
         "dance pop",
         "hip pop",
@@ -6662,7 +6662,7 @@
     {
       "name": "Yelle",
       "url": "https://open.spotify.com/artist/0WbqAlM1WvfUD6dF7omThd",
-      "time": 407,
+      "time": 496,
       "genres": [
         "alternative dance",
         "art pop",
@@ -7088,6 +7088,44 @@
         "australian electropop"
       ],
       "image": "https://i.scdn.co/image/ab6761610000e5eb999ea18a8510c4129c58960d"
+    },
+    {
+      "name": "Hardwell",
+      "url": "https://open.spotify.com/artist/6BrvowZBreEkXzJQMpL174",
+      "time": 1,
+      "genres": [
+        "big room",
+        "dance pop",
+        "dutch house",
+        "edm",
+        "electro house",
+        "pop dance",
+        "progressive electro house",
+        "progressive house",
+        "tropical house"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe22cdcc7ae21736085667980"
+    },
+    {
+      "name": "Matthew Koma",
+      "url": "https://open.spotify.com/artist/1mU61l2mcjEFraXZLpvVMo",
+      "time": 1,
+      "genres": [
+        "pop edm"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb5cc1a15a2076ba8e4d339c1e"
+    },
+    {
+      "name": "Starship",
+      "url": "https://open.spotify.com/artist/0kObWap02DEg9EAJ3PBxzf",
+      "time": 279,
+      "genres": [
+        "dance pop",
+        "neon pop punk",
+        "pop punk",
+        "post-teen pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc48ae32aff5303453105b2d3"
     }
   ],
   "songs": [
@@ -9376,7 +9414,7 @@
     {
       "name": "Fet House Mode",
       "url": "https://open.spotify.com/track/0u3f56vNQmb3u717exNZQS",
-      "time": 205,
+      "time": 211,
       "image": "https://i.scdn.co/image/ab67616d0000b273fb0034fe487ba3f0814afdfc",
       "artist": "Rebecca & Fiona"
     },
@@ -11119,7 +11157,7 @@
     {
       "name": "Let Me Love You",
       "url": "https://open.spotify.com/track/3ibKnFDaa3GhpPGlOUj7ff",
-      "time": 357,
+      "time": 606,
       "image": "https://i.scdn.co/image/ab67616d0000b273c42212db6d665fab0c51d495",
       "artist": "Mario"
     },
@@ -11196,7 +11234,7 @@
     {
       "name": "Compl\u00e8tement fou",
       "url": "https://open.spotify.com/track/40z4V9t1D7ckgqdyfqeMTQ",
-      "time": 219,
+      "time": 308,
       "image": "https://i.scdn.co/image/ab67616d0000b273635e3e819cd95fcd8bb8eae1",
       "artist": "Yelle"
     },
@@ -11542,6 +11580,41 @@
       "time": 85,
       "image": "https://i.scdn.co/image/ab67616d0000b2739f5cce8304c42d3a5463fd23",
       "artist": "Elton John"
+    },
+    {
+      "name": "Over My Head (Better Off Dead)",
+      "url": "https://open.spotify.com/track/3SO0vfryYv381w1ImgWONG",
+      "time": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000b2735f897ffe64efe64404d7a8a6",
+      "artist": "Sum 41"
+    },
+    {
+      "name": "Dare You - Radio Edit",
+      "url": "https://open.spotify.com/track/5aiSEqFKUCLV5M4TwxwNql",
+      "time": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000b27301dc63492a26d16f204662cc",
+      "artist": "Hardwell"
+    },
+    {
+      "name": "We Built This City",
+      "url": "https://open.spotify.com/track/7aHRctaQ7vjxVTVmY8OhAA",
+      "time": 279,
+      "image": "https://i.scdn.co/image/ab67616d0000b273ef5c0c8bde36f7dcf246248e",
+      "artist": "Starship"
+    },
+    {
+      "name": "Cherry Pie",
+      "url": "https://open.spotify.com/track/3lkUtWswNpKEFKXsIK4xvH",
+      "time": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000b27318801ade5c7b839ce2d0d1e6",
+      "artist": "Katzenjammer"
+    },
+    {
+      "name": "Heal",
+      "url": "https://open.spotify.com/track/4KlL5Bwlm4yHYxr0B2rHci",
+      "time": 148,
+      "image": "https://i.scdn.co/image/ab67616d0000b2731917a0f3f4152622a040913f",
+      "artist": "Tom Odell"
     }
   ]
 }
