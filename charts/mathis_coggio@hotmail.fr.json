@@ -57,7 +57,7 @@
     {
       "name": "Queen",
       "url": "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d",
-      "time": 1723,
+      "time": 1886,
       "genres": [
         "classic rock",
         "glam rock",
@@ -223,7 +223,7 @@
     {
       "name": "Elton John",
       "url": "https://open.spotify.com/artist/3PhoLpVuITZKcymswpck5b",
-      "time": 944,
+      "time": 1162,
       "genres": [
         "glam rock",
         "mellow gold",
@@ -566,7 +566,7 @@
     {
       "name": "Joyce Jonathan",
       "url": "https://open.spotify.com/artist/25eQCECJH4VTpBYV9jhpyE",
-      "time": 208,
+      "time": 462,
       "genres": [
         "chanson",
         "francoton",
@@ -577,7 +577,7 @@
     {
       "name": "Vianney",
       "url": "https://open.spotify.com/artist/4Nrd0CtP8txoQhnnlRA6V6",
-      "time": 208,
+      "time": 462,
       "genres": [
         "francoton",
         "french pop"
@@ -1876,7 +1876,7 @@
     {
       "name": "Paramore",
       "url": "https://open.spotify.com/artist/74XFHRwlV6OrjEM0A2NCMF",
-      "time": 104,
+      "time": 168,
       "genres": [
         "candy pop",
         "pixie",
@@ -4041,7 +4041,7 @@
     {
       "name": "Lily Allen",
       "url": "https://open.spotify.com/artist/13saZpZnCDWOI9D4IJhp1f",
-      "time": 204,
+      "time": 450,
       "genres": [
         "dance pop",
         "pop"
@@ -5839,7 +5839,7 @@
     {
       "name": "The Cinematic Orchestra",
       "url": "https://open.spotify.com/artist/32ogthv0BdaSMPml02X9YB",
-      "time": 122,
+      "time": 124,
       "genres": [
         "downtempo",
         "electronica",
@@ -6124,7 +6124,7 @@
     {
       "name": "The Beatles",
       "url": "https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2",
-      "time": 610,
+      "time": 721,
       "genres": [
         "beatlesque",
         "british invasion",
@@ -13863,7 +13863,7 @@
     {
       "name": "Rond\u00f2 Veneziano",
       "url": "https://open.spotify.com/artist/6YH4dTGIZZvVO55Sb3095Q",
-      "time": 135,
+      "time": 297,
       "genres": [
         "bow pop"
       ],
@@ -14022,6 +14022,47 @@
       "time": 12,
       "genres": [],
       "image": "https://i.scdn.co/image/ab6761610000e5eb3122b6e241ab6db06b5a47d6"
+    },
+    {
+      "name": "Cigarettes After Sex",
+      "url": "https://open.spotify.com/artist/1QAJqy2dA3ihHBFIHRphZj",
+      "time": 3262,
+      "genres": [
+        "ambient pop",
+        "dream pop",
+        "el paso indie",
+        "shoegaze"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb184c693111b41bc7f101ce8a"
+    },
+    {
+      "name": "Dolly Parton",
+      "url": "https://open.spotify.com/artist/32vWCbZh0xZ4o9gkz4PsEU",
+      "time": 146,
+      "genres": [
+        "classic country pop",
+        "country",
+        "country dawn"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb20ee5dd7929b2eb0b8886cac"
+    },
+    {
+      "name": "Bobby McFerrin",
+      "url": "https://open.spotify.com/artist/2FjkZT851ez950cyPjeYid",
+      "time": 138,
+      "genres": [
+        "a cappella"
+      ],
+      "image": "https://i.scdn.co/image/733bc7148161594837facf51d8b3608f116d0776"
+    },
+    {
+      "name": "London Metropolitan Orchestra",
+      "url": "https://open.spotify.com/artist/3fYr24qYhJejxewFrckFE4",
+      "time": 2,
+      "genres": [
+        "soundtrack"
+      ],
+      "image": "https://i.scdn.co/image/ab67616d0000b273ed59cea75575ea8166c23bdb"
     }
   ],
   "songs": [
@@ -14385,7 +14426,7 @@
     {
       "name": "Les filles d'aujourd'hui",
       "url": "https://open.spotify.com/track/0ndln0GEXxhuwj3sVzFqXO",
-      "time": 208,
+      "time": 462,
       "image": "https://i.scdn.co/image/ab67616d0000b273583ec25eb0be6e693c41d94d",
       "artist": "Joyce Jonathan"
     },
@@ -23688,7 +23729,7 @@
     {
       "name": "La Serenissima",
       "url": "https://open.spotify.com/track/16Ma6faZtpjRzGhpJ38Nlz",
-      "time": 135,
+      "time": 297,
       "image": "https://i.scdn.co/image/ab67616d0000b273793678022fd728b4f406d9ca",
       "artist": "Rond\u00f2 Veneziano"
     },
@@ -23894,6 +23935,132 @@
       "time": 219,
       "image": "https://i.scdn.co/image/ab67616d0000b2735393c5d3cac806092a9bc468",
       "artist": "Avicii"
+    },
+    {
+      "name": "Apocalypse",
+      "url": "https://open.spotify.com/track/0yc6Gst2xkRu0eMLeRMGCX",
+      "time": 845,
+      "image": "https://i.scdn.co/image/ab67616d0000b27394d280f0006107be47bb4fe7",
+      "artist": "Cigarettes After Sex"
+    },
+    {
+      "name": "Your Song - Remastered",
+      "url": "https://open.spotify.com/track/2bUXfclD8DwJwwUENtSCWu",
+      "time": 218,
+      "image": "https://i.scdn.co/image/ab67616d0000b27309724913b269c9c75c5b03d9",
+      "artist": "Elton John"
+    },
+    {
+      "name": "Jolene",
+      "url": "https://open.spotify.com/track/5fdhThPDe6jQQDqCyWrdAn",
+      "time": 146,
+      "image": "https://i.scdn.co/image/ab67616d0000b27314021e9ab9da5813bc6791cb",
+      "artist": "Dolly Parton"
+    },
+    {
+      "name": "Yesterday - Remastered 2009",
+      "url": "https://open.spotify.com/track/3BQHpFgAp4l80e1XslIjNI",
+      "time": 111,
+      "image": "https://i.scdn.co/image/ab67616d0000b273e3e3b64cea45265469d4cafa",
+      "artist": "The Beatles"
+    },
+    {
+      "name": "You're My Best Friend - Remastered 2011",
+      "url": "https://open.spotify.com/track/4vhVDkSx9RSb2k6mWFMYNI",
+      "time": 163,
+      "image": "https://i.scdn.co/image/ab67616d0000b273e319baafd16e84f0408af2a0",
+      "artist": "Queen"
+    },
+    {
+      "name": "K.",
+      "url": "https://open.spotify.com/track/1FWsomP9StpCcXNWmJk8Cl",
+      "time": 313,
+      "image": "https://i.scdn.co/image/ab67616d0000b27394d280f0006107be47bb4fe7",
+      "artist": "Cigarettes After Sex"
+    },
+    {
+      "name": "Each Time You Fall in Love",
+      "url": "https://open.spotify.com/track/2hIsd0F6ZGfHCC1xa7vSad",
+      "time": 281,
+      "image": "https://i.scdn.co/image/ab67616d0000b27394d280f0006107be47bb4fe7",
+      "artist": "Cigarettes After Sex"
+    },
+    {
+      "name": "Sunsetz",
+      "url": "https://open.spotify.com/track/0SpkyS1Q4MD8GaVcP5YjT4",
+      "time": 214,
+      "image": "https://i.scdn.co/image/ab67616d0000b27394d280f0006107be47bb4fe7",
+      "artist": "Cigarettes After Sex"
+    },
+    {
+      "name": "Flash",
+      "url": "https://open.spotify.com/track/6VJYENs5BugMc1dCVepivD",
+      "time": 274,
+      "image": "https://i.scdn.co/image/ab67616d0000b27394d280f0006107be47bb4fe7",
+      "artist": "Cigarettes After Sex"
+    },
+    {
+      "name": "Sweet",
+      "url": "https://open.spotify.com/track/6ilc4vQcwMPlvAHFfsTGng",
+      "time": 282,
+      "image": "https://i.scdn.co/image/ab67616d0000b27394d280f0006107be47bb4fe7",
+      "artist": "Cigarettes After Sex"
+    },
+    {
+      "name": "Opera House",
+      "url": "https://open.spotify.com/track/6XdoudbyF67XLcwarEPy0L",
+      "time": 365,
+      "image": "https://i.scdn.co/image/ab67616d0000b27394d280f0006107be47bb4fe7",
+      "artist": "Cigarettes After Sex"
+    },
+    {
+      "name": "Truly",
+      "url": "https://open.spotify.com/track/2yyQmFCUPenLlfpfUxBnAd",
+      "time": 242,
+      "image": "https://i.scdn.co/image/ab67616d0000b27394d280f0006107be47bb4fe7",
+      "artist": "Cigarettes After Sex"
+    },
+    {
+      "name": "John Wayne",
+      "url": "https://open.spotify.com/track/6TWcSqCntZhH5vyc35kkob",
+      "time": 251,
+      "image": "https://i.scdn.co/image/ab67616d0000b27394d280f0006107be47bb4fe7",
+      "artist": "Cigarettes After Sex"
+    },
+    {
+      "name": "Young & Dumb",
+      "url": "https://open.spotify.com/track/514vvD0m17sJuYzoOqcE2Q",
+      "time": 195,
+      "image": "https://i.scdn.co/image/ab67616d0000b27394d280f0006107be47bb4fe7",
+      "artist": "Cigarettes After Sex"
+    },
+    {
+      "name": "Don't Worry Be Happy",
+      "url": "https://open.spotify.com/track/4hObp5bmIJ3PP3cKA9K9GY",
+      "time": 138,
+      "image": "https://i.scdn.co/image/ab67616d0000b273a88b9eddbf3650ea0529f2cc",
+      "artist": "Bobby McFerrin"
+    },
+    {
+      "name": "Misery Business",
+      "url": "https://open.spotify.com/track/3l9CW99AHtExIRV4hW2N5m",
+      "time": 64,
+      "image": "https://i.scdn.co/image/ab67616d0000b27369966efa45b125ed6711b43c",
+      "artist": "Paramore"
+    },
+    {
+      "name": "Back to the Start",
+      "url": "https://open.spotify.com/track/7I2rkj7egabfW4M7xAxI51",
+      "time": 246,
+      "image": "https://i.scdn.co/image/ab67616d0000b273e834267b8d605d9b37bf832b",
+      "artist": "Lily Allen"
+    },
+    {
+      "name": "Arrival of the Birds",
+      "url": "https://open.spotify.com/track/0Gr2XQOIMaaUH86iOrWGur",
+      "time": 2,
+      "image": "https://i.scdn.co/image/ab67616d0000b273ed59cea75575ea8166c23bdb",
+      "artist": "The Cinematic Orchestra"
     }
   ]
 }
