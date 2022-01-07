@@ -19,9 +19,31 @@ html{
   z-index:1;
 }
 
+.notepadWindow{
+  width:900px;
+  height:450px;
+  position:absolute;
+  left:0%;
+  border: 2px solid #0078d7;
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.4);
+  z-index:1;
+}
+
 .cmd{
   background-color: #0c0c0c;
   color: #cccccc;
+  margin:10;
+  font-size:16px;
+  font-family: Consolas;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height:calc(100% - 30px);
+}
+
+.notepad{
+  background-color: #ffff;
+  color: black;
   margin:10;
   font-size:16px;
   font-family: Consolas;
@@ -41,12 +63,22 @@ p{
   display: inline-block;
 }
 
-.commandInput{
+.cmdWindow .cmd .commandInput{
   display: inline-block;
   width:auto;
   background-color: rgba(0,0,0,0);
   border:none;
   color:transparent;
+  text-shadow : 0 0 0 #cccccc;
+  font-family: Consolas;
+  font-size:16px;
+}
+
+.notepadWindow .notepad .commandInput{
+  display: inline-block;
+  width:auto;
+  background-color: rgba(0,0,0,0);
+  border:none;
   text-shadow : 0 0 0 #cccccc;
   font-family: Consolas;
   font-size:16px;
@@ -140,7 +172,17 @@ input:focus {
   z-index:0;
 }
 
-#cmdIcon:hover{
+#notepadIcon{
+  width:100px;
+  height:125px;
+  border-radius: 2px;
+  position: absolute;
+  top:calc(50% - 62px*5);
+  left:calc(40% - 50px*5);
+  z-index:0;
+}
+
+#cmdIcon:hover, #notepadIcon:hover{
   background-color: rgba(109, 157, 195,0.25);
 }
 
