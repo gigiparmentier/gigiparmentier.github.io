@@ -147,6 +147,7 @@ table .misplaced{
 
 #helpContent{
   width: 25%;
+  min-width: 350px;
   margin: 0 auto;
 }
 
@@ -184,4 +185,57 @@ table .misplaced{
 .example_table{
   margin: 0;
   margin-top: 25px;
+}
+
+#win{
+  z-index: 11;
+  background-color: rgba(0,0,0,0.5);
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding-top: 50%;
+  width: 100%;
+  height: 100%;
+  transition: padding 0.25s;
+  overflow: hidden;
+}
+
+#winContent{
+  width: 25%;
+  min-width: 350px;
+  margin: 0 auto;
+  background-color: #121213;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 23px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid #1a1a1b;
+  margin-top: 30vh;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#winContent h2{
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+#winContent #replay{
+  border-radius: 4px;
+  background-color: #538d4e;
+  cursor: pointer;
+  color: #d7dadc;
+  width: 125px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+#winContent #replay:hover{
+  background-color: #4c8148;
 }

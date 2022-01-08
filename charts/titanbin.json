@@ -174,7 +174,7 @@
     {
       "name": "Montell Fish",
       "url": "https://open.spotify.com/artist/5nvWOyAkfNgVLKESq4fOj2",
-      "time": 329,
+      "time": 469,
       "genres": [
         "pittsburgh rap"
       ],
@@ -271,7 +271,7 @@
     {
       "name": "MICHELLE",
       "url": "https://open.spotify.com/artist/4yYvor6Rq4fG82J1L47DYp",
-      "time": 555
+      "time": 708
     },
     {
       "name": "Tommy Newport",
@@ -1529,7 +1529,7 @@
     {
       "name": "alt-J",
       "url": "https://open.spotify.com/artist/3XHO7cRUPCLOr6jwp8vsx5",
-      "time": 1331,
+      "time": 1483,
       "genres": [
         "indie rock",
         "modern rock"
@@ -2230,7 +2230,7 @@
     {
       "name": "Broken Social Scene",
       "url": "https://open.spotify.com/artist/7lOJ7WXyopaxri0dbOiZkd",
-      "time": 232,
+      "time": 508,
       "genres": [
         "alternative dance",
         "alternative rock",
@@ -9285,7 +9285,7 @@
     {
       "name": "Vald",
       "url": "https://open.spotify.com/artist/3CnCGFxXbOA8bAK54jR8js",
-      "time": 1942,
+      "time": 5052,
       "genres": [
         "french hip hop",
         "pop urbaine",
@@ -9355,7 +9355,7 @@
     {
       "name": "Beirut",
       "url": "https://open.spotify.com/artist/6pmxr66tMAePxzOLfjGNcX",
-      "time": 322,
+      "time": 480,
       "genres": [
         "albuquerque indie",
         "baroque pop",
@@ -9425,7 +9425,7 @@
     {
       "name": "Father John Misty",
       "url": "https://open.spotify.com/artist/2kGBy2WHvF0VdZyqiVCkDT",
-      "time": 214,
+      "time": 307,
       "genres": [
         "art pop",
         "freak folk",
@@ -9439,7 +9439,7 @@
     {
       "name": "Bonobo",
       "url": "https://open.spotify.com/artist/0cmWgDlu9CwTgxPhf403hb",
-      "time": 16,
+      "time": 223,
       "genres": [
         "downtempo",
         "electronica",
@@ -9453,7 +9453,7 @@
     {
       "name": "Joji",
       "url": "https://open.spotify.com/artist/3MZsBdqDrRTJihTHQrO6Dq",
-      "time": 16,
+      "time": 223,
       "genres": [
         "alternative r&b",
         "viral pop"
@@ -9490,6 +9490,139 @@
       "name": "Suikon Blaz AD",
       "url": "https://open.spotify.com/artist/7kFoHyLeI8IWSoKZ8uIeY1",
       "time": 202
+    },
+    {
+      "name": "Georgio",
+      "url": "https://open.spotify.com/artist/6Xc0KDqzw5u6EQLgdfeoKO",
+      "time": 205,
+      "genres": [
+        "french hip hop",
+        "new french touch",
+        "rap calme"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb37673727e515b9eea20e42ea"
+    },
+    {
+      "name": "Seezy",
+      "url": "https://open.spotify.com/artist/5Y3HBYsky3RyPqIDMP2wvt",
+      "time": 125,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb008bb5daee55afc90e4509aa"
+    },
+    {
+      "name": "Heuss L'enfoir\u00e9",
+      "url": "https://open.spotify.com/artist/3YwqjMyrRfuixi2pbgTGCE",
+      "time": 359,
+      "genres": [
+        "francoton",
+        "french hip hop",
+        "pop urbaine",
+        "rap francais"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebeec09f58eb9419e80f1fcb03"
+    },
+    {
+      "name": "7 Jaws",
+      "url": "https://open.spotify.com/artist/2HXioEvQuzCcNmRsImBTET",
+      "time": 2,
+      "genres": [
+        "french hip hop",
+        "rap calme",
+        "rap francais"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe0bbe2d12140b68b24f381fa"
+    },
+    {
+      "name": "Sirius",
+      "url": "https://open.spotify.com/artist/0fM4WhKpjJZc3a0eX947Tc",
+      "time": 191,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb300f0696e0abb0a703335352"
+    },
+    {
+      "name": "The Smile",
+      "url": "https://open.spotify.com/artist/6styCzc1Ej4NxISL0LiigM",
+      "time": 159,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe483b69dbddcc6710cbbd7fc"
+    },
+    {
+      "name": "Sebastien Grainger",
+      "url": "https://open.spotify.com/artist/5HTY4xpY9n7atMo4z8FTNh",
+      "time": 276,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb7e54f72cb9c46fab98f238c3"
+    },
+    {
+      "name": "David Byrne",
+      "url": "https://open.spotify.com/artist/20vuBdFblWUo2FCOvUzusB",
+      "time": 166,
+      "genres": [
+        "art pop",
+        "art punk",
+        "art rock",
+        "permanent wave",
+        "solo wave"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebf3716e1bb3ca682c820398e2"
+    },
+    {
+      "name": "Yo La Tengo",
+      "url": "https://open.spotify.com/artist/5hAhrnb0Ch4ODwWu4tsbpi",
+      "time": 166,
+      "genres": [
+        "alternative rock",
+        "art pop",
+        "dream pop",
+        "freak folk",
+        "indie pop",
+        "indie rock",
+        "lo-fi",
+        "new jersey indie",
+        "permanent wave"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8af7f1c6b6c6a743910e4ae7"
+    },
+    {
+      "name": "The Walters",
+      "url": "https://open.spotify.com/artist/027TpXKGwdXP7iwbjUSpV8",
+      "time": 185,
+      "genres": [
+        "chicago indie",
+        "indie pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb229cd7b64b2a895effb65fb3"
+    },
+    {
+      "name": "King Henry",
+      "url": "https://open.spotify.com/artist/4IbUky1dWqlyVlMMTJXPI5",
+      "time": 185,
+      "genres": [
+        "la pop",
+        "vapor soul"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebedd88aec76821d802796e28d"
+    },
+    {
+      "name": "Gang of Youths",
+      "url": "https://open.spotify.com/artist/142YBUGmLWCJigFLzgguf8",
+      "time": 243,
+      "genres": [
+        "australian indie",
+        "australian pop",
+        "modern rock"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb28150b13140127a86d4eec27"
+    },
+    {
+      "name": "Sports",
+      "url": "https://open.spotify.com/artist/4AGNJdJiVltImYk1UTLE0K",
+      "time": 9,
+      "genres": [
+        "indie garage rock",
+        "tulsa indie"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb5db4d0e1caed0e07a1f3bdb9"
     }
   ],
   "songs": [
@@ -17511,7 +17644,7 @@
     {
       "name": "Fyodor Dormant",
       "url": "https://open.spotify.com/track/5o1yNJTd6zkDmxcwq12GYl",
-      "time": 322,
+      "time": 480,
       "image": "https://i.scdn.co/image/ab67616d0000b273d25cabc35ca770a31291b0bb",
       "artist": "Beirut"
     },
@@ -17532,7 +17665,7 @@
     {
       "name": "Hard Drive Gold",
       "url": "https://open.spotify.com/track/0SbB0skzMpFnuwlOCJt9c4",
-      "time": 312,
+      "time": 464,
       "image": "https://i.scdn.co/image/ab67616d0000b2730402693a5da45974874d0b30",
       "artist": "alt-J"
     },
@@ -17581,14 +17714,14 @@
     {
       "name": "Funny Girl",
       "url": "https://open.spotify.com/track/4DNudCW1LsfTcEsSGlcNjW",
-      "time": 214,
+      "time": 307,
       "image": "https://i.scdn.co/image/ab67616d0000b273c3926459bd822e75210a4e3a",
       "artist": "Father John Misty"
     },
     {
       "name": "From You",
       "url": "https://open.spotify.com/track/3Qfqbu22C7aK2MuWBSnM5A",
-      "time": 16,
+      "time": 223,
       "image": "https://i.scdn.co/image/ab67616d0000b273fcd1716c829b6e7c859ee12e",
       "artist": "Bonobo"
     },
@@ -17679,9 +17812,219 @@
     {
       "name": "Shoote Un Ministre",
       "url": "https://open.spotify.com/track/3xIK2L2oLO5leV7fvuQjIU",
-      "time": 81,
+      "time": 273,
       "image": "https://i.scdn.co/image/ab67616d0000b2731e75185c53e9e5e8a23628c3",
       "artist": "Vald"
+    },
+    {
+      "name": "Deviens g\u00e9nial",
+      "url": "https://open.spotify.com/track/3zpSnxhr0PZa8542kB21JW",
+      "time": 254,
+      "image": "https://i.scdn.co/image/ab67616d0000b27382f6c9fecc589fb8a1d506f9",
+      "artist": "Vald"
+    },
+    {
+      "name": "C'est Pour",
+      "url": "https://open.spotify.com/track/4znX8XxkQhodWiHDNhIex1",
+      "time": 185,
+      "image": "https://i.scdn.co/image/ab67616d0000b2731e75185c53e9e5e8a23628c3",
+      "artist": "Vald"
+    },
+    {
+      "name": "Acacia",
+      "url": "https://open.spotify.com/track/3sYsSGt5l5YEIclYPLVDns",
+      "time": 253,
+      "image": "https://i.scdn.co/image/ab67616d0000b27313a6c878eab9e3d274112bee",
+      "artist": "Vald"
+    },
+    {
+      "name": "Vlad",
+      "url": "https://open.spotify.com/track/55kcOG4X9C5QduLXEXx7mg",
+      "time": 6,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732a1ad811f192d80b7f5da477",
+      "artist": "Vald"
+    },
+    {
+      "name": "Elyxir",
+      "url": "https://open.spotify.com/track/3NbJcWcUoh7ww0R95arhQ6",
+      "time": 205,
+      "image": "https://i.scdn.co/image/ab67616d0000b27396ad3d432bc3b9ff260cf706",
+      "artist": "Vald"
+    },
+    {
+      "name": "Interlude (Seezy \u2013 NQNT33)",
+      "url": "https://open.spotify.com/track/6si38fUXHI9Rrkg8D8PWtH",
+      "time": 125,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732a1ad811f192d80b7f5da477",
+      "artist": "Seezy"
+    },
+    {
+      "name": "Bukkake",
+      "url": "https://open.spotify.com/track/4H62J0fg8p4utQ1TXSBIfi",
+      "time": 184,
+      "image": "https://i.scdn.co/image/ab67616d0000b27396ad3d432bc3b9ff260cf706",
+      "artist": "Vald"
+    },
+    {
+      "name": "Smiley",
+      "url": "https://open.spotify.com/track/7Bbxr2EBFTkv5iUXa45Iex",
+      "time": 6,
+      "image": "https://i.scdn.co/image/ab67616d0000b2731e75185c53e9e5e8a23628c3",
+      "artist": "Vald"
+    },
+    {
+      "name": "Rechute",
+      "url": "https://open.spotify.com/track/5uRPvrM1xZwy4B0TSHTh3s",
+      "time": 195,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732a1ad811f192d80b7f5da477",
+      "artist": "Vald"
+    },
+    {
+      "name": "Seum",
+      "url": "https://open.spotify.com/track/6Mw0cVZJYzPCyRLbSzpZzy",
+      "time": 17,
+      "image": "https://i.scdn.co/image/ab67616d0000b27382f6c9fecc589fb8a1d506f9",
+      "artist": "Vald"
+    },
+    {
+      "name": "Verre de sang",
+      "url": "https://open.spotify.com/track/0w9RPmoIuYjQV6yW7PoS4q",
+      "time": 109,
+      "image": "https://i.scdn.co/image/ab67616d0000b27396ad3d432bc3b9ff260cf706",
+      "artist": "Vald"
+    },
+    {
+      "name": "VHR",
+      "url": "https://open.spotify.com/track/0YgPC4UQhot3W5WkC1o2jM",
+      "time": 207,
+      "image": "https://i.scdn.co/image/ab67616d0000b273d6ada37bfb7922afda99985f",
+      "artist": "Heuss L'enfoir\u00e9"
+    },
+    {
+      "name": "Sullyvan",
+      "url": "https://open.spotify.com/track/32AeGvVq8oge2mBt6lZDwd",
+      "time": 236,
+      "image": "https://i.scdn.co/image/ab67616d0000b2731e75185c53e9e5e8a23628c3",
+      "artist": "Vald"
+    },
+    {
+      "name": "Quidam",
+      "url": "https://open.spotify.com/track/6dJpIJvHPHdu3zHoutE7br",
+      "time": 28,
+      "image": "https://i.scdn.co/image/ab67616d0000b27350e142c3c948f8c356fc09b4",
+      "artist": "Vald"
+    },
+    {
+      "name": "Urbanisme",
+      "url": "https://open.spotify.com/track/0NfJmJkxql1UZdHqwFvuxw",
+      "time": 242,
+      "image": "https://i.scdn.co/image/ab67616d0000b27350e142c3c948f8c356fc09b4",
+      "artist": "Vald"
+    },
+    {
+      "name": "Ch\u00e9pakichui",
+      "url": "https://open.spotify.com/track/0rqqdPzjRgyVVKSJAI1dVc",
+      "time": 241,
+      "image": "https://i.scdn.co/image/ab67616d0000b27382f6c9fecc589fb8a1d506f9",
+      "artist": "Vald"
+    },
+    {
+      "name": "Guedin",
+      "url": "https://open.spotify.com/track/2mTlS8M2lLEba0mX1VQGcS",
+      "time": 179,
+      "image": "https://i.scdn.co/image/ab67616d0000b27396ad3d432bc3b9ff260cf706",
+      "artist": "Vald"
+    },
+    {
+      "name": "D\u00e9saccord\u00e9",
+      "url": "https://open.spotify.com/track/4ueL4j6iOPX23UG5VsvGrm",
+      "time": 206,
+      "image": "https://i.scdn.co/image/ab67616d0000b27382f6c9fecc589fb8a1d506f9",
+      "artist": "Vald"
+    },
+    {
+      "name": "Guccissima",
+      "url": "https://open.spotify.com/track/6tIdfNdeSjvB1RcdEwrzNX",
+      "time": 152,
+      "image": "https://i.scdn.co/image/ab67616d0000b273d6ada37bfb7922afda99985f",
+      "artist": "Heuss L'enfoir\u00e9"
+    },
+    {
+      "name": "CQFD - Bonus Track",
+      "url": "https://open.spotify.com/track/1RVXxVFK7BPmNP7GnSVqKq",
+      "time": 11,
+      "image": "https://i.scdn.co/image/ab67616d0000b2731e75185c53e9e5e8a23628c3",
+      "artist": "Vald"
+    },
+    {
+      "name": "Jusqu'\u00e0 la fin (feat. Vald)",
+      "url": "https://open.spotify.com/track/7DD8LUlVJtUy2hnWb9ef3t",
+      "time": 2,
+      "image": "https://i.scdn.co/image/ab67616d0000b2739b1ad3349b8afa0ca86bbd40",
+      "artist": "7 Jaws"
+    },
+    {
+      "name": "Virus WiFi",
+      "url": "https://open.spotify.com/track/6y2L2uji5OsXXbIMOsbW8r",
+      "time": 191,
+      "image": "https://i.scdn.co/image/ab67616d0000b2736d50430b56d85c77562e32cb",
+      "artist": "Sirius"
+    },
+    {
+      "name": "You Will Never Work In Television Again",
+      "url": "https://open.spotify.com/track/2Aa4sRrWDddEmVRfAjVjsw",
+      "time": 159,
+      "image": "https://i.scdn.co/image/ab67616d0000b27395a2f2b033f2ad4587b96cea",
+      "artist": "The Smile"
+    },
+    {
+      "name": "Curse Your Fail",
+      "url": "https://open.spotify.com/track/51WYRV3q8AvyOyvayez0mc",
+      "time": 276,
+      "image": "https://i.scdn.co/image/ab67616d0000b273d18241c752662f217e6d74dd",
+      "artist": "Broken Social Scene"
+    },
+    {
+      "name": "Who Has Seen the Wind?",
+      "url": "https://open.spotify.com/track/3Dvaw9bre1o4k1xj0EhIAb",
+      "time": 166,
+      "image": "https://i.scdn.co/image/ab67616d0000b2736136b81773abb1891042abee",
+      "artist": "David Byrne"
+    },
+    {
+      "name": "and i'd go a thousand miles",
+      "url": "https://open.spotify.com/track/5x2qaRAkD9nwiechyghoSz",
+      "time": 140,
+      "image": "https://i.scdn.co/image/ab67616d0000b273db44fd7d0cb0317d7940a1c0",
+      "artist": "Montell Fish"
+    },
+    {
+      "name": "I Love You So - King Henry Remix",
+      "url": "https://open.spotify.com/track/0F6XcWEzymSracgq12pOXX",
+      "time": 185,
+      "image": "https://i.scdn.co/image/ab67616d0000b273ba067f8dc4d787aca10a7990",
+      "artist": "The Walters"
+    },
+    {
+      "name": "EXPIRATION DATE",
+      "url": "https://open.spotify.com/track/6BMAOOrAC6LxdYjVbkk7h9",
+      "time": 153,
+      "image": "https://i.scdn.co/image/ab67616d0000b273eda39bde303753c6cf695c6a",
+      "artist": "MICHELLE"
+    },
+    {
+      "name": "in the wake of your leave",
+      "url": "https://open.spotify.com/track/4vjB69VckVUeu0GzAxoZRm",
+      "time": 243,
+      "image": "https://i.scdn.co/image/ab67616d0000b27334dc1f4c6bee65cf32fcf3d2",
+      "artist": "Gang of Youths"
+    },
+    {
+      "name": "Damn I'm Tired",
+      "url": "https://open.spotify.com/track/3HyzMwZ7JHVp07a9YQnpWJ",
+      "time": 9,
+      "image": "https://i.scdn.co/image/ab67616d0000b2739f761e200e4e6a8745a44bb3",
+      "artist": "Sports"
     }
   ]
 }

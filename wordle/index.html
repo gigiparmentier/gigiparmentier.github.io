@@ -3,7 +3,9 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>MOTLE - Jeu de mots</title>
+  <meta name="theme-color" content="#538d4e">
+  <link rel="icon" href="favicon.png"/>
   <link rel="stylesheet" href="style.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
@@ -69,6 +71,13 @@
       <p><b>Un nouveau MOTLE est accessible chaque heure !</b></p>
     </div>
   </div>
+  <div id="win">
+    <div id="winContent">
+      <h2 id="winTitle">Bravo !</h2>
+      <p id="winWord">Vous avez trouvé le mot : </p>
+      <div id="replay" onclick="window.location.reload()">REJOUER</div>
+    </div>
+  </div>
   <script>
     current_row = 1;
     var dict_big;
@@ -92,14 +101,27 @@
         $('#helpDiv').css('padding-top','50%');
       }
       else{
-        console.log('up');
         $('#helpDiv').fadeIn(100);
         $('#helpDiv').css('padding-top','0%');
       }
     }
 
+    function toggleWin(){
+      $('#win').fadeIn(100);
+      $('#win').css('padding-top','0%');
+      $('#winWord').html('Vous avez trouvé le mot : <b>' + secret_word.toUpperCase() + '</b>');
+    }
+
+    function toggleLose(){
+      $('#winTitle').html('Dommage !');
+      $('#win').fadeIn(100);
+      $('#win').css('padding-top','0%');
+      $('#winWord').html('Le mot à trouver était : <b>' + secret_word.toUpperCase() + '</b>');
+    }
+
     function onReady(){
       secret_word = dict_small[Math.floor(Math.random()*dict_small.length)];
+      //secret_word = 'porte';
       addTable();
       addKeyboard();
       resizeCells();
@@ -168,30 +190,53 @@
       if (dict_big.includes(word)){
         verifyWord(word);
       }
-      else{
-        console.log('no');
-      }
+    }
+
+    function setCharAt(str,index,chr) {
+        if(index > str.length-1) return str;
+        return str.substring(0,index) + chr + str.substring(index+1);
     }
 
     function verifyWord(word){
-      for (i in word){
+      correct_letters = [];
+      left_secret_word = (' ' + secret_word).slice(1);
+      left_word = (' ' + word).slice(1);
+      for (i in left_word){
         i = parseInt(i);
-        if (word[i] == secret_word[i]){
+        if (word[i] == left_secret_word[i]){
           $('#table tr[y=' + current_row + ']').children('[x='+(i+1)+']').attr('class','correct');
-          $('#keyboard [key_letter='+word[i].toUpperCase()+']').addClass('correct');
+          $('#keyboard [key_letter='+word[i].toUpperCase()+']').attr('class','key correct');
+          correct_letters.push(word[i]);
+          left_secret_word = setCharAt(left_secret_word,i,'_');
+          left_word = setCharAt(left_word,i,'_');
         }
-        else if (secret_word.includes(word[i])){
-          $('#table tr[y=' + current_row + ']').children('[x='+(i+1)+']').attr('class','misplaced');
-          $('#keyboard [key_letter='+word[i].toUpperCase()+']').addClass('misplaced');
+      }
+      for (i in left_word){
+        if (left_word[i] != '_'){
+          i = parseInt(i);
+          if (left_secret_word.includes(word[i])){
+            $('#table tr[y=' + current_row + ']').children('[x='+(i+1)+']').attr('class','misplaced');
+            if ($('#keyboard [key_letter='+word[i].toUpperCase()+']').attr('class') == 'key'){
+              $('#keyboard [key_letter='+word[i].toUpperCase()+']').attr('class','key misplaced');
+            }
+            left_secret_word = setCharAt(left_secret_word,left_secret_word.indexOf(word[i]),'_');
+          }
+          else{
+            $('#table tr[y=' + current_row + ']').children('[x='+(i+1)+']').attr('class','discovered');
+            if ($('#keyboard [key_letter='+word[i].toUpperCase()+']').attr('class') == 'key'){
+              $('#keyboard [key_letter='+word[i].toUpperCase()+']').attr('class','key discovered');
+            }
+          }
         }
-        else{
-          $('#table tr[y=' + current_row + ']').children('[x='+(i+1)+']').attr('class','discovered');
-          $('#keyboard [key_letter='+word[i].toUpperCase()+']').addClass('discovered');
-        }
+      }
+
+
+      if (correct_letters.length == 5){
+        toggleWin();
       }
       current_row += 1;
       if (current_row == 7){
-        console.log('perdu');
+        toggleLose();
       }
     }
 
