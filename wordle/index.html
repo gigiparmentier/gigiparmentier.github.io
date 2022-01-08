@@ -32,7 +32,7 @@
     <div id="helpContent">
       <div id="helpHeader">
         <h2>COMMENT JOUER</h2>
-        <div id="close" onclick="toggleHelp()"><svg width="24" height="24"><path fill="#565758" d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></svg></path></div>
+        <div class="close" onclick="toggleHelp()"><svg width="24" height="24"><path fill="#565758" d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></svg></path></div>
       </div>
       <p>Devinez le <b>MOTLE</b> en 6 essais.
       <p>Après chaque essai, la couleur des tuiles change pour montrer à quel point votre hypothèse est proche du mot.</p>
@@ -73,8 +73,48 @@
   </div>
   <div id="win">
     <div id="winContent">
-      <h2 id="winTitle">Bravo !</h2>
-      <p id="winWord">Vous avez trouvé le mot : </p>
+      <div id="winHeader">
+        <div class="close" onclick="toggleWin()"><svg width="24" height="24"><path fill="#565758" d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></svg></path></div>
+      </div>
+      <p id="winWord">Le mot à trouver était : </p>
+      <h2>STATISTIQUES</h2>
+        <div id="stats">
+          <div class="statDiv">
+            <p class="statValue playedNb">0</p>
+            <p class="statKey">Played</p>
+          </div>
+          <div class="statDiv">
+            <p class="statValue winPercentage">0</p>
+            <p class="statKey">Win %</p>
+          </div>
+        </div>
+      <h2>DISTRIBUTION DES ESSAIS</h2>
+      <div id="graphContainer">
+        <div class="graphDiv">
+          <p>1</p>
+          <div class="graph" tries="1">1</div>
+        </div>
+        <div class="graphDiv">
+          <p>2</p>
+          <div class="graph" tries="2">6</div>
+        </div>
+        <div class="graphDiv">
+          <p>3</p>
+          <div class="graph" tries="3">34</div>
+        </div>
+        <div class="graphDiv">
+          <p>4</p>
+          <div class="graph" tries="4">90</div>
+        </div>
+        <div class="graphDiv">
+          <p>5</p>
+          <div class="graph" tries="5">4</div>
+        </div>
+        <div class="graphDiv">
+          <p>6</p>
+          <div class="graph" tries="6">6</div>
+        </div>
+      </div>
       <div id="replay" onclick="window.location.reload()">REJOUER</div>
     </div>
   </div>
@@ -83,6 +123,8 @@
     var dict_big;
     var dict_small;
     var secret_word;
+    var distribution;
+
     $(document).ready(function() {
       generateDicts();
     });
@@ -94,6 +136,26 @@
     $(window).resize(function() {
       resizeCells();
     });
+
+    function onReady(){
+      secret_word = dict_small[Math.floor(Math.random()*dict_small.length)];
+      //secret_word = 'porte';
+      addTable();
+      addKeyboard();
+      resizeCells();
+
+      //toggleLose();
+    }
+
+    function setCharAt(str,index,chr) {
+        if(index > str.length-1) return str;
+        return str.substring(0,index) + chr + str.substring(index+1);
+    }
+
+    function isNumeric(str) {
+      if (typeof str != "string") return false
+      return !isNaN(str) && !isNaN(parseFloat(str))
+    }
 
     function toggleHelp(){
       if ($('#helpDiv').is(':visible')){
@@ -107,24 +169,68 @@
     }
 
     function toggleWin(){
-      $('#win').fadeIn(100);
-      $('#win').css('padding-top','0%');
-      $('#winWord').html('Vous avez trouvé le mot : <b>' + secret_word.toUpperCase() + '</b>');
+      if ($('#win').is(':visible')){
+        $('#win').fadeOut(100);
+        $('#win').css('padding-top','50%');
+      }
+      else{
+        $('#win').fadeIn(100);
+        $('#win').css('padding-top','0%');
+        //$('#winWord').html('Vous avez trouvé le mot : <b>' + secret_word.toUpperCase() + '</b>');
+        $('#winWord').hide();
+        updateCookies(current_row);
+        updateStats(current_row);
+      }
     }
 
     function toggleLose(){
-      $('#winTitle').html('Dommage !');
-      $('#win').fadeIn(100);
-      $('#win').css('padding-top','0%');
-      $('#winWord').html('Le mot à trouver était : <b>' + secret_word.toUpperCase() + '</b>');
+      if ($('#win').is(':visible')){
+        $('#win').fadeOut(100);
+        $('#win').css('padding-top','50%');
+      }
+      else{
+        $('#winTitle').html('Dommage !');
+        $('#win').fadeIn(100);
+        $('#win').css('padding-top','0%');
+        $('#winWord').html('Le mot à trouver était : <b>' + secret_word.toUpperCase() + '</b>');
+        $('#winWord').show();
+        updateCookies(0);
+        updateStats(0);
+      }
     }
 
-    function onReady(){
-      secret_word = dict_small[Math.floor(Math.random()*dict_small.length)];
-      //secret_word = 'porte';
-      addTable();
-      addKeyboard();
-      resizeCells();
+    function updateCookies(attempts){
+      const cookieValue = document.cookie.split('; ');
+      distribution = [0,0,0,0,0,0,0];
+      for (cookie of cookieValue){
+        if (isNumeric(cookie.charAt(0))){
+          distribution[parseInt(cookie.charAt(0))] += parseInt(cookie.split('=')[1]);
+        }
+      }
+      distribution[attempts] += 1;
+      for (var i = 0; i < 7; i++){
+        document.cookie = i+"="+distribution[i]+"; SameSite=None; Secure";
+      }
+    }
+
+    function updateStats(tries){
+      total = distribution.reduce((a, b) => a + b, 0) - distribution[0];
+      for (var i = 1; i < 7; i++){
+        $('.graph[tries='+i+']').html(distribution[i]);
+        percentage = (distribution[i]/total)*90;
+        $('.graph[tries='+i+']').css('width',percentage+'%');
+        if (i == tries){
+          $('.graph[tries='+i+']').addClass('current_row');
+        }
+      }
+      $('.playedNb').html(total + distribution[0]);
+      $('.winPercentage').html(parseInt(total/(total+distribution[0])*100));
+    }
+
+    function clearCookies(){
+      for (var i = 0; i < 7; i++){
+        document.cookie = i+"=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+      }
     }
 
     function resizeCells(){
@@ -192,11 +298,6 @@
       }
     }
 
-    function setCharAt(str,index,chr) {
-        if(index > str.length-1) return str;
-        return str.substring(0,index) + chr + str.substring(index+1);
-    }
-
     function verifyWord(word){
       correct_letters = [];
       left_secret_word = (' ' + secret_word).slice(1);
@@ -229,14 +330,14 @@
           }
         }
       }
-
-
       if (correct_letters.length == 5){
         toggleWin();
       }
-      current_row += 1;
-      if (current_row == 7){
+      else if (current_row == 6){
         toggleLose();
+      }
+      else{
+        current_row += 1;
       }
     }
 

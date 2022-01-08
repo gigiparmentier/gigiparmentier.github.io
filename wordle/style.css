@@ -167,8 +167,9 @@ table .misplaced{
   width: 100%;
 }
 
-#helpHeader #close{
+.close{
   cursor: pointer;
+  margin-left: auto;
 }
 
 #helpContent p{
@@ -211,7 +212,7 @@ table .misplaced{
   border-radius: 8px;
   box-shadow: 0 4px 23px 0 rgba(0, 0, 0, 0.2);
   border: 1px solid #1a1a1b;
-  margin-top: 30vh;
+  margin-top: 25vh;
   text-align: center;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -221,6 +222,9 @@ table .misplaced{
   font-weight: 700;
   font-size: 16px;
   letter-spacing: 0.5px;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #winContent #replay{
@@ -228,14 +232,84 @@ table .misplaced{
   background-color: #538d4e;
   cursor: pointer;
   color: #d7dadc;
-  width: 125px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  width: fit-content;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
   margin: 0 auto;
   margin-top: 50px;
   font-size: 20px;
+  font-weight: bold;
 }
 
 #winContent #replay:hover{
   background-color: #4c8148;
+}
+
+#winHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:0 auto;
+  height: 1px;
+}
+
+#winContent #graphContainer{
+  width: 75%;
+  margin: 0 auto;
+}
+
+#winContent .graphDiv{
+  text-align: left;
+  height: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#winContent .graphDiv p{
+  margin: 0;
+  display: inline-block;
+  font-size: 14px;
+}
+
+#winContent .graphDiv .graph{
+  background-color: #3a3a3c;
+  color: #d7dadc;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-width: fit-content;
+}
+
+#winContent .graphDiv .graph.current_row{
+  background-color: #538d4e;
+}
+
+#winContent #stats{
+  margin-bottom: 25px;
+}
+
+#winContent #stats .statDiv{
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#winContent #stats .statDiv .statValue{
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+}
+
+#winContent #stats .statDiv .statKey{
+  text-align: center;
+  justify-content: center;
+  font-size: 12px;
+  margin: 0;
 }
