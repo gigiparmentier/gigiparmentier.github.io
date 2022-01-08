@@ -4290,7 +4290,7 @@
     {
       "name": "-M-",
       "url": "https://open.spotify.com/artist/6soPpJHlCtN6SY8pWlfbC6",
-      "time": 39
+      "time": 80
     },
     {
       "name": "RAC",
@@ -9239,7 +9239,7 @@
     {
       "name": "Cari Cari",
       "url": "https://open.spotify.com/artist/0ey6crPk5fXQWkq21iPTMV",
-      "time": 396,
+      "time": 773,
       "genres": [
         "alternative dance",
         "chillwave",
@@ -9272,7 +9272,7 @@
     {
       "name": "David Bowie",
       "url": "https://open.spotify.com/artist/0oSGxfWSnnOXhD2fKuz2Gy",
-      "time": 63,
+      "time": 166,
       "genres": [
         "art rock",
         "classic rock",
@@ -9285,7 +9285,7 @@
     {
       "name": "Vald",
       "url": "https://open.spotify.com/artist/3CnCGFxXbOA8bAK54jR8js",
-      "time": 195,
+      "time": 1410,
       "genres": [
         "french hip hop",
         "pop urbaine",
@@ -9325,7 +9325,7 @@
     {
       "name": "Cloudchord",
       "url": "https://open.spotify.com/artist/5EjKjFGvMmVUGCfAyDY2lG",
-      "time": 103,
+      "time": 202,
       "genres": [
         "chillhop",
         "lo-fi jazzhop"
@@ -9335,7 +9335,7 @@
     {
       "name": "Philanthrope",
       "url": "https://open.spotify.com/artist/13ACz7DIictCpSYGglNTHs",
-      "time": 103,
+      "time": 202,
       "genres": [
         "chillhop",
         "lo-fi beats"
@@ -9376,21 +9376,21 @@
     {
       "name": "Geno Samuel",
       "url": "https://open.spotify.com/artist/2HDfNNsy8R8DSDOZ34xzMb",
-      "time": 352,
+      "time": 1014,
       "genres": [],
       "image": "https://i.scdn.co/image/ab6761610000e5eb237d96954eaa063af12d4dc3"
     },
     {
       "name": "0nline.Dating",
       "url": "https://open.spotify.com/artist/2BT7IlIJA6XsoRvbTbITrw",
-      "time": 67,
+      "time": 240,
       "genres": [],
       "image": "https://i.scdn.co/image/ab6761610000e5eb63b1c7ed8d4da12382fc0ade"
     },
     {
       "name": "Matt Watson",
       "url": "https://open.spotify.com/artist/2RcKnvHSzBY1sML849T7mR",
-      "time": 67,
+      "time": 240,
       "genres": [],
       "image": "https://i.scdn.co/image/ab6761610000e5eb7243ceab9f49010e00e4426c"
     },
@@ -9459,6 +9459,25 @@
         "viral pop"
       ],
       "image": "https://i.scdn.co/image/ab6761610000e5eb28f8b68ea703b22fc0c8be11"
+    },
+    {
+      "name": "FRogers",
+      "url": "https://open.spotify.com/artist/7EdXsk95xxUzYbed3oC2b8",
+      "time": 248,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb46d781240761c7c6ec52eb05"
+    },
+    {
+      "name": "BAZOO",
+      "url": "https://open.spotify.com/artist/2WMjUwxOScf2f0Yc7P0QoY",
+      "time": 247,
+      "genres": [
+        "chanson paillarde",
+        "comic",
+        "francoton",
+        "french pop"
+      ],
+      "image": "https://i.scdn.co/image/ab67616d0000b2732c0d48656632f2a2a9c41b23"
     }
   ],
   "songs": [
@@ -17417,7 +17436,7 @@
     {
       "name": "No War",
       "url": "https://open.spotify.com/track/2pfWXNEzYtBBRJW9QYcJDJ",
-      "time": 396,
+      "time": 773,
       "image": "https://i.scdn.co/image/ab67616d0000b27322a8216501fda97951a865b5",
       "artist": "Cari Cari"
     },
@@ -17445,7 +17464,7 @@
     {
       "name": "Shadow Man - Unplugged & Somewhat Slightly Electric Mix",
       "url": "https://open.spotify.com/track/18wwNNbXchWt4jowT65YyY",
-      "time": 63,
+      "time": 166,
       "image": "https://i.scdn.co/image/ab67616d0000b2735f2c61f3d6985899d3abc9d3",
       "artist": "David Bowie"
     },
@@ -17466,7 +17485,7 @@
     {
       "name": "Hibernate",
       "url": "https://open.spotify.com/track/6Mk6ubcMERPKJFTk1hOaRf",
-      "time": 103,
+      "time": 202,
       "image": "https://i.scdn.co/image/ab67616d0000b2730f5b5a9752146e5ed348f070",
       "artist": "Cloudchord"
     },
@@ -17508,14 +17527,14 @@
     {
       "name": "Stereo Love",
       "url": "https://open.spotify.com/track/0WEgYih5ZMt1qlg5Y0YT2Y",
-      "time": 352,
+      "time": 1014,
       "image": "https://i.scdn.co/image/ab67616d0000b273ce8a1dda7981a01f4ec7257f",
       "artist": "Geno Samuel"
     },
     {
       "name": "Come Over - Remix",
       "url": "https://open.spotify.com/track/4ritzq3Jo1ePI1BmuPNfEr",
-      "time": 67,
+      "time": 240,
       "image": "https://i.scdn.co/image/ab67616d0000b273d935993eaa3e50bf2b0ff964",
       "artist": "0nline.Dating"
     },
@@ -17571,9 +17590,30 @@
     {
       "name": "Rosy",
       "url": "https://open.spotify.com/track/1lNGhO9aq9NZFc9RJvlq6H",
-      "time": 36,
+      "time": 77,
       "image": "https://i.scdn.co/image/ab67616d0000b2731052159ea0ba77e2cf4c5163",
       "artist": "-M-"
+    },
+    {
+      "name": "A is A",
+      "url": "https://open.spotify.com/track/5yCaPAXECzT7pmpkYjY6i6",
+      "time": 248,
+      "image": "https://i.scdn.co/image/ab67616d0000b273aa4d40d7d4316398f2ec05e9",
+      "artist": "FRogers"
+    },
+    {
+      "name": "Anunnaki",
+      "url": "https://open.spotify.com/track/5dfgX2GxEMQsGycPvjxhdP",
+      "time": 968,
+      "image": "https://i.scdn.co/image/ab67616d0000b273b074b87d06ef2214d8f51da8",
+      "artist": "Vald"
+    },
+    {
+      "name": "Cylindrique",
+      "url": "https://open.spotify.com/track/2PMRFFVkdJ7bxeu5koMrR1",
+      "time": 247,
+      "image": "https://i.scdn.co/image/ab67616d0000b27396ad3d432bc3b9ff260cf706",
+      "artist": "Vald"
     }
   ]
 }
