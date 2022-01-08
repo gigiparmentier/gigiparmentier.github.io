@@ -9,6 +9,7 @@ body{
 #header{
   border-bottom: 1px solid #3a3a3c;
   width: 25%;
+  min-width: 350px;
   margin:0 auto;
   height: 50px;
   display: flex;
@@ -31,9 +32,7 @@ body{
 
 #tableDiv{
   position: absolute;
-  width: 25%;
   top: 20%;
-  left:37.5%;
 }
 
 table{
@@ -81,11 +80,11 @@ table .misplaced{
 }
 
 #keyboard{
-  width: 25%;
   margin: 0 auto;
   position: absolute;
   bottom: 10px;
-  left: 37.5%;
+  width: 25%;
+  min-width: 350px;
 }
 
 #keyboard .key_row{

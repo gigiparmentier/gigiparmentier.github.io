@@ -100,15 +100,16 @@
 
     function onReady(){
       secret_word = dict_small[Math.floor(Math.random()*dict_small.length)];
-      secret_word = 'porte';
       addTable();
-      resizeCells();
       addKeyboard();
+      resizeCells();
     }
 
     function resizeCells(){
       $('#table td').css('width',window.innerHeight/15 + 'px');
       $('#table td').css('height',window.innerHeight/15 + 'px');
+      $('#tableDiv').css('left',window.innerWidth/2-$('#tableDiv').width()/2);
+      $('#keyboard').css('left',window.innerWidth/2-$('#keyboard').width()/2);
     }
 
     function generateDicts(){

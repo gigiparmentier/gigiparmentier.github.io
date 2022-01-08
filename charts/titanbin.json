@@ -9285,7 +9285,7 @@
     {
       "name": "Vald",
       "url": "https://open.spotify.com/artist/3CnCGFxXbOA8bAK54jR8js",
-      "time": 1410,
+      "time": 1942,
       "genres": [
         "french hip hop",
         "pop urbaine",
@@ -9470,7 +9470,7 @@
     {
       "name": "BAZOO",
       "url": "https://open.spotify.com/artist/2WMjUwxOScf2f0Yc7P0QoY",
-      "time": 247,
+      "time": 257,
       "genres": [
         "chanson paillarde",
         "comic",
@@ -9478,6 +9478,18 @@
         "french pop"
       ],
       "image": "https://i.scdn.co/image/ab67616d0000b2732c0d48656632f2a2a9c41b23"
+    },
+    {
+      "name": "Kaiju",
+      "url": "https://open.spotify.com/artist/1SARoH2uxCHcet4JrDWAgj",
+      "time": 13,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb22bf00df978b4636f7557fcb"
+    },
+    {
+      "name": "Suikon Blaz AD",
+      "url": "https://open.spotify.com/artist/7kFoHyLeI8IWSoKZ8uIeY1",
+      "time": 202
     }
   ],
   "songs": [
@@ -17611,8 +17623,64 @@
     {
       "name": "Cylindrique",
       "url": "https://open.spotify.com/track/2PMRFFVkdJ7bxeu5koMrR1",
-      "time": 247,
+      "time": 257,
       "image": "https://i.scdn.co/image/ab67616d0000b27396ad3d432bc3b9ff260cf706",
+      "artist": "Vald"
+    },
+    {
+      "name": "Je t'aime",
+      "url": "https://open.spotify.com/track/0mlIOD1786GfECSo7bk1lc",
+      "time": 2,
+      "image": "https://i.scdn.co/image/ab67616d0000b27313a6c878eab9e3d274112bee",
+      "artist": "Vald"
+    },
+    {
+      "name": "Non stop",
+      "url": "https://open.spotify.com/track/2YZdMTtqmDpXRKnvKlQCyg",
+      "time": 188,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732a1ad811f192d80b7f5da477",
+      "artist": "Vald"
+    },
+    {
+      "name": "Vibe",
+      "url": "https://open.spotify.com/track/6Snh3sDxGfjbNA4A8HuY3G",
+      "time": 13,
+      "image": "https://i.scdn.co/image/ab67616d0000b2736d50430b56d85c77562e32cb",
+      "artist": "Kaiju"
+    },
+    {
+      "name": "Sombre soir\u00e9e",
+      "url": "https://open.spotify.com/track/6QFza9mbmANrPZlDl1FDLY",
+      "time": 12,
+      "image": "https://i.scdn.co/image/ab67616d0000b2732a1ad811f192d80b7f5da477",
+      "artist": "Vald"
+    },
+    {
+      "name": "Compas",
+      "url": "https://open.spotify.com/track/2YyBZL5Ey3wHAWQdTL5h1p",
+      "time": 24,
+      "image": "https://i.scdn.co/image/ab67616d0000b2738db23a2403c7b3cb45803788",
+      "artist": "Vald"
+    },
+    {
+      "name": "Ma star",
+      "url": "https://open.spotify.com/track/6LjZ9Hnb8g0Umguqh39a7W",
+      "time": 13,
+      "image": "https://i.scdn.co/image/ab67616d0000b2735d191f69e1bcb631b5da3759",
+      "artist": "Vald"
+    },
+    {
+      "name": "John Doe",
+      "url": "https://open.spotify.com/track/7tLfQCEdmW3f1eHeaqEkIU",
+      "time": 202,
+      "image": "https://i.scdn.co/image/ab67616d0000b27396ad3d432bc3b9ff260cf706",
+      "artist": "Vald"
+    },
+    {
+      "name": "Shoote Un Ministre",
+      "url": "https://open.spotify.com/track/3xIK2L2oLO5leV7fvuQjIU",
+      "time": 81,
+      "image": "https://i.scdn.co/image/ab67616d0000b2731e75185c53e9e5e8a23628c3",
       "artist": "Vald"
     }
   ]
