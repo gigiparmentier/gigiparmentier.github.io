@@ -271,7 +271,7 @@
     {
       "name": "MICHELLE",
       "url": "https://open.spotify.com/artist/4yYvor6Rq4fG82J1L47DYp",
-      "time": 767
+      "time": 863
     },
     {
       "name": "Tommy Newport",
@@ -4096,7 +4096,7 @@
     {
       "name": "GRAE",
       "url": "https://open.spotify.com/artist/0H307pF74X7H7kXOmDyYGU",
-      "time": 446,
+      "time": 602,
       "genres": [
         "chanson"
       ],
@@ -4189,7 +4189,7 @@
     {
       "name": "nelward",
       "url": "https://open.spotify.com/artist/4DVe11vtKHN5TRtG8TEjNb",
-      "time": 447,
+      "time": 709,
       "genres": [],
       "image": "https://i.scdn.co/image/ab6761610000e5ebbebddf5a847f431a5ffd10f3"
     },
@@ -9638,7 +9638,7 @@
     {
       "name": "Take Van",
       "url": "https://open.spotify.com/artist/3BLx7avD36sNpMNA1nZ7Dj",
-      "time": 17,
+      "time": 152,
       "genres": [],
       "image": "https://i.scdn.co/image/ab6761610000e5eb97f407c9b00e78f567e63268"
     },
@@ -9778,6 +9778,35 @@
         "pop"
       ],
       "image": "https://i.scdn.co/image/ab6761610000e5eb09b9f202fc36187c02711129"
+    },
+    {
+      "name": "Etta Marcus",
+      "url": "https://open.spotify.com/artist/2OWXhbFm7SsZN0DXAD7iBg",
+      "time": 226,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8075de86ea5eb9448edc3768"
+    },
+    {
+      "name": "Matt Maltese",
+      "url": "https://open.spotify.com/artist/12j6dJrPXanCBwY599pZxf",
+      "time": 226,
+      "genres": [
+        "dream smp",
+        "indie anthem-folk",
+        "indie pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb10abb9897314a794e44e9e33"
+    },
+    {
+      "name": "Alann8h",
+      "url": "https://open.spotify.com/artist/1PG2FugIT1iF2CWnzjw0We",
+      "time": 167,
+      "genres": [
+        "canadian contemporary r&b",
+        "chill pop",
+        "indie r&b"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb03ae27a9129e042db40507f4"
     }
   ],
   "songs": [
@@ -13095,7 +13124,7 @@
     {
       "name": "the sum of all our sirens",
       "url": "https://open.spotify.com/track/1ujEMa9fW8cdNEqmNVF6VA",
-      "time": 447,
+      "time": 709,
       "image": "https://i.scdn.co/image/ab67616d0000b27309ff7b87ef958758a31865f7",
       "artist": "nelward"
     },
@@ -18163,7 +18192,7 @@
     {
       "name": "EXPIRATION DATE",
       "url": "https://open.spotify.com/track/6BMAOOrAC6LxdYjVbkk7h9",
-      "time": 212,
+      "time": 308,
       "image": "https://i.scdn.co/image/ab67616d0000b273eda39bde303753c6cf695c6a",
       "artist": "MICHELLE"
     },
@@ -18198,7 +18227,7 @@
     {
       "name": "Pressurized",
       "url": "https://open.spotify.com/track/1SmlpzSJLpt3puZ9Zv3zTo",
-      "time": 17,
+      "time": 152,
       "image": "https://i.scdn.co/image/ab67616d0000b273e123aead0f02139e1603a132",
       "artist": "Take Van"
     },
@@ -18425,6 +18454,27 @@
       "time": 170,
       "image": "https://i.scdn.co/image/ab67616d0000b2730d784240ba205fb589a1ed05",
       "artist": "The Weeknd"
+    },
+    {
+      "name": "Salt Lake City",
+      "url": "https://open.spotify.com/track/5XUmyG1dSbD4mxWd0iSVXZ",
+      "time": 226,
+      "image": "https://i.scdn.co/image/ab67616d0000b27337e6d7b6fbfefcbfcde20dd4",
+      "artist": "Etta Marcus"
+    },
+    {
+      "name": "Outta This World",
+      "url": "https://open.spotify.com/track/58Rt4LpJI0HoYuOX9ILG7L",
+      "time": 156,
+      "image": "https://i.scdn.co/image/ab67616d0000b273b999cb85be98cf1313aeb59f",
+      "artist": "GRAE"
+    },
+    {
+      "name": "Rings of Saturn",
+      "url": "https://open.spotify.com/track/6B2smPDLlM2Ms59jSB4pVH",
+      "time": 167,
+      "image": "https://i.scdn.co/image/ab67616d0000b273177fa08ef20f7338f56a22df",
+      "artist": "Alann8h"
     }
   ]
 }
