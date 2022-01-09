@@ -410,5 +410,6 @@ table .misplaced{
   }
   #winContent{
     margin-top: 15vh;
+    width: calc(100% - 40px);
   }
 }
