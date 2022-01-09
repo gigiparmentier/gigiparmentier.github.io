@@ -289,7 +289,7 @@ table .misplaced{
 
 #winContent{
   width: 25%;
-  min-width: 350px;
+  min-width: 300px;
   margin: 0 auto;
   background-color: #121213;
   padding: 16px;
@@ -407,5 +407,8 @@ table .misplaced{
   }
   #header{
     width: 100%;
+  }
+  #winContent{
+    margin-top: 15vh;
   }
 }

@@ -219,8 +219,9 @@
       total = distribution.reduce((a, b) => a + b, 0) - distribution[0];
       for (var i = 1; i < 7; i++){
         $('.graph[tries='+i+']').html(distribution[i]);
-        percentage = (distribution[i]/total)*90;
-        $('.graph[tries='+i+']').css('width',percentage+'%');
+        percentage = (distribution[i]/total);
+        parentWidth = $('.graph[tries='+i+']').parent().width() - $('.graph[tries='+i+']').siblings('p').width();
+        $('.graph[tries='+i+']').css('width',(percentage*parentWidth-40) +'px');
         if (i == tries){
           $('.graph[tries='+i+']').addClass('current_row');
         }

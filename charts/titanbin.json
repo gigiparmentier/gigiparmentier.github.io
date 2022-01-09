@@ -6012,7 +6012,7 @@
     {
       "name": "Porches",
       "url": "https://open.spotify.com/artist/2JzhQYGos3RqV7MT5fWeek",
-      "time": 395,
+      "time": 587,
       "genres": [
         "art pop",
         "chillwave",
@@ -8962,7 +8962,7 @@
     {
       "name": "Barry Can't Swim",
       "url": "https://open.spotify.com/artist/0vTVU0KH0CVzijsoKGsTPl",
-      "time": 408,
+      "time": 438,
       "genres": [],
       "image": "https://i.scdn.co/image/ab6761610000e5ebde6e9143f4791e5a00ced055"
     },
@@ -9617,7 +9617,7 @@
     {
       "name": "Sports",
       "url": "https://open.spotify.com/artist/4AGNJdJiVltImYk1UTLE0K",
-      "time": 223,
+      "time": 253,
       "genres": [
         "indie garage rock",
         "tulsa indie"
@@ -9819,6 +9819,17 @@
         "indie r&b"
       ],
       "image": "https://i.scdn.co/image/ab6761610000e5eb75f22ac94ff7dd673dff78f8"
+    },
+    {
+      "name": "Luke Sital-Singh",
+      "url": "https://open.spotify.com/artist/3Lw97gGh8bp1MftsYmwJHG",
+      "time": 193,
+      "genres": [
+        "british singer-songwriter",
+        "indie anthem-folk",
+        "indie folk"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebbcb7821336c1bc8a1bae431e"
     }
   ],
   "songs": [
@@ -15964,7 +15975,7 @@
     {
       "name": "Adore You",
       "url": "https://open.spotify.com/track/6YwYkz0z6tftrTO7Qwe5A5",
-      "time": 380,
+      "time": 572,
       "image": "https://i.scdn.co/image/ab67616d0000b273811026b8a86cad5608f23cd6",
       "artist": "Porches"
     },
@@ -17532,7 +17543,7 @@
     {
       "name": "Everything Is Going To Be Alright",
       "url": "https://open.spotify.com/track/4A33rjRNxA1uG6W8VyVMoR",
-      "time": 408,
+      "time": 438,
       "image": "https://i.scdn.co/image/ab67616d0000b273d55ff958f62c7ff7bd976d5f",
       "artist": "Barry Can't Swim"
     },
@@ -18218,7 +18229,7 @@
     {
       "name": "Damn I'm Tired",
       "url": "https://open.spotify.com/track/3HyzMwZ7JHVp07a9YQnpWJ",
-      "time": 223,
+      "time": 253,
       "image": "https://i.scdn.co/image/ab67616d0000b2739f761e200e4e6a8745a44bb3",
       "artist": "Sports"
     },
@@ -18515,6 +18526,13 @@
       "time": 164,
       "image": "https://i.scdn.co/image/ab67616d0000b2739924e71cc3cce583969c5795",
       "artist": "Snail Mail"
+    },
+    {
+      "name": "Blind Missiles",
+      "url": "https://open.spotify.com/track/4iIoVlUgVqWmnJ85HoOD7J",
+      "time": 193,
+      "image": "https://i.scdn.co/image/ab67616d0000b2738e9466be9b0778ebac4bbc69",
+      "artist": "Luke Sital-Singh"
     }
   ]
 }
