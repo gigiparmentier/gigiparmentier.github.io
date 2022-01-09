@@ -351,6 +351,7 @@ table .misplaced{
   }
   #keyboard{
     width: 100%;
+    background-color: green;
   }
   #header{
     width: 100%;
