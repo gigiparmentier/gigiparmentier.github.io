@@ -196,6 +196,7 @@ table .misplaced{
   align-items: center;
   text-transform: uppercase;
   font-size: 12px;
+  user-select: none;
 }
 
 .special_key{
