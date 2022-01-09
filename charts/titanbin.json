@@ -9617,7 +9617,7 @@
     {
       "name": "Sports",
       "url": "https://open.spotify.com/artist/4AGNJdJiVltImYk1UTLE0K",
-      "time": 313,
+      "time": 445,
       "genres": [
         "indie garage rock",
         "tulsa indie"
@@ -9830,6 +9830,34 @@
         "indie folk"
       ],
       "image": "https://i.scdn.co/image/ab6761610000e5ebbcb7821336c1bc8a1bae431e"
+    },
+    {
+      "name": "Madi Diaz",
+      "url": "https://open.spotify.com/artist/7E1o9IcnpiFQDlAUk2H7Az",
+      "time": 10,
+      "genres": [
+        "acoustic pop",
+        "indie folk",
+        "indie pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb5a2b438ac7f779108feb10f9"
+    },
+    {
+      "name": "MUNA",
+      "url": "https://open.spotify.com/artist/6xdRb2GypJ7DqnWAI2mHGn",
+      "time": 10,
+      "genres": [
+        "art pop",
+        "dance pop",
+        "electropop",
+        "indie pop",
+        "indie poptimism",
+        "la pop",
+        "metropopolis",
+        "pop",
+        "vapor soul"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb2140c0472d026acd6240a95d"
     }
   ],
   "songs": [
@@ -18229,7 +18257,7 @@
     {
       "name": "Damn I'm Tired",
       "url": "https://open.spotify.com/track/3HyzMwZ7JHVp07a9YQnpWJ",
-      "time": 313,
+      "time": 445,
       "image": "https://i.scdn.co/image/ab67616d0000b2739f761e200e4e6a8745a44bb3",
       "artist": "Sports"
     },
@@ -18533,6 +18561,13 @@
       "time": 193,
       "image": "https://i.scdn.co/image/ab67616d0000b2738e9466be9b0778ebac4bbc69",
       "artist": "Luke Sital-Singh"
+    },
+    {
+      "name": "Crying In Public - MUNA Remix",
+      "url": "https://open.spotify.com/track/6ouu4XNaN3pQMRo6BUvsaV",
+      "time": 10,
+      "image": "https://i.scdn.co/image/ab67616d0000b273af461b701ae68bfefaa51db5",
+      "artist": "Madi Diaz"
     }
   ]
 }

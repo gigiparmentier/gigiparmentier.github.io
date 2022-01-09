@@ -126,6 +126,7 @@
     var dict_small;
     var secret_word;
     var distribution;
+    var done = false;
 
     $(document).ready(function() {
       generateDicts();
@@ -180,9 +181,12 @@
         $('#win').css('padding-top','0%');
         //$('#winWord').html('Vous avez trouvé le mot : <b>' + secret_word.toUpperCase() + '</b>');
         $('#winWord').hide();
-        updateCookies(current_row);
-        updateStats(current_row);
+        if (done == false){
+          updateCookies(current_row - 1);
+          updateStats(current_row - 1);
+        }
       }
+      done = true;
     }
 
     function toggleLose(){
@@ -196,9 +200,12 @@
         $('#win').css('padding-top','0%');
         $('#winWord').html('Le mot à trouver était : <b>' + secret_word.toUpperCase() + '</b>');
         $('#winWord').show();
-        updateCookies(0);
-        updateStats(0);
+        if (done == false){
+          updateCookies(0);
+          updateStats(0);
+        }
       }
+      done = true;
     }
 
     function updateCookies(attempts){
@@ -268,7 +275,17 @@
         letter_key = String.fromCharCode(event_charcode);
         addLetter(letter_key);
       } else if (event_charcode == 13) {
-        guessWord();
+        if (!done){
+          guessWord();
+        }
+        else{
+          if ($('#win').is(':visible')){
+            window.location.reload();
+          }
+          else{
+            toggleWin();
+          }
+        }
       } else if (event_charcode == 8) {
         removeLetter();
       }
@@ -376,14 +393,16 @@
         })(i),(300)+i/4*1000);
       }
       if (correct_letters.length == 5){
-        toggleWin();
+        setTimeout((function(){
+          toggleWin();
+        }),1500);
       }
       else if (current_row == 6){
-        toggleLose();
+        setTimeout((function(){
+          toggleLose();
+        }),1500);
       }
-      else{
-        current_row += 1;
-      }
+      current_row += 1;
     }
 
     function addTable() {
