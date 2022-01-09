@@ -174,7 +174,7 @@
     {
       "name": "Montell Fish",
       "url": "https://open.spotify.com/artist/5nvWOyAkfNgVLKESq4fOj2",
-      "time": 469,
+      "time": 597,
       "genres": [
         "pittsburgh rap"
       ],
@@ -5711,7 +5711,7 @@
     {
       "name": "Big Thief",
       "url": "https://open.spotify.com/artist/5QdyldG4Fl4TPiOIeMNpBZ",
-      "time": 669,
+      "time": 888,
       "genres": [
         "art pop",
         "brooklyn indie",
@@ -9606,7 +9606,7 @@
     {
       "name": "Gang of Youths",
       "url": "https://open.spotify.com/artist/142YBUGmLWCJigFLzgguf8",
-      "time": 374,
+      "time": 485,
       "genres": [
         "australian indie",
         "australian pop",
@@ -9723,7 +9723,7 @@
     {
       "name": "Let's Eat Grandma",
       "url": "https://open.spotify.com/artist/4qNZw759AdHSMugyDMrIlF",
-      "time": 279,
+      "time": 422,
       "genres": [
         "art pop",
         "chamber psych",
@@ -14517,7 +14517,7 @@
     {
       "name": "No Reason",
       "url": "https://open.spotify.com/track/0V6whmxgRbeeJpijQXUbDN",
-      "time": 669,
+      "time": 888,
       "image": "https://i.scdn.co/image/ab67616d0000b27355bc98763f20825e58285a30",
       "artist": "Big Thief"
     },
@@ -18199,7 +18199,7 @@
     {
       "name": "in the wake of your leave",
       "url": "https://open.spotify.com/track/4vjB69VckVUeu0GzAxoZRm",
-      "time": 374,
+      "time": 485,
       "image": "https://i.scdn.co/image/ab67616d0000b27334dc1f4c6bee65cf32fcf3d2",
       "artist": "Gang of Youths"
     },
@@ -18290,7 +18290,7 @@
     {
       "name": "Happy New Year",
       "url": "https://open.spotify.com/track/6PbirqXeIG94tn0lXcrnYu",
-      "time": 279,
+      "time": 422,
       "image": "https://i.scdn.co/image/ab67616d0000b2730fcaf0426946628ad94c6c63",
       "artist": "Let's Eat Grandma"
     },
@@ -18475,6 +18475,13 @@
       "time": 167,
       "image": "https://i.scdn.co/image/ab67616d0000b273177fa08ef20f7338f56a22df",
       "artist": "Alann8h"
+    },
+    {
+      "name": "Fall in Love with You.",
+      "url": "https://open.spotify.com/track/31MQR9rOHRXyg4J01hRY1h",
+      "time": 128,
+      "image": "https://i.scdn.co/image/ab67616d0000b273ea6955840fe2438437250f86",
+      "artist": "Montell Fish"
     }
   ]
 }

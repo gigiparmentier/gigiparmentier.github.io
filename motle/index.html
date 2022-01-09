@@ -251,11 +251,11 @@
       fetch('dict_small.txt')
       .then(response => response.text())
       .then((data) => {
-        dict_small = data.split("\r\n");
+        dict_small = data.split("\n");
         fetch('dict_big.txt')
         .then(response => response.text())
         .then((data) => {
-          dict_big = data.split("\r\n");
+          dict_big = data.split("\n");
           onReady();
         })
       })
@@ -305,6 +305,7 @@
         word += child.innerHTML.toLowerCase();
       }
       if (dict_big.includes(word)){
+        console.log('e')
         verifyWord(word);
       }
     }
