@@ -174,7 +174,7 @@
     {
       "name": "Montell Fish",
       "url": "https://open.spotify.com/artist/5nvWOyAkfNgVLKESq4fOj2",
-      "time": 597,
+      "time": 739,
       "genres": [
         "pittsburgh rap"
       ],
@@ -2249,7 +2249,7 @@
     {
       "name": "Fana Hues",
       "url": "https://open.spotify.com/artist/4yJHrytMK7mqtKsXVGaBNg",
-      "time": 192,
+      "time": 384,
       "genres": [
         "alternative r&b",
         "chill r&b",
@@ -2518,7 +2518,7 @@
     {
       "name": "Snail Mail",
       "url": "https://open.spotify.com/artist/4QkSD9TRUnMtI8Fq1jXJJe",
-      "time": 275,
+      "time": 439,
       "genres": [
         "art pop",
         "baltimore indie",
@@ -2593,7 +2593,7 @@
     {
       "name": "Kid Bloom",
       "url": "https://open.spotify.com/artist/5CXdWANGwYYRPClH6hhC0P",
-      "time": 213,
+      "time": 274,
       "genres": [
         "indie garage rock",
         "indie pop",
@@ -7748,7 +7748,7 @@
     {
       "name": "Boyish",
       "url": "https://open.spotify.com/artist/6VgPyGeGO86DztjK7GCYT3",
-      "time": 267,
+      "time": 407,
       "genres": [
         "indie pop"
       ],
@@ -8962,7 +8962,7 @@
     {
       "name": "Barry Can't Swim",
       "url": "https://open.spotify.com/artist/0vTVU0KH0CVzijsoKGsTPl",
-      "time": 220,
+      "time": 408,
       "genres": [],
       "image": "https://i.scdn.co/image/ab6761610000e5ebde6e9143f4791e5a00ced055"
     },
@@ -9542,7 +9542,7 @@
     {
       "name": "The Smile",
       "url": "https://open.spotify.com/artist/6styCzc1Ej4NxISL0LiigM",
-      "time": 159,
+      "time": 319,
       "genres": [],
       "image": "https://i.scdn.co/image/ab6761610000e5ebe483b69dbddcc6710cbbd7fc"
     },
@@ -9807,6 +9807,18 @@
         "indie r&b"
       ],
       "image": "https://i.scdn.co/image/ab6761610000e5eb03ae27a9129e042db40507f4"
+    },
+    {
+      "name": "Isaia Huron",
+      "url": "https://open.spotify.com/artist/1hJx89kEIcAmlZzUWat9w6",
+      "time": 316,
+      "genres": [
+        "alternative r&b",
+        "chill pop",
+        "chill r&b",
+        "indie r&b"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb75f22ac94ff7dd673dff78f8"
     }
   ],
   "songs": [
@@ -11206,7 +11218,7 @@
     {
       "name": "Breakfast",
       "url": "https://open.spotify.com/track/7I2hbb8rsTvJR5PtaywRkv",
-      "time": 192,
+      "time": 384,
       "image": "https://i.scdn.co/image/ab67616d0000b2739351580aee00b9ce459e56ac",
       "artist": "Fana Hues"
     },
@@ -16316,7 +16328,7 @@
     {
       "name": "Smithereens",
       "url": "https://open.spotify.com/track/5D7yZnGSaFzQMh04MXiPkk",
-      "time": 741,
+      "time": 881,
       "image": "https://i.scdn.co/image/ab67616d0000b273bac4785b923e33f2183e15da",
       "artist": "Boyish"
     },
@@ -17520,7 +17532,7 @@
     {
       "name": "Everything Is Going To Be Alright",
       "url": "https://open.spotify.com/track/4A33rjRNxA1uG6W8VyVMoR",
-      "time": 220,
+      "time": 408,
       "image": "https://i.scdn.co/image/ab67616d0000b273d55ff958f62c7ff7bd976d5f",
       "artist": "Barry Can't Swim"
     },
@@ -18157,7 +18169,7 @@
     {
       "name": "You Will Never Work In Television Again",
       "url": "https://open.spotify.com/track/2Aa4sRrWDddEmVRfAjVjsw",
-      "time": 159,
+      "time": 319,
       "image": "https://i.scdn.co/image/ab67616d0000b27395a2f2b033f2ad4587b96cea",
       "artist": "The Smile"
     },
@@ -18178,7 +18190,7 @@
     {
       "name": "and i'd go a thousand miles",
       "url": "https://open.spotify.com/track/5x2qaRAkD9nwiechyghoSz",
-      "time": 140,
+      "time": 282,
       "image": "https://i.scdn.co/image/ab67616d0000b273db44fd7d0cb0317d7940a1c0",
       "artist": "Montell Fish"
     },
@@ -18486,9 +18498,23 @@
     {
       "name": "Like I Never Left",
       "url": "https://open.spotify.com/track/2v0lR293is4KxCMS2YtgxV",
-      "time": 98,
+      "time": 159,
       "image": "https://i.scdn.co/image/ab67616d0000b273666f053403056af09df1ba43",
       "artist": "Kid Bloom"
+    },
+    {
+      "name": "One in a Million",
+      "url": "https://open.spotify.com/track/2j9RX4rcMRNhRxu2DhSUr3",
+      "time": 316,
+      "image": "https://i.scdn.co/image/ab67616d0000b273c7b7e20b9a09f6e1c8ecbdf9",
+      "artist": "Isaia Huron"
+    },
+    {
+      "name": "Madonna",
+      "url": "https://open.spotify.com/track/6WrZ8rFuvTsWkFjC3US38h",
+      "time": 164,
+      "image": "https://i.scdn.co/image/ab67616d0000b2739924e71cc3cce583969c5795",
+      "artist": "Snail Mail"
     }
   ]
 }

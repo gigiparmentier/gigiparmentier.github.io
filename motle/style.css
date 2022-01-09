@@ -34,6 +34,23 @@ body{
   cursor: pointer;
 }
 
+#notInList{
+  background-color: #dbd9db;
+  border-radius: 4px;
+  color: #161517;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  position: absolute;
+  font-weight: bold;
+  top: 10vh;
+  left: calc(50% - 100px);
+  transform: translateY(-25%);
+  z-index: 100;
+  display: none;
+  transition: transform .5s ease-in-out;
+}
+
 #tableDiv{
   position: absolute;
   top: 20vh;
@@ -66,6 +83,42 @@ table td{
   }
   to {
     transform: scale(1.1,1.1);
+  }
+}
+
+@keyframes shakeLetter {
+  0% {
+    transform: translateX(0px);
+  }
+  10% {
+    transform: translateX(2px);
+  }
+  20% {
+    transform: translateX(-2px);
+  }
+  30% {
+    transform: translateX(4px);
+  }
+  40% {
+    transform: translateX(-4px);
+  }
+  50% {
+    transform: translateX(4px);
+  }
+  60% {
+    transform: translateX(-4px);
+  }
+  70% {
+    transform: translateX(4px);
+  }
+  80% {
+    transform: translateX(-4px);
+  }
+  90% {
+    transform: translateX(2px);
+  }
+  100% {
+    transform: translateX(-2px);
   }
 }
 

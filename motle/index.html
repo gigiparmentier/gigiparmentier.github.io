@@ -27,6 +27,7 @@
       </svg>
     </div>
   </div>
+  <div id="notInList">Pas dans la liste de mots</div>
   <div id="tableDiv">
   </div>
   <div id="helpDiv">
@@ -251,11 +252,11 @@
       fetch('dict_small.txt')
       .then(response => response.text())
       .then((data) => {
-        dict_small = data.replace('\r','').split("\n");
+        dict_small = data.split('\r').join('').split("\n");
         fetch('dict_big.txt')
         .then(response => response.text())
         .then((data) => {
-          dict_big = data.replace('\r','').split("\n");
+          dict_big = data.split('\r').join('').split("\n");
           onReady();
         })
       })
@@ -305,8 +306,25 @@
         word += child.innerHTML.toLowerCase();
       }
       if (dict_big.includes(word)){
-        console.log('e')
         verifyWord(word);
+      }
+      else{
+        $('#notInList').fadeIn();
+        $('#notInList').css('transform','translateY(0%)');
+        for (var i = 0; i < 5; i++){
+            td = $('#table tr[y=' + current_row + ']').children('[x='+(i+1)+']');
+            td.css('animation','none');
+        }
+        setTimeout((function(i){
+          for (var i = 0; i < 5; i++){
+              td = $('#table tr[y=' + current_row + ']').children('[x='+(i+1)+']');
+              td.css('animation','shakeLetter .5s ease-in-out 0s 1');
+          }
+        }),10);
+        setTimeout((function(i){
+          $('#notInList').fadeOut();
+          $('#notInList').css('transform','translateY(-25%)');
+        }),2000);
       }
     }
 
