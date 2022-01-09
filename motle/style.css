@@ -347,11 +347,10 @@ table .misplaced{
 
 @media screen and (max-width: 500px) {
   #tableDiv{
-    top: 15vh;
+    top: 10vh;
   }
   #keyboard{
     width: 100%;
-    background-color: green;
   }
   #header{
     width: 100%;
