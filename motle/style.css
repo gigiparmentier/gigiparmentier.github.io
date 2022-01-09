@@ -1,3 +1,7 @@
+html{
+  margin: 0;
+}
+
 body{
   background-color: #121213;
   color: #d7dadc;
@@ -52,10 +56,37 @@ table td{
   box-sizing: border-box;
   user-select: none;
   text-align: center;
+  animation-duration: 2s;
+  animation-direction: reverse;
+}
+
+@keyframes appearLetter {
+  from {
+    transform: scale(1,1);
+  }
+  to {
+    transform: scale(1.1,1.1);
+  }
+}
+
+@keyframes rotateLetter {
+  0% {
+    transform: rotate3d(1, 0, 0, 0deg);
+  }
+  50% {
+    transform: rotate3d(1, 0, 0, 90deg);
+  }
+  100% {
+    transform: rotate3d(1, 0, 0, 0deg);
+  }
 }
 
 table .undiscovered{
   border: 2px solid #3a3a3c;
+}
+
+table .filled{
+  border: 2px solid #565758;
 }
 
 table .discovered{

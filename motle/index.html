@@ -275,6 +275,8 @@
       for (child of $('#table tr[y=' + current_row + ']').children()) {
         if (child.innerHTML == '') {
           child.innerHTML = letter;
+          $(child).css('animation','appearLetter .05s ease-in-out 1');
+          $(child).addClass('filled');
           break;
         }
       }
@@ -285,6 +287,8 @@
       for (var i = 4; i >= 0; i--){
         if (children[i].innerHTML != ''){
           children[i].innerHTML = '';
+          $(children[i]).removeClass('filled');
+          $(child).css('animation','none');
           break;
         }
       }
@@ -311,7 +315,7 @@
       for (i in left_word){
         i = parseInt(i);
         if (word[i] == left_secret_word[i]){
-          $('#table tr[y=' + current_row + ']').children('[x='+(i+1)+']').attr('class','correct');
+          $('#table tr[y=' + current_row + ']').children('[x='+(i+1)+']').attr('type','correct');
           $('#keyboard [key_letter='+word[i].toUpperCase()+']').attr('class','key correct');
           correct_letters.push(word[i]);
           left_secret_word = setCharAt(left_secret_word,i,'_');
@@ -322,19 +326,33 @@
         if (left_word[i] != '_'){
           i = parseInt(i);
           if (left_secret_word.includes(word[i])){
-            $('#table tr[y=' + current_row + ']').children('[x='+(i+1)+']').attr('class','misplaced');
+            $('#table tr[y=' + current_row + ']').children('[x='+(i+1)+']').attr('type','misplaced');
             if ($('#keyboard [key_letter='+word[i].toUpperCase()+']').attr('class') == 'key'){
               $('#keyboard [key_letter='+word[i].toUpperCase()+']').attr('class','key misplaced');
             }
             left_secret_word = setCharAt(left_secret_word,left_secret_word.indexOf(word[i]),'_');
           }
           else{
-            $('#table tr[y=' + current_row + ']').children('[x='+(i+1)+']').attr('class','discovered');
+            $('#table tr[y=' + current_row + ']').children('[x='+(i+1)+']').attr('type','discovered');
             if ($('#keyboard [key_letter='+word[i].toUpperCase()+']').attr('class') == 'key'){
               $('#keyboard [key_letter='+word[i].toUpperCase()+']').attr('class','key discovered');
             }
           }
         }
+      }
+      for (var i = 0; i < 5; i++){
+        setTimeout((function(i){
+          return function(){
+            td = $('#table tr[y=' + (current_row - 1) + ']').children('[x='+(i+1)+']');
+            td.css('animation','rotateLetter .6s ease-in-out 0s 1');
+          }
+        })(i),i/4*1000);
+        setTimeout((function(i){
+          return function(){
+            td = $('#table tr[y=' + (current_row - 1) + ']').children('[x='+(i+1)+']');
+            td.attr('class',td.attr('type'));
+          }
+        })(i),(300)+i/4*1000);
       }
       if (correct_letters.length == 5){
         toggleWin();
