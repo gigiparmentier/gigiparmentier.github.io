@@ -251,11 +251,11 @@
       fetch('dict_small.txt')
       .then(response => response.text())
       .then((data) => {
-        dict_small = data.split("\n");
+        dict_small = data.replace('\r','').split("\n");
         fetch('dict_big.txt')
         .then(response => response.text())
         .then((data) => {
-          dict_big = data.split("\n");
+          dict_big = data.replace('\r','').split("\n");
           onReady();
         })
       })
