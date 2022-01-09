@@ -234,8 +234,14 @@
     }
 
     function resizeCells(){
-      $('#table td').css('width',window.innerHeight/15 + 'px');
-      $('#table td').css('height',window.innerHeight/15 + 'px');
+      if (window.innerWidth > 500){
+        $('#table td').css('width',window.innerHeight/15 + 'px');
+        $('#table td').css('height',window.innerHeight/15 + 'px');
+      }
+      else{
+        $('#table td').css('width',window.innerHeight/12 + 'px');
+        $('#table td').css('height',window.innerHeight/12 + 'px');
+      }
       $('#tableDiv').css('left',window.innerWidth/2-$('#tableDiv').width()/2);
       $('#keyboard').css('left',window.innerWidth/2-$('#keyboard').width()/2);
     }

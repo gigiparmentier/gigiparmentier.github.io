@@ -4857,7 +4857,7 @@
     {
       "name": "Lil Wayne",
       "url": "https://open.spotify.com/artist/55Aa2cqylxrFIXC767Z865",
-      "time": 270,
+      "time": 531,
       "genres": [
         "hip hop",
         "new orleans rap",
@@ -4927,7 +4927,7 @@
     {
       "name": "The Weeknd",
       "url": "https://open.spotify.com/artist/1Xyo4u8uXC1ZmMpatF05PJ",
-      "time": 2454,
+      "time": 3211,
       "genres": [
         "canadian contemporary r&b",
         "canadian pop",
@@ -18310,14 +18310,14 @@
     {
       "name": "Dawn FM",
       "url": "https://open.spotify.com/track/6krYS8KtmNAYyb5uTZiYW4",
-      "time": 91,
+      "time": 182,
       "image": "https://i.scdn.co/image/ab67616d0000b2730d784240ba205fb589a1ed05",
       "artist": "The Weeknd"
     },
     {
       "name": "Gasoline",
       "url": "https://open.spotify.com/track/3KyKxJ4P3pVCgaZwaq2rUC",
-      "time": 208,
+      "time": 233,
       "image": "https://i.scdn.co/image/ab67616d0000b2730d784240ba205fb589a1ed05",
       "artist": "The Weeknd"
     },
@@ -18401,7 +18401,7 @@
     {
       "name": "I Heard You\u2019re Married (feat. Lil Wayne)",
       "url": "https://open.spotify.com/track/5XbA7TAqsD0fj0dGBrbb0D",
-      "time": 53,
+      "time": 314,
       "image": "https://i.scdn.co/image/ab67616d0000b2730d784240ba205fb589a1ed05",
       "artist": "The Weeknd"
     },
@@ -18411,6 +18411,20 @@
       "time": 62,
       "image": "https://i.scdn.co/image/ab67616d0000b2732853b5ea06ddc676b337c389",
       "artist": "Bo Burnham"
+    },
+    {
+      "name": "Less Than Zero",
+      "url": "https://open.spotify.com/track/2D4dV2KXDTszzJ3p3cFqhA",
+      "time": 210,
+      "image": "https://i.scdn.co/image/ab67616d0000b2730d784240ba205fb589a1ed05",
+      "artist": "The Weeknd"
+    },
+    {
+      "name": "Phantom Regret by Jim",
+      "url": "https://open.spotify.com/track/1NlK2NtpuUazpziLhnJwEV",
+      "time": 170,
+      "image": "https://i.scdn.co/image/ab67616d0000b2730d784240ba205fb589a1ed05",
+      "artist": "The Weeknd"
     }
   ]
 }
