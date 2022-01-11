@@ -557,7 +557,7 @@
     {
       "name": "Lost Frequencies",
       "url": "https://open.spotify.com/artist/7f5Zgnp2spUuuzKplmRkt7",
-      "time": 416,
+      "time": 553,
       "genres": [
         "belgian edm",
         "edm",
@@ -570,7 +570,7 @@
     {
       "name": "Calum Scott",
       "url": "https://open.spotify.com/artist/6ydoSd3N2mwgwBHtF6K7eX",
-      "time": 133,
+      "time": 270,
       "genres": [
         "neo mellow",
         "pop"
@@ -681,7 +681,7 @@
     {
       "name": "Coldplay",
       "url": "https://open.spotify.com/artist/4gzpq5DPGxSnKTe4SA8HAU",
-      "time": 3694,
+      "time": 3907,
       "genres": [
         "permanent wave",
         "pop"
@@ -691,7 +691,7 @@
     {
       "name": "BTS",
       "url": "https://open.spotify.com/artist/3Nrfpe0tUJi4K4DXYWgMUX",
-      "time": 216,
+      "time": 429,
       "genres": [
         "k-pop",
         "k-pop boy group"
@@ -2654,7 +2654,7 @@
     {
       "name": "Sia",
       "url": "https://open.spotify.com/artist/5WUlDfRSoLAfcVSX1WnrxN",
-      "time": 225,
+      "time": 424,
       "genres": [
         "australian dance",
         "australian pop",
@@ -3091,7 +3091,7 @@
     {
       "name": "Dua Lipa",
       "url": "https://open.spotify.com/artist/6M2wZ9GZgrQXHCFfjv46we",
-      "time": 195,
+      "time": 363,
       "genres": [
         "dance pop",
         "pop",
@@ -4946,7 +4946,7 @@
     {
       "name": "Herman's Hermits",
       "url": "https://open.spotify.com/artist/48YxSlb23RAaCd4RyHcV9V",
-      "time": 246,
+      "time": 407,
       "genres": [
         "adult standards",
         "brill building pop",
@@ -8252,6 +8252,169 @@
         "french pop"
       ],
       "image": "https://i.scdn.co/image/c881a696e4a8016858487d018220e436aba3ffe9"
+    },
+    {
+      "name": "Panic! At The Disco",
+      "url": "https://open.spotify.com/artist/20JZFwl6HVl6yg8a4H3ZqK",
+      "time": 178,
+      "genres": [
+        "modern rock"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb84776fe119fa6503fdffb0f8"
+    },
+    {
+      "name": "Bakermat",
+      "url": "https://open.spotify.com/artist/3MyFDtqB80WZvbtCZRsekM",
+      "time": 7,
+      "genres": [
+        "deep euro house",
+        "minimal tech house",
+        "pop dance",
+        "tropical house"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb2e5cc922d64a723a176508e8"
+    },
+    {
+      "name": "Sean Paul",
+      "url": "https://open.spotify.com/artist/3Isy6kedDrgPYoTS1dazA9",
+      "time": 380,
+      "genres": [
+        "dance pop",
+        "dancehall",
+        "pop rap"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb60c3e9abe7327c0097738f22"
+    },
+    {
+      "name": "Madcon",
+      "url": "https://open.spotify.com/artist/6c4sUNBgdonFJz8Kx2VsGz",
+      "time": 196,
+      "genres": [
+        "dance pop",
+        "norwegian hip hop",
+        "pop rap"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebaee04f651b61ca7d91b73d64"
+    },
+    {
+      "name": "Ray Dalton",
+      "url": "https://open.spotify.com/artist/4e0nWw2r4BoQSKPQ2zpU13",
+      "time": 196,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd2ca6d294a1dae478b59129e"
+    },
+    {
+      "name": "Galantis",
+      "url": "https://open.spotify.com/artist/4sTQVOfp9vEMCemLw50sbu",
+      "time": 213,
+      "genres": [
+        "dance pop",
+        "edm",
+        "electro house",
+        "pop",
+        "pop dance",
+        "tropical house"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb29fc429af2f3a752aa57d94d"
+    },
+    {
+      "name": "Twenty One Pilots",
+      "url": "https://open.spotify.com/artist/3YQKmKGau1PzlVlkL1iodx",
+      "time": 16,
+      "genres": [
+        "modern rock",
+        "rock"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb196972172c37d934d9ca8093"
+    },
+    {
+      "name": "Tom Gregory",
+      "url": "https://open.spotify.com/artist/6Rmg5JiRphFMlhkwGNl9Fu",
+      "time": 186,
+      "genres": [
+        "tropical house",
+        "uk pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6ae5180cb87fca6755610828"
+    },
+    {
+      "name": "Yall",
+      "url": "https://open.spotify.com/artist/0ZRBa9pTfhhCsJW95F1ugg",
+      "time": 164,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebb864ddc7b32b563949e020f8"
+    },
+    {
+      "name": "Gabriela Richardson",
+      "url": "https://open.spotify.com/artist/69YKwunlA0xl2yMS12cyMu",
+      "time": 164,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb84339a6c216e42c2be08505a"
+    },
+    {
+      "name": "Hi_Tack",
+      "url": "https://open.spotify.com/artist/6N1W9mAlncCKbqBHgBR2bN",
+      "time": 145,
+      "genres": [
+        "slap house"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6195898d8b72ebf5bdd1379e"
+    },
+    {
+      "name": "Steff da Campo",
+      "url": "https://open.spotify.com/artist/7Bo6vpAmmhylCRWoHSBkcZ",
+      "time": 145,
+      "genres": [
+        "edm",
+        "electro house",
+        "house",
+        "pop edm"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb27a83fc0d668262e0f01f225"
+    },
+    {
+      "name": "71 Digits",
+      "url": "https://open.spotify.com/artist/7rYojRyXBLPrX6UWfnAkaC",
+      "time": 145,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc6cfe7303116f83eab78a3dd"
+    },
+    {
+      "name": "Tom Grennan",
+      "url": "https://open.spotify.com/artist/5SHxzwjek1Pipl1Yk11UHv",
+      "time": 79,
+      "genres": [
+        "modern rock",
+        "uk pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb7981dab1885de427e8333d25"
+    },
+    {
+      "name": "Bob Dylan",
+      "url": "https://open.spotify.com/artist/74ASZWbe4lXaubB36ztrGX",
+      "time": 1385,
+      "genres": [
+        "album rock",
+        "classic rock",
+        "country rock",
+        "folk",
+        "folk rock",
+        "mellow gold",
+        "rock",
+        "roots rock",
+        "singer-songwriter"
+      ],
+      "image": "https://i.scdn.co/image/ab6772690000c46cf79ca05dcc1581c712bf3658"
+    },
+    {
+      "name": "ABBA",
+      "url": "https://open.spotify.com/artist/0LcJLqbBmaGUft1e9Mm8HV",
+      "time": 277,
+      "genres": [
+        "europop",
+        "swedish pop"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb118de0c58b11e1fd54b66640"
     }
   ],
   "songs": [
@@ -8510,7 +8673,7 @@
     {
       "name": "Where Are You Now",
       "url": "https://open.spotify.com/track/3uUuGVFu1V7jTQL60S1r8z",
-      "time": 133,
+      "time": 270,
       "image": "https://i.scdn.co/image/ab67616d0000b2738d7a7f1855b04104ba59c18b",
       "artist": "Lost Frequencies"
     },
@@ -11184,7 +11347,7 @@
     {
       "name": "No Milk Today",
       "url": "https://open.spotify.com/track/1bas9EMFNPwEolxIMMRWWH",
-      "time": 246,
+      "time": 407,
       "image": "https://i.scdn.co/image/ab67616d0000b273947d3d6dc953fe02048b817d",
       "artist": "Herman's Hermits"
     },
@@ -14029,6 +14192,132 @@
       "time": 206,
       "image": "https://i.scdn.co/image/ab67616d0000b2739051ac6c80a95ade98c01d2e",
       "artist": "Claude Barzotti"
+    },
+    {
+      "name": "High Hopes",
+      "url": "https://open.spotify.com/track/1rqqCSm0Qe4I9rUvWncaom",
+      "time": 178,
+      "image": "https://i.scdn.co/image/ab67616d0000b273c5148520a59be191eea16989",
+      "artist": "Panic! At The Disco"
+    },
+    {
+      "name": "Baian\u00e1",
+      "url": "https://open.spotify.com/track/780be5fB7823aHG06mwTat",
+      "time": 7,
+      "image": "https://i.scdn.co/image/ab67616d0000b273fc7ce3acfa2e8c2479bcf621",
+      "artist": "Bakermat"
+    },
+    {
+      "name": "Dynamite",
+      "url": "https://open.spotify.com/track/0fQfJFfngYfG26560HLMLN",
+      "time": 199,
+      "image": "https://i.scdn.co/image/ab67616d0000b273b8938d68052bc7fadd640923",
+      "artist": "Sean Paul"
+    },
+    {
+      "name": "Don't Worry (with Ray Dalton) - Radio Edit",
+      "url": "https://open.spotify.com/track/63CSozvYUEudPp12679UVF",
+      "time": 196,
+      "image": "https://i.scdn.co/image/ab67616d0000b273ff1831eb17c7a83741be4d1b",
+      "artist": "Madcon"
+    },
+    {
+      "name": "My Universe - Galantis Remix",
+      "url": "https://open.spotify.com/track/1DlczmjByrS4qxRVfGjpqN",
+      "time": 213,
+      "image": "https://i.scdn.co/image/ab67616d0000b2735242045c3d60bcdd7563382f",
+      "artist": "Coldplay"
+    },
+    {
+      "name": "Stressed Out",
+      "url": "https://open.spotify.com/track/3CRDbSIZ4r5MsZ0YwxuEkn",
+      "time": 16,
+      "image": "https://i.scdn.co/image/ab67616d0000b273de03bfc2991fd5bcfde65ba3",
+      "artist": "Twenty One Pilots"
+    },
+    {
+      "name": "Don't Start Now",
+      "url": "https://open.spotify.com/track/3PfIrDoz19wz7qK7tYeu62",
+      "time": 168,
+      "image": "https://i.scdn.co/image/ab67616d0000b273bd26ede1ae69327010d49946",
+      "artist": "Dua Lipa"
+    },
+    {
+      "name": "Footprints",
+      "url": "https://open.spotify.com/track/0XnJQn8RpMHeoaBOY5zR31",
+      "time": 186,
+      "image": "https://i.scdn.co/image/ab67616d0000b27348dbeef58ce22eaf0412a4b4",
+      "artist": "Tom Gregory"
+    },
+    {
+      "name": "Hundred Miles",
+      "url": "https://open.spotify.com/track/5dyDkXi1bnQKSyIdO0JXp8",
+      "time": 164,
+      "image": "https://i.scdn.co/image/ab67616d0000b273a66b939ac0ab20acaab077d7",
+      "artist": "Yall"
+    },
+    {
+      "name": "Got 2 Luv U - feat. Alexis Jordan",
+      "url": "https://open.spotify.com/track/77sFlmQh56N5VSBMKX7e63",
+      "time": 181,
+      "image": "https://i.scdn.co/image/ab67616d0000b273162f99980b0244ebb843e256",
+      "artist": "Sean Paul"
+    },
+    {
+      "name": "Say Say Say (Waiting 4 U) - Steff da Campo & 71 Digits Radio Mix",
+      "url": "https://open.spotify.com/track/3Ns7GYmCWy4DLI3e6yRE5d",
+      "time": 145,
+      "image": "https://i.scdn.co/image/ab67616d0000b27394733e078bdbc50bf14da927",
+      "artist": "Hi_Tack"
+    },
+    {
+      "name": "Little Bit of Love",
+      "url": "https://open.spotify.com/track/3Iba59sFmGhQ4kbCY5L8AX",
+      "time": 79,
+      "image": "https://i.scdn.co/image/ab67616d0000b273c24d95b10c39a2248745091a",
+      "artist": "Tom Grennan"
+    },
+    {
+      "name": "Don't Think Twice, It's All Right",
+      "url": "https://open.spotify.com/track/2WOjLF83vqjit2Zh4B69V3",
+      "time": 206,
+      "image": "https://i.scdn.co/image/ab67616d0000b2737d214af8499aa95ad220f573",
+      "artist": "Bob Dylan"
+    },
+    {
+      "name": "Chimes of Freedom",
+      "url": "https://open.spotify.com/track/5zOiSgAZJhikocvA3KdSpX",
+      "time": 421,
+      "image": "https://i.scdn.co/image/ab67616d0000b273b63a920ec5459261707a4eaf",
+      "artist": "Bob Dylan"
+    },
+    {
+      "name": "I've Made Up My Mind to Give Myself to You",
+      "url": "https://open.spotify.com/track/5JqAHgYG2j9hwqCwKZpBUI",
+      "time": 382,
+      "image": "https://i.scdn.co/image/ab67616d0000b273de53828a4a84a66179dcdfde",
+      "artist": "Bob Dylan"
+    },
+    {
+      "name": "Man in the Long Black Coat",
+      "url": "https://open.spotify.com/track/5NtOAfnwkKo7eAGq7Uap3J",
+      "time": 260,
+      "image": "https://i.scdn.co/image/ab67616d0000b2735954a6441cc1d88011841d1c",
+      "artist": "Bob Dylan"
+    },
+    {
+      "name": "Knockin' On Heaven's Door",
+      "url": "https://open.spotify.com/track/6HSXNV0b4M4cLJ7ljgVVeh",
+      "time": 116,
+      "image": "https://i.scdn.co/image/ab67616d0000b2736c86683d20c72e3874c11c6d",
+      "artist": "Bob Dylan"
+    },
+    {
+      "name": "The Winner Takes It All",
+      "url": "https://open.spotify.com/track/3oEkrIfXfSh9zGnE7eBzSV",
+      "time": 277,
+      "image": "https://i.scdn.co/image/ab67616d0000b2734d08fc99eff4ed52dfce91fa",
+      "artist": "ABBA"
     }
   ]
 }

@@ -553,6 +553,10 @@ table .misplaced{
   transform: translateX(12px);
 }
 
+#winWord{
+  display: none;
+}
+
 @media screen and (max-width: 500px) {
   #tableDiv{
     top: 10vh;

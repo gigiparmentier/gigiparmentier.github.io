@@ -106,7 +106,7 @@
       <div id="winHeader">
         <div class="close" onclick="toggleStats()"><svg width="24" height="24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></svg></path></div>
       </div>
-      <p id="winWord">Le mot à trouver était : </p>
+      <p id="winWord"></p>
       <h2>STATISTIQUES</h2>
         <div id="stats">
           <div class="statDiv">
@@ -285,8 +285,6 @@
     }
 
     function toggleStats(){
-      updateCookies(0,false);
-      updateStats(0,false);
       if ($('#win').is(':visible')){
         $('#win').fadeOut(100);
         $('#win').css('padding-top','50%');
@@ -294,31 +292,37 @@
       else{
         $('#win').fadeIn(100);
         $('#win').css('padding-top','0%');
-        $('#winWord').hide();
       }
+      if (done == false){
+        $('#replay').hide();
+      }
+      else{
+        $('#replay').show();
+      }
+      updateCookies(0,false);
     }
 
     function toggleWin(){
       if (done == false){
         done = true;
-        $('#winWord').html('');
         toggleStats();
         updateCookies(current_row - 1,true);
-        updateStats(current_row - 1,true);
+        $('#winWord').html('');
+        $('#winWord').hide();
       }
     }
 
     function toggleLose(){
       if (done == false){
-        updateCookies(0,true);
-        updateStats(0,true);
         done = true;
-        $('#winWord').html('Le mot à trouver était : <b>' + secret_word.toUpperCase() + '</b>');
         toggleStats();
+        updateCookies(0,true);
+        $('#winWord').html('Le mot à trouver était : <b>' + secret_word.toUpperCase() + '</b>');
+        $('#winWord').show();
       }
     }
 
-    function updateCookies(attempts,add){
+    function updateCookies(tries,add){
       const cookieValue = document.cookie.split('; ');
       distribution = [0,0,0,0,0,0,0];
       for (cookie of cookieValue){
@@ -327,11 +331,12 @@
         }
       }
       if (add){
-        distribution[attempts] += 1;
+        distribution[tries] += 1;
       }
       for (var i = 0; i < 7; i++){
         document.cookie = i+"="+distribution[i]+"; max-age=31536000; path=/";
       }
+      updateStats(tries,add);
     }
 
     function updateStats(tries,show){
