@@ -889,7 +889,7 @@
     {
       "name": "Isaac Jones",
       "url": "https://open.spotify.com/artist/07Otr2GoEFP3sRUUXpYMQN",
-      "time": 282
+      "time": 372
     },
     {
       "name": "ZICO",
@@ -1664,7 +1664,7 @@
     {
       "name": "Melanie Faye",
       "url": "https://open.spotify.com/artist/4pcfFC9isxezJyTwbV1nIp",
-      "time": 3,
+      "time": 9,
       "genres": [
         "bedroom soul"
       ],
@@ -3841,7 +3841,7 @@
     {
       "name": "Listen",
       "url": "https://open.spotify.com/track/7c3P9U29I2rBipN2n5SVSJ",
-      "time": 193,
+      "time": 283,
       "image": "https://i.scdn.co/image/ab67616d0000b273e411417a1a4c9f2e5c4ae84f",
       "artist": "Isaac Jones"
     },
@@ -5524,6 +5524,13 @@
       "time": 145,
       "image": "https://i.scdn.co/image/ab67616d0000b273cc2ac5b5972649e6b156af6f",
       "artist": "DMA'S"
+    },
+    {
+      "name": "It's a Moot Point",
+      "url": "https://open.spotify.com/track/3Rl8k5Daz5w5zHYSJz5lHA",
+      "time": 6,
+      "image": "https://i.scdn.co/image/ab67616d0000b273cec39f20ed1c35e7b5fed956",
+      "artist": "Melanie Faye"
     }
   ]
 }

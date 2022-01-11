@@ -1,24 +1,34 @@
 html{
+  --bg-color: #121213;
+  --bg-color2: rgba(0,0,0,0.5);
+  --text-color: #d7dadc;
+  --border-color1: #3a3a3c;
+  --border-color2: #565758;
+  --keyboard-color: #818384;
+  --cell-text-color: #d7dadc;
+  --cell-yellow: #b59f3b;
+  --cell-green: #538d4e;
+  --cell-grey: #3a3a3c;
+  --div-border: #1a1a1b;
   margin: 0;
 }
 
 body{
-  background-color: #121213;
-  color: #d7dadc;
+  background-color: var(--bg-color);
+  color: var(--text-color);
   font-family: Arial;
   margin: 0;
   overflow: hidden;
+  user-select: none;
 }
 
 #header{
-  border-bottom: 1px solid #3a3a3c;
+  border-bottom: 1px solid var(--border-color1);
   width: 500px;
   min-width: 350px;
   margin:0 auto;
   height: 50px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: table;
 }
 
 #title{
@@ -27,11 +37,39 @@ body{
   letter-spacing: 0.2rem;
   text-transform: uppercase;
   margin: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  pointer-events: none;
+  margin-top: 5px;
 }
 
 .button{
   width: 24px;
   cursor: pointer;
+  margin-top: 10px;
+}
+
+.button path{
+  fill: var(--border-color2);
+}
+
+.close path{
+  fill: var(--border-color2);
+}
+
+#helpbutton{
+  float: left;
+}
+
+#settingsbutton{
+  float: right;
+}
+
+#statsbutton{
+  float: right;
+  margin-right: 15px;
 }
 
 #notInList{
@@ -135,32 +173,32 @@ table td{
 }
 
 table .undiscovered{
-  border: 2px solid #3a3a3c;
+  border: 2px solid var(--border-color1);
 }
 
 table .filled{
-  border: 2px solid #565758;
+  border: 2px solid var(--border-color2);
 }
 
 table .discovered{
   border: none;
-  background-color: #3a3a3c;
-  border: 2px solid #3a3a3c;
-  color: #d7dadc;
+  background-color: var(--cell-grey);
+  border: 2px solid var(--cell-grey);
+  color: var(--cell-text-color);
 }
 
 table .correct{
   border: none;
-  background-color: #538d4e;
-  border: 2px solid #538d4e;
-  color: #d7dadc;
+  background-color: var(--cell-green);
+  border: 2px solid var(--cell-green);
+  color: var(--cell-text-color);
 }
 
 table .misplaced{
   border: none;
-  background-color: #b59f3b;
-  border: 2px solid #b59f3b;
-  color: #d7dadc;
+  background-color: var(--cell-yellow);
+  border: 2px solid var(--cell-yellow);
+  color: var(--cell-text-color);
 }
 
 #keyboard{
@@ -182,8 +220,9 @@ table .misplaced{
 
 .key{
   height: 58px;
-  background-color: #818384;
-  color: #d7dadc;
+  background-color: var(--keyboard-color);
+  color: var(--text-color);
+  fill: var(--text-color);
   border-radius: 4px;
   margin-right: 6px;
   font-weight: bold;
@@ -212,12 +251,12 @@ table .misplaced{
 }
 
 #keyboard .discovered{
-  background-color: #3a3a3c;
+  background-color: var(--cell-grey);
 }
 
 #helpDiv{
   z-index: 10;
-  background-color: #121213;
+  background-color: var(--bg-color);
   display: none;
   position: absolute;
   top: 0;
@@ -263,9 +302,9 @@ table .misplaced{
   margin-top: 10px;
 }
 
-#helpContent .divider{
+.divider{
   width: 100%;
-  border-bottom: 1px solid #3a3a3c;
+  border-bottom: 1px solid var(--border-color1);
 }
 
 .example_table{
@@ -275,7 +314,7 @@ table .misplaced{
 
 #win{
   z-index: 11;
-  background-color: rgba(0,0,0,0.5);
+  background-color: var(--bg-color2);
   display: none;
   position: absolute;
   top: 0;
@@ -289,14 +328,15 @@ table .misplaced{
 }
 
 #winContent{
+  opacity: 1;
   width: 25%;
   min-width: 300px;
   margin: 0 auto;
-  background-color: #121213;
+  background-color: var(--bg-color);
   padding: 16px;
   border-radius: 8px;
   box-shadow: 0 4px 23px 0 rgba(0, 0, 0, 0.2);
-  border: 1px solid #1a1a1b;
+  border: 1px solid var(--div-border);
   margin-top: 25vh;
   text-align: center;
   padding-top: 25px;
@@ -314,9 +354,9 @@ table .misplaced{
 
 #winContent #replay{
   border-radius: 4px;
-  background-color: #538d4e;
+  background-color: var(--cell-green);
   cursor: pointer;
-  color: #d7dadc;
+  color: var(--cell-text-color);
   width: fit-content;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -359,8 +399,8 @@ table .misplaced{
 }
 
 #winContent .graphDiv .graph{
-  background-color: #3a3a3c;
-  color: #d7dadc;
+  background-color: var(--cell-grey);
+  color: var(--cell-text-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 20px;
@@ -372,7 +412,7 @@ table .misplaced{
 }
 
 #winContent .graphDiv .graph.current_row{
-  background-color: #538d4e;
+  background-color: var(--cell-green);
 }
 
 #winContent #stats{
@@ -397,6 +437,120 @@ table .misplaced{
   justify-content: center;
   font-size: 12px;
   margin: 0;
+}
+
+#settingDiv{
+  z-index: 10;
+  background-color: var(--bg-color);
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding-top: 50%;
+  width: 100%;
+  height: 100%;
+  transition: padding 0.25s;
+  overflow: hidden;
+}
+
+#settingContent{
+  width: 25%;
+  min-width: 350px;
+  margin: 0 auto;
+}
+
+#settingHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:0 auto;
+}
+
+#settingDiv h2{
+  margin-top: 10px;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  width: 100%;
+}
+
+.setting .title{
+  display: inline-block;
+  font-size: 18px;
+}
+
+.setting .text{
+  font-size: 12px;
+  color: var(--keyboard-color);
+}
+
+#green_buttons{
+  text-align: center;
+}
+
+.green_button{
+  border-radius: 4px;
+  background-color: var(--cell-green);
+  cursor: pointer;
+  color: var(--cell-text-color);
+  width: fit-content;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: 0 auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.green_button:hover{
+  background-color: #4c8148;
+}
+
+#green_buttons .selected{
+  background-color: var(--border-color2);
+  cursor: auto;
+  color: var(--cell-text-color);
+}
+
+#green_buttons .selected:hover{
+  background-color: var(--border-color2);
+}
+
+.switch{
+  height: 20px;
+  width: 32px;
+  border-radius: 999px;
+  background-color: var(--border-color2);
+  float: right;
+  margin-top: 20px;
+}
+
+.switch.selected{
+  background-color: var(--cell-green);
+}
+
+.knob{
+  display: block;
+  position: relative;
+  left: 2px;
+  top: 2px;
+  height: 16px;
+  width: 16px;
+  border-radius: 8px;
+  background: white;
+  transform: translateX(0px);
+  transition: transform 0.3s;
+}
+
+.knob.selected{
+  transform: translateX(12px);
 }
 
 @media screen and (max-width: 500px) {

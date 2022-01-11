@@ -13,17 +13,22 @@
 
 <body>
   <div id="header">
-    <div id="help" class="button" onclick="toggleHelp()">
+    <div id="helpbutton" class="button" onclick="toggleHelp()">
       <svg width="24" height="24">
-        <path fill="#565758" d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z">
+        <path d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z">
         </path>
       </svg>
     </div>
     <h1 id="title">motle</h1>
-    <div id="settings" class="button">
+    <div id="settingsbutton" class="button" onclick="toggleSetting()">
       <svg width="24" height="24">
-        <path fill="#565758" d="M19.14,12.94c0.04-0.3,0.06-0.61,0.06-0.94c0-0.32-0.02-0.64-0.07-0.94l2.03-1.58c0.18-0.14,0.23-0.41,0.12-0.61 l-1.92-3.32c-0.12-0.22-0.37-0.29-0.59-0.22l-2.39,0.96c-0.5-0.38-1.03-0.7-1.62-0.94L14.4,2.81c-0.04-0.24-0.24-0.41-0.48-0.41 h-3.84c-0.24,0-0.43,0.17-0.47,0.41L9.25,5.35C8.66,5.59,8.12,5.92,7.63,6.29L5.24,5.33c-0.22-0.08-0.47,0-0.59,0.22L2.74,8.87 C2.62,9.08,2.66,9.34,2.86,9.48l2.03,1.58C4.84,11.36,4.8,11.69,4.8,12s0.02,0.64,0.07,0.94l-2.03,1.58 c-0.18,0.14-0.23,0.41-0.12,0.61l1.92,3.32c0.12,0.22,0.37,0.29,0.59,0.22l2.39-0.96c0.5,0.38,1.03,0.7,1.62,0.94l0.36,2.54 c0.05,0.24,0.24,0.41,0.48,0.41h3.84c0.24,0,0.44-0.17,0.47-0.41l0.36-2.54c0.59-0.24,1.13-0.56,1.62-0.94l2.39,0.96 c0.22,0.08,0.47,0,0.59-0.22l1.92-3.32c0.12-0.22,0.07-0.47-0.12-0.61L19.14,12.94z M12,15.6c-1.98,0-3.6-1.62-3.6-3.6 s1.62-3.6,3.6-3.6s3.6,1.62,3.6,3.6S13.98,15.6,12,15.6z">
+        <path d="M19.14,12.94c0.04-0.3,0.06-0.61,0.06-0.94c0-0.32-0.02-0.64-0.07-0.94l2.03-1.58c0.18-0.14,0.23-0.41,0.12-0.61 l-1.92-3.32c-0.12-0.22-0.37-0.29-0.59-0.22l-2.39,0.96c-0.5-0.38-1.03-0.7-1.62-0.94L14.4,2.81c-0.04-0.24-0.24-0.41-0.48-0.41 h-3.84c-0.24,0-0.43,0.17-0.47,0.41L9.25,5.35C8.66,5.59,8.12,5.92,7.63,6.29L5.24,5.33c-0.22-0.08-0.47,0-0.59,0.22L2.74,8.87 C2.62,9.08,2.66,9.34,2.86,9.48l2.03,1.58C4.84,11.36,4.8,11.69,4.8,12s0.02,0.64,0.07,0.94l-2.03,1.58 c-0.18,0.14-0.23,0.41-0.12,0.61l1.92,3.32c0.12,0.22,0.37,0.29,0.59,0.22l2.39-0.96c0.5,0.38,1.03,0.7,1.62,0.94l0.36,2.54 c0.05,0.24,0.24,0.41,0.48,0.41h3.84c0.24,0,0.44-0.17,0.47-0.41l0.36-2.54c0.59-0.24,1.13-0.56,1.62-0.94l2.39,0.96 c0.22,0.08,0.47,0,0.59-0.22l1.92-3.32c0.12-0.22,0.07-0.47-0.12-0.61L19.14,12.94z M12,15.6c-1.98,0-3.6-1.62-3.6-3.6 s1.62-3.6,3.6-3.6s3.6,1.62,3.6,3.6S13.98,15.6,12,15.6z">
         </path>
+      </svg>
+    </div>
+    <div id="statsbutton" class='button' onclick='toggleStats()'>
+      <svg width="24" height="24">
+        <path d="M16,11V3H8v6H2v12h20V11H16z M10,5h4v14h-4V5z M4,11h4v8H4V11z M20,19h-4v-6h4V19z"></path>
       </svg>
     </div>
   </div>
@@ -34,7 +39,7 @@
     <div id="helpContent">
       <div id="helpHeader">
         <h2>COMMENT JOUER</h2>
-        <div class="close" onclick="toggleHelp()"><svg width="24" height="24"><path fill="#565758" d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></svg></path></div>
+        <div class="close" onclick="toggleHelp()"><svg width="24" height="24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></svg></path></div>
       </div>
       <p>Devinez le <b>MOTLE</b> en 6 essais.
       <p>Après chaque essai, la couleur des tuiles change pour montrer à quel point votre hypothèse est proche du mot.</p>
@@ -42,41 +47,64 @@
       <table class='example_table'>
         <tr>
           <td class='correct'>W</td>
-          <td class='undiscovered'>A</td>
-          <td class='undiscovered'>G</td>
-          <td class='undiscovered'>O</td>
-          <td class='undiscovered'>N</td>
+          <td class='filled'>A</td>
+          <td class='filled'>G</td>
+          <td class='filled'>O</td>
+          <td class='filled'>N</td>
         </tr>
       </table>
       <p>La lettre <b>W</b> est dans le mot et au bon endroit.</p>
       <table class='example_table'>
         <tr>
-          <td class='undiscovered'>P</td>
-          <td class='undiscovered'>A</td>
+          <td class='filled'>P</td>
+          <td class='filled'>A</td>
           <td class='misplaced'>L</td>
-          <td class='undiscovered'>E</td>
-          <td class='undiscovered'>T</td>
+          <td class='filled'>E</td>
+          <td class='filled'>T</td>
         </tr>
       </table>
       <p>La lettre <b>L</b> est dans le mot mais au mauvais endroit.</p>
       <table class='example_table'>
         <tr>
-          <td class='undiscovered'>V</td>
-          <td class='undiscovered'>A</td>
-          <td class='undiscovered'>G</td>
+          <td class='filled'>V</td>
+          <td class='filled'>A</td>
+          <td class='filled'>G</td>
           <td class='discovered'>U</td>
-          <td class='undiscovered'>E</td>
+          <td class='filled'>E</td>
         </tr>
       </table>
       <p>La lettre <b>U</b> n'est nulle part dans le mot.</p>
-      <div class='divider'></div>
-      <p><b>Un nouveau MOTLE est accessible chaque heure !</b></p>
     </div>
   </div>
+
+  <div id="settingDiv">
+    <div id="settingContent">
+      <div id="settingHeader">
+        <h2>REGLAGES</h2>
+        <div class="close" onclick="toggleSetting()"><svg width="24" height="24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></svg></path></div>
+      </div>
+      <div class='setting'>
+        <p class='title'>Longueur des mots</p>
+        <div id="green_buttons">
+          <div class='green_button' onclick='setWordLength(4)'>4</div>
+          <div class='green_button' onclick='setWordLength(5)'>5</div>
+          <div class='green_button' onclick='setWordLength(6)'>6</div>
+          <div class='green_button' onclick='setWordLength(7)'>7</div>
+          <div class='green_button' onclick='setWordLength(8)'>8</div>
+        </div>
+        <div class='divider'></div>
+      </div>
+      <div class='setting'>
+        <p class='title'>Mode sombre</p>
+        <div class='switch' onclick='setDarkMode(-1)'><span class='knob'></span></div>
+      </div>
+    </div>
+  </div>
+
   <div id="win">
     <div id="winContent">
       <div id="winHeader">
-        <div class="close" onclick="toggleWin()"><svg width="24" height="24"><path fill="#565758" d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></svg></path></div>
+        <div class="close" onclick="toggleStats()"><svg width="24" height="24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></svg></path></div>
       </div>
       <p id="winWord">Le mot à trouver était : </p>
       <h2>STATISTIQUES</h2>
@@ -94,27 +122,27 @@
       <div id="graphContainer">
         <div class="graphDiv">
           <p>1</p>
-          <div class="graph" tries="1">1</div>
+          <div class="graph" tries="1">0</div>
         </div>
         <div class="graphDiv">
           <p>2</p>
-          <div class="graph" tries="2">6</div>
+          <div class="graph" tries="2">0</div>
         </div>
         <div class="graphDiv">
           <p>3</p>
-          <div class="graph" tries="3">34</div>
+          <div class="graph" tries="3">0</div>
         </div>
         <div class="graphDiv">
           <p>4</p>
-          <div class="graph" tries="4">90</div>
+          <div class="graph" tries="4">0</div>
         </div>
         <div class="graphDiv">
           <p>5</p>
-          <div class="graph" tries="5">4</div>
+          <div class="graph" tries="5">0</div>
         </div>
         <div class="graphDiv">
           <p>6</p>
-          <div class="graph" tries="6">6</div>
+          <div class="graph" tries="6">0</div>
         </div>
       </div>
       <div id="replay" onclick="window.location.reload()">REJOUER</div>
@@ -125,10 +153,25 @@
     var dict_big;
     var dict_small;
     var secret_word;
-    var distribution;
+    var distribution = [];
     var done = false;
+    var word_length = 5;
+    var darkMode = 0;
 
     $(document).ready(function() {
+      url_string = window.location.href;
+      url = new URL(url_string);
+      length = url.searchParams.get("wl");
+      if (length != null){
+        word_length = length;
+      }
+      const cookieValue = document.cookie.split('; ');
+      for (cookie of cookieValue){
+        if (cookie.includes('dm=')){
+          darkMode = parseInt(cookie.split('=')[1]);
+        }
+      }
+      setDarkMode(darkMode);
       generateDicts();
     });
 
@@ -140,13 +183,19 @@
       resizeCells();
     });
 
+    $('#win').on('click', function(e) {
+      if (e.target !== this)
+        return;
+      toggleStats();
+    });
+
     function onReady(){
       secret_word = dict_small[Math.floor(Math.random()*dict_small.length)];
       //secret_word = 'porte';
       addTable();
       addKeyboard();
       resizeCells();
-
+      setWordLengthButtons();
       //toggleLose();
     }
 
@@ -160,6 +209,59 @@
       return !isNaN(str) && !isNaN(parseFloat(str))
     }
 
+    function setDarkMode(mode){
+      mode = parseInt(mode);
+      if (mode == -1){
+        mode = 1 - darkMode;
+      }
+      bg_color = window.getComputedStyle(document.documentElement).getPropertyValue('--bg-color');
+      if (mode == 0){
+        document.documentElement.style.setProperty('--bg-color', '#ffffff');
+        document.documentElement.style.setProperty('--bg-color2', 'rgba(255,255,255,0.5)');
+        document.documentElement.style.setProperty('--text-color', '#1a1a1b');
+        document.documentElement.style.setProperty('--cell-text-color', '#ffffff');
+        document.documentElement.style.setProperty('--cell-yellow', '#c9b458');
+        document.documentElement.style.setProperty('--cell-green', '#6aaa64');
+        document.documentElement.style.setProperty('--cell-grey', '#787c7e');
+        document.documentElement.style.setProperty('--border-color1', '#d3d6da');
+        document.documentElement.style.setProperty('--div-border', '#ffffff');
+        document.documentElement.style.setProperty('--border-color2', '#878a8c');
+        document.documentElement.style.setProperty('--keyboard-color', '#d3d6da');
+        $('.setting .knob').removeClass('selected');
+        $('.setting .switch').removeClass('selected');
+      }
+      else{
+        document.documentElement.style.setProperty('--bg-color', '#121213');
+        document.documentElement.style.setProperty('--bg-color2', 'rgba(0,0,0,0.5)');
+        document.documentElement.style.setProperty('--text-color', '#d7dadc');
+        document.documentElement.style.setProperty('--cell-text-color', '#d7dadc');
+        document.documentElement.style.setProperty('--cell-yellow', '#b59f3b');
+        document.documentElement.style.setProperty('--cell-green', '#538d4e');
+        document.documentElement.style.setProperty('--cell-grey', '#3a3a3c');
+        document.documentElement.style.setProperty('--div-border', '#1a1a1b');
+        document.documentElement.style.setProperty('--border-color1', '#3a3a3c');
+        document.documentElement.style.setProperty('--border-color2', '#565758');
+        document.documentElement.style.setProperty('--keyboard-color', '#818384');
+        $('.setting .knob').addClass('selected');
+        $('.setting .switch').addClass('selected');
+      }
+      darkMode = mode;
+      document.cookie = "dm="+darkMode+"; max-age=31536000; path=/";
+    }
+
+    function setWordLengthButtons(){
+      $('.green_button[onclick="setWordLength('+word_length+')"]').addClass('selected');
+    }
+
+    function setWordLength(length){
+      if (length == word_length){
+        return;
+      }
+      const urlParams = new URLSearchParams(window.location.search);
+      urlParams.set('wl', length);
+      window.location.search = urlParams;
+    }
+
     function toggleHelp(){
       if ($('#helpDiv').is(':visible')){
         $('#helpDiv').fadeOut(100);
@@ -171,7 +273,20 @@
       }
     }
 
-    function toggleWin(){
+    function toggleSetting(){
+      if ($('#settingDiv').is(':visible')){
+        $('#settingDiv').fadeOut(100);
+        $('#settingDiv').css('padding-top','50%');
+      }
+      else{
+        $('#settingDiv').fadeIn(100);
+        $('#settingDiv').css('padding-top','0%');
+      }
+    }
+
+    function toggleStats(){
+      updateCookies(0,false);
+      updateStats(0,false);
       if ($('#win').is(':visible')){
         $('#win').fadeOut(100);
         $('#win').css('padding-top','50%');
@@ -179,36 +294,31 @@
       else{
         $('#win').fadeIn(100);
         $('#win').css('padding-top','0%');
-        //$('#winWord').html('Vous avez trouvé le mot : <b>' + secret_word.toUpperCase() + '</b>');
         $('#winWord').hide();
-        if (done == false){
-          updateCookies(current_row - 1);
-          updateStats(current_row - 1);
-        }
       }
-      done = true;
+    }
+
+    function toggleWin(){
+      if (done == false){
+        done = true;
+        $('#winWord').html('');
+        toggleStats();
+        updateCookies(current_row - 1,true);
+        updateStats(current_row - 1,true);
+      }
     }
 
     function toggleLose(){
-      if ($('#win').is(':visible')){
-        $('#win').fadeOut(100);
-        $('#win').css('padding-top','50%');
-      }
-      else{
-        $('#winTitle').html('Dommage !');
-        $('#win').fadeIn(100);
-        $('#win').css('padding-top','0%');
+      if (done == false){
+        updateCookies(0,true);
+        updateStats(0,true);
+        done = true;
         $('#winWord').html('Le mot à trouver était : <b>' + secret_word.toUpperCase() + '</b>');
-        $('#winWord').show();
-        if (done == false){
-          updateCookies(0);
-          updateStats(0);
-        }
+        toggleStats();
       }
-      done = true;
     }
 
-    function updateCookies(attempts){
+    function updateCookies(attempts,add){
       const cookieValue = document.cookie.split('; ');
       distribution = [0,0,0,0,0,0,0];
       for (cookie of cookieValue){
@@ -216,20 +326,22 @@
           distribution[parseInt(cookie.charAt(0))] += parseInt(cookie.split('=')[1]);
         }
       }
-      distribution[attempts] += 1;
+      if (add){
+        distribution[attempts] += 1;
+      }
       for (var i = 0; i < 7; i++){
-        document.cookie = i+"="+distribution[i]+"; SameSite=None; Secure";
+        document.cookie = i+"="+distribution[i]+"; max-age=31536000; path=/";
       }
     }
 
-    function updateStats(tries){
+    function updateStats(tries,show){
       total = distribution.reduce((a, b) => a + b, 0) - distribution[0];
       for (var i = 1; i < 7; i++){
         $('.graph[tries='+i+']').html(distribution[i]);
         percentage = (distribution[i]/total);
         parentWidth = $('.graph[tries='+i+']').parent().width() - $('.graph[tries='+i+']').siblings('p').width();
         $('.graph[tries='+i+']').css('width',(percentage*parentWidth-40) +'px');
-        if (i == tries){
+        if (i == tries && show){
           $('.graph[tries='+i+']').addClass('current_row');
         }
       }
@@ -239,8 +351,9 @@
 
     function clearCookies(){
       for (var i = 0; i < 7; i++){
-        document.cookie = i+"=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+        document.cookie = i+"=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
       }
+      document.cookie = "dm=0; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
     }
 
     function resizeCells(){
@@ -257,11 +370,11 @@
     }
 
     function generateDicts(){
-      fetch('dict_small.txt')
+      fetch('dicts/small_'+word_length+'.txt')
       .then(response => response.text())
       .then((data) => {
         dict_small = data.split('\r').join('').split("\n");
-        fetch('dict_big.txt')
+        fetch('dicts/big_'+word_length+'.txt')
         .then(response => response.text())
         .then((data) => {
           dict_big = data.split('\r').join('').split("\n");
@@ -283,7 +396,7 @@
             window.location.reload();
           }
           else{
-            toggleWin();
+            toggleStats();
           }
         }
       } else if (event_charcode == 8) {
@@ -304,18 +417,18 @@
 
     function removeLetter(){
       children = $('#table tr[y=' + current_row + ']').children();
-      for (var i = 4; i >= 0; i--){
+      for (var i = word_length-1; i >= 0; i--){
         if (children[i].innerHTML != ''){
           children[i].innerHTML = '';
           $(children[i]).removeClass('filled');
-          $(child).css('animation','none');
+          $(children[i]).css('animation','none');
           break;
         }
       }
     }
 
     function guessWord(){
-      if ($('#table tr[y=' + current_row + ']').children('[x=5]')[0].innerHTML == ''){
+      if ($('#table tr[y=' + current_row + ']').children('[x='+word_length+']')[0].innerHTML == ''){
         return;
       }
       word = '';
@@ -329,12 +442,12 @@
       else{
         $('#notInList').fadeIn();
         $('#notInList').css('transform','translateY(0%)');
-        for (var i = 0; i < 5; i++){
+        for (var i = 0; i < word_length; i++){
             td = $('#table tr[y=' + current_row + ']').children('[x='+(i+1)+']');
             td.css('animation','none');
         }
         setTimeout((function(i){
-          for (var i = 0; i < 5; i++){
+          for (var i = 0; i < word_length; i++){
               td = $('#table tr[y=' + current_row + ']').children('[x='+(i+1)+']');
               td.css('animation','shakeLetter .5s ease-in-out 0s 1');
           }
@@ -378,7 +491,7 @@
           }
         }
       }
-      for (var i = 0; i < 5; i++){
+      for (var i = 0; i < word_length; i++){
         setTimeout((function(i){
           return function(){
             td = $('#table tr[y=' + (current_row - 1) + ']').children('[x='+(i+1)+']');
@@ -392,7 +505,7 @@
           }
         })(i),(300)+i/4*1000);
       }
-      if (correct_letters.length == 5){
+      if (correct_letters.length == word_length){
         setTimeout((function(){
           toggleWin();
         }),1500);
@@ -414,7 +527,7 @@
         var tr = document.createElement('tr');
         tr.setAttribute('y', i + 1);
         tableBody.appendChild(tr);
-        for (var j = 0; j < 5; j++) {
+        for (var j = 0; j < word_length; j++) {
           var td = document.createElement('td');
           td.className = 'undiscovered';
           td.setAttribute('x', j + 1);
@@ -447,7 +560,7 @@
           if (letter == 'SUPPR') {
             letterDiv.setAttribute('onclick','removeLetter()');
             letterDiv.className += ' special_key';
-            letterDiv.innerHTML = '<svg width="24" height="24"><path fill="#d7dadc" d="M22 3H7c-.69 0-1.23.35-1.59.88L0 12l5.41 8.11c.36.53.9.89 1.59.89h15c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H7.07L2.4 12l4.66-7H22v14zm-11.59-2L14 13.41 17.59 17 19 15.59 15.41 12 19 8.41 17.59 7 14 10.59 10.41 7 9 8.41 12.59 12 9 15.59z"></path></svg>'
+            letterDiv.innerHTML = '<svg width="24" height="24"><path d="M22 3H7c-.69 0-1.23.35-1.59.88L0 12l5.41 8.11c.36.53.9.89 1.59.89h15c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H7.07L2.4 12l4.66-7H22v14zm-11.59-2L14 13.41 17.59 17 19 15.59 15.41 12 19 8.41 17.59 7 14 10.59 10.41 7 9 8.41 12.59 12 9 15.59z"></path></svg>'
           }
           else if (letter == 'ENTER'){
             letterDiv.setAttribute('onclick','guessWord()');

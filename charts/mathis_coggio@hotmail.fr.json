@@ -239,14 +239,14 @@
     {
       "name": "Trei Degete",
       "url": "https://open.spotify.com/artist/1APMveRvLxWAB5AI0j11DD",
-      "time": 727,
+      "time": 871,
       "genres": [],
       "image": "https://i.scdn.co/image/ab67616d0000b273623c21f1d36873a5f059c092"
     },
     {
       "name": "Squeezie",
       "url": "https://open.spotify.com/artist/0xECfhlRzRRIIe2Co5HX6n",
-      "time": 727,
+      "time": 871,
       "genres": [
         "chanson virale"
       ],
@@ -255,7 +255,7 @@
     {
       "name": "Myd",
       "url": "https://open.spotify.com/artist/3QFiymmbJlVBPpnrOatEAk",
-      "time": 918,
+      "time": 1062,
       "genres": [
         "french indie pop",
         "french indietronica",
@@ -267,7 +267,7 @@
     {
       "name": "KronoMuzik",
       "url": "https://open.spotify.com/artist/7B53Suqn5TsVu6S6gIgqeA",
-      "time": 869,
+      "time": 1013,
       "genres": [],
       "image": "https://i.scdn.co/image/ab6761610000e5eb0c6fc4b2937da5a4e2de28d4"
     },
@@ -284,7 +284,7 @@
     {
       "name": "Elton John",
       "url": "https://open.spotify.com/artist/3PhoLpVuITZKcymswpck5b",
-      "time": 1182,
+      "time": 1347,
       "genres": [
         "glam rock",
         "mellow gold",
@@ -2826,7 +2826,7 @@
     {
       "name": "Herv\u00e9 Vilard",
       "url": "https://open.spotify.com/artist/1HkC0LOaynhYSGcNklyIcd",
-      "time": 394,
+      "time": 508,
       "genres": [
         "chanson",
         "ye ye"
@@ -3393,7 +3393,7 @@
     {
       "name": "2TH",
       "url": "https://open.spotify.com/artist/5FK0v12GGmqj8kzmiWDPRT",
-      "time": 1016,
+      "time": 1164,
       "genres": [
         "rap calme"
       ],
@@ -7112,7 +7112,7 @@
     {
       "name": "Max Richter",
       "url": "https://open.spotify.com/artist/2VZNmg4vCnew4Pavo8zDdW",
-      "time": 247,
+      "time": 1327,
       "genres": [
         "compositional ambient",
         "post-minimalism"
@@ -8158,6 +8158,100 @@
         "nyc pop"
       ],
       "image": "https://i.scdn.co/image/ab6761610000e5ebfdb83037e3a66dbe68deec9b"
+    },
+    {
+      "name": "Patrick Bruel",
+      "url": "https://open.spotify.com/artist/0vmrFTWCwK3gFGDzeUzeMg",
+      "time": 218,
+      "genres": [
+        "chanson",
+        "francoton",
+        "french pop",
+        "variete francaise"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd0bdc8079226442e1fc80218"
+    },
+    {
+      "name": "Gavin DeGraw",
+      "url": "https://open.spotify.com/artist/5DYAABs8rkY9VhwtENoQCz",
+      "time": 98,
+      "genres": [
+        "acoustic pop",
+        "dance pop",
+        "neo mellow",
+        "pop",
+        "pop rock"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebf2f44bd2dec7accb0e35ecc4"
+    },
+    {
+      "name": "Deutsches Filmorchester Babelsberg",
+      "url": "https://open.spotify.com/artist/3gGJa6qH96mfOdii1Wzuir",
+      "time": 197,
+      "genres": [
+        "german orchestra"
+      ],
+      "image": "https://i.scdn.co/image/ab67616d0000b27348de78e6a8e81e91501df92e"
+    },
+    {
+      "name": "Robert Ziegler",
+      "url": "https://open.spotify.com/artist/6c3mMiMnHQtu4mGWN87CFx",
+      "time": 197,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd51bbfedcb4c2dbaa47ea5e6"
+    },
+    {
+      "name": "Mari Samuelsen",
+      "url": "https://open.spotify.com/artist/670EXb4x6t2MAvRvqCixyx",
+      "time": 363,
+      "genres": [
+        "compositional ambient",
+        "experimental classical",
+        "neo-classical"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb05c3350064a844a5ba234f5e"
+    },
+    {
+      "name": "Konzerthausorchester Berlin",
+      "url": "https://open.spotify.com/artist/5HxMHFsUWX0VqOlmsoGrTj",
+      "time": 363,
+      "genres": [
+        "orchestra"
+      ],
+      "image": "https://i.scdn.co/image/ab6761610000e5eb65beae86d75c11f93fe94bfc"
+    },
+    {
+      "name": "Jonathan Stockhammer",
+      "url": "https://open.spotify.com/artist/2PIjtepywKZwGT0mZIumrW",
+      "time": 363,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab67616d0000b2738e0f7c3d9a9c12a637eb01d1"
+    },
+    {
+      "name": "Ben Russell",
+      "url": "https://open.spotify.com/artist/5BG0gerrHZFHPaIEi43FHB",
+      "time": 440,
+      "genres": [],
+      "image": "https://i.scdn.co/image/ab67616d0000b2733f7e0d6d013e97bb90c1abcb"
+    },
+    {
+      "name": "Yuki Numata Resnick",
+      "url": "https://open.spotify.com/artist/2TVn6PQxnrxlIq4F2Vz3Qs",
+      "time": 440,
+      "genres": [
+        "violin"
+      ],
+      "image": "https://i.scdn.co/image/ab67616d0000b2733f7e0d6d013e97bb90c1abcb"
+    },
+    {
+      "name": "Claude Barzotti",
+      "url": "https://open.spotify.com/artist/3rXJOlQbim2cC6I7wxAlrb",
+      "time": 206,
+      "genres": [
+        "chanson",
+        "french pop"
+      ],
+      "image": "https://i.scdn.co/image/c881a696e4a8016858487d018220e436aba3ffe9"
     }
   ],
   "songs": [
@@ -8248,7 +8342,7 @@
     {
       "name": "Time Time",
       "url": "https://open.spotify.com/track/5wKDPtbdggE1roeVp3UdXX",
-      "time": 727,
+      "time": 871,
       "image": "https://i.scdn.co/image/ab67616d0000b273623c21f1d36873a5f059c092",
       "artist": "Trei Degete"
     },
@@ -8262,7 +8356,7 @@
     {
       "name": "Your Song - Remastered",
       "url": "https://open.spotify.com/track/2bUXfclD8DwJwwUENtSCWu",
-      "time": 1182,
+      "time": 1347,
       "image": "https://i.scdn.co/image/ab67616d0000b27309724913b269c9c75c5b03d9",
       "artist": "Elton John"
     },
@@ -10152,7 +10246,7 @@
     {
       "name": "Ne fuis pas",
       "url": "https://open.spotify.com/track/0MsjqGeYAEPviKkIqFE0oy",
-      "time": 628,
+      "time": 776,
       "image": "https://i.scdn.co/image/ab67616d0000b2731e22630178b1dcf7f7109a73",
       "artist": "2TH"
     },
@@ -10663,7 +10757,7 @@
     {
       "name": "Nous",
       "url": "https://open.spotify.com/track/3qYSF6jnqd3jHauRzPnjFT",
-      "time": 187,
+      "time": 301,
       "image": "https://i.scdn.co/image/ab67616d0000b2731cca56ed5069767b70c5ca72",
       "artist": "Herv\u00e9 Vilard"
     },
@@ -13886,6 +13980,55 @@
       "time": 24,
       "image": "https://i.scdn.co/image/ab67616d0000b273d381b6e0d9ffb31c47080079",
       "artist": "alt-J"
+    },
+    {
+      "name": "Place des grands hommes",
+      "url": "https://open.spotify.com/track/20RHWjtCLr7ODGQEItdZXg",
+      "time": 218,
+      "image": "https://i.scdn.co/image/ab67616d0000b2737b8420ca49fa8270c3cdd7c9",
+      "artist": "Patrick Bruel"
+    },
+    {
+      "name": "I Don't Want to Be",
+      "url": "https://open.spotify.com/track/4vl2zwXsTmAxgu9iY0g6UK",
+      "time": 98,
+      "image": "https://i.scdn.co/image/ab67616d0000b27373e05d44cf2a571ccbc16e60",
+      "artist": "Gavin DeGraw"
+    },
+    {
+      "name": "Three Worlds: Music from Woolf Works / Orlando: Modular Astronomy",
+      "url": "https://open.spotify.com/track/6z491V07mxvHrdv2q3Fm87",
+      "time": 197,
+      "image": "https://i.scdn.co/image/ab67616d0000b2739906e7ba8214cab60e84fba7",
+      "artist": "Max Richter"
+    },
+    {
+      "name": "Vladimir's Blues",
+      "url": "https://open.spotify.com/track/6DNTZ1B05ZoJNcSC2Cxtjq",
+      "time": 80,
+      "image": "https://i.scdn.co/image/ab67616d0000b2739906e7ba8214cab60e84fba7",
+      "artist": "Max Richter"
+    },
+    {
+      "name": "November",
+      "url": "https://open.spotify.com/track/2NGhKPZdZk2pPZinWphTzh",
+      "time": 363,
+      "image": "https://i.scdn.co/image/ab67616d0000b2739906e7ba8214cab60e84fba7",
+      "artist": "Max Richter"
+    },
+    {
+      "name": "Dream 3 (in the midst of my life)",
+      "url": "https://open.spotify.com/track/3EyXb10ealj8U6xyYTB6i8",
+      "time": 440,
+      "image": "https://i.scdn.co/image/ab67616d0000b2739906e7ba8214cab60e84fba7",
+      "artist": "Max Richter"
+    },
+    {
+      "name": "Le rital",
+      "url": "https://open.spotify.com/track/5XB7oeubf0bYQTYLNwWgzQ",
+      "time": 206,
+      "image": "https://i.scdn.co/image/ab67616d0000b2739051ac6c80a95ade98c01d2e",
+      "artist": "Claude Barzotti"
     }
   ]
 }
