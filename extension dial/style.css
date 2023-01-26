@@ -30,7 +30,7 @@ body{
 #tabs{
   display: block;
   margin: 0 auto;
-  width:calc(410px*3 + 10px*6);
+  width:calc(410px*2 + 10px*6);
   margin-top: 200px;
   text-align: center;
 }
