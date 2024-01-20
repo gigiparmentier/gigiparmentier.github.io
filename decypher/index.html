@@ -226,7 +226,7 @@
                     decypher_letter = decypher_letter.toUpperCase();
                 }
                 is_punct = is_punctuation(letter);
-                if ((decypher_value != "") || (is_punct || (is_punct == false && index == -1))){
+                if ((decypher_value != "") || (is_punct || (is_punct == false && index == -1 && letter != " "))){
                     decypher += "<span class='discovered'>" + decypher_letter + "</span>";
                 }
                 else{
