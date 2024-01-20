@@ -44,9 +44,21 @@
             margin-bottom: 50px;
             margin-top: 25px;
         }
-        .discovered{
+        .undiscovered{
             color:white;
-            background-color: MediumSeaGreen;
+            background-color: black;
+        }
+        .discovered{
+            color:black;
+            background-color: white;
+        }
+        .discovered,.undiscovered{
+            padding: 5px;
+            padding-left: 2px;
+            padding-right: 2px;
+        }
+        #cypher_text{
+            line-height: 33px;
         }
     </style>
 </head>
@@ -213,16 +225,36 @@
                 if (is_uppercase){
                     decypher_letter = decypher_letter.toUpperCase();
                 }
-                is_punctuation = letter == "." || letter == "," || letter == "!" || letter == "?" || letter == ":" || letter == ";" || letter == "-" || letter == "'" || letter == "\"" || letter == "(" || letter == ")" || letter == "[" || letter == "]" || letter == "{" || letter == "}" || letter == "/" || letter == "\\" || letter == "<" || letter == ">" || letter == "&" || letter == "@" || letter == "#" || letter == "$" || letter == "%" || letter == "^" || letter == "*" || letter == "~" || letter == "`" || letter == " " || letter == "\n" || letter == "«" || letter == "»";
-                if ((decypher_value != "" || index == -1) && is_punctuation == false){
+                is_punct = is_punctuation(letter);
+                if ((decypher_value != "") || (is_punct || (is_punct == false && index == -1))){
                     decypher += "<span class='discovered'>" + decypher_letter + "</span>";
                 }
                 else{
-                    decypher += decypher_letter;
+                    decypher += "<span class='undiscovered'>" + decypher_letter + "</span>";
                 }
             }
             $("#cypher_text").html(decypher);
+            
+            $(".undiscovered").each(function(){
+                var letter = $(this).text();
+                var letter_before = $(this).prev().text();
+                var letter_after = $(this).next().text();
+                var is_punct = is_punctuation(letter);
+                var is_punct_before = is_punctuation(letter_before);
+                var is_punct_after = is_punctuation(letter_after);
+                if ((letter == ' ') &&
+                    ($(this).next().hasClass("discovered") || $(this).next().length == 0) &&
+                    ($(this).prev().hasClass("discovered"))){
+                    $(this).removeClass("undiscovered");
+                    $(this).addClass("discovered");
+                }
+            });
+            
             generate_used_letters();
+        }
+        function is_punctuation(letter){
+            var is_punct = letter == "." || letter == "’" || letter == "," || letter == "!" || letter == "?" || letter == ":" || letter == ";" || letter == "-" || letter == "'" || letter == "\"" || letter == "(" || letter == ")" || letter == "[" || letter == "]" || letter == "{" || letter == "}" || letter == "/" || letter == "\\" || letter == "<" || letter == ">" || letter == "&" || letter == "@" || letter == "#" || letter == "$" || letter == "%" || letter == "^" || letter == "*" || letter == "~" || letter == "`" || letter == "\n" || letter == "«" || letter == "»";
+            return is_punct;
         }
         function get_random_wikipedia_description(){
             console.log("get_random_wikipedia_description");
