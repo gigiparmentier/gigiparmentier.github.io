@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Decypher</title>
+    <meta charset="utf-8">
+    <style>
+        body{
+            margin-top:50px;
+            font-size: 20px;
+            font-family: monospace;
+            text-align: center;
+            transition: all 0.5s;
+        }
+        #info{
+            width: 500px;
+            font-style: italic;
+            margin: 0 auto;
+            opacity: 0.5;
+            font-size:15px;
+            margin-bottom: 50px;
+        }
+        table{
+            margin:0 auto;
+        }
+        input{
+            width: 20px;
+            height: 20px;
+            font-size: 20px !important;
+            font-family: monospace !important;
+            text-align: center;
+        }
+        .td_input,.td_letter,.td_arrow{
+            text-align: center;
+        }
+        progress{
+            width: 20px;
+        }
+        #cypher_text, #used_letters{
+            white-space: pre-wrap;
+            width: 700px;
+            margin:0 auto;
+        }
+        #used_letters{
+            text-align: center;
+            margin-bottom: 50px;
+            margin-top: 25px;
+        }
+        .discovered{
+            color:white;
+            background-color: MediumSeaGreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Decypher</h1>
+    <p id="info">Decryptez le texte ci-dessous en trouvant les lettres qui, une fois remplacées, forment le texte original. L'occurence des lettres telles qu'elles apparaissent
+        dans le texte encrypté sont indiquées.
+    </p>
+    <div id="cypher_table_div"></div>
+    <p id="used_letters"></p>
+    <p id="cypher_text">Chargement et encryptage d'un texte...</p>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        String.prototype.shuffle = function () {
+            var a = this.split(""),
+                n = a.length;
+
+            for(var i = n - 1; i > 0; i--) {
+                var j = Math.floor(Math.random() * (i + 1));
+                var tmp = a[i];
+                a[i] = a[j];
+                a[j] = tmp;
+            }
+            return a.join("");
+        };
+        $(document).ready(function(){
+            generate_cypher_text();
+        });
+        function generate_cypher_text(){
+            console.log("generate_cypher_text");
+            get_random_wikipedia_description().then(function(text){
+                cypher = generate_cypher();
+                cypher_text = "";
+                for(var i = 0; i < text.length; i++){
+                    var letter = text[i].toLowerCase();
+                    var is_uppercase = text[i] == text[i].toUpperCase();
+                    var index = cypher[1].indexOf(letter);
+                    if (index == -1){
+                        cypher_text += text[i];
+                    }
+                    else{
+                        if (is_uppercase){
+                            cypher_text += cypher[0][index].toUpperCase();
+                        }
+                        else{
+                            cypher_text += cypher[0][index];
+                        }
+                    }
+                }
+                console.log(cypher);
+                console.log(text);
+                console.log(cypher_text);
+                $("#cypher_text").text(cypher_text);
+                $("#cypher_text").attr("cypher",cypher[1]);
+                $("#cypher_text").attr("text",cypher_text);
+                $("#cypher_text").attr("real_text",text);
+                create_cypher_table();
+                update_cypher_text();
+            }).catch(function(){
+                generate_cypher_text();
+            });
+        }
+        function generate_used_letters(){
+            console.log("generate_used_letters");
+            var alphabet = "abcdefghijklmnopqrstuvwxyz";
+            var alphabet_length = alphabet.length;
+            var used_letters = alphabet;
+            var cypher_table = $("#cypher_table_div");
+            for(var i = 0; i < alphabet_length; i++){
+                var decypher_value = cypher_table.find(".td_input:eq(" + i + ")").find("input").val().toLowerCase();
+                if (decypher_value != ""){
+                    used_letters = used_letters.replace(decypher_value,"");
+                }
+            }
+            used_letters = used_letters.split("").join(",");
+            $("#used_letters").html("Lettres non utilisées :<br/>" + used_letters);
+        }
+        function generate_cypher(){
+            console.log("generate_cypher");
+            var alphabet = "abcdefghijklmnopqrstuvwxyz";
+            var cypher = [];
+            var cypher_text = alphabet.shuffle();
+            cypher.push(alphabet);
+            cypher.push(cypher_text);
+            return cypher;
+        }
+        function create_cypher_table(){
+            console.log("create_cypher_table");
+            var real_text = $("#cypher_text").attr('real_text');
+            var cypher = $("#cypher_text").attr('cypher');
+            var cypher_table = $("#cypher_table_div");
+            var alphabet = "abcdefghijklmnopqrstuvwxyz";
+            var alphabet_length = alphabet.length;
+            var table = "<table id='cypher_table'>";
+            //table += "<tr><th>Occurences</th><th>Lettre<br/>à<br/>remplacer</th><th>→</th><th>Lettre<br/>remplacée</th></tr>";
+            var max_occurences = 0;
+            for(var i = 0; i < alphabet_length; i++){
+                var nb_occurences = cypher_text.split(alphabet[i]).length - 1;
+                if (nb_occurences > max_occurences){
+                    max_occurences = nb_occurences;
+                }
+            }
+            table += "<tr>";
+            for(var i = 0; i < alphabet_length; i++){
+                var nb_occurences = cypher_text.toLowerCase().split(alphabet[i]).length - 1;
+                table += "<td><progress max='" + max_occurences + "' value='" + nb_occurences + "'>" + nb_occurences + "</progress></td>";
+            }
+            table += "</tr>";
+            table += "<tr>";
+            for(var i = 0; i < alphabet_length; i++){
+                table += "<td class='td_letter'>" + alphabet[i] + "</td>";
+            }
+            table += "</tr>";
+            table += "<tr>";
+            for(var i = 0; i < alphabet_length; i++){
+                table += "<td class='td_arrow'>↓</td>";
+            }
+            table += "</tr>";
+            table += "<tr class='table_tr'>";
+            for(var i = 0; i < alphabet_length; i++){
+                if (real_text.toLowerCase().indexOf(cypher.charAt(i)) == -1){
+                    table += "<td class='td_input'><input class='decypher_input' value='" + cypher.charAt(i) + "' disabled=true></td>";
+                }
+                else{
+                    table += "<td class='td_input'><input class='decypher_input'></td>";
+                }
+            }
+            table += "</tr>";
+            table += "</table>";
+            cypher_table.html(table);
+            $('.decypher_input').on('input',function(){
+                if ($(this).attr("disabled") == true){
+                    return;
+                }
+                update_cypher_text();
+                check_cypher();
+            });
+        };
+        function update_cypher_text(){
+            console.log("update_cypher_text");
+            var cypher_text = $("#cypher_text").attr("text");
+            var cypher = $("#cypher_text").attr("cypher");
+            var cypher_table = $("#cypher_table");
+            var alphabet = "abcdefghijklmnopqrstuvwxyz";
+            var alphabet_length = alphabet.length;
+            var decypher = "";
+            for(var i = 0; i < cypher_text.length; i++){
+                var is_uppercase = cypher_text[i] == cypher_text[i].toUpperCase();
+                var letter = cypher_text[i].toLowerCase();
+                var index = alphabet.indexOf(letter);
+                if (index == -1){
+                    var decypher_value = "";
+                }
+                else{
+                    var decypher_value = cypher_table.find(".td_input:eq(" + index + ")").find("input").val().toLowerCase();
+                }
+                var decypher_letter = decypher_value;
+                if (index == -1){
+                    decypher_letter = letter;
+                }
+                if (decypher_letter == ""){
+                    decypher_letter = letter;
+                }
+                if (is_uppercase){
+                    decypher_letter = decypher_letter.toUpperCase();
+                }
+                is_punctuation = letter == "." || letter == "," || letter == "!" || letter == "?" || letter == ":" || letter == ";" || letter == "-" || letter == "'" || letter == "\"" || letter == "(" || letter == ")" || letter == "[" || letter == "]" || letter == "{" || letter == "}" || letter == "/" || letter == "\\" || letter == "<" || letter == ">" || letter == "&" || letter == "@" || letter == "#" || letter == "$" || letter == "%" || letter == "^" || letter == "*" || letter == "~" || letter == "`" || letter == " " || letter == "\n" || letter == "«" || letter == "»";
+                if ((decypher_value != "" || index == -1) && is_punctuation == false){
+                    decypher += "<span class='discovered'>" + decypher_letter + "</span>";
+                }
+                else{
+                    decypher += decypher_letter;
+                }
+            }
+            $("#cypher_text").html(decypher);
+            generate_used_letters();
+        }
+        function get_random_wikipedia_description(){
+            console.log("get_random_wikipedia_description");
+            return new Promise(function(resolve, reject) {
+                var url = "https://fr.wikipedia.org/api/rest_v1/page/random/summary";
+                $.ajax({
+                    url: url,
+                    type: "GET",
+                    success: function(result){
+                        var title = result.title;
+                        var description = result.description;
+                        var extract = result.extract;
+                        var url = result.content_urls.desktop.page;
+                        if (extract.length < 250){
+                            reject();
+                        }
+                        else{
+                            resolve(extract);
+                        }
+                    }
+                });
+            });
+        }
+        function check_cypher(){
+            console.log("check_cypher");
+            var cypher_text = $("#cypher_text").attr("text");
+            var cypher = $("#cypher_text").attr("cypher");
+            var cypher_table = $("#cypher_table");
+            var alphabet = "abcdefghijklmnopqrstuvwxyz";
+            var alphabet_length = alphabet.length;
+            var decypher = "";
+            for(var i = 0; i < alphabet.length; i++){
+                var decypher_value = cypher_table.find(".td_input:eq(" + i + ")").find("input").val().toLowerCase();
+                decypher += decypher_value;
+            }
+            if (decypher == cypher){
+                alert("Décryptage terminé !");
+            }
+        }
+    </script>
+</body>
+</html>
