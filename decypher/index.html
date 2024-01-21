@@ -242,9 +242,7 @@
                 var is_punct = is_punctuation(letter);
                 var is_punct_before = is_punctuation(letter_before);
                 var is_punct_after = is_punctuation(letter_after);
-                if ((letter == ' ') &&
-                    ($(this).next().hasClass("discovered") || $(this).next().length == 0) &&
-                    ($(this).prev().hasClass("discovered"))){
+                if ((letter == ' ') && ($(this).next().hasClass("discovered") || ($(this).next().length == 0) || $(this).prev().hasClass("discovered"))){
                     $(this).removeClass("undiscovered");
                     $(this).addClass("discovered");
                 }
