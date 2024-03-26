@@ -41,13 +41,13 @@
 қара:black:noir
 оқасы жоқ:you're welcome:derien
 аға:brother:frère
-апке:sister:soeur
+әпке:sister:soeur
 бір:one,1:un,1
 екі:two,2:deux,2
-үк:three,3:trois,3
+үш:three,3:trois,3
 төрт:four,4:quatre,4
 бес:five,5:cinq,5
-алте:six,6:six,6
+алты:six,6:six,6
 жеті:seven,7:sept,7
 сегіз:eight,8:huit,8
 тоғыз:nine,9:neuf,9
@@ -57,3 +57,26 @@
 қырық:fourty,40:quarante,40
 елу:fifty,50:cinquante,50
 жүз:hundred,100:cent,100
+иә:yes:oui
+Жоқ:no:non
+айтпа:exactly,right:exactement
+Тағы да:again,more:encore,plus
+өтінемін:please:s'il-te-plaît,s'il-vous-plait,svp,stp
+Бол:be:être
+сау:healthy:en bonne santé
+ғой:though,tho:par contre
+тек:only;seulement
+әр:each:chacun,chaque,chacune
+адам:person:personne
+Қалайсың:how are you?:comment vas-tu?
+Қайырлы:good:bien,bon
+таң:morning:matin
+Смешно:soon:bientôt
+Бүгін:today:aujourd'hui
+Ертең:tomorrow:demain
+Бірақ:but:mais
+Өте:very:très
+Не:what:quoi
+Неге:why:pourquoi
+Қашан:when:quand
+Қайда:where:où

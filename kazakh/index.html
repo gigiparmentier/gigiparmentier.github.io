@@ -17,9 +17,14 @@
     </div>
     <script>
         $(document).ready(function(){
-            $.get("https://gigiparmentier.github.io/kazakh/words.txt", function(data) {
-                var lines = data.split("\n");
+            //var url = "https://drive.google.com/uc?export=download&id=1Ae5XP-kzPitGzaMWXx_iJGIp_dGZGBwb";
+            //var url = "https://googledrive.com/host/1Ae5XP-kzPitGzaMWXx_iJGIp_dGZGBwb";
+            var url = "https://gigiparmentier.github.io/kazakh/words.txt";
+            $.get(url, function(data) {
+                var lines = data.split("\n").reverse();
                 var wordsDiv = $("#words");
+
+                $('#search_bar').attr('placeholder', 'Search in ' + lines.length + ' words...');
 
                 lines.forEach(function(line) {
                     var parts = line.split(":");

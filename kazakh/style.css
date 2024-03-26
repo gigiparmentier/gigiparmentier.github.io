@@ -56,6 +56,7 @@ h1{
     font-weight: 400;
     font-style: normal;
     cursor: pointer;
+    text-transform: lowercase;
 }
 
 .word:nth-child(7n){
