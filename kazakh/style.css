@@ -12,7 +12,7 @@ h1{
 }
 
 #search_bar{
-    height:50px;
+    height:65px;
     width:750px;
     display:block;
     margin:0 auto;
@@ -22,7 +22,7 @@ h1{
     border:none;
     background-color:#e1e0d9;
     background-image: url('searchicon.png');
-    background-position: 10px 15px; 
+    background-position: 10px 22.5px; 
     background-repeat: no-repeat;
     padding-left:50px;
     font-size:20px;
@@ -78,4 +78,14 @@ h1{
 }
 .word:nth-child(7n+6){
     background-color:#e6b8b8;
+}
+
+@media only screen and (max-width: 700px) {
+    #search_bar{
+        width: 80%;
+    }
+
+    #words{
+        width:90%;
+    }
 }

@@ -26,6 +26,10 @@
                     var k_words = parts[0].trim();
                     var e_words = parts[1].trim();
                     var f_words = parts[2].trim();
+
+                    k_words = k_words.replace(/,/g,", ");
+                    e_words = e_words.replace(/,/g,", ");
+                    f_words = f_words.replace(/,/g,", ");
                     
                     var wordElement = $("<p>").text(k_words + ' : ' + e_words);
                     wordElement.attr('k_words', k_words);
@@ -48,6 +52,12 @@
                         $(this).hide();
                     }
                 });
+            });
+            $('#search_bar').on('blur',function () { 
+                var blurEl = $(this); 
+                setTimeout(function() {
+                    blurEl.focus()
+                }, 10);
             });
         });
     </script>
