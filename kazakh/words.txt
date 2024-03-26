@@ -65,7 +65,7 @@
 Бол:be:être
 сау:healthy:en bonne santé
 ғой:though,tho:par contre
-тек:only;seulement
+тек:only:seulement
 әр:each:chacun,chaque,chacune
 адам:person:personne
 Қалайсың:how are you?:comment vas-tu?
