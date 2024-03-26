@@ -64,7 +64,7 @@
 өтінемін:please:s'il-te-plaît,s'il-vous-plait,svp,stp
 Бол:be:être
 сау:healthy:en bonne santé
-ғой:though,tho:par contre
+ғой:though:par contre
 тек:only:seulement
 әр:each:chacun,chaque,chacune
 адам:person:personne

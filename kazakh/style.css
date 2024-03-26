@@ -58,7 +58,7 @@ h1{
 }
 
 #words{
-    height:400px;
+    max-height:400px;
     width:750px;
     margin: 0 auto;
     display:flex;

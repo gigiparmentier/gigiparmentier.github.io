@@ -12,7 +12,7 @@
 </head>
 <body>
     <h1 id="title">My kazakh words</h1>
-    <input id="search_bar" type="text" id="search_input" placeholder="Search words..." autofocus>
+    <input id="search_bar" type="text" id="search_input" placeholder="" autofocus>
     <div id="words_outer"><div id="words"></div></div></div>
     <script>
         var words_list = [];
@@ -25,7 +25,7 @@
                 var lines = data.split("\n").reverse();
                 var wordsDiv = $("#words");
 
-                $('#search_bar').attr('placeholder', 'Search in ' + lines.length + ' words...');
+                $('#search_bar').attr('placeholder', 'Search in ' + lines.length + ' words');
 
                 lines.forEach(function(line) {
                     var parts = line.split(":");
