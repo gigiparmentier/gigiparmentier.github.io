@@ -14,20 +14,25 @@
     </div>
     <script>
         $(document).ready(function(){
-            $.get("words.txt", function(data) {
+            $.get("https://gigiparmentier.github.io/kazakh/words.txt", function(data) {
+                console.log(data);
                 var lines = data.split("\n");
+                console.log(lines);
                 var wordsDiv = $("#words");
 
                 lines.forEach(function(line) {
+                    console.log(line);
                     var parts = line.split(":");
-                    var word = parts[0].trim();
-                    var translation = parts[1].trim();
-
-                    var wordElement = $("<p>").text(word);
-                    var translationElement = $("<p>").text(translation);
+                    var k_words = parts[0].trim();
+                    var e_words = parts[1].trim();
+                    var f_words = parts[2].trim();
+                    
+                    var wordElement = $("<p>").text(k_words + '->' + e_words);
+                    wordElement.attr('k_words', k_words);
+                    wordElement.attr('e_words', e_words);
+                    wordElement.attr('f_words', f_words);
 
                     wordsDiv.append(wordElement);
-                    wordsDiv.append(translationElement);
                 });
             });
         });

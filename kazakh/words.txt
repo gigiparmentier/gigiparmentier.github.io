@@ -39,7 +39,7 @@
 жеу:eat:manger
 іш:drink:boire
 қара:black:noir
-оқасы жоқ:you're welcome,derien
+оқасы жоқ:you're welcome:derien
 аға:brother:frère
 апке:sister:soeur
 бір:one,1:un,1
