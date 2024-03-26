@@ -69,7 +69,7 @@
 әр:each:chacun,chaque,chacune
 адам:person:personne
 Қалайсың:how are you?:comment vas-tu?
-Қайырлы:good:bien,bon
+Қайырлы:gracious,good:gracieux,bon
 таң:morning:matin
 Смешно:soon:bientôt
 Бүгін:today:aujourd'hui
@@ -81,4 +81,4 @@
 Қашан:when:quand
 Қайда:where:où
 гүл:flower:fleur
-үи:house:maison
+үй:house:maison

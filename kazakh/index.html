@@ -13,9 +13,10 @@
 <body>
     <h1 id="title">My kazakh words</h1>
     <input id="search_bar" type="text" id="search_input" placeholder="Search words..." autofocus>
-    <div id="words">
-    </div>
+    <div id="words_outer"><div id="words"></div></div></div>
     <script>
+        var words_list = [];
+        
         $(document).ready(function(){
             //var url = "https://drive.google.com/uc?export=download&id=1Ae5XP-kzPitGzaMWXx_iJGIp_dGZGBwb";
             //var url = "https://googledrive.com/host/1Ae5XP-kzPitGzaMWXx_iJGIp_dGZGBwb";
@@ -35,6 +36,7 @@
                     k_words = k_words.replace(/,/g,", ");
                     e_words = e_words.replace(/,/g,", ");
                     f_words = f_words.replace(/,/g,", ");
+                    words_list.push({k_words: k_words, e_words: e_words, f_words: f_words});
                     
                     var wordElement = $("<p>").text(k_words + ' : ' + e_words);
                     wordElement.attr('k_words', k_words);
