@@ -35,14 +35,15 @@ h1{
 
 #words{
     width:750px;
-    display:block;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     margin: 0 auto;
-    column-count: 2;
 }
   
 .word{
-    margin:0 auto;
-    margin-top:auto;
+    margin-left:2px;
+    margin-right:2px;
     margin-bottom: 10px;
     padding:5px;
     padding-left:15px;

@@ -80,3 +80,5 @@
 Неге:why:pourquoi
 Қашан:when:quand
 Қайда:where:où
+гүл:flower:fleur
+үи:house:maison
