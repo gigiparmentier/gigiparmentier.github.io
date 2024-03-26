@@ -1,0 +1,81 @@
+html{
+    margin:0 auto;
+    background-color:#eff0f4;
+    color:black;
+    font-family: "Balsamiq Sans", sans-serif;
+}
+
+h1{
+    font-weight: 700;
+    text-align: center;
+    font-size: 60px;
+}
+
+#search_bar{
+    height:50px;
+    width:750px;
+    display:block;
+    margin:0 auto;
+    margin-bottom:50px;
+    margin-top:50px;
+    border-radius:10px;
+    border:none;
+    background-color:#e1e0d9;
+    background-image: url('searchicon.png');
+    background-position: 10px 15px; 
+    background-repeat: no-repeat;
+    padding-left:50px;
+    font-size:20px;
+    font-family: "Balsamiq Sans", sans-serif;
+}
+
+#search_bar:focus{
+    outline:none;
+}
+
+#words{
+    width:750px;
+    display:block;
+    margin: 0 auto;
+    column-count: 2;
+}
+  
+.word{
+    margin:0 auto;
+    margin-top:auto;
+    margin-bottom: 10px;
+    padding:5px;
+    padding-left:15px;
+    padding-right:15px;
+    width:fit-content;
+    border:1.5px solid black;
+    border-bottom: 3px solid black;
+    border-radius:10px;
+    text-align:center;
+    font-size:20px;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.word:nth-child(7n){
+    background-color:#fbc59f;
+}
+.word:nth-child(7n+1){
+    background-color:#f4eb84;
+}
+.word:nth-child(7n+2){
+    background-color:#c499e0;
+}
+.word:nth-child(7n+3){
+    background-color:#f39f95;
+}
+.word:nth-child(7n+4){
+    background-color:#a9e3bb;
+}
+.word:nth-child(7n+5){
+    background-color:#a6cdf4;
+}
+.word:nth-child(7n+6){
+    background-color:#e6b8b8;
+}

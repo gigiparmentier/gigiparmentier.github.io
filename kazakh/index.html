@@ -5,29 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kazakh Language</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="search_bar">
-        <input type="text" id="search_input" placeholder="">
-    </div>
+    <h1 id="title">My kazakh words</h1>
+    <input id="search_bar" type="text" id="search_input" placeholder="Search words..." autofocus>
     <div id="words">
     </div>
     <script>
         $(document).ready(function(){
             $.get("https://gigiparmentier.github.io/kazakh/words.txt", function(data) {
-                console.log(data);
                 var lines = data.split("\n");
-                console.log(lines);
                 var wordsDiv = $("#words");
 
                 lines.forEach(function(line) {
-                    console.log(line);
                     var parts = line.split(":");
                     var k_words = parts[0].trim();
                     var e_words = parts[1].trim();
                     var f_words = parts[2].trim();
                     
-                    var wordElement = $("<p>").text(k_words + '->' + e_words);
+                    var wordElement = $("<p>").text(k_words + ' : ' + e_words);
                     wordElement.attr('k_words', k_words);
                     wordElement.attr('e_words', e_words);
                     wordElement.attr('f_words', f_words);
@@ -36,7 +36,7 @@
                     wordsDiv.append(wordElement);
                 });
             });
-            $("#search_input").on("input", function() {
+            $("#search_bar").on("input", function() {
                 var searchValue = $(this).val().toLowerCase();
                 $(".word").each(function() {
                     var kWords = $(this).attr("k_words").toLowerCase();

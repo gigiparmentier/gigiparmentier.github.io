@@ -19,7 +19,7 @@
 емес:not:pas
 мен,және:and:et
 доп:ball:balle
-мен:i,me:je,moi
+мен:I,me:je,moi
 сен:you:tu,toi
 жаман:bad:mauvais
 жақсы:good:bon
