@@ -87,37 +87,100 @@
         $(document).ready(function(){
             generate_cypher_text();
         });
+        function get_random_wikipedia_description(){
+            console.log("get_random_wikipedia_description");
+            var myHeaders = new Headers();
+            myHeaders.append('Content-Type','text/plain; charset=UTF-8');
+            fetch("articles.txt", {headers: myHeaders})
+            .then((res) => res.text())
+            .then((text) => {
+                var articles = text.split("\r\n").slice(0,-1);
+                console.log(articles[articles.length - 2]);
+                return new Promise(function(resolve, reject) {
+                    var url = "https://fr.wikipedia.org/api/rest_v1/page/summary/" + articles[articles.length - 2];
+                    $.ajax({
+                        url: url,
+                        type: "GET",
+                        success: function(result){
+                            var title = result.title;
+                            var description = result.description;
+                            var extract = result.extract;
+                            var url = result.content_urls.desktop.page;
+                            console.log(extract);
+                            if (extract.length < 250){
+                                reject();
+                            }
+                            else{
+                                resolve(extract);
+                            }
+                        }
+                    });
+                });
+            })
+            .catch((e) => reject());
+        }
+        function get_days_since_begin(){
+            console.log("get_days_since_date");
+            var date = new Date();
+            var date_begin = new Date("2024-03-01");
+            var days = Math.floor((date - date_begin) / (1000 * 60 * 60 * 24));
+            console.log(days);
+            return days;
+        }
         function generate_cypher_text(){
             console.log("generate_cypher_text");
-            get_random_wikipedia_description().then(function(text){
-                cypher = generate_cypher();
-                cypher_text = "";
-                for(var i = 0; i < text.length; i++){
-                    var letter = text[i].toLowerCase();
-                    var is_uppercase = text[i] == text[i].toUpperCase();
-                    var index = cypher[1].indexOf(letter);
-                    if (index == -1){
-                        cypher_text += text[i];
-                    }
-                    else{
-                        if (is_uppercase){
-                            cypher_text += cypher[0][index].toUpperCase();
+            var myHeaders = new Headers();
+            myHeaders.append('Content-Type','text/plain; charset=UTF-8');
+            fetch("articles.txt", {headers: myHeaders})
+            .then((res) => res.text())
+            .then((text) => {
+                var articles = text.split("\r\n").slice(0,-1);
+                return new Promise(function(resolve, reject) {
+                    var days = get_days_since_begin();
+                    var url = "https://fr.wikipedia.org/api/rest_v1/page/summary/" + articles[days];
+                    console.log(url);
+                    $.ajax({
+                        url: url,
+                        type: "GET",
+                        success: function(result){
+                            var title = result.title;
+                            var description = result.description;
+                            var extract = result.extract;
+                            var url = result.content_urls.desktop.page;
+                            
+                            text = extract;
+                            cypher = generate_cypher();
+                            cypher_text = "";
+                            for(var i = 0; i < text.length; i++){
+                                var letter = text[i].toLowerCase();
+                                var is_uppercase = text[i] == text[i].toUpperCase();
+                                var index = cypher[1].indexOf(letter);
+                                if (index == -1){
+                                    cypher_text += text[i];
+                                }
+                                else{
+                                    if (is_uppercase){
+                                        cypher_text += cypher[0][index].toUpperCase();
+                                    }
+                                    else{
+                                        cypher_text += cypher[0][index];
+                                    }
+                                }
+                            }
+                            console.log(cypher);
+                            console.log(text);
+                            console.log(cypher_text);
+                            $("#cypher_text").text(cypher_text);
+                            $("#cypher_text").attr("cypher",cypher[1]);
+                            $("#cypher_text").attr("text",cypher_text);
+                            $("#cypher_text").attr("real_text",text);
+                            create_cypher_table();
+                            update_cypher_text();
                         }
-                        else{
-                            cypher_text += cypher[0][index];
-                        }
-                    }
-                }
-                console.log(cypher);
-                console.log(text);
-                console.log(cypher_text);
-                $("#cypher_text").text(cypher_text);
-                $("#cypher_text").attr("cypher",cypher[1]);
-                $("#cypher_text").attr("text",cypher_text);
-                $("#cypher_text").attr("real_text",text);
-                create_cypher_table();
-                update_cypher_text();
-            }).catch(function(){
+                    });
+                });
+            })
+            .catch(function(){
                 generate_cypher_text();
             });
         }
@@ -253,28 +316,6 @@
         function is_punctuation(letter){
             var is_punct = letter == "." || letter == "’" || letter == "," || letter == "!" || letter == "?" || letter == ":" || letter == ";" || letter == "-" || letter == "'" || letter == "\"" || letter == "(" || letter == ")" || letter == "[" || letter == "]" || letter == "{" || letter == "}" || letter == "/" || letter == "\\" || letter == "<" || letter == ">" || letter == "&" || letter == "@" || letter == "#" || letter == "$" || letter == "%" || letter == "^" || letter == "*" || letter == "~" || letter == "`" || letter == "\n" || letter == "«" || letter == "»";
             return is_punct;
-        }
-        function get_random_wikipedia_description(){
-            console.log("get_random_wikipedia_description");
-            return new Promise(function(resolve, reject) {
-                var url = "https://fr.wikipedia.org/api/rest_v1/page/random/summary";
-                $.ajax({
-                    url: url,
-                    type: "GET",
-                    success: function(result){
-                        var title = result.title;
-                        var description = result.description;
-                        var extract = result.extract;
-                        var url = result.content_urls.desktop.page;
-                        if (extract.length < 250){
-                            reject();
-                        }
-                        else{
-                            resolve(extract);
-                        }
-                    }
-                });
-            });
         }
         function check_cypher(){
             console.log("check_cypher");

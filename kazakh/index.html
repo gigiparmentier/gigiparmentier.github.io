@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kazakh Language</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div id="search_bar">
+        <input type="text" id="search_input" placeholder="">
+    </div>
+    <div id="words">
+    </div>
+    <script>
+        $(document).ready(function(){
+            $.get("words.txt", function(data) {
+                var lines = data.split("\n");
+                var wordsDiv = $("#words");
+
+                lines.forEach(function(line) {
+                    var parts = line.split(":");
+                    var word = parts[0].trim();
+                    var translation = parts[1].trim();
+
+                    var wordElement = $("<p>").text(word);
+                    var translationElement = $("<p>").text(translation);
+
+                    wordsDiv.append(wordElement);
+                    wordsDiv.append(translationElement);
+                });
+            });
+        });
+    </script>
+</body>
+</html>

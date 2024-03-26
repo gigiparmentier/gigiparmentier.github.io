@@ -1,0 +1,158 @@
+On a donc, pour une turbulence homogène stationnaire :
+$$
+    du_i = \left(L_{ij}(u_j- \widetilde{u_j})\right)dt + \sqrt{C_0k\omega}dW
+$$
+$$
+    d\omega = -C_\chi\omega\overline{\omega}\left(ln\left(\frac{\omega}{\overline{\omega}}\right)-\frac{1}{2}\sigma^2\right)dt + \omega\sqrt{2C_\chi\overline{\omega}\sigma^2}dW
+$$
+Le terme de dérive est obtenu en modélisant l'évolution de la variable $\chi = ln\left(\frac{\omega}{\overline{\omega}}\right)$ comme un processus d'Ornstein-Uhlenbeck, avec $\overline{\chi} = -\frac{1}{2}\sigma^2$. Ainsi, on obtient, par $\omega = \overline{\omega}exp(\chi)$, une équation d'évolution de la fréquence turbulente dont la distribution stationnaire est lognormale.
+
+
+On définit $L_{ij}$ comme :
+\begin{equation}
+    L_{ij} = G_{ij} - \frac{3}{4}C_0\left[(\omega-\overline{\omega}) + \Delta C_0\overline{\omega}\right]A_{ij}^{-1}
+\end{equation}
+Avec $A_{ij} = \frac{3\overline{u_i''u_j''}}{2k}$, $k = \frac{1}{2}\overline{ u_i''^2}$ et $\Delta C_0 = 3.5-2.1$. On considère un $\Delta C_0$ car la valeur expérimentale du coefficient $C_0$ pour le RLM (3.5) est différente de celle expérimentale pour le GLM (2.1). Or, on veut que l'équation de Fokker-Planck des deux modèles mène à la même évolution. On obtient donc un nouveau $L_{ij}$ pour le RLM, qui prend en compte à la fois la valeur de $C_0 = 3.5$, et la bonne évolution Fokker-Planck.
+
+
+Le tenseur $A_{ij}$ est une mesure de l'anisotropie du fluide, si on le considère isotrope, on a donc $A_{ij} = A_{ij}^{-1} = \delta_{ij}$, et $G_{ij} = -(\frac{1}{2} + \frac{3}{4}C_0)\overline{\omega}\delta_{ij}$, soit :
+\begin{equation*}
+    L_{ij} = -(\frac{1}{2} + \frac{3}{4}C_0)\overline{\omega}\delta_{ij} - \frac{3}{4}C_0\left[(\omega-\overline{\omega}) + \Delta C_0\overline{\omega}\right]\delta_{ij} = -\left[\frac{1}{2}\overline{\omega} + \frac{3}{4}\left(C_0\omega + \Delta C_0\overline{\omega}\right)\right]\delta_{ij}
+\end{equation*}
+-$\sigma^2$ = 1.0 est la variance de $ln\left(\frac{\omega}{\overline{\omega}}\right)$ et $C_\chi = 1.6$ une constante du modèle, valeurs obtenues par comparaison avec des données de Simulation Numérique Directes (DNS).
+
+
+Pour une turbulence inhomogène et non stationnaire, on obtient :
+$$
+    du_i = \left(-\frac{1}{\overline{\rho}}\frac{\partial \overline{p}}{\partial x_i} + g_i + L_{ij}(u_j- \widetilde{u_j})\right)dt + \sqrt{C_0k\omega}dW
+$$$$
+    d\omega = -\omega\widetilde{\omega}\left[S_\omega + C_\chi\left(ln\left(\frac{\omega}{\widetilde{\omega}}\right)-\widetilde{\frac{\omega}{\widetilde{\omega}}ln\left(\frac{\omega}{\widetilde{\omega}}\right)}\right)\right]dt  + \widetilde{\omega}^2hdt + \omega\sqrt{2C_\chi\widetilde{\omega}\sigma^2}dW
+$$
+Où :
+
+-On a un nouveau terme de dérive $\widetilde{\omega}^2h$. Sans ce terme, une particule fluide ayant une fréquence turbulente $\omega$ nulle le restera indéfiniment, même en présence de particules voisines ayant une fréquence non nulle. Ce terme permet donc à une particule de fréquence nulle de devenir turbulente dans un environnement turbulent, afin de modéliser correctement l'évolution de la turbulence mesurée expérimentalement.
+
+-On a un terme source  $S_\omega$ de l'équation de dissipation, défini par :
+\begin{equation}
+    \frac{d\widetilde{\omega}}{dt} = -\widetilde{\omega}^2S_\omega
+\end{equation}
+
+$S_\omega$ rend donc compte du caractère non stationnaire de la turbulence. On retrouve bien un $S_\omega$ nul comme dans l'équation, dans le cas d'une turbulence stationnaire. Le modèle $k-\varepsilon$ fournit une prescription sur la forme de $S_\omega$ :
+\begin{equation*}
+    S_\omega = (C_{\varepsilon 2} - 1) - (C_{\varepsilon 1} - 1)\frac{P_{ii}}{\overline{\varepsilon}}
+\end{equation*}
+avec $P_{ij} = - \widetilde{u_i''u_k''}\frac{\partial \widetilde{ u_j}}{\partial x_k} - \widetilde{u_j''u_k''}\frac{\partial \widetilde{u_i}}{\partial x_k}$ le tenseur de production, soit $P_{ii} = -2\widetilde{ u_i''u_k''}\frac{\partial \widetilde{ u_i}}{\partial x_k}$, et donc :
+\begin{equation*}
+    S_\omega = (C_{\varepsilon 2} - 1) +2 (C_{\varepsilon 1} - 1)\frac{\widetilde{ u_i''u_k''}}{\widetilde{\varepsilon}}\frac{\partial \widetilde{ u_i}}{\partial x_k}
+\end{equation*}
+Et $C_{\varepsilon 1} = 1.45$ et $C_{\varepsilon 2} = 1.90$ des constantes du modèle, dont les valeurs sont issues de Pope.
+
+
+
+Sachant qu'on modélise un système à une dimension, selon l'axe z, on a $\frac{\partial \widetilde{u_i}}{\partial x_k} \neq 0$ pour $k=2$ ($x_{k=2} = z$) seulement. On a donc :
+\begin{equation}
+    P_{ii} = -2\widetilde{u_v''u_v''}\frac{\partial \widetilde{u_v}}{\partial z} - 2\left[2\widetilde{u_h''u_v''}\frac{\partial \widetilde{u_h}}{\partial z}\right]
+\end{equation}
+En faisant l'hypothèse que les termes de Reynolds croisés $\widetilde{u_h''u_v''}$ sont très faibles devant ceux diagonaux, qu'on vérifiera plus tard, on peut les négliger et simplifier l'expression de la trace du tenseur de production :
+\begin{equation}
+    P_{ii} = -2\widetilde{u_v''u_v''}\frac{\partial \widetilde{u_v}}{\partial z}
+\end{equation}
+
+Le terme $\frac{1}{2}\sigma^2$ de l'équation devient $\widetilde{\frac{\omega}{\widetilde{\omega}}ln\left(\frac{\omega}{\widetilde{\omega}}\right)}$ pour toujours vérifier une moyenne nulle du terme de dérive malgré la turbulence non homogène.
+ 
+Enfin, on revient sur notre hypothèse de fluide isotrope, soit sur l'hypothèse $A_{ij} = A_{ij}^{-1} = \delta_{ij}$. On rappelle l'expression générale des composantes du tenseur $A_{ij}$, puis on exprime ce tenseur dans notre système 1D, cette fois sans hypothèse sur l'isotropie :
+ \begin{equation}
+     A_{ij} = \frac{3\widetilde{u_i''u_j''}}{2k} \rightarrow A = \frac{3}{\widetilde{u_k''u_k''}}
+    \begin{bmatrix}
+        \widetilde{u_i''u_i''} & \widetilde{u_i''u_j''}\\
+        \widetilde{u_j''u_i''} & \widetilde{u_j''u_j''}
+    \end{bmatrix} =  \frac{3}{\widetilde{u_v''^2} + 2\widetilde{u_h''^2}}
+    \begin{bmatrix}
+        \widetilde{u_v''^2} & \widetilde{u_v''u_h''}\\
+        \widetilde{u_h''u_v''} & \widetilde{u_h''^2}
+    \end{bmatrix}
+ \end{equation}
+ Soit, par inversion :
+ \begin{equation}
+    A^{-1} = \underbrace{\frac{(\widetilde{u_v''^2} + 2\widetilde{u_h''^2})}{3}\frac{1}{\widetilde{u_v''^2}\widetilde{u_h''^2} - (\widetilde{u_v''u_h''})^2}}_\text{$C_A$}
+     \begin{bmatrix}
+        \widetilde{u_h''^2} & -\widetilde{u_v''u_h''}\\
+        -\widetilde{u_h''u_v''} & \widetilde{u_v''^2}
+    \end{bmatrix} = C_A \begin{bmatrix}
+        \widetilde{u_h''^2} & -\widetilde{u_v''u_h''}\\
+        -\widetilde{u_h''u_v''} & \widetilde{u_v''^2}
+    \end{bmatrix}
+ \end{equation}
+Une approximation peut également être faite pour procéder à l'inversion du tenseur $A$ si on considère que les composantes hors-diagonales (soit les termes de Reynolds croisés $\widetilde{u_i''u_j''}$ avec $i\neq j$) sont nulles. En réalité, ces termes croisés seront toujours beaucoup plus faibles que les termes quadratiques $\widetilde{u_i''^2}$ (mathématiquement car les termes croisés $u_i''u_j''$ étant additionnés dans la moyenne n'ont pas de raison de tous avoir le même signe, physiquement car le tenseur de dérive $G_{ij}$ ne s'éloigne pas trop de l'isotropie), ce qui justifie l'hypothèse faite. Ainsi, le tenseur $A$ est diagonal et l'inversion est simplement donnée par : $A_{ij}^{-1} = 1/A_{ij}$. On peut vérifier que la forme du tenseur inverse $A^{-1}$ de l'équation est bien la bonne sous cette hypothèse en faisant tendre vers zéro les termes croisés :
+\begin{equation}
+    A^{-1} = \frac{2k}{3}\frac{1}{\widetilde{u_v''^2}\widetilde{u_h''^2}}
+     \begin{bmatrix}
+        \widetilde{u_h''^2} & 0\\
+        0 & \widetilde{u_v''^2}
+    \end{bmatrix} = \frac{2k}{3}\begin{bmatrix}
+        1/\widetilde{u_v''^2} & 0\\
+        0 & 1/\widetilde{u_h''^2}
+    \end{bmatrix} \rightarrow A_{ij}^{-1} = \frac{2k}{3}\frac{1}{\widetilde{u_i''^2}}\delta_{ij}
+\end{equation}
+Or, on avait :
+\begin{equation}
+    A = \frac{3}{2k}\begin{bmatrix}
+        \widetilde{u_v''^2} & 0\\
+        0 & \widetilde{u_h''^2}
+    \end{bmatrix} \rightarrow A_{ij} = \frac{3}{2k}\widetilde{u_i''^2}\delta_{ij}
+\end{equation}
+On vérifie donc l'égalité $A_{ij}^{-1} = 1/A_{ij}$ sous l'hypothèse de faibles termes de Reynolds croisés.
+
+Finalement, pour un système avec un champ de gravité selon l'axe z, et la vitesse des particules fluides décomposée en une composante horizontale et une composante verticale, on obtient le système d'équations suivant :
+$$
+    dz = u_vdt
+$$$$
+    du_v = \left(-\frac{1}{\overline{\rho}}\frac{\partial \overline{p}}{\partial x_i} + g -(\frac{1}{2} + \frac{3}{4}C_0)\omega u_v'' -\frac{3}{4}\left[C_0(\omega-\widetilde{\omega}) + \Delta C_0 \widetilde{\omega}\right]\frac{2k}{3\widetilde{u_v''^2}}u_v'' \right)dt + \sqrt{C_0k\omega}dW
+$$$$
+    du_h = \left(-(\frac{1}{2} + \frac{3}{4}C_0)\omega u_h'' - \frac{3}{4}(C_0(\omega-\widetilde{\omega}) + \Delta C_0 \widetilde{\omega})\frac{2k}{3\widetilde{u_h''^2}}u_h'' \right)dt + \sqrt{C_0k\omega}dW
+$$$$
+    d\omega = -\omega\widetilde{\omega}\left[S_\omega + C_\chi\left(ln\left(\frac{\omega}{\widetilde{\omega}}\right)-\widetilde{\frac{\omega}{\widetilde{\omega}}ln\left(\frac{\omega}{\widetilde{\omega}}\right)}\right)\right]dt + \widetilde{\omega}^2hdt + \omega\sqrt{2C_\chi\widetilde{\omega}\sigma^2}dW
+$$
+La distribution stationnaire de la fréquence turbulente $\omega$ est une distribution lognormale. Une distribution lognormale est définie par $f(x) = exp(\mathcal{N}(\mu,\sigma^2))$, où $\mathcal{N}(\mu,\sigma^2)$ est une distribution normale de moyenne $\mu$ et de variance $\sigma^2$. La définition d'une distribution stationnaire, par rapport à l'équation d'évolution de Fokker-Planck, est donnée en annexe.
+ 
+Cependant, cette équation différentielle sur la fréquence turbulente $\omega$ comporte plusieurs problèmes : si une particule fluide a une fréquence turbulente nulle sans ajout du terme de dérive en $h$ ad-hoc, elle restera nulle indéfiniment, et la distribution lognormale décroît assez lentement ce qui complique l'implémentation numérique et sa stabilité. Ainsi, on cherche une nouvelle équation sur $\omega$ évitant ces obstacles.
+ 
+On introduit donc une nouvelle équation sur $\omega$, valable pour une turbulence homogène stationnaire :
+ \begin{equation}
+    d\omega = -C_3\widetilde{\omega}(\omega - \widetilde{\omega})dt + \sqrt{2C_3\widetilde{\omega}^2\omega\sigma^2}dW
+ \end{equation}
+ Avec $C_3 = 1.0$ une constante du modèle et $\sigma^2$ la variance de $\frac{\omega}{\widetilde{\omega}}$ définie égale à $\frac{1}{4}$, afin d'obtenir des résultats en correspondance avec les données DNS de Pope.
+ 
+ La distribution stationnaire de cette nouvelle équation sur la fréquence turbulente $\omega$, une distribution Gamma, ne souffre pas des problèmes qu'avait l'équation précédente, notamment car elle tend plus vite vers 0. La distribution Gamma est définie par :
+ \begin{equation}
+     f(\theta) = \frac{1}{\Gamma(k)}\left(\frac{k}{\widetilde{\omega}}\right)^k\theta^{k-1}exp\left(-\frac{k\theta}{\widetilde{\omega}}\right)
+ \end{equation}
+
+La figure compare ces deux distributions. On remarque bien la convergence vers 0 plus rapide de la distribution Gamma.
+ 
+ On remarquera que l'équation sur la vitesse ne nécessite plus de terme correctif en $\Delta C_0$, ni de terme de saut h. En effet, avec cette nouvelle équation sur $\omega$, on ne considère pas de nouvelle valeur de $C_0$, et on garde la valeur du GLM $C_0 = 2.1$.
+
+ Enfin, on veut élargir notre modélisation RLM à distribution Gamma à la turbulence inhomogène. Pour cela, on introduit $\Omega$, une moyenne conditionnelle de $\omega$, définie par :
+ \begin{equation}
+     \Omega = C_\Omega\langle\omega | \omega \geq \widetilde{\omega}\rangle
+ \end{equation}
+ Avec $C_\omega = 0.69$ une constante permettant de conserver la même distribution Gamma qu'avec la moyenne classique $\widetilde{\omega}$.
+
+Cette moyenne conditionnelle est donc une moyenne prenant en compte seulement les particules fluides ayant une fréquence turbulente $\omega$ supérieure à la valeur moyenne basique $\widetilde{\omega}$. Jayesh et al. montrent que l'utilisation de cette moyenne conditionnelle plutôt que la moyenne $\widetilde{\omega}$ en turbulence inhomogène améliore la performance du modèle, représentant mieux le champ de vitesses dans les zones de faible turbulence. Cette amélioration vis à vis des résultats de DNS se manifeste donc surtout quand la turbulence est très inhomogène (e.g. des flux de cisaillement). On obtient donc l'équation suivante, étudiée par Pope :
+\begin{equation}
+        d\omega = -C_3(\omega - \widetilde{\omega})\Omega dt - \Omega S_\omega\omega dt + \sqrt{2C_3\widetilde{\omega}\Omega\omega\sigma^2}dW
+\end{equation}
+On aperçoit la présence, comme dans le cas de la distribution lognormale pour un fluide non stationnaire, d'un nouveau terme en $S_\omega$, terme source de la turbulence non stationnaire. 
+
+On peut se demander pourquoi, bien qu'elles règlent les problèmes dont souffraient les distributions lognormales, ces nouvelles distributions Gamma pour la fréquence turbulente $\omega$ devraient rendre compte des mesure expérimentales, étant donné que celles-ci indiquent une distribution lognormale. C'est pourquoi on préférera, dans le cas de cette distribution Gamma, ne pas définir $\omega$ comme la fréquence turbulente telle qu'elle apparaît dans l'expression sur $\omega$ de distribution lognormale, mais comme une certaine caractéristique de la turbulence qu'on ne définit pas strictement, mais dont l'évolution rend néanmoins bien compte des comportements turbulents des écoulements observés.
+
+ En gardant la forme anisotrope de l'équation, on trouve donc la forme finale de notre système d'équations stochastiques pour le RLM, et une distribution non-stationnaire de la fréquence turbulente $\omega$ Gamma :
+$$
+    dz = u_vdt
+$$$$
+    du_v = \left(-\frac{1}{\overline{\rho}}\frac{\partial \overline{p}}{\partial x_i} + g -(\frac{1}{2} + \frac{3}{4}C_0)\omega u_v'' -\frac{3}{4}C_0(\omega-\widetilde{\omega})\frac{2k}{3\widetilde{u_v''^2}}u_v'' \right)dt + \sqrt{C_0k\omega}dW
+$$$$
+    du_h = \left(-(\frac{1}{2} + \frac{3}{4}C_0)\omega u_h - \frac{3}{4}(C_0(\omega-\widetilde{\omega})\frac{2k}{3\widetilde{u_h''^2}}u_h \right)dt + \sqrt{C_0k\omega}dW
+$$$$
+    d\omega = -C_3(\omega - \widetilde{\omega})\Omega dt - \Omega S_\omega\omega dt + \sqrt{2C_3\widetilde{\omega}\Omega\omega\sigma^2}dW
+$$
