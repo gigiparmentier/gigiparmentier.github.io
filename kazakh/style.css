@@ -89,5 +89,13 @@ h1{
 
     #words{
         width:90%;
+        display:block;
+        column-count: 2;
+        margin: 0 auto;
+    }
+
+    .word{
+        margin:0 auto;
+        margin-bottom:10px;
     }
 }
