@@ -1,1 +1,59 @@
-bile:dance
+мысық:chat:cat
+ит:dog:chien
+дос:friend:ami
+түн:night:nuit
+күн:day,sun:jour,soleil
+ай:moon,month,ouch:lune,mois,aie
+сіту:fuck:baiser
+үлкен:big:grand
+кішкентай:small,little:petit
+рахмет:thank you,thanks:merci
+ми:brain:cerveau
+сау бол:bye,goodbye:au revoir
+салем:hello:bonjour
+қош бол:farewell:adieu
+қазақ:kazak:kazakh
+ағаш:tree:arbre
+ара:bee:abeille
+ғарыш:space:espace
+емес:not:pas
+мен,және:and:et
+доп:ball:balle
+мен:i,me:je,moi
+сен:you:tu,toi
+жаман:bad:mauvais
+жақсы:good:bon
+ат:name:nom
+қуасың:crazy:fou
+қуасың ба?:are you crazy?:tu es fou?
+тамақ:food,throat:nourriture,gorge
+ұл:boy,son:garçon,fils
+қыз:girl,daughter:fille
+жүз:hundred,face,swim:cent,visage,nager
+кофе:coffee:café
+кешір:sorry:désolé
+кір:dirty:sale
+бәрі бір:whatever:n'importe quoi
+маған бәрі бір:I don't care,idc:je m'en fiche,balek,osef
+нан:bread:pain
+жеу:eat:manger
+іш:drink:boire
+қара:black:noir
+оқасы жоқ:you're welcome,derien
+аға:brother:frère
+апке:sister:soeur
+бір:one,1:un,1
+екі:two,2:deux,2
+үк:three,3:trois,3
+төрт:four,4:quatre,4
+бес:five,5:cinq,5
+алте:six,6:six,6
+жеті:seven,7:sept,7
+сегіз:eight,8:huit,8
+тоғыз:nine,9:neuf,9
+он:ten,10:dix,10
+жиырма:twenty,20:vingt:20
+отыз:thirty,30:trente,30
+қырық:fourty,40:quarante,40
+елу:fifty,50:cinquante,50
+жүз:hundred,100:cent,100
