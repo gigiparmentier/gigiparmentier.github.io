@@ -1,4 +1,4 @@
-мысық:chat:cat
+мысық:cat:chat
 ит:dog:chien
 дос:friend:ami
 түн:night:nuit
