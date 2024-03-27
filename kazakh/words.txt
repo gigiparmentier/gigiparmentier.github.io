@@ -85,3 +85,5 @@
 ше:and (+...?):et (+...?)
 смешно:funny:drôle
 Дұрыс:correct:correct
+басқаны:another,someone/thing else:un/quelqu'un/quelque chose d'autre
+Ол:it:chose,il,elle
