@@ -2,7 +2,7 @@ html{
     margin:0 auto;
     background-color:#f9f8e2;
     color:#5a4813;
-    font-family: "Balsamiq Sans";
+    font-family: "Balsamiq Sans", sans-serif !important;
 }
 
 h1{
@@ -34,7 +34,7 @@ h1{
     background-repeat: no-repeat;
     padding-left:50px;
     font-size:20px;
-    font-family: "Balsamiq Sans";
+    font-family: "Balsamiq Sans", sans-serif !important;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.05);
     position: relative;
     z-index:20;
