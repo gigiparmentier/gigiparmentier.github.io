@@ -1,8 +1,15 @@
+.icon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
 html{
     margin:0 auto;
     background-color:#f9f8e2;
     color:#5a4813;
     font-family: "Balsamiq Sans", sans-serif !important;
+    padding-bottom:100px;
 }
 
 h1{
@@ -12,8 +19,8 @@ h1{
     color:#f9f8e2;
     background-color:#5a4813;
     border-radius:50px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin:0 auto;
     margin-top:30px;
     width:fit-content;
@@ -25,19 +32,39 @@ h1{
     width:750px;
     display:block;
     margin:0 auto;
-    margin-top:50px;
     border-radius:10px;
     border:none;
     background-color:#e7e0c4;
-    background-image: url('searchicon.png');
-    background-position: 15px 22.5px; 
-    background-repeat: no-repeat;
     padding-left:50px;
     font-size:20px;
     font-family: "Balsamiq Sans", sans-serif !important;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.05);
     position: relative;
     z-index:20;
+}
+
+h1 .fa-sun{
+    font-size:40px;
+}
+
+#search_bar_div{
+    width:fit-content;
+    margin:0 auto;
+    height:fit-content;
+    margin-top:50px;
+}
+
+#search_bar_div::before{
+    pointer-events:none;
+    position:relative;
+    top:45px;
+    left:20px;
+    z-index:30;
+    font-size:20px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f002";
+    opacity: 0.5;
 }
 
 #search_bar:focus{
@@ -89,25 +116,25 @@ h1{
     box-shadow:0 2px 2px rgba(0,0,0,0.1);
 }
 
-.word:nth-child(7n){
+.word:nth-child(7n),.letter:nth-child(7n){
     background-color:#fbc59f;
 }
-.word:nth-child(7n+1){
+.word:nth-child(7n+1),.letter:nth-child(7n+1){
     background-color:#f4eb84;
 }
-.word:nth-child(7n+2){
+.word:nth-child(7n+2),.letter:nth-child(7n+2){
     background-color:#c499e0;
 }
-.word:nth-child(7n+3){
+.word:nth-child(7n+3),.letter:nth-child(7n+3){
     background-color:#f39f95;
 }
-.word:nth-child(7n+4){
+.word:nth-child(7n+4),.letter:nth-child(7n+4){
     background-color:#a9e3bb;
 }
-.word:nth-child(7n+5){
+.word:nth-child(7n+5),.letter:nth-child(7n+5){
     background-color:#a6cdf4;
 }
-.word:nth-child(7n+6){
+.word:nth-child(7n+6),.letter:nth-child(7n+6){
     background-color:#e6b8b8;
 }
 
@@ -129,11 +156,12 @@ h1{
     text-align:center;
 }
 
-#guess_game h2{
+#guess_game h2,#letters_div h2{
     font-size:30px;
     font-weight: 700;
     margin:0;
     margin-bottom:10px;
+    text-align:center;
 }
 
 #guess_result{
@@ -190,6 +218,38 @@ h1{
 
 #guess_input:focus{
     outline:none;
+}
+
+#letters_div{
+    width:400px;
+    margin:0 auto;
+    margin-top:50px;
+    display:block;
+}
+
+.letter{
+    height:50px;
+    width:50px;
+    display:inline-block;
+    margin:0 auto;
+    margin-left:2px;
+    margin-right:2px;
+    margin-bottom:10px;
+    border:1.5px solid #5a4813;
+    border-bottom: 3px solid #5a4813;
+    border-radius:10px;
+    text-align:center;
+    font-size:20px;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+    text-transform: lowercase;
+    box-shadow:0 2px 2px rgba(0,0,0,0.1);
+    position: relative;
+    z-index:20;
+    vertical-align: middle;
+    line-height: 50px;
+    margin-top:-3px;
 }
 
 @media only screen and (max-width: 700px) {

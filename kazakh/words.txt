@@ -12,7 +12,7 @@
 сау бол:bye,goodbye:au revoir
 сәлем:hello,hi:bonjour,salut
 қош бол:farewell:adieu
-қазақ:kazak:kazakh
+қазақ:kazakh:kazakh
 ағаш:tree:arbre
 ара:bee:abeille
 ғарыш:space:espace
