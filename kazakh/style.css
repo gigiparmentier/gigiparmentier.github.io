@@ -225,6 +225,7 @@ h1 .fa-sun{
     margin:0 auto;
     margin-top:50px;
     display:block;
+    text-align:left;
 }
 
 .letter{
@@ -285,5 +286,10 @@ h1 .fa-sun{
     .word{
         margin:0 auto;
         margin-bottom:10px;
+    }
+
+    #letters_div{
+        text-align:center;
+        width:90%;
     }
 }
