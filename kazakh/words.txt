@@ -71,7 +71,8 @@
 Қалайсың:how are you?:comment vas-tu?
 Қайырлы:gracious,good:gracieux,bon
 таң:morning:matin
-Смешно:soon:bientôt
+жақында:soon:bientôt
+жақын:close:proche
 Бүгін:today:aujourd'hui
 Ертең:tomorrow:demain
 Бірақ:but:mais
