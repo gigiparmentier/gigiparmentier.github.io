@@ -53,7 +53,7 @@
 
                     wordsDiv.append(wordElement);
                 });
-                shuffled_list = words_list.sort(() => Math.random() - 0.5);
+                shuffled_list = shuffleArray(words_list);
                 start_game();
             });
         });
@@ -84,7 +84,7 @@
                 guess_index++;
                 if (guess_index >= words_list.length) {
                     guess_index = 0;
-                    shuffled_list = words_list.sort(() => Math.random() - 0.5);
+                    shuffled_list = shuffleArray(words_list);
                 }
                 start_game();
             } else {
@@ -96,7 +96,7 @@
         });
 
         function start_game() {
-            var word = words_list[guess_index];
+            var word = shuffled_list[guess_index];
             $("#guess_word").text(word.k_words);
             $('#guess_word').attr('k_words', word.k_words);
             $('#guess_word').attr('e_words', word.e_words);
@@ -104,6 +104,15 @@
             var col = $('.word[k_words="' + word.k_words + '"]').css('background-color');
             $("#guess_word").css("background-color", col);
             $("#guess_input").val("");
+        }
+
+        function shuffleArray(array) {
+            var newArray = array.slice();
+            for (let i = newArray.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+            }
+            return newArray;
         }
     </script>
 </body>
