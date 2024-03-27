@@ -257,12 +257,20 @@ h1 .fa-sun{
         font-size:30px;
     }
 
+    h1 .fa-sun{
+        font-size:20px;
+    }
+
+    #search_bar_div{
+        width:90%;
+    }
+
     #search_bar{
-        width: 80%;
+        width:calc(100% - 50px);
     }
 
     #words_outer,#guess_game{
-        width:90%;
+        width:85%;
     }
 
     #guess_word{
