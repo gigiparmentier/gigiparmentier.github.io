@@ -86,4 +86,6 @@
 смешно:funny:drôle
 Дұрыс:correct:correct
 басқаны:another,someone/thing else:un/quelqu'un/quelque chose d'autre
-Ол:it:chose,il,elle
+Ол:it,she,he:chose,il,elle
+көп:a lot,many:plein,beaucoup
+аз:few:peu
