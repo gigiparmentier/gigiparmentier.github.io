@@ -4,13 +4,13 @@
 түн:night:nuit
 күн:day,sun:jour,soleil
 ай:moon,month,ouch:lune,mois,aie
-сіту:fuck:baiser
+сігу:fuck:baiser
 үлкен:big:grand
 кішкентай:small,little:petit
 рахмет:thank you,thanks:merci
 ми:brain:cerveau
 сау бол:bye,goodbye:au revoir
-салем:hello:bonjour
+сәлем:hello:bonjour
 қош бол:farewell:adieu
 қазақ:kazak:kazakh
 ағаш:tree:arbre
@@ -23,7 +23,7 @@
 сен:you:tu,toi
 жаман:bad:mauvais
 жақсы:good:bon
-ат:name:nom
+ат:name,horse:nom,cheval
 қуасың:crazy:fou
 қуасың ба?:are you crazy?:tu es fou?
 тамақ:food,throat:nourriture,gorge
@@ -82,3 +82,6 @@
 Қайда:where:où
 гүл:flower:fleur
 үй:house:maison
+ше:and (+...?):et (+...?)
+смешно:funny:drôle
+Дұрыс:correct:correct
