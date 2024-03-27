@@ -22,7 +22,9 @@
     </div>
     <script>
         var words_list = [];
-        
+        var shuffled_list = [];
+        var guess_index = 0;
+
         $(document).ready(function(){
             var url = "https://gigiparmentier.github.io/kazakh/words.txt";
             $.get({url: url,cache: false}).then(function(data) {
@@ -38,10 +40,10 @@
                     var e_words = parts[1].trim();
                     var f_words = parts[2].trim();
 
+                    words_list.push({k_words: k_words, e_words: e_words, f_words: f_words});
                     k_words = k_words.replace(/,/g,", ");
                     e_words = e_words.replace(/,/g,", ");
                     f_words = f_words.replace(/,/g,", ");
-                    words_list.push({k_words: k_words, e_words: e_words, f_words: f_words});
                     
                     var wordElement = $("<p>").text(k_words + ' : ' + e_words);
                     wordElement.attr('k_words', k_words);
@@ -51,6 +53,7 @@
 
                     wordsDiv.append(wordElement);
                 });
+                shuffled_list = words_list.sort(() => Math.random() - 0.5);
                 start_game();
             });
         });
@@ -78,6 +81,11 @@
             $('#guess_result').fadeIn(0);
             if (eWords.includes(guess)) {
                 $("#guess_result").text("Correct!");
+                guess_index++;
+                if (guess_index >= words_list.length) {
+                    guess_index = 0;
+                    shuffled_list = words_list.sort(() => Math.random() - 0.5);
+                }
                 start_game();
             } else {
                 $("#guess_result").text("Nope!");
@@ -88,8 +96,7 @@
         });
 
         function start_game() {
-            var randomIndex = Math.floor(Math.random() * words_list.length);
-            var word = words_list[randomIndex];
+            var word = words_list[guess_index];
             $("#guess_word").text(word.k_words);
             $('#guess_word').attr('k_words', word.k_words);
             $('#guess_word').attr('e_words', word.e_words);

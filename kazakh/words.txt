@@ -82,7 +82,7 @@
 Қайда:where:où
 гүл:flower:fleur
 үй:house:maison
-ше:and (+...?):et (+...?)
+ше:and,...?:et,...?
 смешно:funny:drôle
 Дұрыс:correct:correct
 басқаны:another,someone/thing else:un/quelqu'un/quelque chose d'autre
