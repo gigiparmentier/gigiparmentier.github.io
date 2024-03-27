@@ -91,7 +91,7 @@
             }
             var guess = $(this).val().toLowerCase();
             var eWords = $('#guess_word').attr('e_words').toLowerCase().split(",");
-            $('#guess_result').fadeIn(0);
+            $('#guess_result').css('opacity',1);
             if (eWords.includes(guess)) {
                 $("#guess_result").text("Correct!");
                 guess_index++;
@@ -104,7 +104,7 @@
                 $("#guess_result").text("Nope!");
             }
             setTimeout(function() {
-                $('#guess_result').fadeOut();
+                $('#guess_result').animate({ opacity: 0 });
             }, 500);
         });
 
