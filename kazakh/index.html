@@ -101,9 +101,8 @@
             $('#guess_word').attr('k_words', word.k_words);
             $('#guess_word').attr('e_words', word.e_words);
             $('#guess_word').attr('f_words', word.f_words);
-            var colors = ['#fbc59f','#f4eb84','#c499e0','#f39f95','#a9e3bb','#a6cdf4','#e6b8b8'];
-            var randomColor = colors[Math.floor(Math.random() * colors.length)];
-            $("#guess_word").css("background-color", randomColor);
+            var col = $('.word[k_words="' + word.k_words + '"]').css('background-color');
+            $("#guess_word").css("background-color", col);
             $("#guess_input").val("");
         }
     </script>

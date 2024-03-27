@@ -10,7 +10,7 @@
 рахмет:thank you,thanks:merci
 ми:brain:cerveau
 сау бол:bye,goodbye:au revoir
-сәлем:hello:bonjour
+сәлем:hello,hi:bonjour,salut
 қош бол:farewell:adieu
 қазақ:kazak:kazakh
 ағаш:tree:arbre
@@ -90,3 +90,9 @@
 Ол:it,she,he:chose,il,elle
 көп:a lot,many:plein,beaucoup
 аз:few:peu
+ештеңе:nothing:rien
+жалқау:lazy:paresseux
+кітап:book:livre
+что за фигня:what the fuck,wtf:what the fuck,wtf
+Бәрі:everything:tout
+Түсіну:to understand:comprendre
