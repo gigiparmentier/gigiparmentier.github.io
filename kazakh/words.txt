@@ -101,5 +101,5 @@
 кесе:cup:tasse
 кеше:yersterday:hier
 әлде:or:ou
-аке:father:père
+әке:father:père
 ана:mother:mère
