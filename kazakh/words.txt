@@ -103,3 +103,6 @@
 әлде:or:ou
 әке:father:père
 ана:mother:mère
+Сағат:hour,time:heure,temps 
+Қалай:how:comment
+Бөпе:baby:bébé
