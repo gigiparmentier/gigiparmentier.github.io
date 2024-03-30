@@ -106,3 +106,5 @@
 Сағат:hour,time:heure,temps 
 Қалай:how:comment
 Бөпе:baby:bébé
+мүмкін:maybe:peut-être
+әрине:of course:bien sûr
