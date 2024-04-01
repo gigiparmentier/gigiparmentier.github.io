@@ -15,15 +15,29 @@ body{
     margin:0;
     background-color:#f9f8e2;
     padding-bottom:100px;
+    overflow-x:hidden;
 }
 
 #wave{
     height:2vw;
+    width:200vw;
     min-height:25px;
     overflow: hidden;
     z-index:50;
     border-top:150px solid #f2e269;
+    animation: 3s linear 1s infinite running slidein;
 }
+
+@keyframes slidein {
+    from {
+      /* pushes the sun down past the viewport */
+      transform: translateX(0);
+    }
+    to {
+      /* returns the sun to its default position */
+      transform: translateX(-100vw);
+    }
+  }
 
 h1{
     position:relative;
@@ -92,7 +106,6 @@ h1 .fa-sun{
 #words_outer{
     width:85%;
     max-width:750px;
-    background-color: #ddd4ac;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     margin: 0 auto;
@@ -112,6 +125,9 @@ h1 .fa-sun{
     justify-content: space-evenly;
     overflow-y: auto;
     padding-bottom:10px;
+    background-image: url('bg.png');
+    background-attachment: local;
+    background-size: 50%;
 }
 
 .word{
