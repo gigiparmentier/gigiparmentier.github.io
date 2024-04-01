@@ -15,19 +15,26 @@ html{
 body{
     margin:0;
     background-color:#f9f8e2;
-    padding-bottom:100px;
     overflow-x:hidden;
     width:100vw;
 }
 
-#wave{
+#wave_top,#wave_bottom{
     height:2vw;
     width:200vw;
     min-height:25px;
     overflow: hidden;
     z-index:50;
-    border-top:150px solid #f2e269;
     animation: 3s linear 1s infinite running slidein;
+}
+
+#wave_top{
+    border-top:150px solid #f2e269;
+}
+
+#wave_bottom{
+    margin-top:100px;
+    border-bottom:50px solid #f2e269;
 }
 
 @keyframes slidein {
@@ -194,12 +201,13 @@ h1 .fa-sun{
     text-align:center;
 }
 
-#guess_game h2,#letters_div h2{
+h2{
     font-size:30px;
     font-weight:700;
-    margin:0;
+    margin:0 auto;
     margin-bottom:10px;
     text-align:center;
+    margin-top:50px;
 }
 
 #guess_result{
@@ -264,7 +272,6 @@ h1 .fa-sun{
     width:90%;
     max-width:400px;
     margin:0 auto;
-    margin-top:50px;
     display:block;
     text-align:left;
 }
@@ -292,6 +299,57 @@ h1 .fa-sun{
     vertical-align: middle;
     line-height: 50px;
     margin-top:-3px;
+}
+
+#cases{
+    border:1px solid #5a4813;
+    border-collapse:collapse;
+    width:90%;
+    max-width:750px;
+    margin:0 auto;
+    border-radius:5px;
+    border-spacing: 0;
+    border-collapse: separate;
+    border-radius: 10px;
+    border: 1px solid black;
+   }
+   
+/* Apply a border to the right of all but the last column */
+#cases th:not(:last-child),
+#cases td:not(:last-child) {
+border-right: 1px solid black;
+}
+
+#cases th{
+    background-color: #f2e269;
+    height:35px;
+    text-align:center;
+}
+
+#cases td{
+    text-align:center;
+    height:25px;
+    background-color:#e7e0c4;
+}
+
+#cases td:first-child{
+    width:100px;
+    font-weight: 700;
+}
+
+/* Apply a border to the bottom of all but the last row */
+#cases>thead>tr:not(:last-child)>th,
+#cases>thead>tr:not(:last-child)>td,
+#cases>tbody>tr:not(:last-child)>th,
+#cases>tbody>tr:not(:last-child)>td,
+#cases>tfoot>tr:not(:last-child)>th,
+#cases>tfoot>tr:not(:last-child)>td,
+#cases>tr:not(:last-child)>td,
+#cases>tr:not(:last-child)>th,
+#cases>thead:not(:last-child),
+#cases>tbody:not(:last-child),
+#cases>tfoot:not(:last-child) {
+border-bottom: 1px solid black;
 }
 
 @media only screen and (max-width: 700px) {
