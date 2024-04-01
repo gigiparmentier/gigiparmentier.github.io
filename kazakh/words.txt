@@ -109,3 +109,4 @@
 мүмкін:maybe:peut-être
 әрине:of course:bien sûr
 бару:to go:aller
+істеу:to do,to make:faire
