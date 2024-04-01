@@ -19,6 +19,7 @@ body{
 
 #wave{
     height:2vw;
+    min-height:25px;
     overflow: hidden;
     z-index:50;
     border-top:150px solid #f2e269;
@@ -177,7 +178,7 @@ h1 .fa-sun{
 
 #guess_game h2,#letters_div h2{
     font-size:30px;
-    font-weight: 700;
+    font-weight:700;
     margin:0;
     margin-bottom:10px;
     text-align:center;
@@ -290,6 +291,11 @@ h1 .fa-sun{
 
     #words{
         padding-top: 10px;
+    }
+
+    #wave{
+        border-top:100px solid #f2e269;
+        margin-bottom:50px;
     }
 
     .word{
