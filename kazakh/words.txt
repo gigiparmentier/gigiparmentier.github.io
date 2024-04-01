@@ -108,3 +108,4 @@
 Бөпе:baby:bébé
 мүмкін:maybe:peut-être
 әрине:of course:bien sûr
+бару:to go:aller
