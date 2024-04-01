@@ -305,13 +305,15 @@ h2{
     border:1px solid #5a4813;
     border-collapse:collapse;
     width:90%;
-    max-width:750px;
+    max-width:600px;
     margin:0 auto;
     border-radius:5px;
     border-spacing: 0;
     border-collapse: separate;
     border-radius: 10px;
-    border: 1px solid black;
+    border:1.5px solid #5a4813;
+    border-bottom: 3px solid #5a4813;
+    box-shadow:0 5px 10px rgba(0,0,0,0.1);
    }
    
 /* Apply a border to the right of all but the last column */
