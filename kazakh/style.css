@@ -9,6 +9,7 @@ html{
     background-color:#f2e269;
     color:#5a4813;
     font-family: "Balsamiq Sans", sans-serif !important;
+    overflow-x:hidden;
 }
 
 body{
