@@ -6,24 +6,39 @@
 
 html{
     margin:0 auto;
-    background-color:#f9f8e2;
+    background-color:#f2e269;
     color:#5a4813;
     font-family: "Balsamiq Sans", sans-serif !important;
+}
+
+body{
+    margin:0;
+    background-color:#f9f8e2;
     padding-bottom:100px;
 }
 
+#wave{
+    height:2vw;
+    overflow: hidden;
+    z-index:50;
+    border-top:150px solid #f2e269;
+}
+
 h1{
+    position:relative;
     font-weight: 700;
     text-align: center;
     font-size: 50px;
-    color:#f9f8e2;
-    background-color:#5a4813;
+    color:white;
+    background-color:#cba000;
     border-radius:50px;
     padding-left: 15px;
     padding-right: 15px;
     margin:0 auto;
-    margin-top:30px;
+    margin-top:-150px;
+    margin-bottom: 100px;
     width:fit-content;
+    z-index:100;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
