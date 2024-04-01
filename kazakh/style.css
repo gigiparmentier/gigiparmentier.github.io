@@ -17,6 +17,7 @@ body{
     background-color:#f9f8e2;
     padding-bottom:100px;
     overflow-x:hidden;
+    width:100vw;
 }
 
 #wave{
