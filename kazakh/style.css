@@ -28,8 +28,9 @@ h1{
 }
 
 #search_bar{
+    width:calc(100% - 50px);
+    max-width:750px;
     height:65px;
-    width:750px;
     display:block;
     margin:0 auto;
     border-radius:10px;
@@ -48,7 +49,8 @@ h1 .fa-sun{
 }
 
 #search_bar_div{
-    width:fit-content;
+    width:90%;
+    max-width:800px;
     margin:0 auto;
     height:fit-content;
     margin-top:50px;
@@ -72,7 +74,8 @@ h1 .fa-sun{
 }
 
 #words_outer{
-    width:750px;
+    width:85%;
+    max-width:750px;
     background-color: #ddd4ac;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -86,7 +89,7 @@ h1 .fa-sun{
 
 #words{
     max-height:400px;
-    width:750px;
+    width:100%;
     margin: 0 auto;
     display:flex;
     flex-wrap: wrap;
@@ -94,7 +97,7 @@ h1 .fa-sun{
     overflow-y: auto;
     padding-bottom:10px;
 }
-  
+
 .word{
     margin-left:2px;
     margin-right:2px;
@@ -149,7 +152,8 @@ h1 .fa-sun{
 }
 
 #guess_game{
-    width:750px;
+    width:90%;
+    max-width:750px;
     margin:0 auto;
     margin-top:50px;
     display:block;
@@ -223,7 +227,8 @@ h1 .fa-sun{
 }
 
 #letters_div{
-    width:400px;
+    width:90%;
+    max-width:400px;
     margin:0 auto;
     margin-top:50px;
     display:block;
@@ -264,24 +269,11 @@ h1 .fa-sun{
         font-size:20px;
     }
 
-    #search_bar_div{
-        width:90%;
-    }
-
-    #search_bar{
-        width:calc(100% - 50px);
-    }
-
-    #words_outer,#guess_game{
-        width:85%;
-    }
-
     #guess_word{
         margin-bottom:25px;
     }
 
     #words{
-        width:95%;
         padding-top: 10px;
     }
 
@@ -292,6 +284,5 @@ h1 .fa-sun{
 
     #letters_div{
         text-align:center;
-        width:90%;
     }
 }
