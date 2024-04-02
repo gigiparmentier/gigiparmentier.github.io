@@ -207,12 +207,15 @@
                     total_duration += 0.25;
                     continue;
                 }
+                else if (alphabet.indexOf(letters[i].toLowerCase()) == -1) {
+                    continue;
+                }
                 var letter = letters[i].toLowerCase();
                 var url = 'https://gigiparmentier.github.io/kazakh/word_sounds/' + letter + '.mp3';
                 var audio = new Audio(url);
                 audio.src = url;
                 play_audio_index(url,total_duration);
-                total_duration += letter_duration[alphabet.indexOf(letters[i])];
+                total_duration += letter_duration[alphabet.indexOf(letter)];
             }
         }
 
