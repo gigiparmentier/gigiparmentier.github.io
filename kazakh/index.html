@@ -102,6 +102,7 @@
         var shuffled_list = [];
         var guess_index = 0;
         var alphabet = ["а","ә","б","в","г","ғ","д","е","ж","з","и","й","к","қ","л","м","н","ң","о","ө","п","р","с","т","у","ұ","ү","ф","х","һ","ц","ч","ш","щ","ы","і","э","ю","я"];
+        var letter_duration = new Array(alphabet.length).fill(0);
 
         $(document).ready(function(){
             var url = "https://gigiparmentier.github.io/kazakh/words.txt";
@@ -141,8 +142,18 @@
                 letter.addClass("letter");
                 letter.on("click", play_letter_sound);
                 $("#letters_div").append(letter);
+                var url = 'https://gigiparmentier.github.io/kazakh/word_sounds/' + alphabet[i] + '.mp3';
+                var audio = new Audio(url);
+                get_audio_duration(audio,i);
+                audio.src = url;
             }
         });
+
+        function get_audio_duration(audio,i){
+            $(audio).on("loadedmetadata", function(){
+                letter_duration[i] = audio.duration;
+            });
+        }
 
         $("#search_bar").on("input", function() {
             var searchValue = $(this).val().toLowerCase();
@@ -181,17 +192,27 @@
             }, 500);
         });
 
-        function play_audio_index(arr,i){
+        function play_audio_index(url,time){
             setTimeout(function() {
-                var audio = new Audio('https://gigiparmentier.github.io/kazakh/word_sounds/' + arr[i] + '.mp3');
+                var audio = new Audio(url);
                 audio.play();
-            }, i * 200);
+            }, time * 1000);
         }
 
         function play_word_sound(){
             var letters = $(this).attr('k_words').split("");
+            var total_duration = 0;
             for (var i = 0; i < letters.length; i++) {
-                play_audio_index(letters,i);
+                if (letters[i] == " ") {
+                    total_duration += 0.25;
+                    continue;
+                }
+                var letter = letters[i].toLowerCase();
+                var url = 'https://gigiparmentier.github.io/kazakh/word_sounds/' + letter + '.mp3';
+                var audio = new Audio(url);
+                audio.src = url;
+                play_audio_index(url,total_duration);
+                total_duration += letter_duration[alphabet.indexOf(letters[i])];
             }
         }
 
