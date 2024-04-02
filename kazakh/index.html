@@ -42,7 +42,7 @@
         </tr>
         <tr>
             <td>Nominative</td>
-            <td>мең</td>
+            <td>мен</td>
             <td>сен</td>
             <td>ол</td>
             <td>біз</td>
@@ -138,6 +138,7 @@
             for (var i = 0; i < alphabet.length; i++) {
                 var letter = $("<p>").text(alphabet[i]);
                 letter.addClass("letter");
+                letter.on("click", play_letter_sound);
                 $("#letters_div").append(letter);
             }
         });
@@ -178,6 +179,11 @@
                 $('#guess_result').animate({ opacity: 0 });
             }, 500);
         });
+
+        function play_letter_sound(){
+            var audio = new Audio('https://gigiparmentier.github.io/kazakh/sounds/' + $(this).html() + '.mp3');
+            audio.play();
+        }
 
         function start_game() {
             var word = shuffled_list[guess_index];
