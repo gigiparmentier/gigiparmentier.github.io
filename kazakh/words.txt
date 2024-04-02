@@ -111,3 +111,6 @@
 бару:to go:aller
 істеу:to do,to make:faire
 кәмшат:otter:loutre
+кету:to go,to leave:aller,partir
+кетш:get out:va te faire
+бас:head:tête
