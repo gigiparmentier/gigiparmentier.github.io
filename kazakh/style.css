@@ -118,11 +118,10 @@ h1 .fa-sun{
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     margin: 0 auto;
-    height:400px;
+    max-height:400px;
     overflow:hidden;
     position: relative;
     z-index:1;
-    padding-bottom:10px;
 }
 
 #words{
