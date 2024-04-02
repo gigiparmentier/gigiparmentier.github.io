@@ -128,6 +128,7 @@
                     wordElement.attr('e_words', e_words);
                     wordElement.attr('f_words', f_words);
                     wordElement.addClass("word");
+                    wordElement.on("click", play_word_sound);
 
                     wordsDiv.append(wordElement);
                 });
@@ -179,6 +180,20 @@
                 $('#guess_result').animate({ opacity: 0 });
             }, 500);
         });
+
+        function play_audio_index(arr,i){
+            setTimeout(function() {
+                var audio = new Audio('https://gigiparmentier.github.io/kazakh/word_sounds/' + arr[i] + '.mp3');
+                audio.play();
+            }, i * 200);
+        }
+
+        function play_word_sound(){
+            var letters = $(this).attr('k_words').split("");
+            for (var i = 0; i < letters.length; i++) {
+                play_audio_index(letters,i);
+            }
+        }
 
         function play_letter_sound(){
             var audio = new Audio('https://gigiparmentier.github.io/kazakh/sounds/' + $(this).html() + '.mp3');
