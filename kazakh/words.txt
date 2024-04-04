@@ -114,3 +114,12 @@
 кету:to go,to leave:aller,partir
 кетш:get out:va te faire
 бас:head:tête
+жазу:to write:écrire
+жиі:often:souvent
+қол:hand:main
+ойлану:to reflect:réflechir
+ойлау:to think:penser
+ол:tought:idée
+кісі:person:personne
+өлтіру:to kill:tuer
+осы:this,that:ce,cette
