@@ -119,7 +119,7 @@
 қол:hand:main
 ойлану:to reflect:réflechir
 ойлау:to think:penser
-ол:tought:idée
+ой:tought:idée
 кісі:person:personne
 өлтіру:to kill:tuer
 осы:this,that:ce,cette
