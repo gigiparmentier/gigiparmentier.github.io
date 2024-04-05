@@ -300,12 +300,47 @@ h2{
     margin-top:-3px;
 }
 
-#cases_div{
+#cases_div,#verb_div{
     width:100%;
-    overflow-x: scroll;
+    overflow-x: auto;
 }
 
-#cases{
+#vowels_table{
+    font-style: italic;
+    margin:0 auto;
+}
+
+#vowels_table{
+    border-collapse: collapse;
+    margin-bottom:25px;
+}
+
+#vowels_table td:not(:first-child){
+    border: 1px solid black;
+    border-top:0;
+    border-bottom:0;
+    width:50px;
+    text-align: center;
+}
+#vowels_table tr:last-child td {
+    border-bottom: 0;
+}
+#vowels_table tr td:first-child,#vowels_table tr td:nth-child(2){
+    border-left: 0;
+}
+#vowels_table tr td:last-child{
+    border-right: 0;
+}
+
+#vowels_table td:first-child{
+    text-align: right;
+}
+
+#verb,#cases{
+    min-width:500px;
+}
+
+#cases,#verb{
     border:1px solid #5a4813;
     border-collapse:collapse;
     width:90%;
@@ -322,17 +357,19 @@ h2{
    
 /* Apply a border to the right of all but the last column */
 #cases th:not(:last-child),
-#cases td:not(:last-child) {
+#cases td:not(:last-child),
+#verb th:not(:last-child),
+#verb td:not(:last-child){
 border-right: 1px solid black;
 }
 
-#cases th{
+#cases th,#verb th{
     background-color: #f2e269;
     height:35px;
     text-align:center;
 }
 
-#cases td{
+#cases td,#verb td{
     text-align:center;
     height:25px;
     background-color:#e7e0c4;
@@ -340,6 +377,11 @@ border-right: 1px solid black;
 
 #cases td:first-child{
     width:100px;
+    font-weight: 700;
+}
+
+#verb td:first-child{
+    width:130px;
     font-weight: 700;
 }
 
@@ -354,8 +396,19 @@ border-right: 1px solid black;
 #cases>tr:not(:last-child)>th,
 #cases>thead:not(:last-child),
 #cases>tbody:not(:last-child),
-#cases>tfoot:not(:last-child) {
-border-bottom: 1px solid black;
+#cases>tfoot:not(:last-child),
+#verb>thead>tr:not(:last-child)>th,
+#verb>thead>tr:not(:last-child)>td,
+#verb>tbody>tr:not(:last-child)>th,
+#verb>tbody>tr:not(:last-child)>td,
+#verb>tfoot>tr:not(:last-child)>th,
+#verb>tfoot>tr:not(:last-child)>td,
+#verb>tr:not(:last-child)>td,
+#verb>tr:not(:last-child)>th,
+#verb>thead:not(:last-child),
+#verb>tbody:not(:last-child),
+#verb>tfoot:not(:last-child) {
+    border-bottom: 1px solid black;
 }
 
 @media only screen and (max-width: 700px) {
