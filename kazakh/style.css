@@ -300,6 +300,11 @@ h2{
     margin-top:-3px;
 }
 
+#cases_div{
+    width:100%;
+    overflow-x: scroll;
+}
+
 #cases{
     border:1px solid #5a4813;
     border-collapse:collapse;
