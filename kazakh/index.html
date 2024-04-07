@@ -25,6 +25,12 @@
     <div id="words_outer"><div id="words"></div></div></div>
     <div id="guess_game">
         <h2>Guess the word</h2>
+        <div id="progress_div">
+            <p>0 / 0 (0%)</p>
+            <div class="total"></div>
+            <div class="progress"></div>
+            <div class="progress_total"></div>
+        </div>
         <p id="guess_word"></p>
         <input id="guess_input" type="text" placeholder="Enter a guess" autofocus>
         <p id="guess_result"></p>
@@ -199,6 +205,8 @@
         var guess_index = 0;
         var alphabet = ["а","ә","б","в","г","ғ","д","е","ж","з","и","й","к","қ","л","м","н","ң","о","ө","п","р","с","т","у","ұ","ү","ф","х","һ","ц","ч","ш","щ","ы","і","э","ю","я"];
         var letter_duration = new Array(alphabet.length).fill(0);
+        var correct_guesses = 0;
+        var total_guesses = 0;
 
         $(document).ready(function(){
             var url = "https://gigiparmentier.github.io/kazakh/words.txt";
@@ -272,21 +280,45 @@
             var guess = $(this).val().toLowerCase();
             var eWords = $('#guess_word').attr('e_words').toLowerCase().split(",");
             $('#guess_result').css('opacity',1);
+            var time = 500;
             if (eWords.includes(guess)) {
                 $("#guess_result").text("Correct!");
-                guess_index++;
-                if (guess_index >= words_list.length) {
-                    guess_index = 0;
-                    shuffled_list = shuffleArray(words_list);
-                }
-                start_game();
+                correct_guesses++;
             } else {
-                $("#guess_result").text("Nope!");
+                if (guess.length == 0) {
+                    $("#guess_result").text("It was " + eWords);
+                }
+                else{
+                    $("#guess_result").text("Nope, it was " + eWords);
+                }
+                time = 1500;
             }
+            /*
+            if (guess_index >= words_list.length) {
+                guess_index = 0;
+                shuffled_list = shuffleArray(words_list);
+            }
+            */
+            guess_index++;
+            total_guesses++;
+            update_progress_bar();
+            start_game();
             setTimeout(function() {
                 $('#guess_result').animate({ opacity: 0 });
-            }, 500);
+            }, time);
         });
+
+        function update_progress_bar() {
+            var progress = correct_guesses / words_list.length * 100;
+            var progress_total = total_guesses / words_list.length * 100;
+            var good_guesses = correct_guesses / total_guesses * 100;
+            $("#progress_div .progress").css("width", progress + "%");
+            $("#progress_div .progress_total").css("width", progress_total + "%");
+            $("#progress_div p").text(correct_guesses + " / " + total_guesses + " (" + good_guesses.toFixed(0) + "%)");
+            $('#progress_div p').css('left', progress + '%');
+            $('#progress_div p').css('opacity', 1);
+            $('#progress_div').css('opacity', 1);
+        }
 
         function play_audio_index(url,time){
             setTimeout(function() {
@@ -321,6 +353,9 @@
         }
 
         function start_game() {
+            if (guess_index >= words_list.length) {
+                return;
+            }
             var word = shuffled_list[guess_index];
             $("#guess_word").text(word.k_words);
             $('#guess_word').attr('k_words', word.k_words);
