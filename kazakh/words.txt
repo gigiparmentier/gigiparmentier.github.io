@@ -128,3 +128,7 @@
 Әдемі:beautiful/pretty:beau
 Қотақбас:dickhead:tête de bite
 көру:to see:voir
+келу:to come:venir
+жақсы көру:to love:aimer
+қолшатыр:umbrella:parapluie
+шатыр:roof:toit
