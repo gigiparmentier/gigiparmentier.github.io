@@ -132,3 +132,7 @@
 жақсы көру:to love:aimer
 қолшатыр:umbrella:parapluie
 шатыр:roof:toit
+ерте:early:tôt
+кеш:late:tard
+тым:too:aussi
+ұйықтау:to sleep:dormir
