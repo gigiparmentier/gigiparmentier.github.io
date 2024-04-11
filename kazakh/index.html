@@ -38,6 +38,9 @@
     <div id="letters_div">
         <h2>Kazakh alphabet</h2>
     </div>
+    <div id="numbers_div">
+        <h2>Kazakh Numbers</h2>
+    </div>
     <h2>Cases</h2>
     <div id="cases_div">
         <table id="cases">
@@ -204,6 +207,7 @@
         var shuffled_list = [];
         var guess_index = 0;
         var alphabet = ["а","ә","б","в","г","ғ","д","е","ж","з","и","й","к","қ","л","м","н","ң","о","ө","п","р","с","т","у","ұ","ү","ф","х","һ","ц","ч","ш","щ","ы","і","э","ю","я"];
+        var nbs = ["нөл","бір","екі","үш","төрт","бес","алты","жеті","сегіз","тоғыз","он","жиырма","отыз","қырық","елу","алпыс","жетпіс","сексен","тоқсан","жүз"];
         var letter_duration = new Array(alphabet.length).fill(0);
         var correct_guesses = 0;
         var total_guesses = 0;
@@ -222,6 +226,10 @@
                     var k_words = parts[0].trim();
                     var e_words = parts[1].trim();
                     var f_words = parts[2].trim();
+                    
+                    /*if (e_words.includes('to ') == false) {
+                        return;
+                    }*/
 
                     words_list.push({k_words: k_words, e_words: e_words, f_words: f_words});
                     k_words = k_words.replace(/,/g,", ");
@@ -238,6 +246,16 @@
                     wordsDiv.append(wordElement);
                 });
                 shuffled_list = shuffleArray(words_list);
+                /*
+                var filtered_list = [];
+                for (var i = 0; i < shuffled_list.length; i++) {
+                    var e_words = shuffled_list[i].e_words;
+                    console.log(e_words);
+                    if (e_words.includes('to ')) {
+                        filtered_list.push(shuffled_list[i]);
+                    }
+                }
+                shuffled_list = filtered_list;*/
                 start_game();
             });
 
@@ -250,6 +268,21 @@
                 var audio = new Audio(url);
                 get_audio_duration(audio,i);
                 audio.src = url;
+            }
+
+            for (var i = 0; i < 20;i++){
+                var nb = i;
+                if (i > 10){
+                    nb = (i - 10)*10+10;
+                }
+
+                var number = $("<div>");
+                number.addClass("number");
+                var number_p = $("<p>").text(nb);
+                number.append(number_p);
+                var number_p = $("<p>").text(nbs[i]);
+                number.append(number_p);
+                $("#numbers_div").append(number);
             }
         });
 
@@ -281,7 +314,7 @@
             var eWords = $('#guess_word').attr('e_words').toLowerCase().split(",");
             $('#guess_result').css('opacity',1);
             var time = 500;
-            if (eWords.includes(guess)) {
+            if ((eWords.includes(guess)) || (eWords.includes('to ' + guess))){
                 $("#guess_result").text("Correct!");
                 correct_guesses++;
             } else {
