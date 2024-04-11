@@ -4,7 +4,7 @@
 түн:night:nuit
 күн:day,sun:jour,soleil
 ай:moon,month,ouch:lune,mois,aie
-сігу:fuck:baiser
+сігу:to fuck,fuck:baiser
 үлкен:big:grand
 кішкентай:small,little:petit
 рахмет:thank you,thanks:merci
@@ -36,8 +36,8 @@
 бәрі бір:whatever:n'importe quoi
 маған бәрі бір:I don't care,idc:je m'en fiche,balek,osef
 нан:bread:pain
-жеу:eat:manger
-іш:drink:boire
+жеу:eat,to eat:manger
+іш:drink,to drink:boire
 қара:black:noir
 оқасы жоқ:you're welcome:derien
 аға:brother:frère
@@ -62,13 +62,13 @@
 айтпа:exactly,right:exactement
 Тағы да:again,more:encore,plus
 өтінемін:please:s'il-te-plaît,s'il-vous-plait,svp,stp
-Бол:be:être
+Бол:be,to be:être
 сау:healthy:en bonne santé
 ғой:though:par contre
 тек:only:seulement
 әр:each:chacun,chaque,chacune
 адам:person:personne
-Қалайсың:how are you?:comment vas-tu?
+Қалайсың:how are you,how are you?:comment vas-tu,comment vas-tu?
 Қайырлы:gracious,good:gracieux,bon
 таң:morning:matin
 жақында:soon:bientôt
@@ -77,10 +77,10 @@
 Ертең:tomorrow:demain
 Бірақ:but:mais
 Өте:very:très
-Не:what:quoi
-Неге:why:pourquoi
-Қашан:when:quand
-Қайда:where:où
+Не?:what,what?:quoi,quoi?
+Неге?:why,why?:pourquoi,pourquoi?
+Қашан?:when,when?:quand,quand?
+Қайда?:where,where?:où,où?
 гүл:flower:fleur
 үй:house:maison
 ше:and,...?:et,...?
@@ -95,7 +95,7 @@
 кітап:book:livre
 что за фигня:what the fuck,wtf:what the fuck,wtf
 Бәрі:everything:tout
-Түсіну:to understand:comprendre
+Түсіну:understand,to understand:comprendre
 миымды жеме:don't eat my brain:ne mange pas mon cerveau
 неше:how many:combien
 кесе:cup:tasse
@@ -108,31 +108,33 @@
 Бөпе:baby:bébé
 мүмкін:maybe:peut-être
 әрине:of course:bien sûr
-бару:to go:aller
-істеу:to do,to make:faire
+бару:go,to go:aller
+істеу:do,make,to do,to make:faire
 кәмшат:otter:loutre
-кету:to go,to leave:aller,partir
+кету:go,leave,to go,to leave:aller,partir
 кетш:get out:va te faire
 бас:head:tête
-жазу:to write:écrire
+жазу:write,to write:écrire
 жиі:often:souvent
-қол:hand:main
-ойлану:to reflect:réflechir
-ойлау:to think:penser
-ой:tought:idée
+қол:hand,arm:main,bras
+ойлану:reflect,to reflect:réflechir
+ойлау:think,to think:penser
+ой:thought:idée
 кісі:person:personne
-өлтіру:to kill:tuer
+өлтіру:kill,to kill:tuer
 осы:this,that:ce,cette
 көтен:booty:petit cul
-білу:to know:savoir
+білу:know,to know:savoir
 Әдемі:beautiful/pretty:beau
 Қотақбас:dickhead:tête de bite
-көру:to see:voir
-келу:to come:venir
-жақсы көру:to love:aimer
+Қотақ:dick:bite
+көру:see,to see:voir
+келу:come,to come:venir
+жақсы көру:love,to love:aimer
 қолшатыр:umbrella:parapluie
 шатыр:roof:toit
 ерте:early:tôt
 кеш:late:tard
 тым:too:aussi
-ұйықтау:to sleep:dormir
+ұйықтау:sleep,to sleep:dormir
+айту:tell,say,to tell,to say:dire
