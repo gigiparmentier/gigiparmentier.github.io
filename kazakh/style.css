@@ -35,6 +35,7 @@ body{
 #wave_bottom{
     margin-top:100px;
     border-bottom:50px solid #f2e269;
+    height:2.2vw;
 }
 
 @keyframes slidein {
@@ -122,6 +123,7 @@ h1 .fa-sun{
     overflow:hidden;
     position: relative;
     z-index:1;
+    box-shadow:0px 5px 20px rgba(0,0,0,0.1)
 }
 
 #words{
@@ -280,7 +282,7 @@ h2{
     max-width:700px;
     margin:0 auto;
     display:block;
-    text-align:left;
+    text-align:center;
 }
 
 .number p{

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>My kazakh words</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1c5060d9dc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="wave_top">
+        <svg viewBox="0 0 1000 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+          <path d="M1000,101.71c0,0-106.81-108.65-238.66,0s-261.34,0-261.34,0s-106.81-108.65-238.66,0S0,101.71,0,101.71V0h1000 V101.71z" style="stroke: none;fill: #f2e269;"></path>
+        </svg>
+    </div>
+    <h1 id="title"><i class="fa-solid fa-sun"></i>   My kazakh words   <i class="fa-solid fa-sun"></i></h1>
+    <div id="search_bar_div">
+        <input id="search_bar" type="text" id="search_input" placeholder="" autofocus>
+    </div>
+    <div id="words_outer"><div id="words"></div></div></div>
+    <div id="guess_game">
+        <h2>Guess the word</h2>
+        <div id="progress_div">
+            <p>0 / 0 (0%)</p>
+            <div class="total"></div>
+            <div class="progress"></div>
+            <div class="progress_total"></div>
+        </div>
+        <p id="guess_word"></p>
+        <input id="guess_input" type="text" placeholder="Enter a guess" autofocus>
+        <p id="guess_result"></p>
+    </div>
+    <div id="letters_div">
+        <h2>Kazakh alphabet</h2>
+    </div>
+    <div id="numbers_div">
+        <h2>Kazakh Numbers</h2>
+    </div>
+    <h2>Cases</h2>
+    <div id="cases_div">
+        <table id="cases">
+            <tr>
+                <th>Case</th>
+                <th>Sing. 1st person</th>
+                <th>Sing. 2nd person</th>
+                <th>Sing. 3rd person</th>
+                <th>Plur. 1st person</th>
+                <th>Plur. 2nd person</th>
+                <th>Plur. 3rd person</th>
+            </tr>
+            <tr>
+                <td>Nominative</td>
+                <td>мен</td>
+                <td>сен</td>
+                <td>ол</td>
+                <td>біз</td>
+                <td>сенер</td>
+                <td>олар</td>
+            </tr>
+            <tr>
+                <td>Accusative</td>
+                <td>мені</td>
+                <td>сені</td>
+                <td>оны</td>
+                <td>бізді</td>
+                <td>сендерді</td>
+                <td>оларды</td>
+            </tr>
+            <tr>
+                <td>Genitive</td>
+                <td>менің</td>
+                <td>сенің</td>
+                <td>оның</td>
+                <td>біздің</td>
+                <td>сендердің</td>
+                <td>олардың</td>
+            </tr>
+            <tr>
+                <td>Dative</td>
+                <td>маған</td>
+                <td>саған</td>
+                <td>оған</td>
+                <td>бізге</td>
+                <td>сендерге</td>
+                <td>оларға</td>
+            </tr>
+            <tr>
+                <td>Locative</td>
+                <td>менде</td>
+                <td>сенде</td>
+                <td>онда</td>
+                <td>бізде</td>
+                <td>сендерде</td>
+                <td>оларда</td>
+            </tr>
+            <tr>
+                <td>Ablative</td>
+                <td>менен</td>
+                <td>сенен</td>
+                <td>одан</td>
+                <td>бізден</td>
+                <td>сендерден</td>
+                <td>олардан</td>
+            </tr>
+            <tr>
+                <td>Instrumental</td>
+                <td>менімен</td>
+                <td>сенімен</td>
+                <td>онымен</td>
+                <td>бізбен</td>
+                <td>сендермен</td>
+                <td>олармен</td>
+            </tr>
+        </table>
+    </div>
+
+    <h2>Present/Future Time conjugation</h2>
+    <table id="vowels_table">
+        <tr>
+            <td>Hard vowels:</td>
+            <td>Аа</td>
+            <td></td>
+            <td></td>
+            <td>Оо</td>
+            <td>Уу</td>
+            <td>Ұұ</td>
+            <td>Ыы</td>
+        </tr>
+        <tr>
+            <td>Soft vowels:</td>
+            <td>Әә</td>
+            <td>Ее</td>
+            <td>Ии</td>
+            <td>Өө</td>
+            <td></td>
+            <td>Үү</td>
+            <td>Іі</td>
+        </tr>
+    </table>
+    <div id="verb_div">
+        <table id="verb">
+            <tr>
+                <th>Person</th>
+                <th>Ends w/ soft vowel</th>
+                <th>Ends w/ hard vowel</th>
+                <th>Ends w/ soft vowel + cons.</th>
+                <th>Ends w/ hard vowel + cons.</th>
+            </tr>
+            <tr>
+                <td>1st sing. мен</td>
+                <td>-ймін</td>
+                <td>-ймын</td>
+                <td>-емін</td>
+                <td>-амын</td>
+            </tr>
+            <tr>
+                <td>2nd sing. сен</td>
+                <td>-йсің</td>
+                <td>-йсың</td>
+                <td>-есің</td>
+                <td>-асың</td>
+            </tr>
+            <tr>
+                <td>3rd sing. ол</td>
+                <td>-йді</td>
+                <td>-йды</td>
+                <td>-еді</td>
+                <td>-ады</td>
+            </tr>
+            <tr>
+                <td>1st plur. біз</td>
+                <td>-йміз</td>
+                <td>-ймыз</td>
+                <td>-еміз</td>
+                <td>-амыз</td>
+            </tr>
+            <tr>
+                <td>2nd plur. сендер</td>
+                <td>-йсіңдер</td>
+                <td>-йсыңдар</td>
+                <td>-есіңдер</td>
+                <td>-асыңдар</td>
+            </tr>
+            <tr>
+                <td>3rd plur. олар</td>
+                <td>-йді</td>
+                <td>-йды</td>
+                <td>-еді</td>
+                <td>-ады</td>
+            </tr>
+        </table>
+    </div>
+
+
+    <div id="wave_bottom">
+        <svg viewBox="0 0 1000 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+          <path d="M1000,48.29c0,0-106.81,108.65-238.66,0s-261.34,0-261.34,0s-106.81,108.65-238.66,0S0,48.29,0,48.29V150h1000 V48.29z" style="stroke: none;fill: #f2e269;"></path>
+        </svg>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

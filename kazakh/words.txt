@@ -121,5 +121,7 @@
 ерте:early:tôt
 кеш:late:tard
 тым:too:aussi
-ұйықтау:sleepsleep:dormir
+ұйықтау:sleep:dormir
 айту:tell,say:dire
+Оңай:easy:facile
+Қиын:difficult:difficile
