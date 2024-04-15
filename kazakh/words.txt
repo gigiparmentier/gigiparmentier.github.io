@@ -38,7 +38,7 @@ o:бәрі бір:whatever:n'importe quoi
 o:маған бәрі бір:I don't care,idc:je m'en fiche,balek,osef
 n:нан:bread:pain
 v:жеу:eat:manger
-v:іш:drink:boire
+v:ішу:drink:boire
 a:қара:black:noir
 o:оқасы жоқ:you're welcome:derien
 n:аға:brother:frère

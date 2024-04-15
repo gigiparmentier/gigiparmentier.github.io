@@ -23,26 +23,23 @@ $(document).ready(function(){
             var k_words = parts[1].trim();
             var e_words = parts[2].trim();
             var f_words = parts[3].trim();
+            var e_words_display = e_words;
+            var f_words_display = f_words;
             if (type == 'v'){
-                for (var i = 0; i < e_words.split(",").length; i++){
+                var len = e_words.split(",").length;
+                for (var i = 0; i < len; i++){
                     var e_word = e_words.split(",")[i];
                     var f_word = f_words.split(",")[i];
-                    if (e_word.includes("to ")){
-                        e_words = e_words + "," + e_word.replace("to ","");
-                        f_words = f_words + "," + f_word.replace("to ","");
-                    }
-                    else{
-                        e_words = e_words + "," + "to " + e_word;
-                        f_words = f_words + "," + "to " + f_word;
-                    }
+                    e_words_display = "to " + e_word;
+                    f_words_display = "to " + f_word;
                 }
             }
-            words_list.push({k_words: k_words, e_words: e_words, f_words: f_words});
+            words_list.push({type:type, k_words: k_words, e_words: e_words, f_words: f_words});
             k_words = k_words.replace(/,/g,", ");
             e_words = e_words.replace(/,/g,", ");
             f_words = f_words.replace(/,/g,", ");
             
-            var wordElement = $("<p>").text(k_words + ' : ' + e_words);
+            var wordElement = $("<p>").text(k_words + ' : ' + e_words_display);
             wordElement.attr('type'   , type   );
             wordElement.attr('k_words', k_words);
             wordElement.attr('e_words', e_words);
@@ -96,9 +93,19 @@ function get_audio_duration(audio,i){
 $("#search_bar").on("input", function() {
     var searchValue = $(this).val().toLowerCase();
     $(".word").each(function() {
+        var type = $(this).attr("type");
         var kWords = $(this).attr("k_words").toLowerCase();
         var eWords = $(this).attr("e_words").toLowerCase();
         var fWords = $(this).attr("f_words").toLowerCase();
+        if (type == 'v'){
+            var len = eWords.split(",").length;
+            for (var i = 0; i < len; i++){
+                var eWord = eWords.split(",")[i];
+                var fWord = fWords.split(",")[i];
+                eWords = eWords + "," + "to " + eWord;
+                fWords = fWords + "," + "to " + fWord;
+            }
+        }
         if (kWords.includes(searchValue) || eWords.includes(searchValue) || fWords.includes(searchValue)) {
             $(this).show();
         } else {
@@ -113,18 +120,28 @@ $('#guess_input').on('keypress', function(e) {
         return;
     }
     var guess = $(this).val().toLowerCase();
-    var eWords = $('#guess_word').attr('e_words').toLowerCase().split(",");
+    var e_words = $('#guess_word').attr('e_words').toLowerCase().split(",");
+    var e_words_possible = e_words.slice();
+    if ($('#guess_word').attr('type') == 'v'){
+        var len = e_words.length;
+        for (var i = 0; i < len; i++){
+            var e_word = e_words[i];
+            e_words_possible.push('to ' + e_word);
+            e_words[i] = 'to ' + e_word;
+        }
+    }
+    console.log(e_words_possible);
     $('#guess_result').css('opacity',1);
     var time = 500;
-    if ((eWords.includes(guess)) || (eWords.includes('to ' + guess))){
+    if ((e_words_possible.includes(guess))){
         $("#guess_result").text("Correct!");
         correct_guesses++;
     } else {
         if (guess.length == 0) {
-            $("#guess_result").text("It was " + eWords);
+            $("#guess_result").text("It was " + e_words);
         }
         else{
-            $("#guess_result").text("Nope, it was " + eWords);
+            $("#guess_result").text("Nope, it was " + e_words);
         }
         time = 1500;
     }
@@ -188,6 +205,7 @@ function start_game() {
     }
     var word = shuffled_list[guess_index];
     $("#guess_word").text(word.k_words);
+    $('#guess_word').attr('type', word.type);
     $('#guess_word').attr('k_words', word.k_words);
     $('#guess_word').attr('e_words', word.e_words);
     $('#guess_word').attr('f_words', word.f_words);
