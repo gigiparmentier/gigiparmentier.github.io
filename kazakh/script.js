@@ -19,15 +19,31 @@ $(document).ready(function(){
 
         lines.forEach(function(line) {
             var parts = line.split(":");
-            var k_words = parts[0].trim();
-            var e_words = parts[1].trim();
-            var f_words = parts[2].trim();
+            var type    = parts[0].trim();
+            var k_words = parts[1].trim();
+            var e_words = parts[2].trim();
+            var f_words = parts[3].trim();
+            if (type == 'v'){
+                for (var i = 0; i < e_words.split(",").length; i++){
+                    var e_word = e_words.split(",")[i];
+                    var f_word = f_words.split(",")[i];
+                    if (e_word.includes("to ")){
+                        e_words = e_words + "," + e_word.replace("to ","");
+                        f_words = f_words + "," + f_word.replace("to ","");
+                    }
+                    else{
+                        e_words = e_words + "," + "to " + e_word;
+                        f_words = f_words + "," + "to " + f_word;
+                    }
+                }
+            }
             words_list.push({k_words: k_words, e_words: e_words, f_words: f_words});
             k_words = k_words.replace(/,/g,", ");
             e_words = e_words.replace(/,/g,", ");
             f_words = f_words.replace(/,/g,", ");
             
             var wordElement = $("<p>").text(k_words + ' : ' + e_words);
+            wordElement.attr('type'   , type   );
             wordElement.attr('k_words', k_words);
             wordElement.attr('e_words', e_words);
             wordElement.attr('f_words', f_words);
