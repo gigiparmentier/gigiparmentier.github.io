@@ -7,7 +7,22 @@ var letter_duration = new Array(alphabet.length).fill(0);
 var correct_guesses = 0;
 var total_guesses = 0;
 
+var colors = [['#f2e269','#cba000'],['#e8766d','#d7544a'],['#7db1db','#5092c8']];
+var titles = [
+    '<i class="fa-solid fa-sun"></i>   My kazakh words   <i class="fa-solid fa-sun"></i>',
+    '<i class="star"></i>   My russian words   <i class="star"></i>',
+    '<i class="baguette"></i>   My french words   <i class="baguette"></i>'
+];
+
+var lang = 2;
+
 $(document).ready(function(){
+    //Change theme color depending on the language
+    document.documentElement.style.setProperty("--primary-color", colors[lang][0]);
+    document.documentElement.style.setProperty("--secondary-color", colors[lang][1]);
+    $('#wave_top path').attr('style','stroke: none;fill: '+colors[lang][0]+';');
+    $('#wave_bottom path').attr('style','stroke: none;fill: '+colors[lang][0]+';');
+    $('#title').html(titles[lang]);
     //Get word list and populate words section
     var url = "https://gigiparmentier.github.io/kazakh/words.txt";
     $.get({url: url,cache: false}).then(function(data) {
@@ -23,6 +38,7 @@ $(document).ready(function(){
             var k_words = parts[1].trim();
             var e_words = parts[2].trim();
             var f_words = parts[3].trim();
+            var r_words = parts[4].trim();
             var e_words_display = e_words;
             if (type == 'v'){
                 var len = e_words.split(",").length;
@@ -31,16 +47,19 @@ $(document).ready(function(){
                     e_words_display = "to " + e_word;
                 }
             }
-            words_list.push({type:type, k_words: k_words, e_words: e_words, f_words: f_words});
+            words_list.push({type:type, k_words: k_words, e_words: e_words, f_words: f_words, r_words: r_words});
             k_words = k_words.replace(/,/g,", ");
             e_words = e_words.replace(/,/g,", ");
             f_words = f_words.replace(/,/g,", ");
+            r_words = r_words.replace(/,/g,", ");
             
-            var wordElement = $("<p>").text(k_words + ' : ' + e_words_display);
+            all_words = [k_words,e_words,f_words,r_words];
+            var wordElement = $("<p>").text(all_words[lang] + ' : ' + e_words_display);
             wordElement.attr('type'   , type   );
             wordElement.attr('k_words', k_words);
             wordElement.attr('e_words', e_words);
             wordElement.attr('f_words', f_words);
+            wordElement.attr('r_words', r_words);
             wordElement.addClass("word");
             wordElement.on("click", play_word_sound);
 

@@ -1,3 +1,8 @@
+html{
+    --primary-color: #f2e269;
+    --secondary-color: #cba000;
+}
+
 .icon::before {
     display: inline-block;
     text-rendering: auto;
@@ -6,7 +11,7 @@
 
 html{
     margin:0 auto;
-    background-color:#f2e269;
+    background-color:var(--primary-color);
     color:#5a4813;
     font-family: "Balsamiq Sans", sans-serif !important;
     overflow-x:hidden;
@@ -30,25 +35,27 @@ body{
 }
 
 #wave_top{
-    border-top:150px solid #f2e269;
+    border-top:150px solid var(--primary-color);
+}
+
+#wave_top_russian{
+    border-top:150px solid #;
 }
 
 #wave_bottom{
     margin-top:100px;
-    border-bottom:50px solid #f2e269;
+    border-bottom:50px solid var(--primary-color);
     height:2.2vw;
 }
 
 @keyframes slidein {
     from {
-      /* pushes the sun down past the viewport */
       transform: translateX(0);
     }
     to {
-      /* returns the sun to its default position */
       transform: translateX(-100vw);
     }
-  }
+}
 
 h1{
     position:relative;
@@ -56,7 +63,7 @@ h1{
     text-align: center;
     font-size: 50px;
     color:white;
-    background-color:#cba000;
+    background-color: var(--secondary-color);
     border-radius:50px;
     padding-left: 15px;
     padding-right: 15px;
@@ -66,6 +73,24 @@ h1{
     width:fit-content;
     z-index:100;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.baguette{
+    background: url('baguette.svg');
+    vertical-align: middle;
+}
+
+.star{
+    background: url('star.svg');
+    vertical-align: text-top;
+}
+
+.baguette,.star{
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
 }
 
 #search_bar{
@@ -393,7 +418,7 @@ border-right: 1px solid black;
 }
 
 #cases th,#verb th{
-    background-color: #f2e269;
+    background-color: var(--primary-color);
     height:35px;
     text-align:center;
 }
@@ -537,7 +562,7 @@ border-right: 1px solid black;
     }
 
     #wave{
-        border-top:100px solid #f2e269;
+        border-top:100px solid var(--primary-color);
         margin-bottom:50px;
     }
 
