@@ -53,7 +53,7 @@ $(document).ready(function(){
             f_words = f_words.replace(/,/g,", ");
             r_words = r_words.replace(/,/g,", ");
             
-            all_words = [k_words,e_words,f_words,r_words];
+            all_words = [k_words,r_words,f_words];
             var wordElement = $("<p>").text(all_words[lang] + ' : ' + e_words_display);
             wordElement.attr('type'   , type   );
             wordElement.attr('k_words', k_words);
@@ -113,13 +113,12 @@ $("#search_bar").on("input", function() {
         var kWords = $(this).attr("k_words").toLowerCase();
         var eWords = $(this).attr("e_words").toLowerCase();
         var fWords = $(this).attr("f_words").toLowerCase();
+        var rWords = $(this).attr("r_words").toLowerCase();
         if (type == 'v'){
             var len = eWords.split(",").length;
             for (var i = 0; i < len; i++){
                 var eWord = eWords.split(",")[i];
-                var fWord = fWords.split(",")[i];
                 eWords = eWords + "," + "to " + eWord;
-                fWords = fWords + "," + "to " + fWord;
             }
         }
         if (kWords.includes(searchValue) || eWords.includes(searchValue) || fWords.includes(searchValue)) {
@@ -146,7 +145,6 @@ $('#guess_input').on('keypress', function(e) {
             e_words[i] = 'to ' + e_word;
         }
     }
-    console.log(e_words_possible);
     $('#guess_result').css('opacity',1);
     var time = 500;
     if ((e_words_possible.includes(guess))){
@@ -220,7 +218,8 @@ function start_game() {
         return;
     }
     var word = shuffled_list[guess_index];
-    $("#guess_word").text(word.k_words);
+    var words = [word.k_words,word.r_words,word.f_words];
+    $("#guess_word p").text(words[lang]);
     $('#guess_word').attr('type', word.type);
     $('#guess_word').attr('k_words', word.k_words);
     $('#guess_word').attr('e_words', word.e_words);

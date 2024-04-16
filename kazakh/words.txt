@@ -1,134 +1,134 @@
-n:мысық:cat:chat:
-n:ит:dog:chien:
-n:дос:friend:ami:
-n:түн:night:nuit:
-n:күн:day,sun:jour,soleil:
-n:ай:moon,month,ouch:lune,mois,aie:
-v:сігу:fuck:baiser:
-a:үлкен:big:grand:
-a:кішкентай:small,little:petit:
-o:рахмет:thank you,thanks:merci:
-n:ми:brain:cerveau:
-o:сау бол:bye,goodbye:au revoir:
-o:сәлем:hello,hi:bonjour,salut:
-o:қош бол:farewell:adieu:
-a:қазақ:kazakh:kazakh:
-n:ағаш:tree:arbre:
-n:ара:bee:abeille:
-n:ғарыш:space:espace:
-o:емес:not:pas:
-o:мен,және:and:et:
-n:доп:ball:balle:
-o:мен:I,me:je,moi:
-o:сен:you:tu,toi:
-a:жаман:bad:mauvais:
-a:жақсы:good:bon:
-n:ат:name,horse:nom,cheval:
-a:қуасың:crazy:fou:
-o:қуасың ба?:are you crazy?:tu es fou?:
-n:тамақ:food,throat:nourriture,gorge:
-n:ұл:boy,son:garçon,fils:
-n:қыз:girl,daughter:fille:
-n:жүз:hundred,face:cent,visage:
-v:жүз:swim:nager:
-n:кофе:coffee:café:
-o:кешір:sorry:désolé:
-a:кір:dirty:sale:
-o:бәрі бір:whatever:n'importe quoi:
-o:маған бәрі бір:I don't care,idc:je m'en fiche,balek,osef:
-n:нан:bread:pain:
-v:жеу:eat:manger:
-v:ішу:drink:boire:
-a:қара:black:noir:
-o:оқасы жоқ:you're welcome:de rien:
-n:аға:brother:frère:
-n:әпке:sister:soeur:
-o:иә:yes:oui:
-o:Жоқ:no:non:
-o:айтпа:exactly,right:exactement:
-o:Тағы да:again,more:encore,plus:
-o:өтінемін:please:s'il-te-plaît,s'il-vous-plait,svp,stp:
-v:Болу:be:être:
-o:сау:healthy:en bonne santé:
-o:ғой:though:par contre:
-o:тек:only:seulement:
-o:әр:each:chacun,chaque,chacune:
-n:адам:person:personne:
-o:Қалайсың:how are you,how are you?:comment vas-tu,comment vas-tu?:
-a:Қайырлы:gracious,good:gracieux,bon:
-n:таң:morning:matin:
-o:жақында:soon:bientôt:
-o:жақын:close:proche:
-o:Бүгін:today:aujourd'hui:
-o:Ертең:tomorrow:demain:
-o:Бірақ:but:mais:
-o:Өте:very:très:
-o:Не?:what,what?:quoi,quoi?:
-o:Неге?:why,why?:pourquoi,pourquoi?:
-o:Қашан?:when,when?:quand,quand?:
-o:Қайда?:where,where?:où,où?:
-n:гүл:flower:fleur:
-n:үй:house:maison:
-o:ше:and,...?:et,...?:
-a:смешно:funny:drôle:
-a:Дұрыс:correct:correct:
-o:басқаны:another,someone/thing else:quelqu'un/quelque chose d'autre:
-o:Ол:it,she,he:chose,il,elle:
-o:көп:a lot,many:plein,beaucoup:
-o:аз:few:peu:
-o:ештеңе:nothing:rien:
-a:жалқау:lazy:paresseux:
-n:кітап:book:livre:
-o:что за фигня:what the fuck,wtf:what the fuck,wtf:
-o:Бәрі:everything:tout:
-v:Түсіну:understand:comprendre:
-o:миымды жеме:don't eat my brain:ne mange pas mon cerveau:
-o:неше:how many:combien:
-n:кесе:cup:tasse:
-o:кеше:yersterday:hier:
-o:әлде:or:ou:
-n:әке:father:père:
-n:ана:mother:mère:
-n:Сағат:hour,time:heure,temps :
-o:Қалай:how:comment:
-n:Бөпе:baby:bébé:
-o:мүмкін:maybe:peut-être:
-o:әрине:of course:bien sûr:
-v:бару:go:aller:
-o:істеу:do,make:faire:
-n:кәмшат:otter:loutre:
-v:кету:go,leave:aller,partir:
-o:кетш:get out:va te faire:
-n:бас:head:tête:
-v:жазу:write:écrire:
-o:жиі:often:souvent:
-n:қол:hand,arm:main,bras:
-v:ойлану:reflect:réflechir:
-v:ойлау:think:penser:
-n:ой:thought:idée:
-n:кісі:person:personne:
-v:өлтіру:kill:tuer:
-o:осы:this,that:ce,cette:
-n:көтен:booty:petit cul:
-v:білу:know:savoir:
-a:Әдемі:beautiful,pretty:beau:
-n:Қотақбас:dickhead:tête de bite:
-n:Қотақ:dick:bite:
-v:көру:see:voir:
-v:келу:come:venir:
-v:жақсы көру:love:aimer:
-n:қолшатыр:umbrella:parapluie:
-n:шатыр:roof:toit:
-o:ерте:early:tôt:
-o:кеш:late:tard:
-p:тым:too:aussi:
-v:ұйықтау:sleep:dormir:
-v:айту:tell,say:dire:
-a:Оңай:easy:facile:
-a:Қиын:difficult:difficile:
-n:Сүт:milk:lait:
-v:сөйлеу:speak:parler:
-n:көз:eye,eyes:oeil,yeux:
-n:Құлақ:ear:oreille:
-n:шаш:hair:cheveux:
-n:аяқ:leg,legs,foot,feet:jambe,jambes,pied,pieds:
+n:мысық:cat:chat:кот
+n:ит:dog:chien:собака
+n:дос:friend:ami:друг,подруга
+n:түн:night:nuit:ночь
+n:күн:day,sun:jour,soleil:солнце
+n:ай:moon,month,ouch:lune,mois,aie:луна
+v:сігу:fuck:baiser:ебаться
+a:үлкен:big:grand:большой
+a:кішкентай:small,little:petit:маленький
+o:рахмет:thank you,thanks:merci:спасибо
+n:ми:brain:cerveau:мозг
+o:сау бол:bye,goodbye:au revoir:до свидания,пока
+o:сәлем:hello,hi:bonjour,salut:здравствуйте,привет
+o:қош бол:farewell:adieu:прощай
+a:қазақ:kazakh:kazakh:казахский
+n:ағаш:tree:arbre:дерево
+n:ара:bee:abeille:пчела
+n:ғарыш:space:espace:космос
+o:емес:not:pas:не
+o:мен,және:and:et:и
+n:доп:ball:balle:мячь
+o:мен:I,me:je,moi:я
+o:сен:you:tu,toi:ты
+a:жаман:bad:mauvais:плохой
+a:жақсы:good:bon:хороший
+n:ат:name,horse:nom,cheval:лошадь
+a:қуасың:crazy:fou:сумасшедший
+o:қуасың ба?:are you crazy?:tu es fou?:ты сумасшедший?
+n:тамақ:food,throat:nourriture,gorge:еда,горло
+n:ұл:boy,son:garçon,fils:мальчик
+n:қыз:girl,daughter:fille:девочка
+n:жүз:hundred,face:cent,visage:сто,лицо
+v:жүз:swim:nager:плавать
+n:кофе:coffee:café:кофе
+o:кешір:sorry:désolé:извини,прости
+a:кір:dirty:sale:грязный
+o:бәрі бір:whatever:n'importe quoi:без разницы,всё равно
+o:маған бәрі бір:I don't care,idc:je m'en fiche,balek,osef:мне всё равно
+n:нан:bread:pain:хлеб
+v:жеу:eat:manger:есть,кушать
+v:ішу:drink:boire:пить
+a:қара:black:noir:чёрный
+o:оқасы жоқ:you're welcome:de rien:не за что, пожалуйста
+n:аға:brother:frère:брат
+n:әпке:sister:soeur:сестра
+o:иә:yes:oui:да
+o:Жоқ:no:non:нет
+o:айтпа:exactly,right:exactement:точно
+o:Тағы да:again,more:encore,plus:ещё
+o:өтінемін:please:s'il-te-plaît,s'il-vous-plait,svp,stp:пожалуйста
+v:Болу:be:être:быть
+o:сау:healthy:en bonne santé:здоровье
+o:ғой:though:par contre:же
+o:тек:only:seulement:только
+o:әр:each:chacun,chaque,chacune:каждый
+n:адам:person:personne:человек
+o:Қалайсың:how are you,how are you?:comment vas-tu,comment vas-tu?:как дела?
+a:Қайырлы:gracious,good:gracieux,bon:милостивый
+n:таң:morning:matin:утро
+o:жақында:soon:bientôt:скоро
+o:жақын:close:proche:близко
+o:Бүгін:today:aujourd'hui:сегодня
+o:Ертең:tomorrow:demain:завтра
+o:Бірақ:but:mais:но
+o:Өте:very:très:очень
+o:Не?:what,what?:quoi,quoi?:что?
+o:Неге?:why,why?:pourquoi,pourquoi?:почему?
+o:Қашан?:when,when?:quand,quand?:когда?
+o:Қайда?:where,where?:où,où?:где?
+n:гүл:flower:fleur:цветок
+n:үй:house:maison:дом
+o:ше:and,...?:et,...?:а,...?
+a:смешно:funny:drôle:смешно
+a:Дұрыс:correct:correct:правильно
+o:басқаны:another,someone/thing else:un/quelqu'un/quelque chose d'autre:другой
+o:Ол:it,she,he:chose,il,elle:это,она,он
+o:көп:a lot,many:plein,beaucoup:много
+o:аз:few:peu:мало
+o:ештеңе:nothing:rien:ничего
+a:жалқау:lazy:paresseux:ленивый
+n:кітап:book:livre:книга
+o:что за фигня:what the fuck,wtf:what the fuck,wtf:что за фигня
+o:Бәрі:everything:tout:всё
+v:Түсіну:understand:comprendre:понимать
+o:миымды жеме:don't eat my brain:ne mange pas mon cerveau:запарил
+o:неше:how many:combien:сколько?
+n:кесе:bowl:bol:чаша
+o:кеше:yersterday:hier:вчера
+o:әлде:or:ou:или
+n:әке:father:père:папа
+n:ана:mother:mère:мама
+n:Сағат:hour,time:heure,temps:час,время
+o:Қалай:how:comment:как?
+n:Бөпе:baby:bébé:ребёнок
+o:мүмкін:maybe:peut-être:может быть
+o:әрине:of course:bien sûr:конечно
+v:бару:go:aller:идти
+o:істеу:do,make:faire:делать
+n:кәмшат:otter:loutre:выдра
+v:кету:go,leave:aller,partir:уходить
+o:кетш:get out:va te faire:уйди
+n:бас:head:tête:голова
+v:жазу:write:écrire:писать
+o:жиі:often:souvent:часто
+n:қол:hand,arm:main,bras:рука
+v:ойлану:reflect:réflechir:размышлять,думать
+v:ойлау:think:penser:думать
+n:ой:thought:pensée:мысль
+n:кісі:person:personne:человек
+v:өлтіру:kill:tuer:убить
+o:осы:this:ce:это,эта,этот
+n:көтен:booty:petit cul:попа
+v:білу:know:savoir:знать
+a:Әдемі:beautiful,pretty:beau:красивый
+n:Қотақбас:dickhead:tête de bite:придурок
+n:Қотақ:dick:bite:член
+v:көру:see:voir:видеть
+v:келу:come:venir:приходить
+v:жақсы көру:love:aimer:любить
+n:қолшатыр:umbrella:parapluie:зонт
+n:шатыр:roof:toit:крыша
+o:ерте:early:tôt:рано
+o:кеш:late:tard:поздно
+p:тым:too:aussi:тоже
+v:ұйықтау:sleep:dormir:спать
+v:айту:tell,say:dire:рассказать,сказать
+a:Оңай:easy:facile:легко
+a:Қиын:difficult:difficile:сложно
+n:Сүт:milk:lait:молоко
+v:сөйлеу:speak:parler:разговаривать
+n:көз:eye,eyes:oeil,yeux:глаз,глаза
+n:Құлақ:ear:oreille:ухо
+n:шаш:hair:cheveux:волосы
+n:аяқ:leg,legs,foot,feet:jambe,jambes,pied,pieds:нога,ноги

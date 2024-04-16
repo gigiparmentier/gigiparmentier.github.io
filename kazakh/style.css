@@ -273,6 +273,10 @@ h2{
     margin-top:-3px;
 }
 
+#guess_word p{
+    line-height: 20px;
+}
+
 #guess_input{
     padding:0;
     height:65px;
