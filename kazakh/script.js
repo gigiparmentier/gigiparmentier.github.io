@@ -14,7 +14,7 @@ var titles = [
     '<i class="baguette"></i>   My french words   <i class="baguette"></i>'
 ];
 
-var lang = 2;
+var lang = 0;
 
 $(document).ready(function(){
     //Change theme color depending on the language
