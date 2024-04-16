@@ -24,14 +24,11 @@ $(document).ready(function(){
             var e_words = parts[2].trim();
             var f_words = parts[3].trim();
             var e_words_display = e_words;
-            var f_words_display = f_words;
             if (type == 'v'){
                 var len = e_words.split(",").length;
                 for (var i = 0; i < len; i++){
                     var e_word = e_words.split(",")[i];
-                    var f_word = f_words.split(",")[i];
                     e_words_display = "to " + e_word;
-                    f_words_display = "to " + f_word;
                 }
             }
             words_list.push({type:type, k_words: k_words, e_words: e_words, f_words: f_words});

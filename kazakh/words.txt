@@ -129,4 +129,6 @@ a:Қиын:difficult:difficile
 n:Сүт:milk:lait
 v:сөйлеу:speak:parler
 n:көз:eye,eyes:oeil,yeux
-n:Қолақ:ear:oreille
+n:Қылақ:ear:oreille
+n:шаш:hair:cheveux
+n:аяқ:leg,legs,foot,feet:jambe,jambes,pied,pieds
