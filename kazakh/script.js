@@ -1,3 +1,19 @@
+var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = window.location.search.substring(1),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+        }
+    }
+    return false;
+};
+
 var words_list = [];
 var shuffled_list = [];
 var guess_index = 0;
@@ -15,6 +31,13 @@ var titles = [
 ];
 
 var lang = 0;
+var url_lang = getUrlParameter('lang');
+if (url_lang == 'ru'){
+    lang = 1;
+}
+else if (url_lang == 'fr'){
+    lang = 2;
+}
 
 $(document).ready(function(){
     //Change theme color depending on the language
