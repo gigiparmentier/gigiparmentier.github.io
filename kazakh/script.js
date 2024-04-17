@@ -23,10 +23,10 @@ var letter_duration = new Array(alphabet.length).fill(0);
 var correct_guesses = 0;
 var total_guesses = 0;
 
-var colors = [['#f2e269','#cba000'],['#e8766d','#d7544a'],['#7db1db','#5092c8']];
+var colors = [['#7db1db','#5092c8'],['#f2e269','#cba000'],['#e8766d','#d7544a']];
 var titles = [
     '<i class="fa-solid fa-sun"></i>   My kazakh words   <i class="fa-solid fa-sun"></i>',
-    '<i class="star"></i>   My russian words   <i class="star"></i>',
+    '<i class="fa-regular fa-snowflake"></i>   My russian words   <i class="fa-regular fa-snowflake"></i>',
     '<i class="baguette"></i>   My french words   <i class="baguette"></i>'
 ];
 
@@ -168,6 +168,10 @@ $('#guess_input').on('keypress', function(e) {
             e_words[i] = 'to ' + e_word;
         }
     }
+    
+    guess = guess.replace("?", "");
+    e_words_possible = e_words_possible.map(word => word.replace("?", ""));
+
     $('#guess_result').css('opacity',1);
     var time = 500;
     if ((e_words_possible.includes(guess))){
