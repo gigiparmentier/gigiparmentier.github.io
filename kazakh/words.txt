@@ -136,3 +136,4 @@ n:ерін:lips:lèvres::
 a:ақылды:smart,intelligent:intelligent::
 n:Ауыз:mouth:bouche::
 n:Ақыл:intelligence:intelligence::
+n:іш:belly:ventre:живот:
