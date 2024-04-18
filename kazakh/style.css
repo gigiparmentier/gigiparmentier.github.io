@@ -85,14 +85,14 @@ h1{
     width: 50px;
 }
 
-.seal{
-    background: url('seal.svg');
-    vertical-align: -4px;
+.flower{
+    background: url('flower.svg');
+    vertical-align: -2px;
     height:40px;
     width:40px;
 }
 
-.baguette,.star,.seal{
+.baguette,.star,.flower{
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-block;

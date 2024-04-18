@@ -28,7 +28,7 @@ var titles = [
     '<i class="fa-solid fa-sun"></i>   My kazakh words   <i class="fa-solid fa-sun"></i>',
     '<i class="fa-regular fa-snowflake"></i>   My russian words   <i class="fa-regular fa-snowflake"></i>',
     '<i class="baguette"></i>   My french words   <i class="baguette"></i>',
-    '<i class="seal"></i>   My korean words   <i class="seal"></i>'
+    '<i class="flower"></i>   My korean words   <i class="flower"></i>'
 ];
 
 var lang = 0;
