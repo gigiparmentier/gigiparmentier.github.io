@@ -23,11 +23,12 @@ var letter_duration = new Array(alphabet.length).fill(0);
 var correct_guesses = 0;
 var total_guesses = 0;
 
-var colors = [['#7db1db','#5092c8'],['#f2e269','#cba000'],['#e8766d','#d7544a']];
+var colors = [['#7db1db','#5092c8'],['#f2e269','#cba000'],['#e8766d','#d7544a'],['#c499e0','#a463ce']];
 var titles = [
     '<i class="fa-solid fa-sun"></i>   My kazakh words   <i class="fa-solid fa-sun"></i>',
     '<i class="fa-regular fa-snowflake"></i>   My russian words   <i class="fa-regular fa-snowflake"></i>',
-    '<i class="baguette"></i>   My french words   <i class="baguette"></i>'
+    '<i class="baguette"></i>   My french words   <i class="baguette"></i>',
+    '<i class="seal"></i>   My korean words   <i class="seal"></i>'
 ];
 
 var lang = 0;
@@ -37,6 +38,9 @@ if (url_lang == 'ru'){
 }
 else if (url_lang == 'fr'){
     lang = 2;
+}
+else if (url_lang == 'ko'){
+    lang = 3;
 }
 
 $(document).ready(function(){
@@ -62,6 +66,7 @@ $(document).ready(function(){
             var e_words = parts[2].trim();
             var f_words = parts[3].trim();
             var r_words = parts[4].trim();
+            var ko_words = parts[5].trim();
             var e_words_display = e_words;
             if (type == 'v'){
                 var len = e_words.split(",").length;
@@ -70,19 +75,21 @@ $(document).ready(function(){
                     e_words_display = "to " + e_word;
                 }
             }
-            words_list.push({type:type, k_words: k_words, e_words: e_words, f_words: f_words, r_words: r_words});
+            words_list.push({type:type, k_words: k_words, e_words: e_words, f_words: f_words, r_words: r_words, ko_words: ko_words});
             k_words = k_words.replace(/,/g,", ");
             e_words = e_words.replace(/,/g,", ");
             f_words = f_words.replace(/,/g,", ");
             r_words = r_words.replace(/,/g,", ");
+            ko_words = ko_words.replace(/,/g,", ");
             
-            all_words = [k_words,r_words,f_words];
+            all_words = [k_words,r_words,f_words,ko_words];
             var wordElement = $("<p>").text(all_words[lang] + ' : ' + e_words_display);
             wordElement.attr('type'   , type   );
             wordElement.attr('k_words', k_words);
             wordElement.attr('e_words', e_words);
             wordElement.attr('f_words', f_words);
             wordElement.attr('r_words', r_words);
+            wordElement.attr('ko_words', ko_words);
             wordElement.addClass("word");
             wordElement.on("click", play_word_sound);
 
@@ -137,6 +144,7 @@ $("#search_bar").on("input", function() {
         var eWords = $(this).attr("e_words").toLowerCase();
         var fWords = $(this).attr("f_words").toLowerCase();
         var rWords = $(this).attr("r_words").toLowerCase();
+        var koWords = $(this).attr("ko_words").toLowerCase();
         if (type == 'v'){
             var len = eWords.split(",").length;
             for (var i = 0; i < len; i++){
@@ -251,6 +259,8 @@ function start_game() {
     $('#guess_word').attr('k_words', word.k_words);
     $('#guess_word').attr('e_words', word.e_words);
     $('#guess_word').attr('f_words', word.f_words);
+    $('#guess_word').attr('r_words', word.r_words);
+    $('#guess_word').attr('ko_words', word.ko_words);
     var col = $('.word[k_words="' + word.k_words + '"]').css('background-color');
     $("#guess_word").css("background-color", col);
     $("#guess_input").val("");

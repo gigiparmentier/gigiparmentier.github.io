@@ -1,134 +1,138 @@
-n:мысық:cat:chat:кот:
-n:ит:dog:chien:собака:
-n:дос:friend:ami:друг,подруга:
-n:түн:night:nuit:ночь:
-n:күн:day,sun:jour,soleil:солнце:
-n:ай:moon,month,ouch:lune,mois,aie:луна:
-v:сігу:fuck:baiser:ебаться:
-a:үлкен:big:grand:большой:
-a:кішкентай:small,little:petit:маленький:
-o:рахмет:thank you,thanks:merci:спасибо:
-n:ми:brain:cerveau:мозг:
-o:сау бол:bye,goodbye:au revoir:до свидания,пока:
-o:сәлем:hello,hi:bonjour,salut:здравствуйте,привет:
-o:қош бол:farewell:adieu:прощай:
-a:қазақ:kazakh:kazakh:казахский:
-n:ағаш:tree:arbre:дерево:
-n:ара:bee:abeille:пчела:
-n:ғарыш:space:espace:космос:
-o:емес:not:pas:не:
-o:мен,және:and:et:и:
-n:доп:ball:balle:мячь:
-o:мен:I,me:je,moi:я:
-o:сен:you:tu,toi:ты:
-a:жаман:bad:mauvais:плохой:
-a:жақсы:good:bon:хороший:
-n:ат:name,horse:nom,cheval:лошадь:
-a:қуасың:crazy:fou:сумасшедший:
-o:қуасың ба?:are you crazy?:tu es fou?:ты сумасшедший?:
-n:тамақ:food,throat:nourriture,gorge:еда,горло:
-n:ұл:boy,son:garçon,fils:мальчик:
-n:қыз:girl,daughter:fille:девочка:
-n:жүз:hundred,face:cent,visage:сто,лицо:
-v:жүз:swim:nager:плавать:
-n:кофе:coffee:café:кофе:
-o:кешір:sorry:désolé:извини,прости:
-a:кір:dirty:sale:грязный:
-o:бәрі бір:whatever:n'importe quoi:без разницы,всё равно:
-o:маған бәрі бір:I don't care,idc:je m'en fiche,balek,osef:мне всё равно:
-n:нан:bread:pain:хлеб:
-v:жеу:eat:manger:есть,кушать:
-v:ішу:drink:boire:пить:
-a:қара:black:noir:чёрный:
-o:оқасы жоқ:you're welcome:de rien:не за что, пожалуйста:
-n:аға:brother:frère:брат:
-n:әпке:sister:soeur:сестра:
-o:иә:yes:oui:да:
-o:Жоқ:no:non:нет:
-o:айтпа:exactly,right:exactement:точно:
-o:Тағы да:again,more:encore,plus:ещё:
-o:өтінемін:please:s'il-te-plaît,s'il-vous-plait,svp,stp:пожалуйста:
-v:Болу:be:être:быть:
-o:сау:healthy:en bonne santé:здоровье:
-o:ғой:though:par contre:же:
-o:тек:only:seulement:только:
-o:әр:each:chacun,chaque,chacune:каждый:
-n:адам:person:personne:человек:
-o:Қалайсың:how are you?:comment vas-tu?:как дела?:
-a:Қайырлы:gracious,good:gracieux,bon:милостивый:
-n:таң:morning:matin:утро:
-o:жақында:soon:bientôt:скоро:
-o:жақын:close:proche:близко:
-o:Бүгін:today:aujourd'hui:сегодня:
-o:Ертең:tomorrow:demain:завтра:
-o:Бірақ:but:mais:но:
-o:Өте:very:très:очень:
-o:Не?:what?:quoi?:что?:
-o:Неге?:why?:pourquoi?:почему?:
-o:Қашан?:when?:quand?:когда?:
-o:Қайда?:where?:où?:где?:
-n:гүл:flower:fleur:цветок:
-n:үй:house:maison:дом:
-o:ше:and,...?:et,...?:а,...?:
-a:смешно:funny:drôle:смешно:
-a:Дұрыс:correct:correct:правильно:
-o:басқаны:another,someone/thing else:un/quelqu'un/quelque chose d'autre:другой:
-o:Ол:it,she,he:chose,il,elle:это,она,он:
-o:көп:a lot,many:plein,beaucoup:много:
-o:аз:few:peu:мало:
-o:ештеңе:nothing:rien:ничего:
-a:жалқау:lazy:paresseux:ленивый:
-n:кітап:book:livre:книга:
-o:что за фигня:what the fuck,wtf:what the fuck,wtf:что за фигня:
-o:Бәрі:everything:tout:всё:
-v:Түсіну:understand:comprendre:понимать:
-o:миымды жеме:don't eat my brain:ne mange pas mon cerveau:запарил:
-o:неше?:how many?:combien?:сколько?:
-n:кесе:bowl:bol:чаша:
-o:кеше:yersterday:hier:вчера:
-o:әлде:or:ou:или:
-n:әке:father:père:папа:
-n:ана:mother:mère:мама:
-n:Сағат:hour,time:heure,temps:час,время:
-o:Қалай?:how?:comment?:как?:
-n:Бөпе:baby:bébé:ребёнок:
-o:мүмкін:maybe:peut-être:может быть:
-o:әрине:of course:bien sûr:конечно:
-v:бару:go:aller:идти:
-o:істеу:do,make:faire:делать:
-n:кәмшат:otter:loutre:выдра:
-v:кету:go,leave:aller,partir:уходить:
-o:кетш:get out:va te faire:уйди:
-n:бас:head:tête:голова:
-v:жазу:write:écrire:писать:
-o:жиі:often:souvent:часто:
-n:қол:hand,arm:main,bras:рука:
-v:ойлану:reflect:réflechir:размышлять,думать:
-v:ойлау:think:penser:думать:
-n:ой:thought:pensée:мысль:
-n:кісі:person:personne:человек:
-v:өлтіру:kill:tuer:убить:
-o:осы:this:ce:это,эта,этот:
-n:көтен:booty:petit cul:попа:
-v:білу:know:savoir:знать:
-a:Әдемі:beautiful,pretty:beau:красивый:
+n:мысық:cat:chat:кот:고양이
+n:ит:dog:chien:собака:개,강아지
+n:дос:friend:ami:друг,подруга:친구
+n:түн:night:nuit:ночь:밤
+n:күн:day,sun:jour,soleil:день,солнце:일,날,해,태양
+n:ай:moon,month,ouch:lune,mois,aie:луна,месяц:달,월
+v:сігу:fuck:baiser:ебаться:섹스하다
+a:үлкен:big:grand:большой:큰
+a:кішкентай:small,little:petit:маленький:작은
+o:рахмет:thank you,thanks:merci:спасибо:감사합니다
+n:ми:brain:cerveau:мозг:뇌
+o:сау бол:bye,goodbye:au revoir:до свидания,пока:안녕히 가세요
+o:сәлем:hello,hi:bonjour,salut:здравствуйте,привет:안녕하세요
+o:қош бол:farewell:adieu:прощай:잘 지내세요
+a:қазақ:kazakh:kazakh:казахский:카자흐어
+n:ағаш:tree:arbre:дерево:나무
+n:ара:bee:abeille:пчела:벌
+n:ғарыш:space:espace:космос:우주
+o:емес:not:pas:не:아니다
+o:мен,және:and:et:и:그리고
+n:доп:ball:balle:мячь:공
+o:мен:I,me:je,moi:я:저는,제가,나는,내가
+o:сен:you:tu,toi:ты:너는,네가
+a:жаман:bad:mauvais:плохой:나쁜
+a:жақсы:good:bon:хороший:좋은
+n:ат:name,horse:nom,cheval:лошадь:말
+a:қуасың:crazy:fou:сумасшедший:미친
+o:қуасың ба?:are you crazy?:tu es fou?:ты сумасшедший?:미쳤어요?
+n:тамақ:food,throat:nourriture,gorge:еда,горло:음식,목
+n:ұл:boy,son:garçon,fils:мальчик:소년,남자 아이,아들
+n:қыз:girl,daughter:fille:девочка:소녀,여자 아이,딸
+n:жүз:hundred,face:cent,visage:сто,лицо:백,얼굴
+v:жүз:swim:nager:плавать:수영하다
+n:кофе:coffee:café:кофе:커피
+o:кешір:sorry:désolé:извини,прости:죄송합니다
+a:кір:dirty:sale:грязный:더럽다
+o:бәрі бір:whatever:n'importe quoi:без разницы,всё равно:아무것
+o:маған бәрі бір:I don't care,idc:je m'en fiche,balek,osef:мне всё равно:난 상관없어
+n:нан:bread:pain:хлеб:빵
+v:жеу:eat:manger:есть,кушать:먹다
+v:ішу:drink:boire:пить:마시다
+a:қара:black:noir:чёрный:검정색,검은색,까만색
+o:оқасы жоқ:you're welcome:de rien:не за что, пожалуйста:천만에요,아니에요,괜찮아요
+n:аға:brother:frère:брат:형,오빠,남동생
+n:әпке:sister:soeur:сестра:누나,언니,여동생
+o:иә:yes:oui:да:예,네,어,응
+o:Жоқ:no:non:нет:아니요
+o:айтпа:exactly,right:exactement:точно:정확히
+o:Тағы да:again,more:encore,plus:ещё:다시,더
+o:өтінемін:please:s'il-te-plaît,s'il-vous-plait,svp,stp:пожалуйста:주시기 바랍니다,주세요,줘,제발
+v:Болу:be:être:быть:이다
+o:сау:healthy:en bonne santé:здоровье:건강하다
+o:ғой:though:par contre:же:그렇지만,R+지만
+o:тек:only:seulement:только:N+만,뿐이다,R+ㄹ/을 뿐이다
+o:әр:each:chacun,chaque,chacune:каждый:각자,각 사람,각각,N+마다
+n:адам:person:personne:человек:사람
+o:Қалайсың:how are you?:comment vas-tu?:как дела?:어떻게 지내세요?
+a:Қайырлы:gracious,good:gracieux,bon:милостивый:은혜롭다,공손하다
+n:таң:morning:matin:утро:오전,아침 
+o:жақында:soon:bientôt:скоро:곧,당장
+o:жақын:close:proche:близко:가깝다
+o:Бүгін:today:aujourd'hui:сегодня:오늘
+o:Ертең:tomorrow:demain:завтра:내일
+o:Бірақ:but:mais:но:하지만
+o:Өте:very:très:очень:매우,아주,너무
+o:Не?:what?:quoi?:что?:무엇,뭐
+o:Неге?:why?:pourquoi?:почему?:왜?
+o:Қашан?:when?:quand?:когда?:언제
+o:Қайда?:where?:où?:где?:어디
+n:гүл:flower:fleur:цветок:꽃
+n:үй:house:maison:дом:댁,집
+o:ше:and,...?:et,...?:а,...?:그리고?
+a:смешно:funny:drôle:смешно:재미있는
+a:Дұрыс:correct:correct:правильно:정확하다,옳다,맞다
+o:басқаны:another,someone/thing else:quelqu'un/quelque chose d'autre:другой:또 다른,다른 사람
+o:Ол:it,she,he:chose,il,elle:это,она,он:그 사람
+o:көп:a lot,many:plein,beaucoup:много:많다
+o:аз:few:peu:мало:몇 개
+o:ештеңе:nothing:rien:ничего:아무것도 없다
+a:жалқау:lazy:paresseux:ленивый:게으르다
+n:кітап:book:livre:книга:책
+o:что за фигня:what the fuck,wtf:what the fuck,wtf:что за фигня:뭐야 씨발
+o:Бәрі:everything:tout:всё:모든 것
+v:Түсіну:understand:comprendre:понимать:이해하다
+o:миымды жеме:don't eat my brain:ne mange pas mon cerveau:запарил:귀찮게 하지마
+o:неше?:how many?:combien?:сколько?:얼마나
+n:кесе:bowl:bol:чаша:그릇
+o:кеше:yersterday:hier:вчера:어제
+o:әлде:or:ou:или:혹은,또는,N+(이)나,R+거나,아니면
+n:әке:father:père:папа:아버지
+n:ана:mother:mère:мама:어머니
+n:Сағат:hour,time:heure,temps:час,время:시간
+o:Қалай?:how?:comment?:как?:어떻게?
+n:Бөпе:baby:bébé:ребёнок:아기
+o:мүмкін:maybe:peut-être:может быть:아마도,아마,어쩌면
+o:әрине:of course:bien sûr:конечно:그럼요,물론(이다),당연하다
+v:бару:go:aller:идти:가다
+o:істеу:do,make:faire:делать:하다,만들다
+n:кәмшат:otter:loutre:выдра:수달
+v:кету:go,leave:aller,partir:уходить:떠나다
+o:кетш:get out:va te faire:уйди:나가다
+n:бас:head:tête:голова:머리
+v:жазу:write:écrire:писать:쓰다
+o:жиі:often:souvent:часто:자주
+n:қол:hand,arm:main,bras:рука:손,팔
+v:ойлану:reflect:réflechir:размышлять,думать:반사하다,반영하다
+v:ойлау:think:penser:думать:생각하다
+n:ой:thought:pensée:мысль:생각
+n:кісі:person:personne:человек:사람
+v:өлтіру:kill:tuer:убить:죽이다
+o:осы:this:ce:это,эта,этот:이것
+n:көтен:booty:petit cul:попа:전리품
+v:білу:know:savoir:знать:알다
+a:Әдемі:beautiful,pretty:beau:красивый:아름다운,예쁜
 n:Қотақбас:dickhead:tête de bite:придурок:
-n:Қотақ:dick:bite:член:
-v:көру:see:voir:видеть:
-v:келу:come:venir:приходить:
-v:жақсы көру:love:aimer:любить:
-n:қолшатыр:umbrella:parapluie:зонт:
-n:шатыр:roof:toit:крыша:
-o:ерте:early:tôt:рано:
-o:кеш:late:tard:поздно:
-p:тым:too:aussi:тоже:
-v:ұйықтау:sleep:dormir:спать:
-v:айту:tell,say:dire:рассказать,сказать:
-a:Оңай:easy:facile:легко:
-a:Қиын:difficult:difficile:сложно:
-n:Сүт:milk:lait:молоко:
-v:сөйлеу:speak:parler:разговаривать:
-n:көз:eye,eyes:oeil,yeux:глаз,глаза:
-n:Құлақ:ear:oreille:ухо:
-n:шаш:hair:cheveux:волосы:
-n:аяқ:leg,legs,foot,feet:jambe,jambes,pied,pieds:нога,ноги:
+n:Қотақ:dick:bite:член:음경
+v:көру:see:voir:видеть:보다
+v:келу:come:venir:приходить:오다
+v:жақсы көру:love:aimer:любить:사랑하다
+n:қолшатыр:umbrella:parapluie:зонт:우산
+n:шатыр:roof:toit:крыша:지붕
+o:ерте:early:tôt:рано:일찍
+o:кеш:late:tard:поздно:늦은
+p:тым:too:aussi:тоже:N+도,또한,게다가
+v:ұйықтау:sleep:dormir:спать:자다
+v:айту:tell,say:dire:рассказать,сказать:이야기하다,말하다
+a:Оңай:easy:facile:легко:쉬워지다,쉽다
+a:Қиын:difficult:difficile:сложно:어렵다
+n:Сүт:milk:lait:молоко:우유
+v:сөйлеу:speak:parler:разговаривать:말하다,대화하다
+n:көз:eye,eyes:oeil,yeux:глаз,глаза:눈
+n:Құлақ:ear:oreille:ухо:귀
+n:шаш:hair:cheveux:волосы:머리
+n:аяқ:leg,legs,foot,feet:jambe,jambes,pied,pieds:нога,ноги:다리,발
+n:ерін:lips:lèvres::
+a:ақылды:smart,intelligent:intelligent::
+n:Ауыз:mouth:bouche::
+n:Ақыл:intelligence:intelligence::
