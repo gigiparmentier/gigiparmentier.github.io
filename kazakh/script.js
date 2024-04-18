@@ -253,7 +253,7 @@ function start_game() {
         return;
     }
     var word = shuffled_list[guess_index];
-    var words = [word.k_words,word.r_words,word.f_words];
+    var words = [word.k_words,word.r_words,word.f_words,word.ko_words];
     $("#guess_word p").text(words[lang]);
     $('#guess_word').attr('type', word.type);
     $('#guess_word').attr('k_words', word.k_words);
