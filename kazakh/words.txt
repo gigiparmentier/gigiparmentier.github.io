@@ -23,7 +23,7 @@ o:мен:I,me:je,moi:я:저는,제가,나는,내가
 o:сен:you:tu,toi:ты:너는,네가
 a:жаман:bad:mauvais:плохой:나쁜
 a:жақсы:good:bon:хороший:좋은
-n:ат:name,horse:nom,cheval:лошадь:말
+n:ат:name,horse:nom,cheval:имя,лошадь:말
 a:қуасың:crazy:fou:сумасшедший:미친
 o:қуасың ба?:are you crazy?:tu es fou?:ты сумасшедший?:미쳤어요?
 n:тамақ:food,throat:nourriture,gorge:еда,горло:음식,목
@@ -132,8 +132,8 @@ n:көз:eye,eyes:oeil,yeux:глаз,глаза:눈
 n:Құлақ:ear:oreille:ухо:귀
 n:шаш:hair:cheveux:волосы:머리
 n:аяқ:leg,legs,foot,feet:jambe,jambes,pied,pieds:нога,ноги:다리,발
-n:ерін:lips:lèvres::
-a:ақылды:smart,intelligent:intelligent::
-n:Ауыз:mouth:bouche::
-n:Ақыл:intelligence:intelligence::
+n:ерін:lips:lèvres:губа:
+a:ақылды:smart,intelligent:intelligent:умный:
+n:Ауыз:mouth:bouche:рот:
+n:Ақыл:intelligence:intelligence:ум:
 n:іш:belly:ventre:живот:

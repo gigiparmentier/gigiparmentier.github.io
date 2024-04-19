@@ -26,7 +26,7 @@ var total_guesses = 0;
 var colors = [['#7db1db','#5092c8'],['#f2e269','#cba000'],['#e8766d','#d7544a'],['#c499e0','#a463ce']];
 var titles = [
     '<i class="fa-solid fa-sun"></i>   My kazakh words   <i class="fa-solid fa-sun"></i>',
-    '<i class="fa-regular fa-snowflake"></i>   My russian words   <i class="fa-regular fa-snowflake"></i>',
+    '<i class="star"></i>   My russian words   <i class="star"></i>',
     '<i class="baguette"></i>   My french words   <i class="baguette"></i>',
     '<i class="flower"></i>   My korean words   <i class="flower"></i>'
 ];
@@ -39,7 +39,7 @@ if (url_lang == 'ru'){
 else if (url_lang == 'fr'){
     lang = 2;
 }
-else if (url_lang == 'ko'){
+else if (url_lang == 'kr'){
     lang = 3;
 }
 
