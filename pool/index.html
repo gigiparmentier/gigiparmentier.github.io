@@ -1,1 +1,38 @@
-<img src='http://174.138.15.127/images/pool_Thursday.png'/>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pool</title>
+    <style>
+        html{
+            text-align: center;
+        }
+        .pool_graph {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <img class="pool_graph"/>
+    <button onclick="load_chart(0)">Monday</button>
+    <button onclick="load_chart(1)">Tuesday</button>
+    <button onclick="load_chart(2)">Wednesday</button>
+    <button onclick="load_chart(3)">Thursday</button>
+    <button onclick="load_chart(4)">Friday</button>
+    <button onclick="load_chart(5)">Saturday</button>
+    <button onclick="load_chart(6)">Sunday</button>
+    <script>
+        var days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+
+        function load_chart(day_i){
+            var pool_graph = document.querySelector('.pool_graph');
+            var url = 'https://174.138.15.127/images/pool_' + days[day_i] + ".png?" +  Date.now();
+            pool_graph.src = url;
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            load_chart(new Date().getDay()-1);
+        });
+    </script>
+</body>
+</html>
