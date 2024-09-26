@@ -98,7 +98,7 @@ v:бару:go:aller:идти:가다
 o:істеу:do,make:faire:делать:하다,만들다
 n:кәмшат:otter:loutre:выдра:수달
 v:кету:go,leave:aller,partir:уходить:떠나다
-o:кетш:get out:va te faire:уйди:나가다
+o:кетш:get out:n'importe quoi:уйди:나가다
 n:бас:head:tête:голова:머리
 v:жазу:write:écrire:писать:쓰다
 o:жиі:often:souvent:часто:자주

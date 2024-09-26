@@ -51,7 +51,7 @@ $(document).ready(function(){
     $('#wave_bottom path').attr('style','stroke: none;fill: '+colors[lang][0]+';');
     $('#title').html(titles[lang]);
     //Get word list and populate words section
-    var url = "https://gigiparmentier.github.io/kazakh/words.txt";
+    var url = "https://cosmolingo.github.io/words.txt";
     $.get({url: url,cache: false}).then(function(data) {
         var lines = data.split("\n").reverse();
         var wordsDiv = $("#words");
@@ -106,7 +106,7 @@ $(document).ready(function(){
         letter.addClass("letter");
         letter.on("click", play_letter_sound);
         $("#letters_div").append(letter);
-        var url = 'https://gigiparmentier.github.io/kazakh/word_sounds/' + alphabet[i] + '.mp3';
+        var url = 'https://cosmolingo.github.io/word_sounds/' + alphabet[i] + '.mp3';
         var audio = new Audio(url);
         get_audio_duration(audio,i);
         audio.src = url;
@@ -235,7 +235,7 @@ function play_word_sound(){
             continue;
         }
         var letter = letters[i].toLowerCase();
-        var url = 'https://gigiparmentier.github.io/kazakh/word_sounds/' + letter + '.mp3';
+        var url = 'https://cosmolingo.github.io/kazakh/word_sounds/' + letter + '.mp3';
         var audio = new Audio(url);
         audio.src = url;
         play_audio_index(url,total_duration);
@@ -244,7 +244,7 @@ function play_word_sound(){
 }
 
 function play_letter_sound(){
-    var audio = new Audio('https://gigiparmentier.github.io/kazakh/sounds/' + $(this).html() + '.mp3');
+    var audio = new Audio('https://cosmolingo.github.io/kazakh/sounds/' + $(this).html() + '.mp3');
     audio.play();
 }
 
