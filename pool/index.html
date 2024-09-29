@@ -26,12 +26,17 @@
 
         function load_chart(day_i){
             var pool_graph = document.querySelector('.pool_graph');
+            console.log(day_i,days[day_i]);
             var url = 'https://174.138.15.127/images/pool_' + days[day_i] + ".png?" +  Date.now();
             pool_graph.src = url;
         }
 
         document.addEventListener('DOMContentLoaded', function() {
-            load_chart(new Date().getDay()-1);
+            var day_i = new Date().getDay()-1;
+            if (day_i == -1){
+                day_i = 6;
+            }
+            load_chart(day_i);
         });
     </script>
 </body>
