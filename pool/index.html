@@ -14,7 +14,6 @@
 </head>
 <body>
     <img class="pool_graph"/>
-    <button onclick="load_chart(0)">Monday</button>
     <button onclick="load_chart(1)">Tuesday</button>
     <button onclick="load_chart(2)">Wednesday</button>
     <button onclick="load_chart(3)">Thursday</button>
@@ -34,6 +33,9 @@
             var day_i = new Date().getDay()-1;
             if (day_i == -1){
                 day_i = 6;
+            }
+            if (day_i == 0){
+                day_i = 1;
             }
             load_chart(day_i);
         });
